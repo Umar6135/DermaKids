@@ -1,0 +1,114 @@
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+body {
+    color: #4A4A49;
+    font-size: 25px;
+    font-family: $fontMain;
+    background: linear-gradient(90deg, 
+    rgba(246, 205, 226, 0.3) -0.05%, 
+    rgba(240, 210, 229, 0.3) 4.47%, 
+    rgba(229, 220, 236, 0.3) 14%, 
+    rgba(220, 228, 240, 0.3) 25.19%, 
+    rgba(214, 233, 243, 0.3) 36.97%, 
+    rgba(211, 235, 245, 0.3) 51.61%, 
+    rgba(215, 233, 243, 0.3) 67.57%, 
+    rgba(226, 223, 237, 0.3) 83.16%, 
+    rgba(238, 212, 231, 0.3) 94.35%, 
+    rgba(246, 205, 226, 0.3) 99.95%
+);
+    min-height: 100vh;
+    line-height: 1.2;
+    letter-spacing: normal;
+    margin: 0;
+    overflow-y: auto;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    position: relative;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+
+button:focus {
+    outline: unset;
+    box-shadow: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+    width: 100% !important;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.form-control:focus,
+.form-select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.theme-color {
+    color: $primary-color;
+}
+
+.bg-green {
+    background-color: $secondry-color;
+}
+
+.dark-text {
+    color: #713C25;
+}
