@@ -621,11 +621,13 @@ a:hover {
     max-width: 1562px;
 }
 
+
 .dK-goal .carousel {
 
     max-width: 497px;
     margin-left: auto;
 }
+
 
 .dK-goal .theme-btn {
     margin-top: 85px;
@@ -677,6 +679,16 @@ a:hover {
 }
 
 .dK-accordian .accordion-item:nth-of-type(3) .accordion-button {
+    background: linear-gradient(to left,
+            #BAE4EC 0%,
+            #A9DEE8 14%,
+            #97D8E3 29%,
+            #86D1DF 41%,
+            #74CBDC 53%,
+            #63C5D8 66%,
+            #51BFD5 80%,
+            #40BAD1 96%,
+            #40BAD1 100%);
     background: linear-gradient(to left,
             #BAE4EC 0%,
             #A9DEE8 14%,
@@ -745,6 +757,8 @@ a:hover {
 }
 
 .dK-accordian .accordion-item .accordion-body {
+
+.dK-accordian .accordion-item .accordion-body {
     padding-left: 68px;
     padding-right: 118px;
     padding-top: 24px;
@@ -753,8 +767,11 @@ a:hover {
 }
 
 .dk-goal-objects {
+
+.dk-goal-objects {
     max-width: 596px;
 }
+
 
 .dK-goal::after {
     content: "";
@@ -1273,10 +1290,12 @@ footer .copyright {
     background: linear-gradient(204deg, rgba(246, 205, 226, 0.3) -0.05%, rgba(240, 210, 229, 0.3) 4.47%, rgba(229, 220, 236, 0.3) 14%, rgba(220, 228, 240, 0.3) 25.19%, rgba(214, 233, 243, 0.3) 36.97%, rgba(211, 235, 245, 0.3) 51.61%, rgba(215, 233, 243, 0.3) 67.57%, rgba(226, 223, 237, 0.3) 83.16%, rgba(238, 212, 231, 0.3) 94.35%, rgba(246, 205, 226, 0.3) 99.95%)
 }
 
+
 #datenschutz .service-banner,
 #impressum .service-banner,
 #agb .service-banner,
 #satzungszweck .service-banner {
+#impressum .service-banner {
     padding-block: 35px 32px;
 }
 
@@ -1875,6 +1894,7 @@ main {
     z-index: -1;
 }
 
+
 #datenschutz::before {
     content: "";
     background: url("../img/datenschutz.png") top;
@@ -1883,6 +1903,7 @@ main {
     position: absolute;
     z-index: -1;
 }
+
 
 #impressum::before {
     content: "";
@@ -1919,6 +1940,7 @@ main {
     position: absolute;
     z-index: -1;
 }
+
 
 .about-banner::after,
 .about-banner::before {
@@ -3176,6 +3198,359 @@ color: #fff;
     left: initial;
 }
 
+.help-us .testimonial {
+    position: relative;
+}
+
+.help-us .testimonial-img {
+    position: absolute;
+    right: 45px;
+    bottom: -117px;
+
+
+}
+
+.help-us .customers-testimonial .testimonial-content-wrap p {
+    margin-bottom: 75px;
+}
+
+.help-us .testimonial-content {
+    min-height: 270px;
+
+}
+
+.donation-option .dO-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.donation-option .dO-item h6 {
+    font-size: 40px;
+    font-family: 'JungleMan';
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px;
+    line-height: 1;
+}
+
+.donation-option p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.4;
+    margin-bottom: 69px;
+}
+
+.dO-item {
+    padding: 66px 21px 38px 21px;
+
+    height: 100%;
+}
+
+.dO-item-icon img {
+    height: 26px;
+}
+
+.donation-option .dO-items .dO-item-icons {
+    display: flex;
+    gap: 21px;
+}
+
+.dO-item:nth-child(3) {
+    padding: 66px 0 46px 21px;
+}
+
+.dO-item:nth-child(3) p,
+.dO-item:nth-child(5) p,
+.dO-item:nth-child(4) p {
+    margin-bottom: 0;
+}
+
+.donation-option .dO-item-icons p {
+    font-size: 35px;
+    font-family: "JungleMan";
+    font-weight: 400;
+    margin-bottom: 0 !important;
+}
+
+.donation-option .dO-item:nth-child(2) .dO-item-icons,
+.donation-option .dO-item:nth-child(5) .dO-item-icons {
+    justify-content: end;
+    align-items: flex-end;
+
+    gap: 38px;
+}
+
+.donation-option .dO-item:nth-child(2) p {
+    margin-bottom: 57px;
+}
+
+.donation-option .dO-item:nth-child(2) {
+    padding-bottom: 23px;
+}
+
+.donation-option .dO-item:nth-child(2) .dO-item-icon img {
+    width: 68px;
+    height: 58px;
+}
+
+.donation-option .dO-item:nth-child(5) .dO-item-icon img {
+    width: 60px;
+    height: 61px;
+}
+
+.donation-option .dO-item:nth-child(4),
+.donation-option .dO-item:nth-child(5) {
+    padding-top: 30px;
+}
+
+.donation-option .dO-item:nth-child(1) {
+    background: url("../img/dO-item-bg.png") no-repeat;
+    max-width: 470px;
+}
+
+.donation-option .dO-item:nth-child(2) {
+    background: url("../img/dO-item2-bg.png") no-repeat;
+    max-width: 400px;
+}
+
+.donation-option .dO-item:nth-child(3) {
+    background: url("../img/dO-item3-bg.png") no-repeat;
+    max-width: 290px;
+    padding-bottom: 26px;
+}
+
+.donation-option .dO-item:nth-child(4) {
+    background: url("../img/dO-item4-bg.png") no-repeat;
+    max-width: 470px;
+}
+
+.donation-option .dO-item:nth-child(5) {
+    background: url("../img/dO-item5-bg.png") no-repeat;
+    max-width: 710px;
+    padding-bottom: 16px;
+}
+
+.donation-option .container {
+    max-width: 1224px;
+}
+
+.donation-option h4 {
+    font-size: 60px;
+    font-family: "Lifehack";
+    color: #C42E90;
+    line-height: 1;
+    margin-bottom: 55px;
+}
+
+.donation-option {
+    padding-block: 173px 209px;
+}
+
+
+
+.dk-book {
+    position: relative;
+    padding-block: 73px 99px;
+    ;
+}
+
+.dk-book::before {
+    position: absolute;
+    content: "";
+    background: url("../img/book-img1.png") no-repeat;
+    width: 556px;
+    height: 603px;
+    top: 0;
+
+}
+
+.dk-book .dk-book-content {
+    display: flex;
+}
+
+.dk-book .dk-book-content .dk-book-text {
+    max-width: 448px;
+}
+
+.dk-book h3 {
+    font-size: 60px;
+    font-family: "Lifehack";
+    color: #C42E90;
+    line-height: 1;
+    margin-bottom: 42px;
+}
+
+.dk-book .subtext {
+    font-size: 40px;
+    color: #82BDD9;
+    font-family: "JungleMan";
+    margin-bottom: 28px;
+    display: block;
+}
+
+.dk-book p {
+    font-size: 20px;
+    line-height: 1.45;
+}
+
+.dk-book-img {
+    margin-left: 24px;
+}
+
+.dk-book .bg-box {
+    width: 81.5%;
+
+}
+
+.dk-book #carouselthree {
+    width: 590px;
+    position: absolute;
+    right: 91px;
+    top: -193px;
+}
+
+.dk-book-img:nth-child(3) {
+    position: absolute;
+    bottom: -155px;
+    right: 431px;
+
+}
+
+.dk-book #carouselthree.round-carousal .carousel-indicators button.active {
+    background-color: #A782B8;
+    border: 1px solid #751C8B;
+}
+
+.dk-book #carouselthree.round-carousal .carousel-indicators {
+    gap: 26px;
+    z-index: 99;
+    bottom: -24px;
+    right: 0;
+    width: fit-content;
+    left: initial;
+}
+
+.dk-book #carouselthree.round-carousal .carousel-indicators :nth-child(1) {
+    margin-top: 48px;
+}
+
+.shop {
+    background-color: #fff;
+    padding-block: 20px 51px;
+}
+
+.shop-items {
+    display: flex;
+}
+
+.shop .shop-item {
+    width: 20%;
+    margin-inline: 10px;
+    text-align: center;
+}
+
+.shop-item h6 {
+    font-size: 34px;
+    font-family: "JungleMan";
+    line-height: 1;
+    color: #C4228F;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.shop h3 {
+    font-size: 60px;
+    font-family: "Lifehack";
+    font-weight: 400;
+    color: #80BDD5;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.support {
+    background: url(../img/support-bg.png) no-repeat;
+    position: relative;
+    margin-bottom: 190px;
+}
+
+
+.support-img{
+    position: absolute;
+    width: 800px;
+    left: -230px;
+    top: -9px;
+}
+
+
+.support-img2{
+     width: 528px;
+     height: 482px;
+    position: absolute;
+    right: 246px;
+    top: -152px;
+}
+.support h3{
+    font-size: 60px;
+    font-family: "Lifehack";
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 143px;
+line-height: 1.5;
+}
+.support h5{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "JungleMan";
+    margin-bottom: 24px;
+    line-height: 1;
+}
+.support-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 133px;
+flex-direction: column;
+}
+.support p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+    max-width: 451px;
+margin-bottom: 0;
+}
+.support-item{
+    padding-bottom: 90px;
+    height: fit-content;
+
+}
+.support-items:nth-child(2) .support-item {
+    margin-top: 90px;
+}
+.support-cta{
+    background-color: #CEB0D5;
+    padding: 16px 29px 11px 27px;
+    max-width: 451px;
+    text-align: center;
+    margin-top: 60px;
+}
+.support-cta p{
+    color: #751C8B;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.support-cta a{
+    font-size: 56px;
+    font-family: "JungleMan";
+    font-weight: 400;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 3px;
+    display: block;
+}
 @media (max-width:1600px) {
     .our-goal .round-carousal::before {
         right: -21%;
