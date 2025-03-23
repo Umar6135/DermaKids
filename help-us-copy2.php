@@ -157,7 +157,9 @@ include('header.php'); ?>
             <div class="testimonial-content">
 
 
-
+                <div class="testimonial-img">
+                    <img src="./assets/img/Help-us-testimonial-image.png" alt="">
+                </div>
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
