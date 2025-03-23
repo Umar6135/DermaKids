@@ -1,4 +1,3 @@
-
 <?php
 
 $GLOBALS['title'] = "";
@@ -152,6 +151,9 @@ include('header.php'); ?>
 
     <div class="customers-testimonial testimonial ">
         <div class="container">
+            <div class="testimonial-img">
+                <img src="./assets/img/testimonial-img.png" alt="testimonial-img">
+            </div>
             <div class="testimonial-content">
 
 
@@ -231,162 +233,211 @@ include('header.php'); ?>
     </div>
 
 
-    <section class="dK-goal">
+    <div class="donation-option">
+        <div class="container container-wd">
+            <h4>Spendenmöglichkeiten</h4>
+            <div class="dO-items">
+                <div class="dO-item">
+                    <h6>Direkt spenden</h6>
+                    <p>Jede Spende hilft! Nutzen Sie unser Konto oder die gängigen Online-Zahlungs-
+                        systeme wie Paypal oder ApplePay </p>
+                    <div class="dO-item-icons">
+                        <div class="dO-item-icon">
+                            <img src="./assets/img/hO-icon.png" alt="">
+                        </div>
+                        <div class="dO-item-icon">
+                            <img src="./assets/img/hO-icon2.png" alt="">
+                        </div>
+                        <div class="dO-item-icon">
+                            <img src="./assets/img/hO-icon3.png" alt="">
+                        </div>
+                        <div class="dO-item-icon">
+                            <img src="./assets/img/hO-icon4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="dO-item">
+                    <h6>Online shoppen & spenden</h6>
+                    <p>Unterstützen Sie DermaKIDS durch Ihr Online-Shopping, ohne dass für Sie Kosten entstehen. </p>
+                    <div class="dO-item-icons">
+                        <p>zum Shop</p>
+                        <div class="dO-item-icon">
+                            <img src="./assets/img/dO-item-icon5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="dO-item">
+                    <h6>Geldauflagen</h6>
+                    <p>Verantwortliche für
+                        Bußgeld-Zuweisungen können Schmetterlingskindern helfen, indem sie DermaKIDS als Empfänger auswählen. </p>
+
+                </div>
+                <div class="dO-item">
+                    <h6>Spendenaktionen organisieren</h6>
+                    <p>Sie haben eine gute Idee für eine Spendenaktion zugunsten von Schmetterlingskindern? Wir unterstützen Sie bei der Umsetzung. </p>
+                </div>
+                <div class="dO-item">
+                    <h6>Nachlassspende</h6>
+                    <p>Mit einer Testamentsspende helfen Sie über Ihr Dasein hinaus und tragen dazu bei, dass Menschen mit Epidermolysis bullosa sowie ihre Familien unterstützt werden können. </p>
+                    <div class="dO-item-icons">
+                        <div class="dO-item-icon">
+                            <img src="./assets/img/dO-item-icon6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="dk-book">
         <div class="bg-box"></div>
-        <div class="container">
+        <div class="container container-wd">
+            <h3>Das DermaKIDS-Kinderbuch
+            </h3>
+            <div class="dk-book-content">
 
-            <div class="dK-goal-heading">
-                <h3>Die Ziele von DermaKIDS
-                </h3>
+                <div class="dk-book-text">
 
-            </div>
-            <div class="dK-goal-content">
-                <p>
-                    Menschen mit EB leben täglich mit vielen Einschränkungen und Belastungen. Wir helfen
-                    EB-Betroffenen dabei, diese zu reduzieren. Die individuelle Beratung und Unterstützung
-                    betroffener Familien ist das Herzstück unserer Arbeit.
-                </p>
-                <img src="./assets/img/goal-image.png" alt="goal-image">
-            </div>
+                    <span class="subtext">
+                        „Pepi, das Schmetterlingskind“
+                    </span>
+                    <p>Sie sind zu einem Kindergeburtstag eingeladen und wollen nicht nur schenken, sondern zusätzlich etwas Gutes tun? Wir empfehlen Ihnen unser Kinderbuch „Pepi, das Schmetterlingskind“. Direkt bei uns oder im Online-Handel über Amazon erhältlich. Der Verkaufserlös kommt EB-Kindern zugute. </p>
+                </div>
+                <div class="dk-book-img">
+                    <img src="./assets/img/book-img2.png" alt="">
 
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="dK-accordian">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                        1. Wissen zugänglich machen
-
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Das Wissen über die Erkrankung ist für den Einzelnen oft schwer zugänglich.
-                                        Wir wollen diese Informationen für alle verfügbar machen, zum Beispiel durch
-                                        unsere EB-Infofibel, Broschüren oder Online-Angebote rund um das Thema EB.
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">
-                                        2. Mut und Kraft spenden
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Wir sind für die Betroffenen und ihre Familien da, sind Zuhörer und
-                                        Trostspender, stärken durch Verständnis, Zuspruch und Motivation.
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseThree">
-                                        3. Versorgungsnetzwerke optimieren
-
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Wir setzen uns für eine ganzheitliche Versorgung ein, die medizinischen
-                                        Themen, wie Diagnose und Therapie, ebenso mit einbezieht wie psychosoziale
-                                        Aspekte.
-
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">
-                                        4. Mehr Öffentlichkeit für EB
-
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse"
-                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Zusammen mit den Betroffenen wollen wir eine Verbesserung der
-                                        Versorgungssituation erreichen. Dazu möchten wir die Öffentlichkeit
-                                        informieren, sensibilisieren und aktivieren.
-
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="dk-book-img">
+                    <img src="./assets/img/book-img3.png" alt="">
+                </div>
+                <div id="carouselthree" class="carousel round-carousal slide carousel-fade"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/dk-book-carousal/dk-book1.png" class="d-block w-100" alt="...">
                         </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/dk-book-carousal/dk-book2.png" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+
                     </div>
                 </div>
-
-                <div class="col-md-5">
-                    <div id="carouselthree" class="carousel round-carousal slide carousel-fade"
-                        data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img/carousal-2/1.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/carousal-2/2.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/carousal-2/3.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/carousal-2/3.png" class="d-block w-100" alt="...">
-                            </div>
-
-                        </div>
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="3"
-                                aria-label="Slide 4"></button>
-
-                        </div>
-                    </div>
-
-                    <a href="" class="theme-btn">Satzungszweck</a>
-                </div>
             </div>
-
-
+        </div>
         </div>
     </section>
 
 
-    <section class="visit-insta">
-        <div class="container">
-            <h4>Besuchen Sie uns auf Instagram </h4>
-            <div class="slider">
-                <div class="slide"><img src="./assets/img/slider1.png" alt="Slide 1"></div>
-                <div class="slide"><img src="./assets/img/slider2.png" alt="Slide 2"></div>
-                <div class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></div>
-                <div class="slide"><img src="./assets/img/slider1.png" alt="Slide 1"></div>
-                <div class="slide"><img src="./assets/img/slider2.png" alt="Slide 2"></div>
-                <div class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></div>
+    <div class="divider">
+        <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
+        <img src="./assets/img/circle-red.png" class="right" alt="circle-red">
+    </div>
+
+
+
+
+
+
+    <section class="shop">
+        <div class="container container-wd">
+            <h3>Shop</h3>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <a href="">
+                        <img src="./assets/img/shop1.png" alt="">
+                        <h6>Pepi das
+                            Schmetterlingskind</h6>
+                    </a>
+                </div>
+                <div class="shop-item">
+                    <a href="">
+                        <img src="./assets/img/shop2.png" alt="">
+                        <h6>EB-Infofibel</h6>
+                    </a>
+                </div>
+                <div class="shop-item">
+                    <a href="">
+                        <img src="./assets/img/shop3.png" alt="">
+                        <h6>Nachhaltigkeits-
+                            bericht</h6>
+                    </a>
+                </div>
+                <div class="shop-item">
+                    <a href="">
+                        <img src="./assets/img/shop4.png" alt="">
+                        <h6>Imageflyer</h6>
+                    </a>
+                </div>
+                <div class="shop-item">
+                    <a href="">
+                        <img src="./assets/img/shop5.png" alt="">
+                        <h6>Broschüre zum
+                            EB-Family Treffen 2024</h6>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
+    <div class="divider">
+        <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
+        <img src="./assets/img/circle-red.png" class="right" alt="circle-red">
+    </div>
 
+
+
+    <section class="support">
+        <div class="container container-wd">
+            <div class="support-img">
+                <img src="./assets/img/support1.png" alt="">
+            </div>
+            <h3>Ihre Unterstützung zählt </h3>
+            <div class="d-flex">
+            <div class="support-items">
+                <div class="support-item">
+                    <h5>Als Unternehmen helfen</h5>
+                    <p>Übernehmen Sie mit Ihrem Unternehmen soziale und gesellschaftliche Verantwortung z.B. durch eine Patenschaft und/oder ein Projekt für ein Schmetterlingskind. Wir beraten Sie gerne, wie auch Ihr Unternehmen davon profitieren kann.</p>
+                </div>
+                <div class="support-item">
+                    <h5>Spenden statt Schenken</h5>
+                    <p>Sie planen ein großes Firmenevent oder begehen ein Jubiläum? Nutzen Sie diesen Anlass und bitten Sie Ihre Gäste von Jubiläumsgeschenken abzusehen und stattdessen an DermaKIDS zu spenden. Wir unterstützen Sie gern bei dieser Aktion z. B. durch die Gestaltung von Spendendosen.</p>
+                    <div class="support-cta">
+                        <p>Melden Sie sich einfach unter </p>
+                        <a href="tel:+493031998105">+49 30 319981-05</a>
+                        <p>oder schreiben Sie eine Mail an </p>
+                        <a href="mailto:info@dermakids.de">info@dermakids.de</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="support-items">
+
+                <div class="support-item">
+                    <h5>Einmalige Spende</h5>
+                    <p>Mit einer einmaligen Spende können Sie insgesamt die Arbeit unseres Vereins oder ein konkretes Projekt unterstützen. Sie möchten über Ihre Unternehmensspende berichten? Wir unterstützen Sie gern mit Bildern, Texten und Materialien.</p>
+
+                </div>
+                <div class="support-item">
+                    <h5>Werden Sie Partner von DermaKIDS</h5>
+                    <p>Wir von DermaKIDS freuen uns über Unternehmen und Institutionen, die unsere Arbeit für die Schmetterlingskinder und ihre Familien längerfristig unterstützen möchten. Wir beraten Sie gern persönlich zu Möglichkeiten als Unternehmenspartner von DermaKIDS.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="support-img2">
+            <img src="./assets/img/support2.png" alt="">
+        </div>
+        </div>
+    </section>
 
 
 
@@ -398,6 +449,7 @@ include('header.php'); ?>
 
 
 
+</main>
 
 
 
