@@ -6,7 +6,7 @@ $GLOBALS['desc'] = "";
 include('header.php'); ?>
 
 
-
+<main id="agb">
     <section class="banner service-banner">
         <div class="container">
             <h1><span>Wir helfen &nbsp;</span> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; schwerkranken <br>
@@ -18,8 +18,7 @@ include('header.php'); ?>
 
 
 
-    
-
+   
 
 
     <section class="terms">
@@ -48,7 +47,7 @@ include('header.php'); ?>
                             <a class="" href="#bezahlung">4.</a>
                             <a class="" href="#gewährleistung">5.</a>
                             <a class="" href="#haftung">6.</a>
-                            <a class="" href="#datenschutz">7.</a>
+                            <a class="" href="#Datenschutzinformationen">7.</a>
                             <a class="" href="#streitschlichtung">8.</a>
                             <a class="" href="#gesetzliches-widerrufsrecht-beim-kauf-von-dermaKIDS-artikeln">9.</a>
                             <a class="" href="#schlussbestimmungen">10.</a>
@@ -199,7 +198,7 @@ include('header.php'); ?>
                             </p>
                         </ul>
                         </div>
-                        <h3 class="terms-content-heading" id="datenschutz">
+                        <h3 class="terms-content-heading" id="Datenschutzinformationen">
                             7. Datenschutz
 
 
@@ -312,5 +311,6 @@ include('header.php'); ?>
 
 
 
+    </main>
 
     <?php include('footer.php'); ?>

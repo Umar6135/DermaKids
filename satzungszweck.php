@@ -6,7 +6,7 @@ $GLOBALS['desc'] = "";
 include('header.php'); ?>
 
 
-
+<main id="satzungszweck">
     <section class="banner service-banner satzungszweck-banner">
 
         <div class="container">
@@ -59,26 +59,26 @@ include('header.php'); ?>
         <div class="our-goal">
             <div class="bg-box"></div>
             <div class="container container-wd">
-                <div id="carouseltwo" class="carousel round-carousal slide carousel-fade pointer-event"
+                <div id="carousel1" class="carousel round-carousal slide carousel-fade pointer-event"
                     data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item">
-                            <img src="./assets/img/carousal-2/1.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/satzungszweck-carousal/1.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/img/carousal-2/2.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/satzungszweck-carousal/2.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item active">
-                            <img src="./assets/img/carousal-2/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/satzungszweck-carousal/3.png" class="d-block w-100" alt="...">
                         </div>
 
                     </div>
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="0" class=""
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class=""
                             aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="1" aria-label="Slide 2"
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"
                             class=""></button>
-                        <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="2" aria-label="Slide 3"
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"
                             class="active" aria-current="true"></button>
 
                     </div>
@@ -145,22 +145,22 @@ include('header.php'); ?>
                     data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item">
-                            <img src="./assets/img/carousal-2/1.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/satzungszweck-carousal2/1.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/img/carousal-2/2.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/satzungszweck-carousal2/2.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item active">
-                            <img src="./assets/img/carousal-2/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/satzungszweck-carousal2/3.png" class="d-block w-100" alt="...">
                         </div>
 
                     </div>
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="0" class=""
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="0" class=""
                             aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="1" aria-label="Slide 2"
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="1" aria-label="Slide 2"
                             class=""></button>
-                        <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="2" aria-label="Slide 3"
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="2" aria-label="Slide 3"
                             class="active" aria-current="true"></button>
 
                     </div>
@@ -170,25 +170,22 @@ include('header.php'); ?>
                 <div id="carouselfour" class="carousel round-carousal slide carousel-fade pointer-event"
                     data-bs-ride="carousel">
                     <div class="carousel-inner">
-
-                        <div class="carousel-item">
-                            <img src="./assets/img/carousal-2/2.png" class="d-block w-100" alt="...">
-                        </div>
                         <div class="carousel-item active">
-                            <img src="./assets/img/carousal-2/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/satzungszweck-carousal3/1.png" class="d-block w-100" alt="...">
                         </div>
-
+                        <div class="carousel-item">
+                            <img src="./assets/img/satzungszweck-carousal3/2.png" class="d-block w-100" alt="...">
+                        </div>
+                      
                     </div>
                     <div class="carousel-indicators">
-
+                        <button type="button" data-bs-target="#carouselfour" data-bs-slide-to="0" class="active"
+                            aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselfour" data-bs-slide-to="1" aria-label="Slide 2"
                             class=""></button>
-                        <button type="button" data-bs-target="#carouselfour" data-bs-slide-to="2" aria-label="Slide 3"
-                            class="active" aria-current="true"></button>
-
+                       
                     </div>
                 </div>
-
 
 
 
@@ -201,5 +198,6 @@ include('header.php'); ?>
 
     </section>
 
+</main>
 
     <?php include('footer.php'); ?>

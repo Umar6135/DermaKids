@@ -774,19 +774,26 @@ a:hover {
 
 .testimonial {
     background-color: #DEEDF3;
-    padding: 90px 0
+    padding: 90px 0;
+    min-height: 445px;
+    max-height: 445px;
+    position: relative;
 }
 
-.testimonial-content {
-    position: relative
-}
 
 .testimonial-content-wrap {
     max-width: 624px;
     margin-left: auto;
-    text-align: center
-}
+    text-align: center;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.testimonial-content{
+    position: relative;
+    min-height: 270px;
+}
 .testimonial-content::before {
     content: "";
     background: url("../img/testimonial1.png") no-repeat;
@@ -800,6 +807,10 @@ a:hover {
 
 .our-goal .carousel-item {
     margin-top: 0;
+}
+
+.customers-testimonial #carouselExampleIndicators{
+    position: initial;
 }
 
 .testimonial-content::after {
@@ -982,7 +993,8 @@ a:hover {
 
 .customers-testimonial {
     padding: 75px 0 100px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    position: relative;
 }
 
 #about-us .customers-testimonial {
@@ -999,7 +1011,8 @@ a:hover {
     min-height: 196px;
 }
 
-#about-us .customers-testimonial .testimonial-content-wrap {
+#about-us .customers-testimonial .testimonial-content-wrap,
+#unser-verein .customers-testimonial .testimonial-content-wrap {
 
     min-height: 260px;
 }
@@ -1020,7 +1033,7 @@ a:hover {
 .customers-testimonial .carousel-indicators {
     gap: 26px;
     z-index: 99;
-    bottom: -80px
+    bottom: -85px
 }
 
 .customers-testimonial .carousel-indicators button {
@@ -1261,7 +1274,9 @@ footer .copyright {
 }
 
 #datenschutz .service-banner,
-#impressum .service-banner {
+#impressum .service-banner,
+#agb .service-banner,
+#satzungszweck .service-banner {
     padding-block: 35px 32px;
 }
 
@@ -1277,7 +1292,7 @@ footer .copyright {
 
 .terms {
     padding-block: 52px 347px;
-    background: url('../img/term-bg.png') no-repeat top;
+    background: none;
 }
 
 .terms-navigator {
@@ -1589,7 +1604,7 @@ footer .copyright {
 
     position: relative;
     top: -210px;
-    right: -65px;
+    right: -75px;
 }
 
 .satzungszweck .our-goal::after {
@@ -1597,7 +1612,7 @@ footer .copyright {
 }
 
 .satzungszweck .our-goal .carousel-inner {
-    max-width: 361px;
+    max-width: 519px;
     margin-left: auto;
 }
 
@@ -1606,7 +1621,7 @@ footer .copyright {
     top: 50%;
     transform: translateY(-50%);
     flex-direction: column;
-    left: -88px;
+    left: -50px;
 }
 
 .satzungszweck .our-goal .round-carousal .carousel-indicators button {
@@ -1648,8 +1663,9 @@ footer .copyright {
 
 .satzungszweck .carousel {
     position: absolute;
-    margin-top: -333px;
-    right: -75px;
+    margin-top: -365px;
+    right: -125px;
+
 
 }
 
@@ -1666,13 +1682,24 @@ footer .copyright {
     border: 1px solid #80BDD5;
 }
 
+.satzungszweck .our-goal #carouselthree.round-carousal .carousel-indicators button.active {
+    background: #A782B8;
+    border: 1px solid #751C8B;
+}
+
+.satzungszweck .our-goal #carouselfour.round-carousal .carousel-indicators button.active {
+    background: #D997C0;
+    border: 1px solid #C4228F;
+}
+
 .satzungszweck #carouselthree.carousel {
     left: -200PX;
     right: initial;
+    max-width: 370px;
 }
 
 .satzungszweck .our-goal #carouselthree.round-carousal .carousel-indicators {
-    right: -83px;
+    right: -60px;
     justify-content: end;
     align-items: end;
     top: -44%;
@@ -1692,13 +1719,13 @@ footer .copyright {
 }
 
 .satzungszweck .our-goal #carouselfour.round-carousal .carousel-indicators {
-    right: -55px;
+    right: -25px;
     left: initial;
     top: 88%;
 }
 
 .satzungszweck .our-goal #carouselfour.round-carousal .carousel-indicators :nth-child(2) {
-    margin-left: -35px;
+    margin-left: -41px;
 }
 
 .satzungszweck-divider {
@@ -1716,11 +1743,11 @@ footer .copyright {
 .our-goal #carouselfour {
     left: -145px;
     right: initial;
-    margin-top: -33px;
+    margin-top: -66px;
 }
 
 .satzungszweck {
-    background: url("../img/satzungszweck-bg.png") no-repeat;
+    background: none;
 }
 
 .breadcrumb-item.active,
@@ -1866,6 +1893,33 @@ main {
     z-index: -1;
 }
 
+#agb::before {
+    content: "";
+    background: url("../img/agb-bg.png") top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#satzungszweck::before {
+    content: "";
+    background: url("../img/satzungszweck-bg.png") top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#unser-verein::before {
+    content: "";
+    background: url("../img/association-bg.png") top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
 .about-banner::after,
 .about-banner::before {
     content: none;
@@ -1885,9 +1939,21 @@ main {
 
 }
 
+#unser-verein .dermakids-v #carouseltwo {
+    width: 806px;
+    position: absolute;
+    right: 59px;
+    top: 40px;
+}
+
 .dermakids-v #carouseltwo.round-carousal .carousel-indicators button.active {
     background-color: #D997C0;
     border: 1px solid #C4228F;
+}
+
+#unser-verein .dermakids-v #carouseltwo.round-carousal .carousel-indicators button.active {
+    background-color: #BAD9E6;
+    border: 1px solid #80BDD5;
 }
 
 .dermakids-v #carouseltwo.carousel-fade .carousel-item {
@@ -1898,6 +1964,11 @@ main {
     left: -47px;
     bottom: -30px;
     gap: 45px;
+}
+
+#unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
+    gap: 40px;
+    bottom: -50px;
 }
 
 .dermakids-v #carouseltwo.round-carousal .carousel-indicators :nth-child(2) {
@@ -2105,8 +2176,18 @@ main {
 }
 
 .help-affected .help-offers {
-    padding-block: 55px 288px;
+    padding-block: 55px 278px;
     position: relative;
+}
+.help-offers::before{
+    content: "";
+    background: url(../img/help-effected-before.png) no-repeat center / contain;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 333px;
+    height: 289px;
+    z-index: -1;
 }
 
 .help-affected .help-offers .subtext {
@@ -2125,7 +2206,9 @@ main {
     line-height: 1.43;
     color: #50504F;
 }
-
+.help-affected .help-offers p {
+    line-height: 1.5;
+}
 .help-affected .help-offer-img {
     position: absolute;
     width: 547px;
@@ -2182,12 +2265,13 @@ main {
 
 .how-we-help {
     position: relative;
+    margin-bottom: 280px;
 }
 
 .how-we-help .hwh-type {
     background: url("../img/help-type.png") no-repeat;
     width: 570px;
-    padding: 29px 31px 45px 29px;
+    padding: 29px 31px 42px 29px;
     margin-top: -113px;
     margin-bottom: 105px;
 
@@ -2249,7 +2333,7 @@ main {
 .help-affected .nav-tabs {
     gap: 19px;
     border: 0;
-    margin-bottom: 180px;
+    margin-bottom: 170px;
 }
 
 .hwh-items h5 {
@@ -2263,29 +2347,38 @@ main {
 .hwh-items p {
     font-size: 20px;
     color: #50504F;
-    line-height: 1.42;
+    line-height: 1.47;
     max-width: 448px;
 }
 
 .hwh-items a {
     font-size: 20px;
     color: #82BDD9;
-    line-height: 1.42;
+    line-height: 1.47;
 }
 
 .hwh-img {
     position: relative;
     max-width: fit-content;
 }
-
+.hwh-items:nth-child(1){
+    padding-bottom: 0;
+}
+.hwh-items:nth-child(2){
+    margin-top: -19px;
+    padding-bottom: 35px;
+}
 .hwh-items:nth-child(3) .hwh-img {
     margin-bottom: 24px;
+    
+    margin-left: -118px;
+
 }
 
 .hwh-items .hwh-img2 {
     position: absolute;
     right: -30px;
-    top: 249px;
+    bottom: -80px;
 }
 
 .hwh-items .hwh-img2::after {
@@ -2311,9 +2404,7 @@ main {
     z-index: -1;
 }
 
-.hwh-items:nth-child(1) .row {
-    align-items: center;
-}
+
 
 .hwh-items:nth-child(2) .row,
 .hwh-items:nth-child(3) .row {
@@ -2337,10 +2428,10 @@ main {
     content: "";
     position: absolute;
     background: url(../img/hwh-img-3-bg.png) no-repeat center / contain;
-    width: 545px;
-    height: 770px;
-    right: -79px;
-    top: -212px;
+    width: 550px;
+    height: 621px;
+    right: -45px;
+    top: -27px;
     z-index: -1;
 }
 
@@ -2349,10 +2440,10 @@ main {
     content: "";
     position: absolute;
     background: url(../img/hwh-img-4-bg.png) no-repeat center / contain;
-    width: 545px;
-    height: 770px;
-    right: -112px;
-    top: -160px;
+    width: 492px;
+    height: 468px;
+    right: -80px;
+    top: 0;
 
     z-index: -1;
 }
@@ -2360,11 +2451,18 @@ main {
 .hwh-items:nth-child(2) h5,
 .hwh-items:nth-child(2) a {
     color: #751C8B;
+
+}
+.hwh-items:nth-child(2) h5{
+    margin-top: 95px;
 }
 
 .hwh-items:nth-child(3) h5,
 .hwh-items:nth-child(3) a {
     color: #BFD427;
+}
+.hwh-items:nth-child(3) h5{
+    margin-top: 130px;
 }
 
 .hwh-items:nth-child(4) h5,
@@ -2374,7 +2472,7 @@ main {
 
 .hwh-items {
     position: relative;
-    padding-bottom: 68px;
+    padding-bottom: 40px;
 }
 
 .hwh-items .hwh-usp {
@@ -2387,7 +2485,7 @@ main {
     align-items: center;
     text-align: center;
     position: absolute;
-    right: 25px;
+    right: 46px;
     top: -40px;
     font-size: 33px;
     color: #D999C2;
@@ -2407,21 +2505,37 @@ main {
     color: #80BDD5;
     width: 277px;
     height: 277px;
-    right: 145px;
-    top: -93px;
+    right: 193px;
+    top: -45px;
 }
 
 .hwh-items:nth-child(3) {
-    padding-bottom: 166px;
+    padding-bottom: 200px;
+}
+.hwh-items:nth-child(4) .hwh-img{
+ margin-top: 43px;   
 }
 
 .hwh-items:nth-child(4) .hwh-usp {
 
     width: 228px;
     height: 228px;
-    top: 177px;
+    top: calc(47% - 23px);
+    right: 87px;
 }
-
+.help-affected .donation-info{
+    padding: 238px 0 340px;
+    position: relative;
+}
+.help-affected .donation-info::before{
+    content: "";
+    background: url(../img/donation-info-object.png) no-repeat center / contain;
+    position: absolute;
+    bottom: 0;
+    width: 470px;
+    height: 248px;
+    left: 20%;
+}
 .info-card h6 {
     color: #ffffff;
     font-weight: 400;
@@ -2433,7 +2547,26 @@ main {
 
 .info-card {
     padding: 25px 22px 75px 30px;
+    max-width: 380px;
+    min-height: 690px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.help-affected .info-card{
+    min-height: 500px;
     max-width: 360px;
+    margin: auto;
+}
+.info-card .read-more {
+    color: #fff;
+    font-size: 20px;
+    text-align: end;
+    margin-top: 60px;
+    margin-left: auto;
+    display: block;
 }
 
 .info-card p {
@@ -2444,7 +2577,11 @@ main {
 
 .info-card .card-icon {
     text-align: end;
-    margin-bottom: 147px;
+}
+.info-card .card-content span{
+font-family: "JungleMan";
+font-size: 40px;
+color: #fff;
 }
 
 .help-us {
@@ -2791,12 +2928,22 @@ main {
 .association-img {
     position: absolute;
     right: 443px;
-    bottom: 94px;
+    bottom: 83px;
 }
 
 .our-club .dermakids-v {
     position: relative;
     padding-block: 52px 390px;
+}
+
+#unser-verein .dermakids-v::before {
+    content: "";
+    background: url(../img/association-before-object.png) no-repeat center / contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 560px;
+    height: 282px;
 }
 
 .our-club .dermakids-v .round-carousal .carousel-indicators :nth-child(4) {
@@ -2821,13 +2968,17 @@ main {
     max-width: 690px;
 }
 
+#unser-verein.our-club .dermakids-v p {
+    line-height: 1.48;
+}
+
 .our-club .customers-testimonial {
     margin-bottom: 218px;
 }
 
 .our-club .approach {
     background: url(../img/approach-bg.png) no-repeat;
-    padding-block: 58px 42px;
+    padding-block: 52px 42px;
 }
 
 .approach .approach-item {
@@ -2904,7 +3055,7 @@ main {
 }
 
 .our-club .donation-info {
-    padding-block: 250px 108px;
+    padding-block: 250px 208px;
 }
 
 .our-club::before {
@@ -3025,359 +3176,6 @@ main {
     left: initial;
 }
 
-.help-us .testimonial {
-    position: relative;
-}
-
-.help-us .testimonial-img {
-    position: absolute;
-    right: 45px;
-    bottom: -117px;
-
-
-}
-
-.help-us .customers-testimonial .testimonial-content-wrap p {
-    margin-bottom: 75px;
-}
-
-.help-us .testimonial-content {
-    min-height: 270px;
-
-}
-
-.donation-option .dO-items {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.donation-option .dO-item h6 {
-    font-size: 40px;
-    font-family: 'JungleMan';
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 25px;
-    line-height: 1;
-}
-
-.donation-option p {
-    font-size: 20px;
-    color: #fff;
-    line-height: 1.4;
-    margin-bottom: 69px;
-}
-
-.dO-item {
-    padding: 66px 21px 38px 21px;
-
-    height: 100%;
-}
-
-.dO-item-icon img {
-    height: 26px;
-}
-
-.donation-option .dO-items .dO-item-icons {
-    display: flex;
-    gap: 21px;
-}
-
-.dO-item:nth-child(3) {
-    padding: 66px 0 46px 21px;
-}
-
-.dO-item:nth-child(3) p,
-.dO-item:nth-child(5) p,
-.dO-item:nth-child(4) p {
-    margin-bottom: 0;
-}
-
-.donation-option .dO-item-icons p {
-    font-size: 35px;
-    font-family: "JungleMan";
-    font-weight: 400;
-    margin-bottom: 0 !important;
-}
-
-.donation-option .dO-item:nth-child(2) .dO-item-icons,
-.donation-option .dO-item:nth-child(5) .dO-item-icons {
-    justify-content: end;
-    align-items: flex-end;
-
-    gap: 38px;
-}
-
-.donation-option .dO-item:nth-child(2) p {
-    margin-bottom: 57px;
-}
-
-.donation-option .dO-item:nth-child(2) {
-    padding-bottom: 23px;
-}
-
-.donation-option .dO-item:nth-child(2) .dO-item-icon img {
-    width: 68px;
-    height: 58px;
-}
-
-.donation-option .dO-item:nth-child(5) .dO-item-icon img {
-    width: 60px;
-    height: 61px;
-}
-
-.donation-option .dO-item:nth-child(4),
-.donation-option .dO-item:nth-child(5) {
-    padding-top: 30px;
-}
-
-.donation-option .dO-item:nth-child(1) {
-    background: url("../img/dO-item-bg.png") no-repeat;
-    max-width: 470px;
-}
-
-.donation-option .dO-item:nth-child(2) {
-    background: url("../img/dO-item2-bg.png") no-repeat;
-    max-width: 400px;
-}
-
-.donation-option .dO-item:nth-child(3) {
-    background: url("../img/dO-item3-bg.png") no-repeat;
-    max-width: 290px;
-    padding-bottom: 26px;
-}
-
-.donation-option .dO-item:nth-child(4) {
-    background: url("../img/dO-item4-bg.png") no-repeat;
-    max-width: 470px;
-}
-
-.donation-option .dO-item:nth-child(5) {
-    background: url("../img/dO-item5-bg.png") no-repeat;
-    max-width: 710px;
-    padding-bottom: 16px;
-}
-
-.donation-option .container {
-    max-width: 1224px;
-}
-
-.donation-option h4 {
-    font-size: 60px;
-    font-family: "Lifehack";
-    color: #C42E90;
-    line-height: 1;
-    margin-bottom: 55px;
-}
-
-.donation-option {
-    padding-block: 173px 209px;
-}
-
-
-
-.dk-book {
-    position: relative;
-    padding-block: 73px 99px;
-    ;
-}
-
-.dk-book::before {
-    position: absolute;
-    content: "";
-    background: url("../img/book-img1.png") no-repeat;
-    width: 556px;
-    height: 603px;
-    top: 0;
-
-}
-
-.dk-book .dk-book-content {
-    display: flex;
-}
-
-.dk-book .dk-book-content .dk-book-text {
-    max-width: 448px;
-}
-
-.dk-book h3 {
-    font-size: 60px;
-    font-family: "Lifehack";
-    color: #C42E90;
-    line-height: 1;
-    margin-bottom: 42px;
-}
-
-.dk-book .subtext {
-    font-size: 40px;
-    color: #82BDD9;
-    font-family: "JungleMan";
-    margin-bottom: 28px;
-    display: block;
-}
-
-.dk-book p {
-    font-size: 20px;
-    line-height: 1.45;
-}
-
-.dk-book-img {
-    margin-left: 24px;
-}
-
-.dk-book .bg-box {
-    width: 81.5%;
-
-}
-
-.dk-book #carouselthree {
-    width: 590px;
-    position: absolute;
-    right: 91px;
-    top: -193px;
-}
-
-.dk-book-img:nth-child(3) {
-    position: absolute;
-    bottom: -155px;
-    right: 431px;
-
-}
-
-.dk-book #carouselthree.round-carousal .carousel-indicators button.active {
-    background-color: #A782B8;
-    border: 1px solid #751C8B;
-}
-
-.dk-book #carouselthree.round-carousal .carousel-indicators {
-    gap: 26px;
-    z-index: 99;
-    bottom: -24px;
-    right: 0;
-    width: fit-content;
-    left: initial;
-}
-
-.dk-book #carouselthree.round-carousal .carousel-indicators :nth-child(1) {
-    margin-top: 48px;
-}
-
-.shop {
-    background-color: #fff;
-    padding-block: 20px 51px;
-}
-
-.shop-items {
-    display: flex;
-}
-
-.shop .shop-item {
-    width: 20%;
-    margin-inline: 10px;
-    text-align: center;
-}
-
-.shop-item h6 {
-    font-size: 34px;
-    font-family: "JungleMan";
-    line-height: 1;
-    color: #C4228F;
-    font-weight: 400;
-    margin-top: 10px;
-}
-
-.shop h3 {
-    font-size: 60px;
-    font-family: "Lifehack";
-    font-weight: 400;
-    color: #80BDD5;
-    text-align: center;
-    line-height: 1.5;
-    margin-bottom: 40px;
-}
-
-.support {
-    background: url(../img/support-bg.png) no-repeat;
-    position: relative;
-    margin-bottom: 190px;
-}
-
-
-.support-img{
-    position: absolute;
-    width: 800px;
-    left: -230px;
-    top: -9px;
-}
-
-
-.support-img2{
-     width: 528px;
-     height: 482px;
-    position: absolute;
-    right: 246px;
-    top: -152px;
-}
-.support h3{
-    font-size: 60px;
-    font-family: "Lifehack";
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 143px;
-line-height: 1.5;
-}
-.support h5{
-    font-size: 40px;
-    font-weight: 400;
-    color: #fff;
-    font-family: "JungleMan";
-    margin-bottom: 24px;
-    line-height: 1;
-}
-.support-items{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 133px;
-flex-direction: column;
-}
-.support p{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #fff;
-    max-width: 451px;
-margin-bottom: 0;
-}
-.support-item{
-    padding-bottom: 90px;
-    height: fit-content;
-
-}
-.support-items:nth-child(2) .support-item {
-    margin-top: 90px;
-}
-.support-cta{
-    background-color: #CEB0D5;
-    padding: 16px 29px 11px 27px;
-    max-width: 451px;
-    text-align: center;
-    margin-top: 60px;
-}
-.support-cta p{
-    color: #751C8B;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1;
-}
-.support-cta a{
-    font-size: 56px;
-    font-family: "JungleMan";
-    font-weight: 400;
-    color: #fff;
-    line-height: 1;
-    margin-bottom: 3px;
-    display: block;
-}
 @media (max-width:1600px) {
     .our-goal .round-carousal::before {
         right: -21%;
