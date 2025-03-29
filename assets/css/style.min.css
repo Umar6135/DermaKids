@@ -4136,6 +4136,20 @@ main {
     left: initial;
 }
 
+
+
+
+
+/* kontakt */
+
+.kontakt-content{
+    
+}
+
+
+
+
+
 @media (max-width:1600px) {
     .our-goal .round-carousal::before {
         right: -21%;
