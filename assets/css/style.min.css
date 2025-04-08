@@ -2553,6 +2553,67 @@ main {
     right: 87px;
 }
 
+#nav-ernahrungsberatung .hwh-items:nth-child(1) .hwh-img {
+
+    position: absolute;
+    top: -169px;
+    right: 34px;
+}
+
+#nav-ernahrungsberatung .hwh-items:nth-child(1) .hwh-img::after {
+    content: none;
+}
+
+#nav-ernahrungsberatung h5 {
+    font-size: 60px;
+    color: #E32488;
+    font-family: "Lifehack";
+    margin-bottom: 40px;
+}
+
+#nav-ernahrungsberatung .hwh-items:nth-child(2) {
+    margin-top: 0;
+    max-width: 650px;
+}
+
+#nav-ernahrungsberatung .hwh-items:nth-child(2) h5 {
+    font-family: "JungleMan";
+    font-size: 55px;
+    color: #E32488;
+    margin-bottom: 48px;
+}
+
+#nav-ernahrungsberatung .dk-offer h6 {
+    font-family: "JungleMan";
+    font-size: 40px;
+    color: #EA89A8;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+#nav-ernahrungsberatung .dk-offer ul{
+    padding-left: 17px;
+    margin-bottom: 45px;
+}
+#nav-ernahrungsberatung .dk-offer li {
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #50504F;
+}
+
+#nav-ernahrungsberatung .dk-offer li::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #D997C0;
+    border: 1px solid #C4228F;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    top: 10px;
+
+}
 .help-affected .donation-info {
     padding: 238px 0 340px;
     position: relative;
@@ -3537,7 +3598,7 @@ main {
 
 .types-tabs {
     position: relative;
-    
+
     min-height: 1083px;
 
     .nav {
@@ -3581,7 +3642,7 @@ main {
     .tab-content {
         position: relative;
         min-height: 775px;
-         
+
         h3 {
             font-size: 60px;
             font-family: "Lifehack";
@@ -3980,7 +4041,7 @@ main {
             }
         }
 
-   
+
         .hwh-usp {
             border-radius: 100%;
             display: flex;
@@ -4043,6 +4104,7 @@ main {
                 }
 
             }
+
             &:nth-child(4) {
                 position: absolute;
                 width: 213px;
@@ -4142,9 +4204,7 @@ main {
 
 /* kontakt */
 
-.kontakt-content{
-    
-}
+.kontakt-content {}
 
 
 
