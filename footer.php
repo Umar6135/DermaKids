@@ -56,13 +56,13 @@
                     </h5>
 
 
-                    <a href="#" class="action-link">
+                    <a href="./impressum.php" class="action-link">
                         Impressum
                     </a>
-                    <a href="#" class="action-link">
+                    <a href="./agb.php" class="action-link">
                         AGB
                     </a>
-                    <a href="#" class="action-link">
+                    <a href="./datenschutz.php" class="action-link">
                         Datenschutz
                     </a>
 

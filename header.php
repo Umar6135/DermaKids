@@ -109,12 +109,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="./unser-verein.php" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" onclick="location.href=this.href">
                             Unser Verein
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Über uns</a></li>
+                            <li><a class="dropdown-item" href="./uber-uns.php">Über uns</a></li>
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item dropdown-toggle" href="#">Geschichte des Vereins</a>
                                 <ul class="dropdown-menu">
@@ -141,14 +141,14 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="./epidermolysis-bullosa.php" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Epidermolysis bullosa
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Alltag mit EB (24h)</a></li>
+                            <li><a class="dropdown-item" href="./alltag-mit-eb.php">Alltag mit EB (24h)</a></li>
                 
-                            <li><a class="dropdown-item" href="#">Haupttypen von EB</a></li>
+                            <li><a class="dropdown-item" href="./haupttypen.php">Haupttypen von EB</a></li>
                             <li><a class="dropdown-item" href="#">Forschung</a></li>
                             <li><a class="dropdown-item" href="#">(EB im Netz)</a></li>
                         </ul>
@@ -157,7 +157,7 @@
                         <a class="nav-link" href="#">Hilfsangebote EB </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Helfen Sie mit!</a>
+                        <a class="nav-link" href="./helfen-sie-mit.php">Helfen Sie mit!</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ratgeber</a>
