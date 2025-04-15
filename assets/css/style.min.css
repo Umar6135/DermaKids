@@ -2226,6 +2226,7 @@ main {
     font-size: 20px;
     line-height: 1.43;
     color: #50504F;
+
 }
 
 .help-affected .help-offers p {
@@ -2359,12 +2360,297 @@ main {
     margin-bottom: 170px;
 }
 
-.hwh-items h5 {
+.how-we-help .tab-content .service-nav h5 {
     font-family: "JungleMan";
     font-size: 55px;
     color: #82BDD9;
     line-height: 1;
     margin-bottom: 40px;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-heading  p:last-of-type,.how-we-help #nav-familientherapie .service-nav .nav-case-heading  p:last-of-type{
+    max-width: 86%;
+
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-heading,.how-we-help #nav-familientherapie .service-nav .nav-case-heading{
+    padding-bottom: 0;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+    top: 607px;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3)     .nav-case-carousel {
+    width: 509px;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+    top: 1070px;
+    right: 322px;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel  .round-carousal .carousel-indicators {
+            left: -297px;
+            /* right: 0; */
+            top: 301px;
+        }
+
+        .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) img{
+            width: 422px;
+        }
+        .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+            top: 1490px;
+            right: 337px;
+        }
+.how-we-help .tab-content .service-nav ul li{
+    h6{
+        font-size: 40px;
+        font-family: "JungleMan";
+        font-weight: 400;
+        color: #9E70A5;
+        line-height: 1;
+    }
+    p{
+        max-width: 83% !important;
+        position: relative;
+        padding-left: 45px;
+        margin-bottom: 35px !important;
+
+        &::before{
+content: "";
+position: absolute;
+width: 12px;
+height: 12px;
+background-color: #A782B8;
+border: 1px solid #751C8B;
+border-radius: 50%;
+left: 18px;
+top: 9px;
+        }
+    }
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+    width: 607px;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators {
+    bottom: 0;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+    top: 1738px;
+    right: 485px;
+    img{
+        width: 424px;
+    }
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(4){
+    top: 1569px;
+    right: 723px;
+    left: initial;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(5){
+    top: 2037px;
+    right: 374px;
+
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item.nC-card{
+    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%);
+h6{
+    color: #81CADA;
+}
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+    top: 566px;
+    right: 269px;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+    top: 1024px;
+    right: 394px;
+}
+.how-we-help .tab-content .service-nav .nav-case-heading {
+    max-width: 842px;
+}
+
+.how-we-help .tab-content .service-nav .nav-case-heading p {
+    max-width: 516px;
+    line-height: 1.5;
+    margin-bottom: 42px;
+}
+
+.how-we-help .tab-content .service-nav .nav-case-heading {
+    padding-bottom: 913px;
+
+}
+
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item {
+    position: absolute;
+}
+
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+    top: 507px;
+    right: 473px;
+}
+
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+    top: 653px;
+    right: 337px;
+
+    img {
+        width: 336px;
+    }
+}
+
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+    top: 1116px;
+    right: 406px;
+
+    .nav-case-carousel {
+        width: 450px;
+        height: 450px;
+
+        .carousel-fade .carousel-item {
+            margin-top: 0;
+        }
+
+        .round-carousal .carousel-indicators {
+            left: initial;
+            right: 0;
+        }
+    }
+}
+
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+    TOP: 1394px;
+    left: 321px;
+}
+
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+    top: 1615px;
+    right: 413px;
+}
+
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+    top: 1919px;
+    left: 607px;
+}.how-we-help .tab-content .service-nav #nav-case{
+    padding-bottom: 34px;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card{
+    width: 330px;
+    height: 330px;
+    top: 1885px;
+    right: 520px;
+    left: initial;
+    transform: rotate(348deg);
+
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card{
+    background: linear-gradient(to right, #ECCFE2 0%, transparent 100%);
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h6 {
+        font-size: 33px;
+        font-family: "JungleMan";
+        line-height: 1.1;
+        font-weight: 400;
+        color: #EA89A8;
+    }
+    h5{
+        
+    font-size: 45px;
+    color: #E32488;
+    max-width: 90%;
+    margin-bottom: 0;
+
+    }
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+    top: 1524px;
+    right: 846px;
+ 
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-card{
+background: #7D0E86;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-card{
+    background: #A8C840;
+    }
+.how-we-help #nav-sozialberatung .nav-case-heading  h4,.how-we-help #nav-sozialberatung .nav-case-heading  h5{
+    color: #7D0E86;
+}
+.how-we-help #nav-familientherapie .nav-case-heading  h4,.how-we-help #nav-familientherapie .nav-case-heading  h5,.how-we-help  #nav-familientherapie .service-nav ul li h6{
+    color: #D1DB6F;
+}
+.how-we-help .tab-content .service-nav ul li  p::before{
+    background-color: #D1DB6F;border: 1px solid #A8C840;
+} 
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card p{
+    color: #E32488;
+    max-width: 83%;
+    font-size: 18px;
+}
+   
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(8){ 
+right: 376px;
+top: 2088px;
+width: 157px;
+height: 157px;
+h6{
+    font-size: 28px;
+}
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(9){ 
+    top: 2000px;
+    left: 361px;
+    h6{
+        font-size: 30px;
+    }
+    }
+    .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(10){ 
+        top: 2272px;
+        left: 503px;
+        width: 157px;
+height: 157px;
+        }
+.how-we-help .tab-content .service-nav .nav-case-card {
+    background: #48C0D5;
+    border-radius: 20px;
+    padding: 19px 55px 23px 24px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: 37px;
+
+    h5 {
+        font-size: 20px;
+        line-height: 35px;
+        color: #fff;
+        margin-bottom: 35px;
+        font-family: "Century Gothic Pro";
+
+    }
+
+    p {
+        font-size: 24px;
+        color: #ffffff;
+        line-height: 1.5;
+    }
+
+    a {
+        font-size: 24px;
+        color: #ffffff;
+        line-height: 1.5;
+    }
+}
+.how-we-help .tab-content .service-nav{
+    padding-bottom: 34px;
+}
+.how-we-help .tab-content .service-nav h4 {
+    font-family: "Lifehack";
+    font-size: 60px;
+    color: #48C0D5;
+    line-height: 1.2;
+    margin-bottom: 60px;
 }
 
 .hwh-items p {
@@ -2570,7 +2856,9 @@ main {
     font-family: "Lifehack";
     margin-bottom: 40px;
 }
-
+#nav-ernahrungsberatung #carouseltwo{
+    width: 526px;
+}
 #nav-ernahrungsberatung .hwh-items:nth-child(2) {
     margin-top: 0;
     max-width: 650px;
@@ -2590,10 +2878,12 @@ main {
     margin-bottom: 25px;
     font-weight: 400;
 }
-#nav-ernahrungsberatung .dk-offer ul{
+
+#nav-ernahrungsberatung .dk-offer ul {
     padding-left: 17px;
     margin-bottom: 45px;
 }
+
 #nav-ernahrungsberatung .dk-offer li {
     position: relative;
     padding-left: 27px;
@@ -2614,6 +2904,7 @@ main {
     top: 10px;
 
 }
+
 .help-affected .donation-info {
     padding: 238px 0 340px;
     position: relative;
@@ -4200,7 +4491,526 @@ main {
 
 
 
+/* alltag-mit */
+.alltag-mit .service-banner h1,
+.alltag-mit .service-banner h1 span {
+    font-size: 90px;
+    line-height: 1.2;
+}
 
+.alltag-mit .help-offers {
+    padding-block: 52px 188px;
+}
+
+.alltag-mit .service-banner h1::after {
+    background: url(../img/about-heading.png) no-repeat;
+    width: 119px;
+    height: 136px;
+    transform: rotateY(349deg);
+    rotate: 280deg;
+    left: 97px;
+    bottom: -80px;
+}
+
+.alltag-mit .service-banner h1 {
+    color: #48C0D5;
+}
+
+.alltag-mit .service-banner {
+    padding-block: 127px 165px;
+}
+
+.alltag-mit .help-offers h2 {
+    font-size: 60px;
+    color: #C42E90;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
+
+.alltag-mit .help-offers .subtext {
+    font-size: 40px;
+    color: #82BDD9;
+    font-weight: 400;
+    line-height: 1;
+    font-family: "JungleMan";
+    margin-bottom: 37px;
+    display: block;
+    max-width: 699px;
+}
+
+.alltag-mit .help-offers p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #50504F;
+    max-width: 699px;
+    margin-bottom: 30px;
+}
+
+.alltag-mit .help-offers .theme-btn {
+    margin-top: 46px;
+    margin-left: 167px;
+}
+
+.alltag-mit .help-offers #carouseltwo {
+    width: 626px;
+    margin-top: -179px;
+    margin-left: 0;
+}
+
+.alltag-mit .carousel-fade .carousel-item {
+    margin-top: 0;
+}
+
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators {
+    bottom: -43px;
+}
+
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators button.active {
+    background: #BAD9E6;
+    border: 1px solid #80BDD5;
+}
+
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators :nth-child(1) {
+    margin-top: 75px;
+}
+
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators :nth-child(2) {
+    margin-top: 64px;
+}
+
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators :nth-child(3) {
+    margin-top: 48px;
+}
+
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators :nth-child(4) {
+    margin-top: 17px;
+}
+
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators {
+    bottom: -31px;
+    left: 165px;
+    gap: 20px;
+}
+
+.alltag-mit .help-offers .help-offer-img {
+    width: 394px;
+}
+
+.alltag-mit .comparison {
+    position: relative;
+    margin-bottom: 272px;
+}
+
+.alltag-mit .comparison h2 {
+    font-size: 60px;
+    font-family: "Lifehack";
+    color: #E32488;
+    line-height: 1.17;
+    margin-bottom: 89px;
+}
+
+.alltag-mit .comparison {}
+
+.alltag-mit .comparison .bg-box {
+    width: 82%;
+
+}
+
+.alltag-mit .comparison .comparison-content {
+    padding-top: 50px;
+    padding-bottom: 279px;
+    position: relative;
+}
+
+.alltag-mit .comparison .comparison-item {
+    position: absolute;
+}
+
+.alltag-mit .comparison .comparison-item:nth-child(2) {
+    right: 356px;
+    top: 48px;
+}
+
+.alltag-mit .comparison .comparison-item:nth-child(3) {
+    right: 59px;
+    top: 0;
+
+}
+
+.alltag-mit .comparison .comparison-item:nth-child(5) {
+    left: 68px;
+    bottom: 47px;
+
+}
+
+.alltag-mit .comparison .comparison-item:nth-child(6) {
+    left: 348px;
+    bottom: 69px;
+
+}
+
+.alltag-mit .comparison .comparison-item:nth-child(7) {
+    left: 611px;
+    bottom: 33px;
+
+}
+
+.alltag-mit .comparison .comparison-carousal {
+    position: absolute;
+    width: 395px;
+    right: 231px;
+    bottom: -69px;
+}
+
+.alltag-mit .comparison .round-carousal .carousel-indicators button.active {
+    background-color: #D997C0;
+    border: 1px solid #C4228F;
+}
+
+.alltag-mit .comparison .round-carousal .carousel-indicators {
+    gap: 14px;
+    z-index: 99;
+    bottom: 0px;
+    left: initial;
+    right: -57px;
+}
+
+.alltag-mit .comparison .round-carousal .carousel-indicators :nth-child(1) {
+    margin-top: 52px;
+
+}
+
+.alltag-mit .comparison .round-carousal .carousel-indicators :nth-child(3) {
+    margin-top: -11px;
+}
+
+/* butterfly-children */
+.butterfly-children {
+    position: relative;
+    padding-block: 71px 95px;
+    margin-block: 225px 138px;
+}
+
+.butterfly-children .bg-box {
+    right: 0;
+    left: initial;
+    width: 81.72%;
+}
+
+.butterfly-children .bC-content {
+    max-width: 699px;
+    margin-left: 230px;
+}
+
+.butterfly-children .bC-content h3 {
+    font-size: 55px;
+    font-family: "JungleMan-Regular";
+    color: #48c0d5;
+    line-height: 1;
+}
+
+.butterfly-children .bC-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #50504f;
+    max-width: 699px;
+    margin-bottom: 84px;
+}
+
+.butterfly-children .bC-content .theme-btn {
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+    margin-right: 42px;
+}
+
+.butterfly-children #carouselfour {
+    position: absolute;
+    width: 438px;
+    top: -100px;
+    left: 128px;
+}
+
+.butterfly-children .round-carousal .carousel-indicators {
+    gap: 26px;
+    z-index: 99;
+    right: 0;
+    bottom: -11px;
+    left: initial;
+}
+
+.butterfly-children .round-carousal .carousel-indicators :nth-child(1) {
+    margin-top: 55px;
+}
+
+.butterfly-children {
+    position: relative;
+    padding-block: 71px 95px;
+    margin-block: 225px 138px;
+
+    .bg-box {
+        right: 0;
+        left: initial;
+        width: 81.72%;
+
+    }
+
+    .bC-content {
+        max-width: 699px;
+        margin-left: 230px;
+
+        h3 {
+            font-size: 55px;
+            font-family: "JungleMan-Regular";
+            color: #48C0D5;
+            line-height: 1;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #50504F;
+            max-width: 699px;
+            margin-bottom: 84px;
+        }
+
+        .theme-btn {
+            margin-left: auto;
+            display: block;
+            width: fit-content;
+            margin-right: 42px;
+        }
+    }
+
+    #carouselfour {
+        position: absolute;
+        width: 438px;
+        top: -100px;
+        left: 128px;
+    }
+
+    .round-carousal .carousel-indicators {
+        gap: 26px;
+        z-index: 99;
+        right: 0;
+        bottom: -11px;
+        left: initial;
+    }
+
+    .round-carousal .carousel-indicators :nth-child(1) {
+        margin-top: 55px;
+    }
+}
+
+.alltag-mit .divider {
+    height: 183px;
+}
+
+/* epidermolysis */
+.epidermolysis {
+    .banner {
+        padding: 95px 0 95px;
+
+        h1 {
+            font-size: 90px;
+            font-family: "Lifehack";
+            max-width: 100%;
+            position: relative;
+            line-height: 1.17;
+
+            &::after {
+                position: absolute;
+                background: url(../img/advice-heading-after.png);
+                right: -56px;
+                left: initial;
+                width: 247px;
+                height: 202px;
+                rotate: 354deg;
+                top: 0;
+            }
+        }
+    }
+
+    .contact.pt {
+        top: 21%;
+    }
+
+    .help-offers {
+        position: relative;
+        padding-bottom: 226px;
+        PADDING-TOP: 53px;
+
+        h2 {
+            font-size: 60px;
+            color: #C42E90;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 17px;
+        }
+
+        .help-offer-img {
+            width: 407px;
+            position: absolute;
+            right: 206px;
+            top: -135px;
+
+        }
+
+        #carouseltwo {
+            width: 525px;
+            margin-top: 160px;
+
+            .carousel-item {
+                margin-top: 0;
+
+            }
+        }
+
+        #carouseltwo.round-carousal .carousel-indicators {
+            bottom: -9px;
+            left: 0;
+            right: initial;
+        }
+
+        #carouseltwo.round-carousal .carousel-indicators :nth-child(2) {
+            margin-top: 0;
+        }
+
+        #carouseltwo.round-carousal .carousel-indicators :nth-child(1) {
+            margin-top: -40px;
+        }
+
+        .subtext {
+            font-size: 40px;
+            color: #82BDD9;
+            font-weight: 400;
+            line-height: 1;
+            font-family: "JungleMan";
+            margin-bottom: 37px;
+            display: block;
+            max-width: 699px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #50504F;
+            max-width: 699px;
+            margin-bottom: 30px;
+        }
+    }
+
+    /* Eb */
+    .Eb {
+        position: relative;
+        padding-top: 272px;
+        padding-bottom: 300px;
+
+        .Eb-heading {
+            h3 {
+                font-size: 60px;
+                font-family: "Lifehack";
+                color: #1DA4E4;
+                line-height: 1.2;
+                margin-bottom: 49px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.5;
+                max-width: 449px;
+                color: #50504F;
+                margin-bottom: 0;
+
+                a {
+                    color: #1DA4E4;
+                    font-size: 20px;
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        .Eb-img {
+            position: absolute;
+            width: 538px;
+            height: 528px;
+            background: white;
+            border-radius: 50%;
+            top: 188px;
+            right: 244px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .Eb-items {
+            display: flex;
+            max-width: 1081px;
+            justify-content: space-between;
+            z-index: 1;
+            padding-bottom: 84px;
+            margin-inline: auto;
+            padding-top: 101px;
+            position: relative;
+        }
+
+        .Eb-item {
+            width: 32.4%;
+            padding: 14px 0 32px 23px;
+            border-radius: 20px;
+            height: 260px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+
+            h5 {
+                font-family: "JungleMan";
+                font-size: 55px;
+                color: #FFFFFF;
+                line-height: 1;
+            }
+
+            ul {
+                li {
+                    position: relative;
+                    font-size: 20px;
+                    line-height: 1.5;
+                    padding-left: 20px;
+                    color: #fff;
+
+
+                }
+            }
+
+
+        }
+
+        .Eb-item:nth-child(1) {
+            background: url(../img/eB-item1.png);
+        }
+
+        .Eb-item:nth-child(2) {
+            background: url(../img/eB-item2.png);
+        }
+
+        .Eb-item:nth-child(3) {
+            background: url(../img/eB-item3.png);
+        }
+    }
+}
+
+.Eb .Eb-items .Eb-item ul li::before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 7.2px;
+    height: 7.2px;
+    left: 0;
+    bottom: 12px;
+    border-radius: 50%;
+}
 
 /* kontakt */
 
