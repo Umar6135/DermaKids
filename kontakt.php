@@ -12,10 +12,8 @@ include('header.php'); ?>
 
     <section class="banner service-banner about-banner">
         <div class="container">
-            <h1>Wir sind für Sie da
+            <h1>Wir sind <span>immer</span> für <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Sie da!</span>
             </h1>
-            <p class="subtext">&nbsp; &nbsp; 365 Tage im Jahr - deutschlandweit
-            </p>
         </div>
     </section>
 
@@ -52,7 +50,6 @@ include('header.php'); ?>
             </nav>
             <div class="kontakt-info">
                 <img src="./assets/img/kontakt-banner-logo.png" alt="DermaKids">
-                <p>DermaKIDS e.V.</p>
                 <p>Albert-Einstein-Ring 11</p>
                 <p>14532 Berlin-Kleinmachnow</p>
                 <p>Tel.: +49 30 319981-05</p>
@@ -77,24 +74,22 @@ include('header.php'); ?>
                     </h2>
                     <form>
                         <div class="form-field">
-                            <label class="form-label">Name</label>
-                            <input type="Name" class="form-control" aria-describedby="emailHelp">
+                            <input type="Name" class="form-control" placeholder="Name" aria-describedby="emailHelp">
                         </div>
                         <div class="form-field">
-                            <label class="form-label">E-Mail</label>
-                            <input type="Name" class="form-control" aria-describedby="emailHelp">
+                            <input type="Name" class="form-control" placeholder="E-Mail" aria-describedby="emailHelp">
                         </div>
                         <div class="form-field">
-                            <label class="form-label">Anliegen</label>
-                            <input type="Name" class="form-control" aria-describedby="emailHelp">
+                            <input type="Name" class="form-control" placeholder="Anliegen" aria-describedby="emailHelp">
                         </div>
                         <div class="form-field">
-                            <label class="form-label">Nachricht</label>
-                            <input type="Name" class="form-control" aria-describedby="emailHelp">
+                            <input type="Name" class="form-control" placeholder="Nachricht" aria-describedby="emailHelp">
                         </div>
                         <div class="btn-group">
-                            <input type="color" name="" id="">
+                            <label for="">
+                            <input type="radio" name="" id="">
                             Datenschutz*
+</label>
 
                             <button type="submit" class="theme-btn">Abschicken</button>
 
@@ -112,13 +107,13 @@ include('header.php'); ?>
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./assets/img/about-carousal/1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/kontakt-carousel/1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/about-carousal/2.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/kontakt-carousel/2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/about-carousal/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/kontakt-carousel/3.png" class="d-block w-100" alt="...">
                             </div>
 
                         </div>

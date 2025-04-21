@@ -55,16 +55,16 @@ include('header.php'); ?>
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="active carousel-item">
-                                <img src="./assets/img/association-carousal/1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/uV-carousel/uV-carousel-1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/association-carousal/2.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/uV-carousel/uV-carousel-2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/association-carousal/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/uV-carousel/uV-carousel-3.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/association-carousal/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/uV-carousel/uV-carousel-4.png" class="d-block w-100" alt="...">
                             </div>
 
 

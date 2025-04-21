@@ -59,19 +59,19 @@ include('header.php'); ?>
                 </div>
                 <div class="col-md-5">
                     <div class="help-offer-img">
-                        <img src="./assets/img/help-effected-img.png">
+                        <img src="./assets/img/epider-img1.png">
                     </div>
                     <div id="carouseltwo" class="carousel round-carousal slide carousel-fade"
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./assets/img/help-carousal/1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/epider-carousal/epider-carousal1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/2.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/epider-carousal/epider-carousal2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/epider-carousal/epider-carousal3.png" class="d-block w-100" alt="...">
                             </div>
 
                         </div>
@@ -90,6 +90,69 @@ include('header.php'); ?>
 
         </div>
     </section>
+
+
+
+
+
+
+
+
+    <div class="eB-challenge">
+        <div class="bg-box"></div>
+        <div class="container container-wd">
+            <h3>Kleine Kämpfer – leben mit
+                EB ist eine Herausforderung</h3>
+            <div class="eB-img">
+                <img src="./assets/img/eBC-img.png" alt="">
+            </div>
+            <div class="eB-item">
+                <img src="./assets/img/eBC-img2.png" alt="">
+            </div>
+            <div class="eB-item">
+                <h5>teilweise auch an den Schleimhäuten</h5>
+            </div>
+            <div class="eB-item">
+                <h5>tägliche
+                    Lebensnotwendige Verbandswechsel</h5>
+            </div>
+            <div class="eB-item">
+                <img src="./assets/img/eBC-img3.png" alt="">
+            </div>
+            <div class="eB-item">
+                <h5>erschwerte
+                    Nahrungsaufnahme</h5>
+            </div>
+            <div class="eB-item">
+                <img src="./assets/img/eBC-img4.png" alt="">
+            </div>
+            <div class="eB-item">
+                <h5>täglicher Juckreiz und chronische Schmerzen</h5>
+            </div>
+            <div class="eB-item">
+                <img src="./assets/img/eBC-img5.png" alt="">
+            </div>
+            <div class="eB-item">
+                <img src="./assets/img/eBC-img6.png" alt="">
+            </div>
+            <div class="eB-item">
+                <h5>ständige
+                    Gefahr durch
+                    mögliche
+                    Infektionen der
+                    Wunden</h5>
+            </div>
+            <div class="eB-item">
+                <img src="./assets/img/eBC-img7.png" alt="">
+            </div>
+            <div class="eB-item">
+                <h5>Wunden am ganzen Körper</h5>
+            </div>
+            <div class="text-center">
+            <a href="" class="theme-btn">Alltag mit EB</a>
+        </div>
+        </div>
+    </div>
     <div class="customers-testimonial testimonial ">
         <div class="container">
             <div class="testimonial-content">
@@ -200,7 +263,7 @@ include('header.php'); ?>
             </div>
         </div>
     </div>
-    
+
     <section class="Eb">
         <div class="container">
             <div class="Eb-heading">
@@ -247,8 +310,6 @@ include('header.php'); ?>
                 <div class="slide"><img src="./assets/img/slider2.png" alt="Slide 2"></div>
                 <div class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></div>
                 <div class="slide"><img src="./assets/img/slider1.png" alt="Slide 1"></div>
-                <div class="slide"><img src="./assets/img/slider2.png" alt="Slide 2"></div>
-                <div class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></div>
             </div>
         </div>
     </section>
@@ -259,4 +320,4 @@ include('header.php'); ?>
 
 
 
-    <?php include('footer.php'); ?>
+<?php include('footer.php'); ?>
