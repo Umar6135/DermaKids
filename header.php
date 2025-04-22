@@ -28,7 +28,7 @@
     }
 
     ?>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -40,7 +40,7 @@
 
 
 
-    <body>
+<body>
 
     <!-- Start Here -->
 
@@ -64,7 +64,7 @@
                 </a>
 
                 <a href="#" class="tA-link">Sprache</a>
-                <a href="#" class="tA-link">Kontakt </a>
+                <a href="./kontakt.php" class="tA-link">Kontakt </a>
                 <a href="#" class="tA-link">Presse</a>
                 <a href="#" class="tA-link">Glossar</a>
                 <a href="#" class="tA-link"><svg width="27" height="27" viewBox="0 0 27 27" fill="none"
@@ -97,7 +97,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./">
 
                 <img src="./assets/img/logo.svg" alt="logo">
             </a>
@@ -123,7 +123,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
-                                <a class="dropdown-item dropdown-toggle" href="#">Hilfprojekte 
+                                <a class="dropdown-item dropdown-toggle" href="#">Hilfprojekte
                                     (Schmetterlings-Hilfe)</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">EB-Family Treffen</a></li>
@@ -131,30 +131,30 @@
                                     <li><a class="dropdown-item" href="#">Anton</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#">Hilfprojekte 
-                                (Schmetterlings-Hilfe)</a></li>
+                            <li><a class="dropdown-item" href="#">Hilfprojekte
+                                    (Schmetterlings-Hilfe)</a></li>
                             <li><a class="dropdown-item" href="#">Partner/Förderer</a></li>
-                            <li><a class="dropdown-item" href="#">Kooperationspartner 
-                                (Schmetterlings-Hilfe)</a></li>
+                            <li><a class="dropdown-item" href="#">Kooperationspartner
+                                    (Schmetterlings-Hilfe)</a></li>
                             <li><a class="dropdown-item" href="#">Mitglied werden</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="./epidermolysis-bullosa.php" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                            data-bs-toggle="dropdown" aria-expanded="false" onclick="location.href=this.href">
                             Epidermolysis bullosa
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="./alltag-mit-eb.php">Alltag mit EB (24h)</a></li>
-                
+
                             <li><a class="dropdown-item" href="./haupttypen.php">Haupttypen von EB</a></li>
                             <li><a class="dropdown-item" href="#">Forschung</a></li>
                             <li><a class="dropdown-item" href="#">(EB im Netz)</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hilfsangebote EB </a>
+                        <a class="nav-link" href="./hilfsangebote-eb.php">Hilfsangebote EB </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./helfen-sie-mit.php">Helfen Sie mit!</a>

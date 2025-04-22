@@ -41,16 +41,16 @@ include('header.php'); ?>
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./assets/img/help-carousal/1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/2.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/altab-mit-carousel/2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/altab-mit-carousel/3.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/4.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/altab-mit-carousel/4.png" class="d-block w-100" alt="...">
                             </div>
 
                         </div>
@@ -67,7 +67,7 @@ include('header.php'); ?>
                         </div>
                     </div>
                     <div class="help-offer-img">
-                        <img src="./assets/img/help-effected-img.png">
+                        <img src="./assets/img/aL-img.png">
                     </div>
                   
                 </div>
@@ -107,13 +107,13 @@ include('header.php'); ?>
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./assets/img/help-carousal/1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/comparison-carousel/1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/2.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/comparison-carousel/2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/3.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/comparison-carousel/3.png" class="d-block w-100" alt="...">
                             </div>
 
                         </div>
@@ -254,10 +254,10 @@ include('header.php'); ?>
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./assets/img/help-carousal/1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/butterfly-children/1.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/img/help-carousal/2.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/butterfly-children/2.png" class="d-block w-100" alt="...">
                             </div>
 
                         </div>
@@ -315,8 +315,7 @@ include('header.php'); ?>
     </section>
 
     <div class="divider">
-        <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
-        <img src="./assets/img/circle-red.png" class="right" alt="circle-red">
+        
     </div>
 
 </main>

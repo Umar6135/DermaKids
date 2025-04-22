@@ -2346,7 +2346,7 @@ main {
 
 #umfeld .hwh-items:nth-child(1) .hwh-img::after {
     background: url(../img/u-hwh-img-1-bg.png.png) no-repeat;
-    right: -140px;
+    right: -125px;
     top: -125px;
 }
 
@@ -2369,9 +2369,19 @@ main {
 
 }
 
+#umfeld .hwh-items:nth-child(3) .hwh-img::after{
+    content: "";
+    position: absolute;
+    background: url(../img/umfeld-help-type3-bg.png) no-repeat center / contain;
+    width: 550px;
+    height: 621px;
+    right: -45px;
+    top: -27px;
+    z-index: -1;
+}
 #umfeld .hwh-items:nth-child(2) .hwh-usp:nth-child(3) {
     background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%) !important;
-
+    top: 320px;
     width: 238px;
     height: 238px;
     color: #81CADA;
@@ -3275,6 +3285,36 @@ main {
     margin-top: -19px;
     padding-bottom: 35px;
 }
+#umfeld .hwh-items:nth-child(3) .hwh-img{
+    margin-left: 0;
+}
+#umfeld .hwh-items:nth-child(3) .hwh-usp{
+    bottom: 0;
+    top: initial;
+    right: 89px;
+    background: linear-gradient(to right, #FDF6EF, #F6D4B5)   !important ;
+    width: 178px;
+    height: 178px;
+    color: #F7B87B;
+
+
+}
+#umfeld .hwh-items:nth-child(4) .hwh-usp{
+    width: 195px;
+    height: 195px;
+    right: 566px;
+}
+#umfeld .hwh-items:nth-child(4) .hwh-img {
+    margin-top: -47px;
+}
+
+#umfeld .hwh-items:nth-child(3) {
+    padding-bottom: 100px;
+}
+#umfeld .hwh-items:nth-child(3) h5, #umfeld .hwh-items:nth-child(3) a {
+    color: #F29447;
+}
+
 
 .hwh-items:nth-child(3) .hwh-img {
     margin-bottom: 24px;
@@ -3461,6 +3501,10 @@ main {
 
 #nav-home .hwh-items:nth-child(1) h5,
 .hwh-items:nth-child(1) a {
+    color: #48C0D5;
+}
+#umfeld .hwh-items:nth-child(1) h5,
+#umfeld .hwh-items:nth-child(1) a {
     color: #48C0D5;
 }
 
@@ -5425,7 +5469,7 @@ position: absolute;
 .butterfly-children {
     position: relative;
     padding-block: 71px 95px;
-    margin-block: 225px 138px;
+    margin-block: 225px 238px;
 }
 
 .butterfly-children .bg-box {
@@ -5483,7 +5527,7 @@ position: absolute;
 .butterfly-children {
     position: relative;
     padding-block: 71px 95px;
-    margin-block: 225px 138px;
+    margin-block: 225px 238px;
 
     .bg-box {
         right: 0;
@@ -5501,6 +5545,7 @@ position: absolute;
             font-family: "JungleMan-Regular";
             color: #48C0D5;
             line-height: 1;
+            margin-bottom: 41px;
         }
 
         p {
@@ -5508,7 +5553,7 @@ position: absolute;
             line-height: 1.5;
             color: #50504F;
             max-width: 699px;
-            margin-bottom: 84px;
+            margin-bottom: 100px;
         }
 
         .theme-btn {
@@ -6005,6 +6050,16 @@ background-position: top;
     height: 100%;
     background: url(../img/kontakt-bg.png);
     top: 0;
+    left: 0;
+    background-position: top;
+}
+.alltag-mit::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/altag-mit-eb-bg.png);
+    top: 58px;
     left: 0;
     background-position: top;
 }
