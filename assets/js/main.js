@@ -103,3 +103,39 @@ $(document).ready(function () {
         nextArrow: $('.next')
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const contactLinks = document.querySelectorAll('.contact-link');
+    const contactItems = document.querySelectorAll('.contact-item');
+
+    // Handle contact-link click
+    contactLinks.forEach((contactLink, index) => {
+        contactLink.addEventListener('click', function (e) {
+            // If clicked target is NOT cross-icon, then toggle
+            if (!e.target.classList.contains('cross-icon')) {
+                e.preventDefault();
+
+                contactItems.forEach((item, i) => {
+                    if (i !== index) {
+                        item.classList.remove('active');
+                    }
+                });
+
+                contactItems[index].classList.toggle('active');
+            }
+        });
+    });
+
+    // Handle cross-icon click to toggle active class
+    const crossIcons = document.querySelectorAll('.cross-icon');
+    crossIcons.forEach(icon => {
+        icon.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation(); // Stop click from bubbling up to the link
+
+            const contactItem = icon.closest('.contact-item');
+            if (contactItem) {
+                contactItem.classList.toggle('active');
+            }
+        });
+    });
+});
