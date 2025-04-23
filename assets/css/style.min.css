@@ -630,7 +630,9 @@ a:hover {
 .dK-goal .theme-btn {
     margin-top: 85px;
 }
-
+#about-us .dK-goal .theme-btn{
+    margin-top: 55px;
+}
 .dK-goal-content p {
     max-width: 418px;
     margin-left: 60px;
@@ -738,6 +740,7 @@ a:hover {
     font-family: "JungleMan";
     font-size: 45px;
     border-radius: 44px !important;
+    height: 68px;
 }
 
 .dK-accordian .accordion-item {
@@ -1001,8 +1004,15 @@ a:hover {
 
 #about-us .customers-testimonial {
     padding: 80px 0 111px;
+    margin-bottom: 196px;
 }
-
+#about-us .dK-goal{
+    padding: 106px 0 60px    ;
+}
+#about-us .dK-goal-heading h3{
+    font-weight: 500;
+    margin-bottom: 65px;
+}
 .customers-testimonial .testimonial-content::before,
 .customers-testimonial .testimonial-content::after {
     display: none
@@ -1141,14 +1151,15 @@ a:hover {
 
 .visit-insta {
     background: #fff;
-    padding: 25px 0 100px
+    padding: 25px 0 62px
 }
 
 .visit-insta h4 {
     font-size: 60px;
     color: #e12a87;
-    margin-bottom: 90px;
-    text-align: center
+    margin-bottom: 81px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .visit-insta .slick-track {
@@ -1171,7 +1182,7 @@ a:hover {
 }
 
 footer {
-    padding: 75px 0;
+    padding: 75px 0 21px;
     background: linear-gradient(204deg, rgba(246, 205, 226, 0.3) -0.05%, rgba(240, 210, 229, 0.3) 4.47%, rgba(229, 220, 236, 0.3) 14%, rgba(220, 228, 240, 0.3) 25.19%, rgba(214, 233, 243, 0.3) 36.97%, rgba(211, 235, 245, 0.3) 51.61%, rgba(215, 233, 243, 0.3) 67.57%, rgba(226, 223, 237, 0.3) 83.16%, rgba(238, 212, 231, 0.3) 94.35%, rgba(246, 205, 226, 0.3) 99.95%)
 }
 
@@ -1213,7 +1224,7 @@ footer .gateway {
 
 footer .copyright {
     padding-left: 6%;
-    margin-top: 60px
+    margin-top: 53px
 }
 
 @media(min-width: 1800px) {
@@ -1382,6 +1393,20 @@ footer .copyright {
 
 .mb-40 {
     margin-bottom: 40px !important;
+}
+.haupttypen .mb-40 {
+    margin-bottom: 30px !important;
+}
+.haupttypen .dermakids-v h2{
+    font-size: 62px;
+    line-height: 1.17;
+    margin-bottom: 49px;
+}
+.haupttypen .dermakids-v {
+    padding-block: 52px 192px;
+}
+.haupttypen .dermakids-v .subtext{
+    margin-bottom: 44px;
 }
 
 .terms-content p,
@@ -1657,6 +1682,8 @@ footer .copyright {
 
 .satzungszweck .our-goal .subtext {
     margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .satzungszweck .our-goal {
@@ -1666,7 +1693,7 @@ footer .copyright {
 .satzungszweck .carousel {
     position: absolute;
     margin-top: -365px;
-    right: -125px;
+    right: -165px;
 
 
 }
@@ -1805,7 +1832,7 @@ footer .copyright {
 }
 
 .about-banner h1 {
-    font-size: 88px;
+    font-size: 90px;
     max-width: 100%;
     margin-bottom: 16px;
 }
@@ -1854,19 +1881,24 @@ margin-left: -17px;
 .dermakids-v h2 {
     font-size: 60px;
     color: #C42E90;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1;
     margin-bottom: 51px;
 
 }
-
+#about-us .dermakids-v .subtext {
+    margin-bottom: 39px;
+}
+#about-us .dermakids-v h2{
+    margin-bottom: 15px;
+}
 .dermakids-v .subtext {
     font-size: 40px;
     color: #82BDD9;
     font-weight: 400;
     line-height: 1;
     font-family: "JungleMan";
-    margin-bottom: 33px;
+    margin-bottom: 36px;
     display: block;
 
 }
@@ -1960,9 +1992,15 @@ main {
     content: none;
 
 }
-
+#about-us .our-team-content h3{
+    font-weight: 500;
+    margin-bottom: 42px;
+}
 .dermakids-v {
     padding-block: 55px 140px;
+}
+#about-us .dermakids-v{
+    padding-bottom: 146px;
 }
 
 .dermakids-v #carouseltwo {
@@ -2003,9 +2041,9 @@ main {
 }
 
 #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
-    gap: 40px;
-    bottom: 178px;
-}
+    gap: 39px;
+    bottom: 146px;
+    left: -64px;}
 
 .dermakids-v #carouseltwo.round-carousal .carousel-indicators :nth-child(2) {
     margin-top: 16px;
@@ -2054,7 +2092,7 @@ main {
 
     max-width: 542px;
     margin-left: 199px;
-    padding-top: 71px;
+    padding-top: 70px;
     margin-bottom: 56px;
 
 }
@@ -2081,6 +2119,18 @@ main {
     font-family: "JungleMan";
     margin-bottom: 32px;
     display: block;
+}
+#about-us .our-team-content .subtext {
+    margin-bottom: 39px;
+}
+#about-us .our-team-content p {
+    line-height: 1.5;
+}
+#about-us .our-team{
+    padding-bottom: 50px;
+}
+#about-us .team-heading{
+    margin-bottom: 32px;
 }
 
 .our-team-content p {
@@ -2206,7 +2256,7 @@ main {
 .help-affected .help-offers h2 {
     font-size: 60px;
     color: #C42E90;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1;
     margin-bottom: 60px;
 }
@@ -4097,7 +4147,7 @@ position: absolute;
 
 .our-club .dermakids-v .theme-btn {
     padding-inline: 121px;
-    margin-top: 76px;
+    margin-top: 83px;
 }
 
 .association-img {
@@ -4109,12 +4159,13 @@ position: absolute;
 .our-club .dermakids-v {
     position: relative;
     padding-block: 52px 390px;
+    overflow: hidden;
 }
 
 
 
 .our-club .dermakids-v .round-carousal .carousel-indicators :nth-child(4) {
-    margin-top: 80px;
+    margin-top: 58px;
 }
 
 .our-club .dermakids-v #carouseltwo .carousel-indicators {
@@ -4123,11 +4174,11 @@ position: absolute;
 }
 
 .our-club .dermakids-v #carouseltwo.round-carousal .carousel-indicators :nth-child(2) {
-    margin-top: 43px;
+    margin-top: 30px;
 }
 
 .our-club .dermakids-v #carouseltwo.round-carousal .carousel-indicators :nth-child(3) {
-    margin-top: 68px;
+    margin-top: 48px;
 }
 
 .our-club .dermakids-v p {
@@ -4140,12 +4191,13 @@ position: absolute;
 }
 
 .our-club .customers-testimonial {
-    margin-bottom: 218px;
+    margin-bottom: 220px;
 }
 
 .our-club .approach {
     background: url(../img/approach-bg.png) no-repeat;
     padding-block: 52px 42px;
+    background-size: cover;
 }
 
 .help-us .testimonial {
@@ -4414,7 +4466,7 @@ position: absolute;
 .shop h3 {
     font-size: 60px;
     font-family: "Lifehack";
-    font-weight: 400;
+    font-weight: 500;
     color: #80BDD5;
     text-align: center;
     line-height: 1.5;
@@ -4424,7 +4476,9 @@ position: absolute;
 .support {
     background: url(../img/support-bg.png) no-repeat;
     position: relative;
-    margin-bottom: 190px;
+    margin-bottom: 484px;
+padding: 32px 0 25px;
+background-size: cover;
 }
 
 
@@ -4580,7 +4634,7 @@ position: absolute;
 .approach .approach-heading h3 {
     font-size: 59px;
     font-family: "Lifehack";
-    font-weight: bold;
+    font-weight: 500;
     color: #fff;
     text-align: center;
     padding-bottom: 52px;
@@ -4595,7 +4649,7 @@ position: absolute;
 }
 
 .haupttypen .banner h1 {
-    max-width: 882px;
+    max-width: 883px;
     text-align: left;
     line-height: 1.11;
     margin-bottom: 0;
@@ -4656,13 +4710,14 @@ position: absolute;
 
 .haupttypen-content p {
     min-width: 699px;
+    line-height: 1.5;
 }
 
 .types-tabs {
     position: relative;
 
     min-height: 1083px;
-
+margin-bottom: 291px;
     .nav {
         flex-wrap: nowrap;
         gap: 25px;
@@ -4696,8 +4751,9 @@ position: absolute;
 
     .bg-box {
         margin-top: 85px;
-        width: 1566px;
-        max-width: 100%;
+
+        width: 81.6%;
+
     }
 
 
@@ -5190,9 +5246,9 @@ position: absolute;
 
 .inheritance {
     position: relative;
-    margin-block: 221px 239px;
+    margin-block: 221px 260px;
     text-align: center;
-    padding-block: 80px 129px;
+    padding-block: 71px 129px;
 
 }
 
@@ -5214,9 +5270,8 @@ position: absolute;
 }
 
 .inheritance #carouselthree .carousel-indicators {
-    right: -321px;
-
-    bottom: -54px;
+    right: -332px;
+    bottom: -8px;
 
 }
 
@@ -5231,10 +5286,10 @@ position: absolute;
 .inheritance h3 {
     font-size: 59px;
     color: #1DA4E4;
-    font-weight: bold;
+    font-weight: 500;
     font-family: "Lifehack";
     text-align: center;
-    margin-bottom: 31px;
+    margin-bottom: 158px;
 }
 
 .inheritance h4 {
@@ -5243,19 +5298,21 @@ position: absolute;
     color: #C4228F;
     font-weight: 400;
     margin-top: 143px;
-    margin-bottom: 57px;
+    margin-bottom: 62px;
 }
 
 .inheritance #carouselfour {
     position: absolute;
-    width: 350px;
-    height: 350px;
-    right: 236px;
-    bottom: 214px;
+    width: 431px;
+    height: 431px;
+    right: 305px;
+    bottom: 370px;
 }
-
+.haupttypen .visit-insta{
+    margin-bottom: 151px;
+}
 .inheritance #carouselfour .carousel-indicators {
-    top: -26px;
+    top: 0;
     right: -20px;
     left: initial;
 }
@@ -5294,9 +5351,9 @@ position: absolute;
 .alltag-mit .help-offers h2 {
     font-size: 60px;
     color: #C42E90;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 
 .alltag-mit .help-offers .subtext {
@@ -5359,13 +5416,18 @@ position: absolute;
 }
 
 .alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators {
-    bottom: -31px;
-    left: 165px;
+    bottom: -10px;
+    left: 48px;
     gap: 20px;
+}
+.alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators button{
+    margin-top: 0 !important;
 }
 
 .alltag-mit .help-offers .help-offer-img {
     width: 394px;
+    margin-top: 30px;
+    margin-left: -100px;
 }
 
 .alltag-mit .comparison {
@@ -5451,11 +5513,13 @@ position: absolute;
 .alltag-mit .comparison .round-carousal .carousel-indicators {
     gap: 14px;
     z-index: 99;
-    bottom: 0px;
+    bottom: -30px;
     left: initial;
-    right: -57px;
+    right: 68px
 }
-
+.alltag-mit .comparison .round-carousal .carousel-indicators button{
+    margin-top: 0 !important;
+}
 .alltag-mit .comparison .round-carousal .carousel-indicators :nth-child(1) {
     margin-top: 52px;
 
@@ -5874,6 +5938,11 @@ position: absolute;
     color: #48C0D5;
     line-height: 1.2;
 }
+.kontakt-form input[type="radio"]{
+    width: 27px;
+    height: 27px;
+}
+
 
 .kontakt-form .form-control {
     background-color: transparent;
@@ -5897,7 +5966,45 @@ position: absolute;
     align-items: center;
     margin-block: 196px 98px;
 }
-
+.kontakt-form input[type=checkbox] {
+    position: relative;
+      border: 2px solid #000;
+      border-radius: 2px;
+      background: none;
+      cursor: pointer;
+      line-height: 0;
+      margin: 0 .6em 0 0;
+      outline: 0;
+      padding: 0 !important;
+      vertical-align: text-top;
+      height: 27px;
+      width: 27px;
+      -webkit-appearance: none;
+    opacity: .5;
+  }
+  
+  .kontakt-form input[type=checkbox]:hover {
+    opacity: 1;
+  }
+  
+  .kontakt-form  input[type=checkbox]:checked {
+    background-color: #000;
+    opacity: 1;
+  }
+  
+  .kontakt-form  input[type=checkbox]:before {
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 4px;
+    height: 10px;
+    border: solid #FFF;
+    border-width: 0 2px 2px 0;
+    margin: -1px -1px 0 -1px;
+    transform: rotate(45deg) translate(-50%, -50%);
+    z-index: 2;
+  }
 .kontakt-form span {
     font-size: 14px;
     font-weight: 400;
@@ -6062,6 +6169,9 @@ background-position: top;
     top: 58px;
     left: 0;
     background-position: top;
+}
+#about-us .divider {
+    height: 241px;
 }
 @media (max-width: 1800px) {
     .navbar .navbar-nav .nav-link {

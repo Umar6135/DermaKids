@@ -46,7 +46,7 @@ include('header.php'); ?>
                         das psychosoziale Wohl der Familien sind unser Fokus. Unser Ziel: Schmetterlingskindern die
                         Unterstützung geben, die sie brauchen, um ihre Lebensqualität nachhaltig zu verbessern.</p>
                     <div class="text-center">
-                        <a href="" class="theme-btn">Über uns</a>
+                        <a href="./uber-uns.php" class="theme-btn">Über uns</a>
                     </div>
                 </div>
                 <div class="col-md-4">

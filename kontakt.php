@@ -86,8 +86,10 @@ include('header.php'); ?>
                             <input type="Name" class="form-control" placeholder="Nachricht" aria-describedby="emailHelp">
                         </div>
                         <div class="btn-group">
-                            <label for="">
-                            <input type="radio" name="" id="">
+                        <label for="">
+
+                            <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes">
+                          
                             Datenschutz*
 </label>
 

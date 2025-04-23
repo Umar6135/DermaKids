@@ -406,7 +406,7 @@ include('header.php'); ?>
                     <h5>Als Unternehmen helfen</h5>
                     <p>Übernehmen Sie mit Ihrem Unternehmen soziale und gesellschaftliche Verantwortung z.B. durch eine Patenschaft und/oder ein Projekt für ein Schmetterlingskind. Wir beraten Sie gerne, wie auch Ihr Unternehmen davon profitieren kann.</p>
                 </div>
-                <div class="support-item">
+                <div class="support-item pb-0">
                     <h5>Spenden statt Schenken</h5>
                     <p>Sie planen ein großes Firmenevent oder begehen ein Jubiläum? Nutzen Sie diesen Anlass und bitten Sie Ihre Gäste von Jubiläumsgeschenken abzusehen und stattdessen an DermaKIDS zu spenden. Wir unterstützen Sie gern bei dieser Aktion z. B. durch die Gestaltung von Spendendosen.</p>
                     <div class="support-cta">
@@ -441,10 +441,6 @@ include('header.php'); ?>
 
 
 
-    <div class="divider">
-        <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
-        <img src="./assets/img/circle-red.png" class="right" alt="circle-red">
-    </div>
 </main>
 
 

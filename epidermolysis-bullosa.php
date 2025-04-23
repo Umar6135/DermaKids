@@ -149,7 +149,7 @@ include('header.php'); ?>
                 <h5>Wunden am ganzen Körper</h5>
             </div>
             <div class="text-center">
-            <a href="" class="theme-btn">Alltag mit EB</a>
+            <a href="./alltag-mit-eb.php" class="theme-btn">Alltag mit EB</a>
         </div>
         </div>
     </div>
@@ -298,7 +298,7 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="text-center">
-                <a href="" class="theme-btn">Haupttypen</a>
+                <a href="./haupttypen.php" class="theme-btn">Haupttypen</a>
             </div>
         </div>
     </section>

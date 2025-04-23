@@ -7,8 +7,7 @@ include('header.php'); ?>
 
     <section class="about-banner banner service-banner">
         <div class="container-md">
-            <h1><span>Formen</span> von
-                Epidermolysis bullosa
+            <h1><span>Formen</span> von &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Epidermolysis bullosa
             </h1>
         </div>
     </section>
@@ -550,10 +549,10 @@ include('header.php'); ?>
                 data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="active carousel-item">
-                        <img src="./assets/img/carousal-2/1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/img/inheritance-carousel/1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carousal-2/2.png" class="d-block w-100" alt="...">
+                    <img src="./assets/img/inheritance-carousel/2.png" class="d-block w-100" alt="...">
                     </div>
 
                 </div>
@@ -570,18 +569,19 @@ include('header.php'); ?>
                 <h4>Rezessive Vererbung
                 </h4>
             </div>
-            <img src="./assets/img/inheritance1.png" alt="">
+            <img src="./assets/img/inheritance2.png" alt="">
             <h4>Dominante Vererbung
             </h4>
-            <img src="./assets/img/inheritance2.png" alt="">
+            <img src="./assets/img/inheritance1.png" alt="">
+
             <div id="carouselfour" class="carousel carousel-fade round-carousal slide"
                 data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="active carousel-item">
-                        <img src="./assets/img/carousal-2/1.png" class="d-block w-100" alt="...">
+                        <img src="./assets/img/inheritance-carousel/3.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carousal-2/2.png" class="d-block w-100" alt="...">
+                        <img src="./assets/img/inheritance-carousel/4.png" class="d-block w-100" alt="...">
                     </div>
 
                 </div>

@@ -1180,7 +1180,8 @@ include('header.php'); ?>
         <div class="container container-wd">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="info-card" style="background: url(./assets/img/offer-card-1.png) no-repeat;">
+                <a class="info-card" href="./helfen-sie-mit.php" style="background: url(./assets/img/offer-card-2.png) no-repeat;">
+                        
                         <div class="card-icon">
                             <img src="./assets/img/donation-info-icon1.png" alt="">
                         </div>
@@ -1189,31 +1190,31 @@ include('header.php'); ?>
                             <p>Unterstützen Sie Schmetterlingskinder – werden Sie Teil des DermaKIDs Fördervereins!
                             </p>
                         </div>
-                    </div>
+                   
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="info-card" style="background: url(./assets/img/offer-card-2.png) no-repeat;">
-                        <div class="card-icon">
+                <a class="info-card" href="./unser-verein.php" style="background: url(./assets/img/offer-card-1.png) no-repeat;">
+                <div class="card-icon">
                             <img src="./assets/img/donation-info-icon2.png" alt="">
                         </div>
                         <div class="card-content">
-                            <h6>Helfen Sie mit!</h6>
-                            <p>Unterstützen Sie Schmetterlingskinder – werden Sie Teil des DermaKIDs Fördervereins!
-                            </p>
+                            <h6>Unser Verein</h6>
+                            <p>Erfahren Sie, wie DermaKIDs Schmetterlingskinder und ihre Familien unterstützt!   </p>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="info-card" style="background: url(./assets/img/offer-card-3.png) no-repeat;">
+                    <a class="info-card" href="./epidermolysis-bullosa.php" style="background: url(./assets/img/offer-card-3.png) no-repeat;">
                         <div class="card-icon">
                             <img src="./assets/img/donation-info-icon3.png" alt="">
                         </div>
                         <div class="card-content">
-                            <h6>Helfen Sie mit!</h6>
-                            <p>Unterstützen Sie Schmetterlingskinder – werden Sie Teil des DermaKIDs Fördervereins!
-                            </p>
+                            <h6>Epidermolysis 
+                            bullosa</h6>
+                            <p>Was ist Epidermolysis bullosa? Nutzen Sie unsere Infos zur Krankheit!  </p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

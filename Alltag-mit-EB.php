@@ -34,7 +34,7 @@ include('header.php'); ?>
                     <p>Ihre Familien leisten Außergewöhnliches. Sie unterstützen, pflegen und trösten geduldig ihr Schmetterlingskind immer wieder, auch in schlaflosen Nächten. Oft muss ein Elternteil seinen Job für die 24-Stunden-Pflege des Kindes aufgeben, was zu weiteren Einschränkungen und Notsituationen in den Familien führt. Finanzieller Spielraum für Urlaube oder Freizeitvergnügen bleibt kaum. Eine unbeschwerte Kindheit rückt in weite Ferne.
 
                     </p>
-                    <a href="" class="theme-btn">Hilfsangebote</a>
+                    <a href="./hilfsangebote-eb.php" class="theme-btn">Hilfsangebote</a>
                 </div>
                 <div class="col-md-4">
                 <div id="carouseltwo" class="carousel round-carousal slide carousel-fade"

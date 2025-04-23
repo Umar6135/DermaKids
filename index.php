@@ -50,10 +50,10 @@ include('header.php'); ?>
                     </h1>
 
                     <div class="btn-group">
-                        <a href="#" class="theme-btn">
+                        <a href="./epidermolysis-bullosa.php" class="theme-btn">
                             Hilfe & Beratung
                         </a>
-                        <a href="#" class="theme-btn">
+                        <a href="./hilfsangebote-eb.php" class="theme-btn">
                             Was ist EB?
                         </a>
 

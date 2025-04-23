@@ -353,7 +353,7 @@ include('header.php'); ?>
                         </div>
                     </div>
 
-                    <a href="" class="theme-btn">Satzungszweck</a>
+                    <a href="./satzungszweck.php" class="theme-btn">Satzungszweck</a>
                 </div>
             </div>
 
