@@ -348,6 +348,9 @@ include('header.php'); ?>
                                 Ernährungsberatung
                             </li>
                         </ul>
+                        <div class="text-end">
+                            <a href="">mehr erfahren</a>
+                        </div>
                     </div>
                     <div class="services-box second">
                         <h5>
@@ -369,6 +372,9 @@ include('header.php'); ?>
                                 Öffentlichkeit & Netzwerke
                             </li>
                         </ul>
+                        <div class="text-end">
+                            <a href="">mehr erfahren</a>
+                        </div>
                     </div>
                 </div>
             </div>

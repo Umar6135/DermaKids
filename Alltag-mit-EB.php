@@ -247,7 +247,7 @@ include('header.php'); ?>
         <div class="container">
             <div class="bC-content">
                 <h3>Die wichtige Rolle der Ernährung für Schmetterlingskinder</h3>
-                <p>Eine ausgewogene Ernährung hat im Leben von Schmetterlingskindern einen besonderen Stellenwert. EB-Betroffene können aufgrund der Blasenbildung im Mundraum, möglicher Schleimhautverletzungen und Vernarbungen nur erschwert Nahrung zu sich nehmen. Gleichzeitig besteht jedoch aufgrund der ständigen Wundheilung, der dauerhaften Medikamentenaufnahmen und anderer Faktoren ein sehr hoher Nährwert-Bedarf. Für die betroffenen Familien stellt die richtige Ernährung daher eine sehr große Herausforderung dar. Unsere Ernährungswissenschaftlerinnen helfen mit Rat und Tat! mehr erfahren</p>
+                <p>Eine ausgewogene Ernährung hat im Leben von Schmetterlingskindern einen besonderen Stellenwert. EB-Betroffene können aufgrund der Blasenbildung im Mundraum, möglicher Schleimhautverletzungen und Vernarbungen nur erschwert Nahrung zu sich nehmen. Gleichzeitig besteht jedoch aufgrund der ständigen Wundheilung, der dauerhaften Medikamentenaufnahmen und anderer Faktoren ein sehr hoher Nährwert-Bedarf. Für die betroffenen Familien stellt die richtige Ernährung daher eine sehr große Herausforderung dar. Unsere Ernährungswissenschaftlerinnen helfen mit Rat und Tat! <a href="">mehr erfahren</a></p>
                 <a href="" class="theme-btn">Ernährungsberatung</a>
             </div>
             <div id="carouselfour" class="carousel round-carousal slide carousel-fade"

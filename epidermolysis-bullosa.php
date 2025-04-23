@@ -101,6 +101,7 @@ include('header.php'); ?>
     <div class="eB-challenge">
         <div class="bg-box"></div>
         <div class="container container-wd">
+            <div class="eB-challenge-content">
             <h3>Kleine Kämpfer – leben mit
                 EB ist eine Herausforderung</h3>
             <div class="eB-img">
@@ -151,6 +152,7 @@ include('header.php'); ?>
             <div class="text-center">
             <a href="./alltag-mit-eb.php" class="theme-btn">Alltag mit EB</a>
         </div>
+            </div>
         </div>
     </div>
     <div class="customers-testimonial testimonial ">

@@ -1122,9 +1122,10 @@ a:hover {
 }
 
 .services-box h5 {
-    font-size: 35px;
-    margin-bottom: 78px;
-    font-family: "Lifehack"
+    font-size: 55px;
+    line-height: 1;
+    margin-bottom: 60px;
+    font-family: "JungleMan"
 }
 
 .services-box ul {
@@ -1134,9 +1135,20 @@ a:hover {
 
 .services-box ul li {
     font-size: 24px;
-    margin-bottom: 21px
+    margin-bottom: 14px
 }
 
+.butterfly-children .bC-content p a{
+    color: #C4228F;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.services-box a{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 26px;
+    display: block;
+}
 .services::after {
     content: "";
     background: url(../img/services1.png);
@@ -5861,6 +5873,7 @@ margin-bottom: 291px;
 .kontakt-content {
     position: relative;
     padding-bottom: 318px;
+    padding-top: 53pxs;
 }
 
 .kontakt-info {
@@ -6022,7 +6035,11 @@ margin-bottom: 291px;
     position: absolute;
     right: 239px;
 }
-
+.eB-challenge-content{
+    background: url(../img/eB-challenge-bg.png);
+    background-position-x: center;
+    background-position-y: top;
+}
 .eB-challenge{
     position: relative;
     padding-block: 43px 72px;
