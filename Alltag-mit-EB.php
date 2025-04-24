@@ -19,8 +19,8 @@ include('header.php'); ?>
                 <div class="col-md-8">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Epidermolysis bullosa</li>
+                            <li class="breadcrumb-item"><a href="./">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="./epidermolysis-bullosa.php">Epidermolysis bullosa</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Alltag mit EB</li>
 
                         </ol>

@@ -132,8 +132,8 @@ include('header.php'); ?>
                 <div class="col-md-7">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Hilfsangebote EB</li>
+                            <li class="breadcrumb-item"><a href="./">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="./hilfsangebote-eb.php">Hilfsangebote EB</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Hilfe für EB-Betroffene</li>
 
                         </ol>

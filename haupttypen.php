@@ -24,8 +24,8 @@ include('header.php'); ?>
                     <div class="haupttypen-content">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="active breadcrumb-item" aria-current="page">Epidermolysis bullosa</li>
+                                <li class="breadcrumb-item"><a href="./">Home</a></li>
+                                <li class="active breadcrumb-item" aria-current="page"><a href="./epidermolysis-bullosa.php">Epidermolysis bullosa</a></li>
                                 <li class="active breadcrumb-item" aria-current="page">Haupttypen von EB</li>
 
 

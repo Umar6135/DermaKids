@@ -21,7 +21,7 @@ include('header.php'); ?>
         <div class="container container-wd">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="./">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Datenschutzerklärung</li>
                 </ol>
             </nav>

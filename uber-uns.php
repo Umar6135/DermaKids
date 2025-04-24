@@ -27,7 +27,7 @@ include('header.php'); ?>
                 <div class="col-md-7">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="./">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Unser Verein</li>
                             <li class="breadcrumb-item active" aria-current="page">Uber uns</li>
 
