@@ -47,7 +47,7 @@ section {
 }
 
 body {
-    color: #7f7f7f;
+    color: #787878;
     font-size: 25px;
     font-family: "Century Gothic Pro";
     background: linear-gradient(90deg, rgba(246, 205, 226, 0.3) -0.05%, rgba(240, 210, 229, 0.3) 4.47%, rgba(229, 220, 236, 0.3) 14%, rgba(220, 228, 240, 0.3) 25.19%, rgba(214, 233, 243, 0.3) 36.97%, rgba(211, 235, 245, 0.3) 51.61%, rgba(215, 233, 243, 0.3) 67.57%, rgba(226, 223, 237, 0.3) 83.16%, rgba(238, 212, 231, 0.3) 94.35%, rgba(246, 205, 226, 0.3) 99.95%);
@@ -231,7 +231,7 @@ a:hover {
 }
 
 .theme-btn {
-    background: #8CD4E5;
+    background: #25c1d9;
     border-radius: 6px;
     font-weight: 600;
     font-size: 11px;
@@ -311,6 +311,7 @@ a:hover {
     font-family: "JungleMan-Regular";
     font-size: 38px;
     font-weight: 400;
+    background-color: #38b6d6;
 }
 
 .topbar .tA-link svg {
@@ -431,7 +432,7 @@ a:hover {
     padding-bottom: 166px;
     margin: 0;
     position: relative;
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 55px;
     font-weight: 100
 }
@@ -573,8 +574,8 @@ a:hover {
 }
 
 .round-carousal .carousel-indicators button.active {
-    background: #a1d6e9;
-    border: 1px solid #82BDD9
+    background: #a0d5e8;
+    border: 1px solid #38b6d6
 }
 
 .dK-goal {
@@ -778,7 +779,7 @@ a:hover {
 }
 
 .testimonial {
-    background-color: #DEEDF3;
+    background-color: #d8eaf2;
     padding: 90px 0;
     min-height: 445px;
     max-height: 445px;
@@ -835,7 +836,7 @@ a:hover {
     font-family: "JungleMan";
     font-weight: 200;
     font-size: 38px;
-    color: #82BDD9;
+    color: #38b6d6;
     letter-spacing: 3px;
     margin-bottom: 36px;
     line-height: 1.11;
@@ -907,7 +908,7 @@ a:hover {
 
 .our-goal .subtext {
     font-family: "JungleMan";
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 45px;
     margin-bottom: 50px;
     font-weight: 500;
@@ -1038,7 +1039,7 @@ a:hover {
     font-family: "JungleMan";
     font-weight: 200;
     font-size: 34px;
-    color: #82BDD9;
+    color: #38b6d6;
     letter-spacing: 3px;
     margin-bottom: 36px
 }
@@ -1058,12 +1059,12 @@ a:hover {
     min-height: 20px;
     border-radius: 50%;
     background: #fff;
-    border: 1px solid #82BDD9
+    border: 1px solid #38b6d6
 }
 
 .customers-testimonial .carousel-indicators button.active {
-    background: #82BDD9;
-    border: 1px solid #82BDD9
+    background: #38b6d6;
+    border: 1px solid #38b6d6
 }
 
 .services {
@@ -1226,7 +1227,7 @@ a:hover {
 
 #twitter {
     .contact-link {
-        background-color: #82BDD9;
+        background-color: #38b6d6;
 
     }
     input,textarea{
@@ -1279,7 +1280,7 @@ a:hover {
         h4{
             font-size: 50px;
             font-family: "JungleMan";
-            color: #82BDD9;
+            color: #38b6d6;
             line-height: 1.2;
             margin-left: 65px;
             position: relative;
@@ -1287,7 +1288,7 @@ a:hover {
             a{
                 font-size: 50px;
                 font-family: "JungleMan";
-                color: #82BDD9;
+                color: #38b6d6;
                 line-height: 1.2;
             }
             }
@@ -1307,7 +1308,7 @@ a:hover {
 }
 #messages{
     .contact-link{
-        background-color: #82BDD9;
+        background-color: #38b6d6;
     }
     form{
         padding-top: 29px;
@@ -1573,7 +1574,7 @@ footer .copyright {
 
 .terms-heading .subtext {
     font-family: "JungleMan";
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 40px;
     font-weight: 500;
     display: block;
@@ -1585,20 +1586,20 @@ footer .copyright {
 
 .terms-navigator a {
     font-size: 34px;
-    color: #82BDD9;
+    color: #38b6d6;
     font-weight: 400;
     display: flex;
     width: 57px;
     height: 57px;
     align-items: center;
     justify-content: center;
-    border: 2px solid #82BDD9;
+    border: 2px solid #38b6d6;
     margin-bottom: 20px;
     font-family: 'Lifehack';
 }
 
 .terms-navigator a.active {
-    background-color: #82BDD9;
+    background-color: #38b6d6;
     color: #fff;
 }
 
@@ -1611,7 +1612,7 @@ footer .copyright {
 }
 
 .terms-content .terms-content-heading {
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 40px;
     line-height: 1.13;
 }
@@ -1629,13 +1630,13 @@ footer .copyright {
     position: relative;
     padding-left: 45px;
     margin-bottom: 16px;
-    color: #50504F;
+    color: #787878;
 }
 
 .theme-list li::before {
     content: "";
     position: absolute;
-    background-color: #82BDD9;
+    background-color: #38b6d6;
     width: 10px;
     height: 10px;
     left: 15px;
@@ -1672,12 +1673,12 @@ footer .copyright {
     font-size: 18px;
     position: relative;
     margin-bottom: 16px;
-    color: #50504F;
+    color: #787878;
     word-break: break-all;
 }
 
 .terms-content a {
-    color: #82BDD9;
+    color: #38b6d6;
     font-weight: bolder;
 }
 
@@ -1697,7 +1698,7 @@ footer .copyright {
 }
 
 .terms-content h5 {
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0;
@@ -1757,7 +1758,7 @@ footer .copyright {
 
 .impressum .subtext {
     font-family: "JungleMan";
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 21px;
@@ -1768,7 +1769,7 @@ footer .copyright {
 .impressum .address p {
     font-size: 20px;
     line-height: 1;
-    color: #50504F;
+    color: #787878;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -1780,7 +1781,7 @@ footer .copyright {
 .impressum p {
     font-size: 20px;
     line-height: 1.34;
-    color: #50504F;
+    color: #787878;
     font-weight: 400;
     margin-bottom: 10px;
     word-break: break-all;
@@ -1794,13 +1795,13 @@ footer .copyright {
 
 .impressum h3 {
     font-size: 40px;
-    color: #82BDD9;
+    color: #38b6d6;
     margin-top: 60px;
     font-family: "JungleMan";
 }
 
 .impressum p a {
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 20px;
     line-height: 1;
     font-weight: 400;
@@ -1816,7 +1817,7 @@ footer .copyright {
     list-style: disc;
     font-size: 20px;
     line-height: 1.34;
-    color: #50504F;
+    color: #787878;
     font-weight: 400;
     margin-bottom: 10px;
     word-break: break-all;
@@ -1869,7 +1870,7 @@ footer .copyright {
 
 .satzungszweck .subtext {
     font-family: "JungleMan";
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 38px;
     font-weight: 500;
     margin-bottom: 21px;
@@ -1880,7 +1881,7 @@ footer .copyright {
 .satzungszweck p {
     font-size: 20px;
     line-height: 1.37;
-    color: #50504F;
+    color: #787878;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -1922,7 +1923,7 @@ footer .copyright {
     max-width: 728px;
     margin-inline: auto;
     line-height: 1.43;
-    color: #50504F;
+    color: #787878;
     margin-bottom: 20px;
 }
 
@@ -2049,7 +2050,7 @@ footer .copyright {
 .datenschutz .terms-heading p {
     font-size: 18px;
     line-height: 1.8;
-    color: #50504F;
+    color: #787878;
 }
 
 .datenschutz .terms-heading {
@@ -2058,7 +2059,7 @@ footer .copyright {
 
 .datenschutz span {
     font-size: 39px;
-    color: #82BDD9;
+    color: #38b6d6;
     line-height: 1;
     font-family: "JungleMan";
     margin-bottom: 23px;
@@ -2159,7 +2160,7 @@ footer .copyright {
 
 .dermakids-v .subtext {
     font-size: 40px;
-    color: #82BDD9;
+    color: #38b6d6;
     font-weight: 400;
     line-height: 1;
     font-family: "JungleMan";
@@ -2171,7 +2172,7 @@ footer .copyright {
 .dermakids-v p {
     font-size: 20px;
     line-height: 1.43;
-    color: #50504F;
+    color: #787878;
 
 }
 
@@ -2382,7 +2383,7 @@ main {
 
 .our-team-content .subtext {
     font-size: 44px;
-    color: #82BDD9;
+    color: #38b6d6;
     font-weight: 400;
     line-height: 1;
     font-family: "JungleMan";
@@ -2442,7 +2443,7 @@ main {
 }
 
 .team-slider h5 {
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 40px;
     font-family: "JungleMan";
     margin-bottom: 6px;
@@ -2552,7 +2553,7 @@ main {
 
 .help-affected .help-offers .subtext {
     font-size: 40px;
-    color: #82BDD9;
+    color: #38b6d6;
     font-weight: 400;
     line-height: 1;
     font-family: "JungleMan";
@@ -2564,7 +2565,7 @@ main {
 .help-affected p {
     font-size: 20px;
     line-height: 1.43;
-    color: #50504F;
+    color: #787878;
 
 }
 
@@ -2663,7 +2664,7 @@ main {
 }
 
 #umfeld .hwh-items:nth-child(1) .hwh-usp {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%) !important;
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%) !important;
     color: #50C2F0 !important;
 }
 
@@ -2704,7 +2705,7 @@ main {
 }
 
 #umfeld .hwh-items:nth-child(2) .hwh-usp:nth-child(3) {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%) !important;
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%) !important;
     top: 320px;
     width: 238px;
     height: 238px;
@@ -2770,7 +2771,7 @@ main {
 }
 
 .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item.nC-card {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%) !important;
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%) !important;
 
 }
 
@@ -2833,6 +2834,8 @@ main {
     color: #5E5E5D;
     border: 0;
     padding: 0;
+    
+    font-weight: 600;
 
 }
 
@@ -2845,7 +2848,7 @@ main {
 .how-we-help .tab-content .service-nav h5 {
     font-family: "JungleMan";
     font-size: 55px;
-    color: #82BDD9;
+    color: #38b6d6;
     line-height: 1;
     margin-bottom: 40px;
 }
@@ -2854,6 +2857,10 @@ main {
 .how-we-help #nav-familientherapie .service-nav .nav-case-heading p:last-of-type {
     max-width: 86%;
 
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-heading .nav-list{
+    
+    max-width: 716px;
 }
 
 .how-we-help #nav-sozialberatung .service-nav .nav-case-heading,
@@ -2948,7 +2955,7 @@ main {
 }
 
 .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item.nC-card {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%);
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%);
 
     h6 {
         color: #81CADA;
@@ -3002,7 +3009,7 @@ main {
 .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(5).nC-card,
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(6).nC-card,
 #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(8).nC-card {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%);
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%);
 }
 
 .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(5).nC-card h6,
@@ -3131,7 +3138,7 @@ main {
 .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(11).nC-card,
 .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5).nC-card,
 .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8).nC-card {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%) !important;
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%) !important;
 }
 
 .how-we-help #nav-Kita .service-nav h4,
@@ -3174,7 +3181,7 @@ main {
 
 .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(4).nC-card,
 .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(6).nC-card {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%);
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%);
 
 }
 
@@ -3512,6 +3519,9 @@ main {
     max-width: 83%;
     font-size: 18px;
 }
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card p span{
+    font-weight: 600;
+}
 
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(8) {
     right: 376px;
@@ -3585,14 +3595,14 @@ main {
 
 .hwh-items p {
     font-size: 20px;
-    color: #50504F;
+    color: #787878;
     line-height: 1.47;
     max-width: 448px;
 }
 
 .hwh-items a {
     font-size: 20px;
-    color: #82BDD9;
+    color: #38b6d6;
     line-height: 1.47;
 }
 
@@ -3757,7 +3767,7 @@ main {
 
 .hwh-items:nth-child(3) .hwh-usp,
 .hwh-items:nth-child(2) .hwh-usp {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%) !important;
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%) !important;
 }
 
 .hwh-items .hwh-usp {
@@ -3893,12 +3903,12 @@ main {
 .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(7).nC-card {
     width: 245px;
     height: 245px;
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%);
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%);
 
 }
 
 .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(6).nC-card {
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%);
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%);
 
 }
 
@@ -3921,7 +3931,7 @@ main {
     left: 328px;
     bottom: 124px;
     width: 152px;
-    background: linear-gradient(to right, #DEEDF3 0%, rgba(222, 237, 243, 0) 100%);
+    background: linear-gradient(to right, #d8eaf2 0%, rgba(222, 237, 243, 0) 100%);
     height: 152px;
 }
 
@@ -3995,7 +4005,7 @@ main {
     padding-left: 27px;
     margin-bottom: 20px;
     font-size: 20px;
-    color: #50504F;
+    color: #787878;
 }
 
 #nav-ernahrungsberatung .dk-offer li::before {
@@ -4206,7 +4216,7 @@ main {
 }
 
 .help-us .donation span {
-    color: #82BDD9;
+    color: #38b6d6;
     font-size: 40px;
     font-family: "JungleMan";
     margin-bottom: 33px;
@@ -4216,7 +4226,7 @@ main {
 .help-us .donation p {
     font-size: 20px;
     line-height: 1.43;
-    color: #50504F;
+    color: #787878;
     max-width: 693px;
 
 }
@@ -4262,14 +4272,14 @@ main {
     h3 {
         font-size: 55px;
         font-family: "JungleMan";
-        color: #82BDD9;
+        color: #38b6d6;
         margin-bottom: 28px;
 
     }
 
     p {
         font-size: 20px;
-        color: #50504F;
+        color: #787878;
         line-height: 1.3;
     }
 
@@ -4669,7 +4679,7 @@ main {
 
 .dk-book .subtext {
     font-size: 40px;
-    color: #82BDD9;
+    color: #38b6d6;
     font-family: "JungleMan";
     margin-bottom: 28px;
     display: block;
@@ -5643,7 +5653,7 @@ main {
 
 .alltag-mit .help-offers .subtext {
     font-size: 40px;
-    color: #82BDD9;
+    color: #38b6d6;
     font-weight: 400;
     line-height: 1;
     font-family: "JungleMan";
@@ -5655,7 +5665,7 @@ main {
 .alltag-mit .help-offers p {
     font-size: 20px;
     line-height: 1.5;
-    color: #50504F;
+    color: #787878;
     max-width: 699px;
     margin-bottom: 30px;
 }
@@ -5845,7 +5855,7 @@ main {
 .butterfly-children .bC-content p {
     font-size: 20px;
     line-height: 1.5;
-    color: #50504f;
+    color: #787878;
     max-width: 699px;
     margin-bottom: 84px;
 }
@@ -5903,7 +5913,7 @@ main {
         p {
             font-size: 20px;
             line-height: 1.5;
-            color: #50504F;
+            color: #787878;
             max-width: 699px;
             margin-bottom: 100px;
         }
@@ -6016,7 +6026,7 @@ main {
 
         .subtext {
             font-size: 40px;
-            color: #82BDD9;
+            color: #38b6d6;
             font-weight: 400;
             line-height: 1;
             font-family: "JungleMan";
@@ -6028,7 +6038,7 @@ main {
         p {
             font-size: 20px;
             line-height: 1.5;
-            color: #50504F;
+            color: #787878;
             max-width: 699px;
             margin-bottom: 30px;
         }
@@ -6053,7 +6063,7 @@ main {
                 font-size: 20px;
                 line-height: 1.5;
                 max-width: 449px;
-                color: #50504F;
+                color: #787878;
                 margin-bottom: 0;
 
                 a {
@@ -6149,7 +6159,7 @@ main {
 .kontakt-content {
     position: relative;
     padding-bottom: 318px;
-    padding-top: 53pxs;
+    padding-top: 53px;
 }
 
 .kontakt-info {
@@ -6458,7 +6468,7 @@ main {
 
 .epidermolysis #carouseltwo.round-carousal .carousel-indicators button.active {
     background: #a1d6e9;
-    border: 1px solid #82BDD9;
+    border: 1px solid #38b6d6;
 }
 
 #unser-verein::before {
