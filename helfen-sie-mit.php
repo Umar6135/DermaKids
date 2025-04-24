@@ -336,10 +336,6 @@ include('header.php'); ?>
     </section>
 
 
-    <div class="divider">
-        <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
-        <img src="./assets/img/circle-red.png" class="right" alt="circle-red">
-    </div>
 
 
 
@@ -388,8 +384,7 @@ include('header.php'); ?>
     </section>
 
     <div class="divider">
-        <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
-        <img src="./assets/img/circle-red.png" class="right" alt="circle-red">
+        
     </div>
 
 
@@ -438,6 +433,10 @@ include('header.php'); ?>
         </div>
         </div>
     </section>
+
+    <div class="sc-divider">
+
+    </div>
 
 
 

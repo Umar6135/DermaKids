@@ -109,7 +109,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./unser-verein.php" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle 
+<?php
+if (
+    basename($_SERVER['PHP_SELF']) == "unser-verein.php"  ||
+    basename($_SERVER['PHP_SELF']) == "uber-uns.php"
+) {
+    echo 'active';
+} ?>
+" href="./unser-verein.php" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false" onclick="location.href=this.href">
                             Unser Verein
                         </a>
@@ -141,7 +149,16 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./epidermolysis-bullosa.php" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle
+                        <?php
+                        if (
+                            basename($_SERVER['PHP_SELF']) == "epidermolysis-bullosa.php"  ||
+                            basename($_SERVER['PHP_SELF']) == "alltag-mit-eb.php" ||
+                            basename($_SERVER['PHP_SELF']) == "haupttypen.php"
+                        ) {
+                            echo 'active';
+                        } ?>
+                        " href="./epidermolysis-bullosa.php" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false" onclick="location.href=this.href">
                             Epidermolysis bullosa
                         </a>
@@ -154,10 +171,18 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./hilfsangebote-eb.php">Hilfsangebote EB </a>
+                        <a class="nav-link
+<?php
+if (basename($_SERVER['PHP_SELF']) == "hilfsangebote-eb.php") {
+    echo 'active';
+} ?>" href="./hilfsangebote-eb.php">Hilfsangebote EB </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./helfen-sie-mit.php">Helfen Sie mit!</a>
+                        <a class="nav-link
+                        <?php
+                        if (basename($_SERVER['PHP_SELF']) == "helfen-sie-mit.php") {
+                            echo 'active';
+                        } ?>" href="./helfen-sie-mit.php">Helfen Sie mit!</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Ratgeber</a>
