@@ -13,6 +13,7 @@ include('header.php'); ?>
             <h1>Wir sind für Sie da
             </h1>
             <p class="subtext">&nbsp; &nbsp; 365 Tage im Jahr - deutschlandweit
+
             </p>
         </div>
     </section>
@@ -36,11 +37,9 @@ include('header.php'); ?>
                     <h2>DermaKIDS e. V. - </h2>
                     <span class="subtext">Hilfe und Beratung für Epidermolysis bullosa
                     </span>
-                    <p>DermaKIDS steht Kindern und Jugendlichen mit der Hautkrankheit Epidermolysis bullosa (EB) und
-                        ihren Familien mit Herz und Tatkraft zur Seite. Wir wissen, was die Diagnose „EB“ für Sie
-                        und Ihr Kind bedeutet, und möchten Ihnen mit unserer Erfahrung und Fürsorge beistehen. Seit
-                        2005 begleiten wir Menschen mit dieser Seltenen Erkrankung täglich und zeigen Wege auf, die
-                        das Leben mit EB ein Stück leichter und hoffnungsvoller machen können.</p>
+                    <p>DermaKIDS steht Kindern und Jugendlichen mit der Hautkrankheit Epidermolysis bullosa (EB) und ihren Familien mit Herz und Tatkraft zur Seite. Wir wissen, was die Diagnose „EB“ für Sie und Ihr Kind bedeutet, und möchten Ihnen mit unserer Erfahrung und Fürsorge beistehen.</p>
+                    <p>Nutzen Sie unsere Hilfsangebote oder kontaktieren Sie uns direkt
+                    </p>
                 </div>
                 <div class="col-md-5">
 
@@ -83,38 +82,40 @@ include('header.php'); ?>
                     <span class="subtext">Gemeinsam für die Schmetterlingskinder
                     </span>
                     <p>
-                        In unserem Verein setzen sich Menschen aus verschiedenen Berufsbereichen für die
-                        Schmetterlingskinder ein. Wir stehen EB-Betroffenen und ihren Angehörigen in allen
-                        Lebenslagen
-                        mit unserer Erfahrung zur Seite und erstellen gemeinsam individuelle Versorgungskonzepte.
+                    In unserem Verein setzen sich Menschen aus verschiedenen Berufsbereichen für die Schmetterlingskinder ein. Wir stehen EB-Betroffenen und ihren Angehörigen in allen Lebenslagen mit unserer Erfahrung zur Seite und erstellen gemeinsam individuelle Versorgungskonzepte.
+
                     </p>
                 </div>
                 <div class="team-slider-wrap">
                     <div class="team-slider">
                         <div class="slider-item"><img src="./assets/img/about-slider/about-1.png" alt="">
-                            <h5>Sandy Katzer</h5>
+                            <h5>Sandy Katzer
+                            </h5>
                             <p>
-                                Gründerin und Vorstandsvorsitzende von DermaKIDS
+                            Gründerin und Vorstandsvorsitzende von DermaKIDS
                             </p>
                         </div>
                         <div class="slider-item"><img src="./assets/img/about-slider/about-2.png" alt="">
                             <h5>Alexander Ehmer
                             </h5>
                             <p>
-                                Mitglied der Geschäftsführung
+                            Mitglied der Geschäftsführung
 
                             </p>
                         </div>
                         <div class="slider-item"><img src="./assets/img/about-slider/about-3.png" alt="">
-                            <h5>Sina Rosenke</h5>
+                            <h5>Sina Rosenke
+                            </h5>
                             <p>
-                                Case- & Wundmanagement
+                            Case- & Wundmanagement 
                             </p>
                         </div>
                         <div class="slider-item"><img src="./assets/img/about-slider/about-1.png" alt="">
-                            <h5>Annemarie Schmidtke</h5>
+                            <h5>Annemarie Schmidtke
+                            </h5>
                             <p>
-                                Sozialberatung
+                            Sozialberatung
+
                             </p>
                         </div>
 
@@ -218,105 +219,99 @@ include('header.php'); ?>
 
 
             <div class="row gx-3">
-                
-                    <div class="dK-accordian">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse1" aria-expanded="true"
-                                        aria-controls="collapse1">
-                                        Den Alltag mit EB verbessern
 
-                                    </button>
-                                </h2>
-                                <div id="collapse1" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Menschen mit EB leben täglich mit vielen Einschränkungen und Belastungen. Wir helfen EB-Betroffenen dabei, diese zu reduzieren. Die individuelle Beratung und Unterstützung betroffener Familien ist das Herzstück unserer Arbeit.
+                <div class="dK-accordian">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="true"
+                                    aria-controls="collapse1">
+                                    1. Den Alltag mit EB verbessern
 
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show"
+                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                Menschen mit EB leben täglich mit vielen Einschränkungen und Belastungen. Wir helfen EB-Betroffenen dabei, diese zu reduzieren. Die individuelle Beratung und Unterstützung betroffener Familien ist das Herzstück unserer Arbeit.
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse2" aria-expanded="true"
-                                        aria-controls="collapse2">
-                                        1. Wissen zugänglich machen
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="true"
+                                    aria-controls="collapse2">
+                                    2. Wissen zugänglich machen
 
-                                    </button>
-                                </h2>
-                                <div id="collapse2" class="accordion-collapse collapse "
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Das Wissen über die Erkrankung ist für den Einzelnen oft schwer zugänglich.
-                                        Wir wollen diese Informationen für alle verfügbar machen, zum Beispiel durch
-                                        unsere EB-Infofibel, Broschüren oder Online-Angebote rund um das Thema EB.
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse "
+                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                Das Wissen über die Erkrankung ist für den Einzelnen oft schwer zugänglich. Wir wollen diese Informationen für alle verfügbar machen, zum Beispiel durch unsere EB-Infofibel, Broschüren oder Online-Angebote rund um das Thema EB.
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse3"
-                                        aria-expanded="false" aria-controls="collapse3">
-                                        2. Mut und Kraft spenden
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse3"
+                                    aria-expanded="false" aria-controls="collapse3">
+                                    3. Mut und Kraft spenden
                                     </button>
-                                </h2>
-                                <div id="collapse3" class="accordion-collapse collapse"
-                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Wir sind für die Betroffenen und ihre Familien da, sind Zuhörer und
-                                        Trostspender, stärken durch Verständnis, Zuspruch und Motivation.
-
-                                    </div>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                Wir sind für die Betroffenen und ihre Familien da, sind Zuhörer und Trostspender, stärken durch Verständnis, Zuspruch und Motivation.
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse4"
-                                        aria-expanded="false" aria-controls="collapse4">
-                                        3. Versorgungsnetzwerke optimieren
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse4"
+                                    aria-expanded="false" aria-controls="collapse4">
+                                    4. Versorgungsnetzwerke optimieren
 
-                                    </button>
-                                </h2>
-                                <div id="collapse4" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Wir setzen uns für eine ganzheitliche Versorgung ein, die medizinischen
-                                        Themen, wie Diagnose und Therapie, ebenso mit einbezieht wie psychosoziale
-                                        Aspekte.
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse"
+                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                Wir setzen uns für eine ganzheitliche Versorgung ein, die medizinischen Themen, wie Diagnose und Therapie, ebenso mit einbezieht wie psychosoziale Aspekte.
 
 
-                                    </div>
+
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapse5"
-                                        aria-expanded="false" aria-controls="collapse5">
-                                        4. Mehr Öffentlichkeit für EB
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse5"
+                                    aria-expanded="false" aria-controls="collapse5">
+                                    5. Mehr Öffentlichkeit für EB
 
-                                    </button>
-                                </h2>
-                                <div id="collapse5" class="accordion-collapse collapse"
-                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Zusammen mit den Betroffenen wollen wir eine Verbesserung der
-                                        Versorgungssituation erreichen. Dazu möchten wir die Öffentlichkeit
-                                        informieren, sensibilisieren und aktivieren.
 
-                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse"
+                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                Zusammen mit den Betroffenen wollen wir eine Verbesserung der Versorgungssituation erreichen. Dazu möchten wir die Öffentlichkeit informieren, sensibilisieren und aktivieren.
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                
+                </div>
+
 
                 <div class="dk-goal-objects">
                     <div class="dK-goal-content">
@@ -353,13 +348,68 @@ include('header.php'); ?>
                         </div>
                     </div>
 
-                    <a href="./satzungszweck.php" class="theme-btn">Satzungszweck</a>
+                    <a href="./satzungszweck.php" class="theme-btn">Satzungszweck des Vereins</a>
                 </div>
             </div>
 
 
         </div>
     </section>
+
+
+    <section class="non-profit">
+        <div class="non-profit-content">
+            <div class="container container-wd">
+                <div class="no-profit-img">
+                    <img src="./assets/img/no-profit-1.png" alt="">
+                </div>
+                <h3>DermaKIDS is gemeinnüi</h3>
+                <div class="no-profit-text">
+                    <div class="no-profit-items">
+                        <div class="no-profit-item">
+                            <h5>So finanzieren wir uns
+                            </h5>
+                            <p>Wir finanzieren uns ausschließlich durch Spenden, Mitgliedsbeiträge sowie Zuweisungen von Geldauflagen durch Gerichte und Staatsanwaltschaften. Als gemeinnütziger Verein sind wir auf Spenden und andere Zuwendungen, wie zum Beispiel Bußgelder, angewiesen. Nur durch diese finanzielle Unterstützung können wir unsere Aktionen und Hilfsleistungen für die Schmetterlingskinder und ihre Familien umsetzen und weitere Projekte planen.
+                            </p>
+                        </div>
+
+                        <div class="no-profit-item">
+                            <h5>Unterteilung in Förder- und Trägerverein
+                            </h5>
+                            <p>DermaKIDS e.V. besteht formell aus zwei Vereinen: Dem Trägerverein „DermaKIDS e.V.“ und dem Förderverein „DermaKIDS Förderverein e.V.“. Der Förderverein ist verantwortlich für die Mittelakquise durch Mitgliedsbeiträge und Spenden. Der Trägerverein trifft inhaltliche und organisatorische Entscheidungen, beispielsweise hinsichtlich des Einsatzes von Spendengeldern im Sinne unserer Vereinssatzung. Beide Vereine übernehmen demnach unterschiedliche Funktionen.</p>
+                        </div>
+                    </div>
+                    <div class="no-profit-items">
+
+                        <div class="no-profit-item">
+                            <h5>Wir stehen für Transparenz!
+                            </h5>
+                            <p>DermaKIDS e.V. ist als ein gemeinnütziger Verein anerkannt und setzt seine Spenden zweckgerichtet gemäß der Satzung und den Zielen des Vereins ein. Dabei stehen Kriterien wie Bedarfsgerechtigkeit und Kosteneffizienz im Mittelpunkt unseres Handelns. Wir wollen den Spendern und Unterstützern hinsichtlich unserer Vereinsarbeit höchstmögliche Transparenz gewähren und sie über den Spenden- und Mitteleinsatz im Rahmen unserer Hilfsaktionen informieren. Daher veröffentlichen wir u.a. Berichte auf unserer Website, die die Verwendung der eingegangenen Spendenmittel dokumentieren. Zudem erhalten Interessierte einen ausführlichen Überblick über unsere bisherige Arbeit als Hilfsverein in unserem Nachhaltigkeitsbericht, der auf Anfrage kostenfrei verschickt wird. 
+                            </p>
+                        </div>
+                        <div class="no-profit-img">
+                            <img src="./assets/img/no-profit-2.png" alt="">
+                        </div>
+                        <div class="no-profit-img">
+                            <img src="./assets/img/no-profit-3.png" alt="">
+                        </div>
+                        <a href="" class="no-profit-btn">Zum Shop<svg width="51" height="51" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.2891 13.4658C26.2891 20.5078 20.5811 26.2158 13.5391 26.2158C6.49706 26.2158 0.789062 20.5078 0.789062 13.4658C0.789062 6.42382 6.49706 0.71582 13.5391 0.71582C20.5811 0.71582 26.2891 6.42382 26.2891 13.4658Z" fill="#7B7B7A"></path>
+                                <path d="M18.6163 17.4482H8.62934L6.52734 10.2792L20.2663 11.1262L18.6163 17.4482Z" stroke="white" stroke-width="0.637" stroke-linejoin="round"></path>
+                                <path d="M12.2642 21.4343C12.2642 22.3143 11.5502 23.0283 10.6702 23.0283C9.79017 23.0283 9.07617 22.3143 9.07617 21.4343C9.07617 20.5543 9.79017 19.8403 10.6702 19.8403C11.5502 19.8403 12.2642 20.5543 12.2642 21.4343Z" fill="white"></path>
+                                <path d="M18.6392 21.4343C18.6392 22.3143 17.9252 23.0283 17.0452 23.0283C16.1652 23.0283 15.4512 22.3143 15.4512 21.4343C15.4512 20.5543 16.1652 19.8403 17.0452 19.8403C17.9252 19.8403 18.6392 20.5543 18.6392 21.4343Z" fill="white"></path>
+                                <path d="M10.0331 17.6091L9.07715 19.2031H18.6391" stroke="white" stroke-width="0.637" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M4.06348 8.16443L6.17548 9.12043L6.53348 10.3154" stroke="white" stroke-width="0.637" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="" class="theme-btn">Geschichte des Vereins</a>
+
+    </section>
+
 
 
     <section class="visit-insta">

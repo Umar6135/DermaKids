@@ -6551,6 +6551,101 @@ main {
 #about-us .divider {
     height: 241px;
 }
+.non-profit{
+    margin-bottom: 205px;
+    .theme-btn{
+        padding-inline: 33px;
+        margin: 40px auto 0;
+        display: block;
+        width: fit-content;
+    
+    }
+}
+.non-profit-content{
+    background: url(../img/non-profit-bg.png) no-repeat;
+    background-size: cover;
+    padding: 60px 0 63px;
+    position: relative;
+    h3{
+        font-size: 60px;
+        font-family: "Lifehack";
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 113px;
+    }
+    .no-profit-item{
+        margin-bottom: 83px;
+    }
+    .no-profit-items:nth-child(2) .no-profit-item{
+        margin-top: 130px;
+        margin-bottom: 70px;
+        p{
+            max-width: 461px;
+line-height: 1.5;
+        }
+
+    }
+    .no-profit-btn{
+        font-size: 20px;
+        line-height: 1;
+        color: #7B7B7A;
+        padding: 15px 0 15px 25px;
+        background-color: #fff;
+        border: 1px solid #7B7B7A;
+        border-radius: 20px;
+        width: 263px;
+        display: block;
+        position: relative;
+        margin: auto;
+        svg{
+            position: absolute;
+            right: -12px;
+            top: 0;
+        }
+    }
+    .no-profit-text{
+        display: flex;
+        gap: 85px;
+    }
+    .no-profit-img{
+        position: absolute;
+        left: 0;
+        top: -119px;
+    }
+    .no-profit-items .no-profit-img:nth-child(3) {
+        top: initial;
+        bottom: -13px;
+        right: 206px;
+        left: initial;
+    }
+    .no-profit-items{
+      .no-profit-img{
+        right: 0;
+        left: inherit;
+        top: -78px;
+      }
+            h5{
+                font-size: 40px;
+                font-family: "JungleMan";
+                font-weight: 400;
+                line-height: 1;
+                margin-bottom: 18px;
+                color: #fff;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 1.45;
+                margin-bottom: 0;
+                max-width: 489px;
+                color: #fff;
+            }
+            
+    }
+.no-profit-items .no-profit-item:nth-child(2){
+    margin-bottom: 31px;
+}
+}
 
 @media (max-width: 1800px) {
     .navbar .navbar-nav .nav-link {
