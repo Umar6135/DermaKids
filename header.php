@@ -177,7 +177,7 @@
 
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
 
             <div class="container">
 
@@ -189,16 +189,17 @@
 
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-
-                    aria-label="Toggle navigation">
-
-                    <span> <img src="./assets/img/bars.png" alt=""> </span>
-
-                </button>
-
+                <div class="navbar-toggle" id="navbarSupportedContent">
+                    <div class="navbar-toggler collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="hamburger"> <img src="./assets/img/bars.png" width="39" height="23" alt=""> </span>
+                        <div class="navbar-toggle-open">
+                            <span class="close"> <img src="./assets/img/close.svg" width="15" height="15" alt=""> </span>
+                        </div>
+                    </div>
+                    <span class="search"> <img src="./assets/img/search-icon.svg" width="19" height="20" alt=""> </span>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -360,6 +361,33 @@ if (basename($_SERVER['PHP_SELF']) == "hilfsangebote-eb.php") {
 
 
 
+
+                    </ul>
+
+                    <ul class="mob-menu-link d-lg-none">
+                        <li>
+                            <a href="">Presse</a>
+                        </li>
+                        <li>
+                            <a href="">Glossar</a>
+                        </li>
+                        <li>
+                            <a href="">Shop <svg width="27" height="27" viewBox="0 0 27 27" style="margin-left: 16px;" fill="d-none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <path d="M26.2891 13.4658C26.2891 20.5078 20.5811 26.2158 13.5391 26.2158C6.49706 26.2158 0.789062 20.5078 0.789062 13.4658C0.789062 6.42382 6.49706 0.71582 13.5391 0.71582C20.5811 0.71582 26.2891 6.42382 26.2891 13.4658Z" fill="#7B7B7A"></path>
+
+                                    <path d="M18.6163 17.4482H8.62934L6.52734 10.2792L20.2663 11.1262L18.6163 17.4482Z" stroke="white" stroke-width="0.637" stroke-linejoin="round"></path>
+
+                                    <path d="M12.2642 21.4343C12.2642 22.3143 11.5502 23.0283 10.6702 23.0283C9.79017 23.0283 9.07617 22.3143 9.07617 21.4343C9.07617 20.5543 9.79017 19.8403 10.6702 19.8403C11.5502 19.8403 12.2642 20.5543 12.2642 21.4343Z" fill="white"></path>
+
+                                    <path d="M18.6392 21.4343C18.6392 22.3143 17.9252 23.0283 17.0452 23.0283C16.1652 23.0283 15.4512 22.3143 15.4512 21.4343C15.4512 20.5543 16.1652 19.8403 17.0452 19.8403C17.9252 19.8403 18.6392 20.5543 18.6392 21.4343Z" fill="white"></path>
+
+                                    <path d="M10.0331 17.6091L9.07715 19.2031H18.6391" stroke="white" stroke-width="0.637" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                                    <path d="M4.06348 8.16443L6.17548 9.12043L6.53348 10.3154" stroke="white" stroke-width="0.637" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                                </svg></a>
+                        </li>
 
                     </ul>
 

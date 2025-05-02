@@ -615,6 +615,7 @@ a:hover {
 .navbar {
 
     padding-block: 0;
+    background-color: #ffffff;
 
 }
 
@@ -653,25 +654,73 @@ a:hover {
     background-color: #EA89A8;
 }
 
+.navbar-toggle {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 10px;
+    display: none;
+}
+
+.search {
+    display: none;
+}
+
 .navbar .navbar-nav .nav-link:hover {
     background-color: #BAE4EC;
 }
 
-
-.dropdown-toggle.show,
-
-.dropdown-toggle:hover,
-
-.dropdown-submenu.show,
-
-.dropdown-submenu:hover,
-
-.nav-item.dropdown:hover .nav-link.dropdown-toggle {
-
-    background-color: #BAE4EC;
-
+.hamburger {
+    display: none;
 }
 
+.navbar-toggle-open {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggler.collapsed .navbar-toggle-open {
+    display: none;
+}
+
+.navbar-toggler.collapsed .hamburger {
+    display: block;
+}
+
+.navbar-toggle.collapse {
+    display: flex;
+}
+
+.navbar-toggle.collapse.show {
+    width: 198px;
+}
+
+.navbar-toggle.collapsing {
+    height: auto;
+    width: 198px;
+}
+
+.navbar-toggle.collapsing .search {}
+
+.navbar-toggle.collapse.show .search {
+    display: block;
+}
+
+.mob-menu-link {
+    border-top: 1px solid #AFB1B0;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.mob-menu-link li {
+    padding-block: 12px;
+    display: flex;
+}
+
+.mob-menu-link a {
+    color: #848483;
+    font-size: 14px;
+}
 
 
 .dropdown-submenu.show .dropdown-toggle,
@@ -8105,7 +8154,7 @@ main {
     max-width: 380px;
 
     min-height: 690px;
-border-radius: 27px;
+    border-radius: 27px;
 
 
     display: flex;
@@ -9975,6 +10024,7 @@ border-radius: 27px;
 .shop .banner h1::after {
     content: none;
 }
+
 .shop .banner .subtext::after {
     content: "";
     background: url(../img/subtext-after.png);
@@ -9988,6 +10038,7 @@ border-radius: 27px;
     transform: rotateY(180deg);
     rotate: 351deg;
 }
+
 .shop .banner .subtext::before {
     content: "";
     background: url(../img/about-heading.png) no-repeat;
@@ -10000,21 +10051,25 @@ border-radius: 27px;
     transform: rotateY(180deg);
     rotate: 54deg;
 }
+
 .shop .take-advantage {
     padding-block: 52px 134px;
     position: relative;
 }
+
 .shop .take-advantage .shop-item-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .shop .take-advantage .shop-item-list a {
     font-size: 22px;
     line-height: 1.2;
     color: #5e5e5d;
     font-weight: 400;
 }
+
 .shop .take-advantage .shop-item-list span {
     font-size: 22px;
     line-height: 28px;
@@ -10022,6 +10077,7 @@ border-radius: 27px;
     padding-inline: 36px;
     font-weight: 400;
 }
+
 .shop .take-advantage .shop-item-list input {
     position: relative;
     width: 440px;
@@ -10037,6 +10093,7 @@ border-radius: 27px;
     z-index: 1;
     padding-left: 13px;
 }
+
 .shop .take-advantage .shop-item-list svg {
     position: absolute;
     right: 6px;
@@ -10044,11 +10101,13 @@ border-radius: 27px;
     z-index: 2;
     bottom: 6px;
 }
+
 .shop .take-advantage .tA-img {
     position: absolute;
     top: -133px;
     right: 175px;
 }
+
 .shop .take-advantage h2 {
     font-size: 60px;
     font-family: "Lifehack";
@@ -10057,6 +10116,7 @@ border-radius: 27px;
     line-height: 1.2;
     margin-bottom: 52px;
 }
+
 .shop .take-advantage p {
     font-size: 20px;
     color: #50504f;
@@ -10064,15 +10124,18 @@ border-radius: 27px;
     max-width: 496px;
     margin-bottom: 74px;
 }
+
 .shop .shop-item {
     padding-block: 27px 68px;
     position: relative;
     margin-bottom: 126px;
-    overflow-x: clip ;
+    overflow-x: clip;
 }
+
 .shop .shop-item .bg-box {
     width: 81.3%;
 }
+
 .shop .shop-item span {
     font-size: 55px;
     font-family: "JungleMan";
@@ -10080,6 +10143,7 @@ border-radius: 27px;
     line-height: 1;
     margin-bottom: 7px;
 }
+
 .shop .shop-item h3 {
     font-size: 60px;
     font-family: 'Lifehack';
@@ -10087,6 +10151,7 @@ border-radius: 27px;
     line-height: 1.2;
     margin-bottom: 50px;
 }
+
 .shop .shop-item p {
     font-size: 20px;
     color: #50504f;
@@ -10094,25 +10159,30 @@ border-radius: 27px;
     max-width: 447px;
     margin-bottom: 37px;
 }
+
 .shop .shop-item .shop-item-img {
     position: absolute;
     top: 95px;
 }
+
 .shop .shop-item .carousel {
     position: absolute;
     right: 147px;
     width: 579px;
     top: -86px;
 }
+
 .shop .shop-item .carousel-fade .carousel-item {
     margin-top: 0;
 }
+
 .shop .shop-item .round-carousal .carousel-indicators {
     gap: 26px;
     z-index: 99;
     bottom: -11px;
     left: -163px;
 }
+
 .shop .shop-item .shop-btn {
     font-size: 20px;
     line-height: 1;
@@ -10126,81 +10196,101 @@ border-radius: 27px;
     display: block;
     position: relative;
 }
+
 .shop .shop-item .shop-btn svg {
     position: absolute;
     right: -12px;
     top: 0;
 }
+
 .shop .info-guide {
     margin-bottom: 143px;
 }
+
 .shop .info-guide .bg-box {
     right: 0;
     left: initial;
 }
+
 .shop .info-guide .shop-item-content {
     margin-left: 239px;
 }
+
 .shop .info-guide .shop-item-img {
     left: 206px;
     top: 40px;
 }
+
 .shop .info-guide p {
     width: 447px;
     margin-bottom: 75px;
 }
+
 .shop .info-guide .carousel {
     top: -109px;
     width: 665px;
 }
+
 .shop .info-guide .round-carousal .carousel-indicators {
     bottom: 80px;
 }
+
 .shop .info-guide span {
     margin-bottom: 20px;
     display: block;
 }
+
 .shop .info-guide .round-carousal .carousel-indicators button.active {
     background-color: #ffc9dd;
     border: 1px solid #e32488;
 }
+
 .shop .nachhaltigkeitsbericht {
     padding-top: 68px;
     margin-bottom: 119px;
 }
+
 .shop .nachhaltigkeitsbericht .shop-item-content {
     margin-left: auto;
     max-width: 673px;
 }
+
 .shop .nachhaltigkeitsbericht .shop-item-img {
     left: 504px;
     top: -23px;
 }
+
 .shop .nachhaltigkeitsbericht p {
     width: 564px;
     max-width: initial;
 }
+
 .shop .infoflyer {
     margin-bottom: 125px;
 }
+
 .shop .infoflyer .shop-item-content {
     width: 484px;
     margin-left: 489px;
 }
+
 .shop .infoflyer .bg-box {
     right: 0;
     left: initial;
 }
+
 .shop .infoflyer .shop-item-img {
     right: 165px;
     top: 13px;
 }
+
 .shop .infoflyer .carousel {
     left: 100px;
     width: 811px;
     height: 811px;
     top: -400px;
 }
+
 .shop .infoflyer .round-carousal .carousel-indicators {
     gap: 26px;
     z-index: 99;
@@ -10209,35 +10299,43 @@ border-radius: 27px;
     left: initial;
     rotate: 103deg;
 }
+
 .shop .infoflyer .round-carousal .carousel-indicators button.active {
     background-color: #ffc9dd;
     border: 1px solid #e32488;
 }
+
 .shop .infoflyer p {
     width: 484px;
     max-width: initial;
 }
+
 .shop .broschure {
     margin-bottom: 372px;
 }
+
 .shop .broschure h3 {
     max-width: 64%;
 }
+
 .shop .broschure .theme-btn {
     position: absolute;
     right: 400px;
     bottom: 56px;
     padding-inline: 38px;
 }
+
 .shop .broschure .carousel {
     width: 674px;
     top: -177px;
 }
+
 .shop .broschure .shop-item-img {
     bottom: -54px;
     top: initial;
     right: 627px;
 }
+
 .shop .broschure .round-carousal .carousel-indicators {
     gap: 26px;
     z-index: 99;
@@ -10246,6 +10344,7 @@ border-radius: 27px;
     left: initial;
     rotate: 309deg;
 }
+
 .shop .donation-info {
     margin-bottom: 202px;
 }
@@ -10352,17 +10451,20 @@ border-radius: 27px;
     min-height: 1083px;
     margin-bottom: 206px;
 }
+
 .types-tabs .nav {
     flex-wrap: nowrap;
     gap: 25px;
     margin-right: -17px;
 }
+
 .types-tabs .nav .nav-link {
     position: relative;
     padding: 0;
     max-height: 85px;
     overflow: hidden;
 }
+
 .types-tabs .nav .nav-link h5 {
     position: absolute;
     top: 10px;
@@ -10372,21 +10474,26 @@ border-radius: 27px;
     color: #fff;
     line-height: 1;
 }
+
 .types-tabs .nav .nav-link.active {
     max-height: 100%;
 }
+
 .types-tabs .nav .nav-link.active h5 {
     font-size: 68px;
 }
+
 .types-tabs .bg-box {
     margin-top: 85px;
     max-height: 998px;
     width: 81.6%;
 }
+
 .types-tabs .tab-content {
     position: relative;
     min-height: 775px;
 }
+
 .types-tabs .tab-content h3 {
     font-size: 60px;
     font-family: "Lifehack";
@@ -10394,15 +10501,19 @@ border-radius: 27px;
     margin-top: 84px;
     margin-bottom: 62px;
 }
+
 .types-tabs .tab-content ul {
     font-size: 20px;
 }
+
 .types-tabs .tab-content #ebs-carousal {
     max-width: 487px;
 }
+
 .types-tabs .tab-content #ebs-carousal .carousel-item {
     margin-top: 0;
 }
+
 .types-tabs .tab-content #ebs-carousal .carousel-indicators {
     flex-direction: column;
     left: revert-layer;
@@ -10411,27 +10522,33 @@ border-radius: 27px;
     bottom: 0;
     gap: 28px;
 }
+
 .types-tabs .tab-content #ebs-carousal .carousel-indicators button:nth-child(2) {
     margin-left: 38px;
     margin-top: 0;
 }
+
 .types-tabs .tab-content #ebs-carousal .carousel-indicators button:nth-child(1) {
     margin-left: 39px;
 }
+
 .types-tabs .tab-content .tab-heading {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+
 .types-tabs .tab-content #jeb-carousal {
     max-width: 401px;
     position: absolute;
     right: 0;
     top: -173px;
 }
+
 .types-tabs .tab-content #jeb-carousal .carousel-item {
     margin-top: 0;
 }
+
 .types-tabs .tab-content #jeb-carousal .carousel-indicators {
     flex-direction: column;
     left: revert-layer;
@@ -10440,22 +10557,27 @@ border-radius: 27px;
     bottom: -210px;
     gap: 14px;
 }
+
 .types-tabs .tab-content #jeb-carousal .carousel-indicators button:nth-child(2) {
     margin-top: 0;
     margin-left: 38px;
 }
+
 .types-tabs .tab-content #jeb-carousal .carousel-indicators button:nth-child(1) {
     margin-left: 11px;
 }
+
 .types-tabs .tab-content #deb-carousal {
     max-width: 340px;
     position: absolute;
     right: -22px;
     top: -51px;
 }
+
 .types-tabs .tab-content #deb-carousal .carousel-item {
     margin-top: 0;
 }
+
 .types-tabs .tab-content #deb-carousal .carousel-indicators {
     left: 109px;
     top: 0;
@@ -10463,28 +10585,34 @@ border-radius: 27px;
     gap: 12px;
     align-items: center;
 }
+
 .types-tabs .tab-content #deb-carousal .carousel-indicators button:nth-child(1) {
     margin-top: 50px;
 }
+
 .types-tabs .tab-content #deb-carousal .carousel-indicators button:nth-child(2) {
     margin-top: 0;
     margin-left: 10px;
     margin-top: 41px;
 }
+
 .types-tabs .tab-content #deb-carousal .carousel-indicators button:nth-child(3) {
     margin-top: 0;
 }
+
 .types-tabs .ebs-layer-img:first-child {
     position: absolute;
     top: -238px;
     left: 21%;
 }
+
 .types-tabs .ebs-layer-img:nth-child(2) {
     max-width: fit-content;
     margin-left: auto;
     margin-bottom: -26px;
     margin-right: -38px;
 }
+
 .types-tabs #type-ebs .hwh-usp {
     border-radius: 100%;
     display: flex;
@@ -10498,10 +10626,12 @@ border-radius: 27px;
     z-index: 1;
     padding: 22px;
 }
+
 .types-tabs #type-ebs .hwh-usp h5 {
     font-family: "JungleMan-Regular";
     font-size: 36px;
 }
+
 .types-tabs #type-ebs .hwh-usp:nth-child(1) {
     position: absolute;
     top: -116px;
@@ -10509,6 +10639,7 @@ border-radius: 27px;
     height: 212px;
     right: 45px;
 }
+
 .types-tabs #type-ebs .hwh-usp:nth-child(2) {
     position: absolute;
     bottom: 302px;
@@ -10516,9 +10647,11 @@ border-radius: 27px;
     height: 172px;
     right: 48px;
 }
+
 .types-tabs #type-ebs .hwh-usp:nth-child(2) h5 {
     font-size: 30px;
 }
+
 .types-tabs #type-ebs .hwh-usp:nth-child(3) {
     position: absolute;
     bottom: 97px;
@@ -10526,28 +10659,34 @@ border-radius: 27px;
     height: 221px;
     right: 435px;
 }
+
 .types-tabs #type-ebs .hwh-usp:nth-child(3) h5 {
     color: #1da4e4;
     font-size: 30px;
     padding: 14px;
 }
+
 .types-tabs #type-jeb .list-group {
     flex-direction: row;
 }
+
 .types-tabs #type-jeb .list-group ul {
     max-width: 502px;
 }
+
 .types-tabs #type-jeb .ebs-layer-img:first-child {
     position: absolute;
     top: -219px;
     left: -81px;
 }
+
 .types-tabs #type-jeb .ebs-layer-img:nth-child(2) {
     max-width: fit-content;
     margin-left: auto;
     margin-bottom: -26px;
     margin-right: -38px;
 }
+
 .types-tabs #type-jeb .hwh-usp {
     border-radius: 100%;
     display: flex;
@@ -10561,10 +10700,12 @@ border-radius: 27px;
     z-index: 1;
     padding: 22px;
 }
+
 .types-tabs #type-jeb .hwh-usp h5 {
     font-family: "JungleMan-Regular";
     font-size: 36px;
 }
+
 .types-tabs #type-jeb .hwh-usp:nth-child(1) {
     position: absolute;
     width: 152px;
@@ -10572,10 +10713,12 @@ border-radius: 27px;
     left: 46%;
     top: 24px;
 }
+
 .types-tabs #type-jeb .hwh-usp:nth-child(1) h5 {
     font-size: 30px;
     padding: 14px;
 }
+
 .types-tabs #type-jeb .hwh-usp:nth-child(2) {
     position: absolute;
     width: 201px;
@@ -10583,11 +10726,13 @@ border-radius: 27px;
     right: 17px;
     top: 190px;
 }
+
 .types-tabs #type-jeb .hwh-usp:nth-child(2) h5 {
     font-size: 36px;
     padding: 14px;
     color: #1da4e4;
 }
+
 .types-tabs #type-jeb .hwh-usp:nth-child(3) {
     position: absolute;
     width: 187px;
@@ -10595,28 +10740,34 @@ border-radius: 27px;
     left: 41%;
     bottom: 82px;
 }
+
 .types-tabs #type-jeb .hwh-usp:nth-child(3) h5 {
     font-size: 30px;
     padding: 14px;
     color: #1da4e4;
 }
+
 .types-tabs #type-deb .list-group {
     flex-direction: row;
 }
+
 .types-tabs #type-deb .list-group ul {
     max-width: 502px;
 }
+
 .types-tabs #type-deb .ebs-layer-img:first-child {
     position: absolute;
     top: -219px;
     left: -52px;
 }
+
 .types-tabs #type-deb .ebs-layer-img:nth-child(2) {
     max-width: fit-content;
     margin-left: auto;
     margin-bottom: -26px;
     margin-right: -38px;
 }
+
 .types-tabs #type-deb .hwh-usp {
     border-radius: 100%;
     display: flex;
@@ -10630,10 +10781,12 @@ border-radius: 27px;
     z-index: 1;
     padding: 22px;
 }
+
 .types-tabs #type-deb .hwh-usp h5 {
     font-family: "JungleMan-Regular";
     font-size: 36px;
 }
+
 .types-tabs #type-deb .hwh-usp:nth-child(1) {
     position: absolute;
     width: 192px;
@@ -10641,11 +10794,13 @@ border-radius: 27px;
     left: 32%;
     top: -152px;
 }
+
 .types-tabs #type-deb .hwh-usp:nth-child(1) h5 {
     font-size: 30px;
     padding: 4px;
     color: #1da4e4;
 }
+
 .types-tabs #type-deb .hwh-usp:nth-child(2) {
     position: absolute;
     width: 172px;
@@ -10653,10 +10808,12 @@ border-radius: 27px;
     right: 29%;
     top: 32px;
 }
+
 .types-tabs #type-deb .hwh-usp:nth-child(2) h5 {
     font-size: 30px;
     padding: 9px;
 }
+
 .types-tabs #type-deb .hwh-usp:nth-child(3) {
     position: absolute;
     width: 188px;
@@ -10664,17 +10821,21 @@ border-radius: 27px;
     left: 41%;
     bottom: 88px;
 }
+
 .types-tabs #type-deb .hwh-usp:nth-child(3) h5 {
     font-size: 30px;
     padding: 0;
     color: #1da4e4;
 }
+
 .types-tabs #type-kindler .list-group {
     flex-direction: row;
 }
+
 .types-tabs #type-kindler .list-group ul {
     max-width: 502px;
 }
+
 .types-tabs #type-kindler .hwh-usp {
     border-radius: 100%;
     display: flex;
@@ -10688,10 +10849,12 @@ border-radius: 27px;
     z-index: 1;
     padding: 22px;
 }
+
 .types-tabs #type-kindler .hwh-usp h5 {
     font-family: "JungleMan-Regular";
     font-size: 36px;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(1) {
     position: absolute;
     width: 185px;
@@ -10699,10 +10862,12 @@ border-radius: 27px;
     left: 12.7%;
     top: -144px;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(1) h5 {
     font-size: 30px;
     padding: 4px;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(2) {
     position: absolute;
     width: 190px;
@@ -10710,10 +10875,12 @@ border-radius: 27px;
     right: 29%;
     top: -21px;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(2) h5 {
     font-size: 36px;
     padding: 9px;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(3) {
     position: absolute;
     width: 202px;
@@ -10721,11 +10888,13 @@ border-radius: 27px;
     right: 0;
     top: 110px;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(3) h5 {
     font-size: 30px;
     padding: 0;
     color: #1da4e4;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(4) {
     position: absolute;
     width: 213px;
@@ -10733,6 +10902,7 @@ border-radius: 27px;
     right: 75px;
     bottom: 25px;
 }
+
 .types-tabs #type-kindler .hwh-usp:nth-child(4) h5 {
     font-size: 36px;
     padding: 0;
@@ -12825,86 +12995,107 @@ header {
 
 
 @media (max-width: 1800px) {
-    .types-tabs .bg-box{
+    .types-tabs .bg-box {
         width: 83.5%;
 
     }
+
     #unser-verein .dermakids-v #carouseltwo {
         width: 800px;
     }
+
     #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
         bottom: 100px;
     }
-    .association-img{
+
+    .association-img {
         right: 200px;
     }
+
     .approach .approach-item {
         padding-bottom: 18px !important;
     }
-    .our-club .about-banner h1{
+
+    .our-club .about-banner h1 {
         padding-bottom: 0;
         margin-left: 0;
         font-size: 50px;
     }
-    .our-club .about-banner{
+
+    .our-club .about-banner {
         padding-bottom: 116px;
     }
+
     .our-club .about-banner h1::after {
         left: 200px;
         bottom: 0;
         width: 115px;
         height: 131px;
     }
+
     .our-club .about-banner p::after {
         right: 278px;
 
     }
-    .info-card .card-content span,.dermakids-v .subtext {
+
+    .info-card .card-content span,
+    .dermakids-v .subtext {
         font-size: 30px;
     }
-    .info-card h6,.dermakids-v h2         {
+
+    .info-card h6,
+    .dermakids-v h2 {
         font-size: 45px;
         margin-bottom: 20px;
     }
-    .info-card p,.our-club .dermakids-v p {
+
+    .info-card p,
+    .our-club .dermakids-v p {
         font-size: 18px;
-        
+
     }
- 
+
     .shop .info-guide .shop-item-img {
         left: 0;
         top: -89px;
     }
-    
+
     .shop .shop-item .bg-box {
         width: 90%;
     }
+
     .shop .schmetterlingskind .carousel {
         position: absolute;
         right: -24px;
         width: 500px;
         top: -125px;
     }
+
     .shop .shop-item .carousel {
         width: 500px;
         height: 500px;
     }
+
     .shop .infoflyer .carousel {
         left: 25px;
         top: -281px;
     }
+
     .shop .infoflyer .round-carousal .carousel-indicators {
         bottom: 98px;
         right: 0;
         rotate: 103deg;
     }
+
     .shop .infoflyer .shop-item-img {
         right: -58px;
         top: 0;
     }
-    .shop .broschure .carousel{
+
+    .shop .broschure .carousel {
         right: -8px;
     }
+
     .shop .broschure .round-carousal .carousel-indicators {
         gap: 19px;
         z-index: 99;
@@ -12913,69 +13104,87 @@ header {
         left: initial;
         rotate: 309deg;
     }
+
     .shop .broschure .shop-item-img {
         bottom: 73px;
         top: initial;
         right: 350px;
     }
+
     .shop .broschure {
         margin-bottom: 150px;
     }
+
     .info-card {
         height: 536px;
-min-height: initial;
+        min-height: initial;
     }
+
     .shop .info-guide .carousel {
         top: -69px;
     }
+
     .shop .info-guide .round-carousal .carousel-indicators {
         bottom: 43px;
     }
+
     .shop .nachhaltigkeitsbericht .shop-item-img {
         left: 109px;
         top: -66px;
     }
+
     .shop .take-advantage .tA-img {
         position: absolute;
         top: -119px;
         right: 18px;
         width: 550px;
     }
-    .breadcrumb{
+
+    .breadcrumb {
         margin-bottom: 50px;
     }
+
     .shop .take-advantage h2 {
         font-size: 45px;
         margin-bottom: 20px;
     }
+
     .shop .take-advantage p {
         font-size: 18px;
     }
+
     .shop .take-advantage .shop-item-list span {
         padding-inline: 16px;
     }
+
     .navbar .navbar-nav .nav-link {
 
         font-size: 22px;
 
     }
+
     .inheritance .bg-box {
         width: 90%;
     }
+
     .inheritance #carouselthree {
         left: -29px;
     }
+
     .inheritance h3 {
         font-size: 45px;
         margin-bottom: 100px;
     }
+
     .inheritance h4 {
         font-size: 40px;
         margin-top: 100px;
     }
+
     .inheritance #carouselfour {
         right: 50px;
     }
+
     .inheritance {
         margin-block: 150px;
     }
@@ -12983,11 +13192,13 @@ min-height: initial;
     .visit-insta h4 {
         font-size: 50px;
     }
-    .haupttypen .about-banner h1{
+
+    .haupttypen .about-banner h1 {
         margin-left: 0;
         margin: auto;
         padding-bottom: 0;
     }
+
     .haupttypen .banner h1::after {
         right: 300px;
         transform: rotateY(180deg);
@@ -12998,38 +13209,47 @@ min-height: initial;
         top: -34px;
         bottom: 0;
     }
+
     .haupttypen .association-img {
         right: 200px;
     }
+
     .butterfly-children .bg-box {
         width: 86%;
     }
+
     .butterfly-children #carouselfour {
         position: absolute;
         width: 374px;
         top: -156px;
         left: 26px;
     }
+
     .alltag-mit .comparison .bg-box {
         width: 93%;
     }
-    .alltag-mit .comparison .comparison-carousal{
+
+    .alltag-mit .comparison .comparison-carousal {
         right: 0;
     }
+
     .alltag-mit .service-banner {
         padding-block: 100px;
     }
-    
+
     .alltag-mit .service-banner h1::after {
         left: 65px;
-    bottom: 0;
+        bottom: 0;
     }
+
     .alltag-mit .help-offers #carouseltwo {
         width: 550px;
     }
-    .alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators{
+
+    .alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators {
         rotate: initial;
     }
+
     .navbar .navbar-nav {
 
         gap: 9px;
@@ -13079,134 +13299,167 @@ min-height: initial;
         font-size: 70px;
         max-width: 693px;
     }
+
     #unser-verein .dermakids-v #carouseltwo {
         width: 600px;
     }
+
     .our-club .dermakids-v {
         padding-bottom: 200px;
     }
+
     .association-img {
         right: 100px;
         width: 400px;
     }
+
     .our-club .customers-testimonial {
         margin-bottom: 150px;
     }
-    .approach .approach-heading h3{
+
+    .approach .approach-heading h3 {
         font-size: 45px;
         margin-bottom: 24px;
         padding-bottom: 0;
     }
+
     .approach .approach-item {
         gap: 30px;
     }
+
     .approach .approach-item h6 {
         font-size: 35px;
     }
+
     .approach .approach-item p {
         font-size: 16px;
-    margin-bottom: 0;
+        margin-bottom: 0;
     }
+
     .our-club .donation-info {
         padding-block: 150px;
     }
- 
 
-.approach .approach-img{
-    padding-top: 53px;
 
-}    
- .shop   .about-banner h1 {
+    .approach .approach-img {
+        padding-top: 53px;
+
+    }
+
+    .shop .about-banner h1 {
         font-size: 70px;
         padding-bottom: 0;
     }
+
     #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
         bottom: 78px;
     }
-    #impressum .banner h1{
+
+    #impressum .banner h1 {
         max-width: fit-content;
         margin: auto;
         padding-bottom: 0;
     }
-  
-    .impressum .carousel{
+
+    .impressum .carousel {
         max-width: 500px;
     }
-    .impressum     .round-carousal .carousel-indicators button {
+
+    .impressum .round-carousal .carousel-indicators button {
         width: 15px;
         min-height: 15px;
     }
+
     .impressum {
-        padding-block: 54px 150px        ;
+        padding-block: 54px 150px;
     }
+
     .haupttypen .banner h1 span {
         font-size: 70px;
     }
+
     .navbar .navbar-nav .nav-link {
 
         font-size: 16px;
 
     }
+
     .shop-section h3 {
         font-size: 40px;
     }
+
     .alltag-mit .divider {
         height: 150px;
     }
+
     .alltag-mit .comparison .comparison-item:nth-child(2) {
         right: 404px;
         top: 28px;
     }
-    .alltag-mit .comparison h2{
+
+    .alltag-mit .comparison h2 {
         font-size: 45px;
-    }    
+    }
+
     .haupttypen .banner h1::after {
         right: 200px;
     }
+
     .haupttypen .dermakids-v h2 {
         font-size: 45px;
         margin-bottom: 20px;
     }
+
     .haupttypen .dermakids-v .subtext {
         margin-bottom: 20px;
-    font-size: 35px;
+        font-size: 35px;
     }
+
     .haupttypen-content p {
         max-width: 619px;
         line-height: 1.5;
         font-size: 18px;
         min-width: initial;
     }
+
     .haupttypen .dermakids-v #carouseltwo {
         width: 450px;
         height: 450px;
     }
-    .haupttypen .dermakids-v #carouseltwo .carousel-indicators{
+
+    .haupttypen .dermakids-v #carouseltwo .carousel-indicators {
         transform: rotate(283deg);
         right: -18px;
     }
 
-    .comparison-item img{
+    .comparison-item img {
         width: 90%;
     }
-    .alltag-mit .comparison{
+
+    .alltag-mit .comparison {
         margin-bottom: 150px;
     }
+
     .butterfly-children .bC-content {
         margin-left: 308px;
     }
-    .butterfly-children .bC-content h3{
+
+    .butterfly-children .bC-content h3 {
         font-size: 45px;
         margin-bottom: 20px;
     }
-    .butterfly-children{
+
+    .butterfly-children {
         margin-block: 150px;
     }
-    .alltag-mit .service-banner h1, .alltag-mit .service-banner h1 span{
+
+    .alltag-mit .service-banner h1,
+    .alltag-mit .service-banner h1 span {
         font-size: 69px;
         line-height: 1.2;
         padding-bottom: 0;
     }
+
     .alltag-mit .service-banner h1::after {
         left: 121px;
         bottom: -83px;
@@ -13215,49 +13468,60 @@ min-height: initial;
     .alltag-mit .service-banner {
         padding-block: 100px 110px;
     }
+
     .alltag-mit .help-offers h2 {
         font-size: 45px;
         margin-bottom: 20px;
     }
+
     .alltag-mit .help-offers .subtext {
         font-size: 35px;
         max-width: 616px;
-margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-    .alltag-mit .help-offers p{
+
+    .alltag-mit .help-offers p {
         font-size: 18px;
         max-width: 550px;
         margin-bottom: 20px;
-    
+
     }
-    .theme-btn{
+
+    .theme-btn {
         font-size: 20px;
-    padding-block: 25px;
-    padding-inline: 50px;
+        padding-block: 25px;
+        padding-inline: 50px;
     }
+
     .alltag-mit .help-offers .theme-btn {
         margin-left: 150px;
     }
+
     .alltag-mit .help-offers .help-offer-img {
         width: 300px;
         margin-top: 30px;
         margin-left: -200px;
     }
+
     .alltag-mit .help-offers #carouseltwo {
         width: 450px;
         margin-left: -100px;
         margin-top: -140px;
     }
+
     .alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators {
         left: 180px;
-rotate: 3deg;
-    }    
+        rotate: 3deg;
+    }
+
     .alltag-mit .help-offers {
         padding-bottom: 100px;
     }
-    .comparison-img img{
+
+    .comparison-img img {
         width: 90%;
     }
+
     .help-us .banner h1 {
 
         font-size: 45px;
@@ -14089,7 +14353,7 @@ rotate: 3deg;
 @media (min-width: 768px) {
 
 
-  
+
     .visit-insta .slick-current.slick-active {
 
         width: 440px !important;
@@ -14106,6 +14370,21 @@ rotate: 3deg;
     .navbar .navbar-nav {
         gap: 0
     }
+
+    .dropdown-toggle.show,
+
+    .dropdown-toggle:hover,
+
+    .dropdown-submenu.show,
+
+    .dropdown-submenu:hover,
+
+    .nav-item.dropdown:hover .nav-link.dropdown-toggle {
+
+        background-color: #BAE4EC;
+
+    }
+
 
     .navbar .navbar-nav .nav-link {
 
@@ -14146,19 +14425,26 @@ rotate: 3deg;
 }
 
 @media (max-width: 1200px) {
-   
-    #datenschutz .service-banner, #impressum .service-banner, #agb .service-banner, #satzungszweck .service-banner {
+
+    #datenschutz .service-banner,
+    #impressum .service-banner,
+    #agb .service-banner,
+    #satzungszweck .service-banner {
         padding-block: 50px;
     }
+
     .our-club .about-banner h1::after {
         left: 26px;
     }
+
     .our-club .about-banner p::after {
         right: 135px;
     }
+
     .our-club .about-banner {
         padding-block: 86px;
     }
+
     #unser-verein .dermakids-v #carouseltwo {
         width: 500px;
         top: -75px;
@@ -14168,141 +14454,181 @@ rotate: 3deg;
         width: 15px;
         min-height: 15px;
     }
+
     #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
         gap: 23px;
         bottom: 50px;
         transform: rotate(352deg);
     }
-    .info-card h6, .dermakids-v h2 {
+
+    .info-card h6,
+    .dermakids-v h2 {
         font-size: 35px;
         margin-bottom: 16px;
 
     }
-     .dermakids-v .subtext {
+
+    .dermakids-v .subtext {
         font-size: 25px;
         margin-bottom: 20px;
     }
+
     .our-club .dermakids-v p {
         font-size: 16px;
     }
+
     .our-club .dermakids-v .theme-btn {
         padding-inline: 75px;
     }
+
     .our-club .dermakids-v {
         padding-bottom: 150px;
     }
-    .alltag-mit .service-banner h1, .alltag-mit .service-banner h1 span {
+
+    .alltag-mit .service-banner h1,
+    .alltag-mit .service-banner h1 span {
         margin-left: 0;
         font-size: 57px;
 
     }
+
     .association-img {
         width: 300px;
     }
-    .approach .approach-item-icon img{
+
+    .approach .approach-item-icon img {
         width: 50px;
         height: 50px;
     }
+
     .approach .approach-item h6 {
         font-size: 30px;
     }
+
     .approach .approach-item p {
         font-size: 15px;
     }
+
     .approach .approach-item:nth-child(6) {
         margin-left: -79px;
     }
+
     .approach .approach-item:nth-child(7) {
         margin-left: -140px;
     }
+
     .approach .approach-heading h3 {
         font-size: 40px;
         margin-bottom: 16px;
     }
+
     .alltag-mit .service-banner {
         padding-block: 90px 100px;
     }
+
     .alltag-mit .help-offers .help-offer-img {
         width: 250px;
         margin-top: 59px;
         margin-left: -100px;
     }
+
     .alltag-mit .comparison .bg-box {
         width: 95%;
     }
+
     .comparison-item img {
         width: 70%;
     }
+
     .alltag-mit .comparison h2 {
         font-size: 40px;
         margin-bottom: 50px;
     }
+
     .alltag-mit .comparison .comparison-item:nth-child(2) {
         right: 337px;
 
     }
+
     .alltag-mit .comparison .comparison-item:nth-child(3) {
         right: 59px;
         top: 11px;
     }
+
     .alltag-mit .comparison .comparison-carousal {
         right: 0;
         width: 250px;
         bottom: -39px;
     }
+
     .alltag-mit .comparison .comparison-content {
         padding-bottom: 228px;
-    }    
+    }
+
     .alltag-mit .comparison .comparison-item:nth-child(6) {
         left: 312px;
     }
+
     .alltag-mit .comparison .comparison-item:nth-child(7) {
         left: 557px;
     }
+
     .customers-testimonial .testimonial-content-wrap p {
         font-size: 28px;
         margin-bottom: 20px;
     }
+
     .testimonial-content .testimonial-by {
         font-size: 16px;
     }
+
     .customers-testimonial .testimonial-content-wrap {
         min-height: 150px;
     }
+
     .testimonial {
         min-height: 350px;
         max-height: 350px;
     }
+
     .customers-testimonial .carousel-indicators {
         bottom: 27px;
         gap: 10px;
     }
+
     .butterfly-children .bg-box {
         width: 90%;
     }
+
     .butterfly-children #carouselfour {
         position: absolute;
         width: 250px;
         top: -90px;
         left: 4px;
     }
+
     .butterfly-children .bC-content {
         margin-left: 219px;
     }
+
     .butterfly-children .bC-content p {
         font-size: 18px;
         margin-bottom: 50px;
     }
+
     .shop-section h3 {
         font-size: 35px;
     }
+
     .shop-section-item h6 {
         font-size: 24px;
     }
+
     .customers-testimonial .carousel-indicators button {
         width: 15px;
         min-height: 15px;
     }
+
     .testimonial-content::after {
 
 
@@ -14359,28 +14685,76 @@ rotate: 3deg;
 
 @media (max-width:991px) {
 
+    .navbar .navbar-nav {
+        gap: 24px
+    }
+
+    .navbar-collapse {
+        border-radius: 0 0 24px 24px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        width: fit-content;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        background: #fff;
+        right: 0;
+        top: 62px;
+        min-width: 336px;
+        max-width: 336px;
+        padding: 12px 20px;
+    }
+
+    .navbar .nav-item.dropdown::after {
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid rgba(0, 0, 0, 0);
+        border-bottom: 0;
+        border-left: .3em solid rgba(0, 0, 0, 0);
+        position: absolute;
+        right: 0;
+        top: 20px;
+        cursor: pointer;
+    }
 
     .impressum .carousel {
         width: 400px;
         margin-left: auto;
         margin-right: 0;
     }
+
     .impressum .subtext {
         font-size: 28px;
     }
+
     .impressum h2 {
         font-size: 40px;
         margin-bottom: 30px;
     }
+
     .impressum .address p {
         font-size: 16px;
     }
-    .impressum p,.impressum p a,.impressum ul li {
+
+    .impressum p,
+    .impressum p a,
+    .impressum ul li {
         font-size: 16px;
-    }    
+    }
+
     .impressum h3 {
         font-size: 35px;
     }
+
     .eb-meeting h3,
 
     .services h3,
@@ -14548,36 +14922,24 @@ rotate: 3deg;
     .dropdown-submenu .dropdown-toggle::after {
 
         rotate: 0deg;
-
         right: 0;
-
-
-
         display: inline-block;
-
         margin-left: .255em;
-
         vertical-align: .255em;
-
         content: "";
-
         border-top: .3em solid;
-
         border-right: .3em solid transparent;
-
         border-bottom: 0;
-
         border-left: .3em solid transparent;
 
     }
 
 
 
-    .nav-item.dropdown .dropdown-toggle::after {
-
-        display: inline-block;
-
+    .dropdown-menu.submenu-activated::after {
+        display: none;
     }
+
 
 
 
@@ -14593,18 +14955,24 @@ rotate: 3deg;
 
     .nav-item.dropdown:hover .nav-link.dropdown-toggle {
 
-        background: #f8f9fa;
+        border: 0;
+        background: #fff;
 
     }
 
+    .dropdown-menu li {
+        padding-left: 10px;
+        padding-right: 0;
+    }
 
 
     .dropdown-item {
 
         font-size: 16px;
 
-        padding: 20px 0;
+        padding: 16px 0;
 
+        border-bottom: 0;
     }
 
 
@@ -14612,26 +14980,29 @@ rotate: 3deg;
 }
 
 
-@media(max-width: 992px){
+@media(max-width: 992px) {
     .our-club .about-banner h1 {
         padding-bottom: 0;
         margin-left: 0;
         font-size: 41px;
         margin-bottom: 10px;
     }
-   
+
     .info-card {
         margin-top: 15px;
 
     }
+
     .banner .subtext {
         font-size: 37px;
     }
+
     .our-club .about-banner h1::after {
         left: -6px;
         width: 100px;
         height: 100px;
     }
+
     .our-club .about-banner p::after {
         right: 144px;
         width: 100px;
@@ -14639,196 +15010,302 @@ rotate: 3deg;
         background-size: cover;
         bottom: -41px;
     }
+
     .our-club .dermakids-v .theme-btn {
         margin-top: 70px;
     }
+
     .theme-btn {
         font-size: 16px;
         padding-block: 18px;
         padding-inline: 50px !important;
     }
+
     .our-club .dermakids-v {
         padding-bottom: 100px;
     }
+
     .association-img {
         width: 250px;
     }
+
     .customers-testimonial {
         padding: 50px 0 70px;
     }
+
     .approach .approach-item-icon img {
         width: initial;
         height: initial;
     }
-    .approach .approach-item{
+
+    .approach .approach-item {
         align-items: center;
     }
-    .approach .approach-item{
+
+    .approach .approach-item {
         margin-left: 0 !important;
     }
+
     .approach .approach-items {
         margin-top: 0;
         max-width: fit-content;
         margin-inline: auto;
     }
 }
+
 @media (max-width: 768px) {
-    #unser-verein .dermakids-v #carouselthree{
+
+
+    .topbar {
+        background: #fff;
+        position: relative;
+    }
+
+    .topbar .container {
+        z-index: 2;
+        position: relative;
+    }
+
+    .topbar:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    body,
+    .topbar::before {
+        background: linear-gradient(to right,
+                rgba(233, 217, 233, 0.9) 0%,
+                rgba(230, 224, 237, 0.9) 8%,
+                rgba(226, 232, 242, 0.9) 17%,
+                rgba(224, 236, 244, 0.9) 28%,
+                rgba(225, 235, 244, 0.9) 76%,
+                rgba(229, 226, 238, 0.9) 92%,
+                rgba(231, 220, 235, 0.9) 100%);
+
+    }
+
+    .banner::before {
+
+        background: url(../img/banner-bg-mbl.png) no-repeat center top / cover;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .banner-content {
+        margin-top: 0;
+    }
+
+    .navbar-collapse {
+        top: 51px;
+    }
+
+    #unser-verein .dermakids-v #carouselthree {
         position: initial;
         width: initial;
-        margin-inline: -30px        ;
+        margin-inline: -30px;
     }
+
     .topbar .tA-link.theme-btn {
         font-size: 20px;
         line-height: 1;
-        padding: 4px 18px !important        ;
+        padding: 4px 18px !important;
     }
-    .navbar-brand img{
+
+    .navbar-brand img {
         height: 33px;
         width: 134px;
     }
-    .navbar-light .navbar-toggler{
+
+    .navbar-light .navbar-toggler {
         padding: 0;
     }
-    .our-club .dermakids-v{
+
+    .our-club .dermakids-v {
         padding-top: 0;
     }
-    .breadcrumb{
+
+    .breadcrumb {
         background: linear-gradient(90deg, #F6CDE2 -1.56%, #E9D9E9 4.41%, #DFE2EF 11.38%, #D9E7F2 17.97%, #D5EAF4 27.93%, #D3EBF4 58.92%, #D7E9F3 77.46%, #DEE2EF 90.4%, #E8D9EA 100.85%, #EBD6E8 102.97%);
     }
-    .navbar{
-        padding-block: 10px        ;
+
+    .navbar {
+        padding-block: 9px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         padding: 0;
 
     }
+
     .topbar .tA-link {
         font-size: 11px;
         line-height: 1;
         padding: 0;
     }
+
     .info-card {
         height: 340px;
         margin-inline: auto;
         position: relative;
-        padding: 36px 18px 42px 18px        ;
+        padding: 36px 18px 42px 18px;
     }
+
     .info-card .card-content span {
         line-height: 1;
     }
+
     .info-card h6 {
         font-size: 44px;
         margin-bottom: 24px;
     }
-    .info-card p , .info-card a{
+
+    .info-card p,
+    .info-card a {
         font-size: 16px;
 
 
     }
-    .info-card .read-more{
+
+    .info-card .read-more {
         margin-top: 33px;
     }
-    .info-card .card-icon{
+
+    .info-card .card-icon {
         position: absolute;
         height: 68px;
         width: 58px;
         right: 18px;
         top: 22px;
     }
-    .banner .btn-group {
 
-        flex-direction: column;
-
+ 
+    .banner .btn-group{
+        position: absolute;
+        width: 100%;
+        padding-inline: 25px;
+        bottom: 28px;
+        left: 0;
     }
-    .our-club .about-banner{
+    .banner .btn-group .theme-btn{
+        flex-basis: 100%;
+        font-weight: 600;
+        padding: 20px 20px;
+        padding-inline: 20px !important;
+    }
+    .our-club .about-banner {
         display: none;
     }
-.club-dermakids-v-content{
-    display: none;
-}
-.our-club .dermakids-v .association-img{
-    display: none;
-}
-.our-club      .breadcrumb {
-    position: absolute;
-    width: 100%;
-    z-index: 5;
-    opacity: 0.9;
-    margin-bottom: 0;
 
-}
-.customers-testimonial .testimonial-content-wrap p{
-    font-size: 26px;
-}
-#about-us .customers-testimonial .testimonial-content-wrap, #unser-verein .customers-testimonial .testimonial-content-wrap{
-    min-height: 196px;
+    .club-dermakids-v-content {
+        display: none;
+    }
 
-}
-.testimonial {
-    min-height: 276px;
-    max-height: 276px;
-}
-.our-club .customers-testimonial{
-    padding-block: 35px 2px;
-}
-#unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators{
-    bottom: 56px !important;
-    transform: initial;
-    left: 0 !important;
-    right: initial !important;
-    margin-left: 34px;
-    margin-top: 0 !important;
-}
-#unser-verein .dermakids-v #carouselthree.round-carousal .carousel-indicators{
-    bottom: 169px !important;
-    right: 0px !important;
-    margin-left: 34px;
-    justify-content: left;
-    gap: 20px !important;
-    position: absolute;
+    .our-club .dermakids-v .association-img {
+        display: none;
+    }
 
-    margin-top: 0 !important;
-}    .our-club .dermakids-v .theme-btn {
-    margin-top: 61px;
-    margin-left: auto;
-    display: block;
-    padding-inline: 67px !important;
-    padding-block: 20px !important;
-    max-width: fit-content;
-}
-.our-club .dermakids-v{
-    padding-bottom: 89px;
-}
-#unser-verein .dermakids-v #carouselthree.round-carousal .carousel-indicators button.active{
-    background-color: #D997C0;
-    border: 1px solid #E32488;
-}
-.breadcrumb{
+    .our-club .breadcrumb {
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        opacity: 0.9;
+        margin-bottom: 0;
 
-    margin-inline: -30px    ;
-    padding-inline: 17px;
-    padding-block: 7px 9px;
+    }
 
-}
-.breadcrumb-item a, .breadcrumb-item {
-    font-size: 12px;
-    line-height: 1;
-    display: inline-block;
-    color: #C4228F !important;
-}
-.breadcrumb-item+.breadcrumb-item::before{
-    border: 1px solid #80BDD5;
-    background: #BAD9E6;
-    top: 3px;
-    left: 12px;
-}
-.breadcrumb-item+.breadcrumb-item {
-    padding-left: 34px;
-}
+    .customers-testimonial .testimonial-content-wrap p {
+        font-size: 26px;
+    }
+
+    #about-us .customers-testimonial .testimonial-content-wrap,
+    #unser-verein .customers-testimonial .testimonial-content-wrap {
+        min-height: 196px;
+
+    }
+
+    .testimonial {
+        min-height: 276px;
+        max-height: 276px;
+    }
+
+    .our-club .customers-testimonial {
+        padding-block: 35px 2px;
+    }
+
+    #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
+        bottom: 56px !important;
+        transform: initial;
+        left: 0 !important;
+        right: initial !important;
+        margin-left: 34px;
+        margin-top: 0 !important;
+    }
+
+    #unser-verein .dermakids-v #carouselthree.round-carousal .carousel-indicators {
+        bottom: 169px !important;
+        right: 0px !important;
+        margin-left: 34px;
+        justify-content: left;
+        gap: 20px !important;
+        position: absolute;
+
+        margin-top: 0 !important;
+    }
+
+    .our-club .dermakids-v .theme-btn {
+        margin-top: 61px;
+        margin-left: auto;
+        display: block;
+        padding-inline: 67px !important;
+        padding-block: 20px !important;
+        max-width: fit-content;
+    }
+
+    .our-club .dermakids-v {
+        padding-bottom: 89px;
+    }
+
+    #unser-verein .dermakids-v #carouselthree.round-carousal .carousel-indicators button.active {
+        background-color: #D997C0;
+        border: 1px solid #E32488;
+    }
+
+    .breadcrumb {
+
+        margin-inline: -30px;
+        padding-inline: 17px;
+        padding-block: 7px 9px;
+
+    }
+
+    .breadcrumb-item a,
+    .breadcrumb-item {
+        font-size: 12px;
+        line-height: 1;
+        display: inline-block;
+        color: #C4228F !important;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        border: 1px solid #80BDD5;
+        background: #BAD9E6;
+        top: 3px;
+        left: 12px;
+    }
+
+    .breadcrumb-item+.breadcrumb-item {
+        padding-left: 34px;
+    }
+
     .banner {
 
-        padding-bottom: 130px;
+        padding-bottom: 0;
 
     }
 
@@ -14851,6 +15328,7 @@ rotate: 3deg;
         margin: auto;
 
         margin-top: 50px;
+        z-index: -1;
 
     }
 
@@ -14858,7 +15336,11 @@ rotate: 3deg;
 
     .banner h1 {
 
-        font-size: 46px;
+        font-size: 31px;
+        padding-bottom: 0;
+        text-align: center;
+        
+        padding-top: 4%;
 
     }
 
@@ -14866,17 +15348,33 @@ rotate: 3deg;
 
     .banner h1 span {
 
-        font-size: 56px;
+        font-size: 52px;
+        
+        margin-top: 9px;
+        margin-bottom: 6px;
 
     }
+    .banner h1 span:first-child{
+        margin-right: 20px;
+    }
 
+    .banner h1::before{
+        width: 80px;
+        height: 70px;
+        top: 18px;
+        right: 10px;
+        
+        left: 84%;
+    }
 
 
     .banner h1 strong {
 
 
+        margin-left: 50px;
 
-        font-size: 66px;
+        margin-top: 0;
+        font-size: 48px;
 
     }
 
@@ -14890,23 +15388,11 @@ rotate: 3deg;
 
 
 
-    .banner-content {
-
-        margin-top: 50px;
-
+    .banner .round-carousal{
+        max-width: 100%;
+        margin-top: 0;
     }
 
-
-
-    .banner::before {
-
-        background-size: contain;
-
-        width: 100px;
-
-        background-repeat: no-repeat;
-
-    }
 
 
 
@@ -14981,12 +15467,143 @@ rotate: 3deg;
 
 
     .contact {
+        flex-direction: row;
+        left: 50%;
+        bottom: 0;
+        top: initial;
+        background-color: #fff;
+        padding: 10px 30px;
+        border-radius: 20px;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        gap: 40px;
+    }
 
-        display: none;
+    .contact form {
+        padding: 10px 11px !important;
+        border-radius: 12px;
+    }
+
+    #phone form {
+        background-color: #7D0E86;
+    }
+
+    #phone p {
+        font-size: 14px;
+
+        max-width: 289px;
+    }
+
+    .contact-item .form-img img {
+        min-width: 177px;
+        height: 171px;
+    }
+
+    #phone h4 {
+        margin-bottom: 0;
+    }
+
+    .contact-item span {
+        padding-top: 12px;
+        color: #fff;
+        display: block;
+        font-size: 18px;
+    }
+
+    #phone h4 a {
+        font-size: 36px;
+    }
+
+    #phone h4::before {
+        width: 96px;
+        height: 80px;
+        background-size: contain;
+
+        left: -89px;
+    }
+
+    .contact .contact-item .form-img {
+        bottom: 13px !important;
+        right: -20px;
 
     }
 
+    #mail .form-img {
+        right: 0;
+    }
 
+    .contact-item.active .cross-icon {
+
+        position: absolute;
+        min-width: 24px;
+        right: 15px;
+        bottom: 9px;
+    }
+
+    .contact-form-wrap {
+        background-color: #fff;
+        border-radius: 12px;
+    }
+
+    .contact-dropdown-menu {
+        position: absolute;
+        right: 0px;
+        bottom: 97px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background: #fff;
+        width: 126px;
+        align-items: center;
+        padding-block: 30px;
+        border-radius: 20px;
+    }
+
+    .contact-item.active .contact-link {
+        width: auto;
+        padding-right: 0;
+    }
+
+    .contact-item.active form {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        bottom: 97px;
+    }
+
+    #phone h2 {
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    #phone h2 a {
+        font-size: 38px;
+    }
+
+    #phone h2::before {
+
+        top: -29px;
+        right: -20px;
+    }
+
+    .contact img {
+        max-width: 66px;
+        min-width: 66px;
+        height: 60px;
+        border-radius: 15px;
+    }
+
+
+
+
+    #mail form {
+        background-color: #1DA4E4;
+    }
+
+    #mail .contact-form-wrap {
+        padding: 13px 17px;
+    }
 
     .bg-box {
 
@@ -15124,7 +15741,60 @@ rotate: 3deg;
 
     }
 
+    .topbar-actions {
+        gap: 28px;
+    }
 
+    footer {
+        padding-block: 32px;
+        text-align: center;
+    }
+
+    footer h5 {
+        margin-bottom: 40px;
+    }
+
+    footer .action-link {
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+
+    footer .contact-info p,
+    footer .contact-info .action-link {
+        font-size: 14px;
+        line-height: 100%;
+        margin-bottom: 7px;
+
+        br:first-child {
+            display: none;
+        }
+    }
+
+    footer .weitere {
+        margin-bottom: 27px;
+    }
+
+
+    footer .socials {
+        margin-top: 47px;
+        margin-bottom: 45px;
+    }
+
+    footer .socials img {
+        width: 43px;
+    }
+
+    footer .gateway {
+        margin-top: 57px;
+    }
+    
+    .banner h1::after {
+        width: 180px;
+        height: 180px;
+        left: -65px;
+        bottom: -73px;
+        rotate: 68deg;
+    }
 
 }
 
@@ -15134,47 +15804,21 @@ rotate: 3deg;
 
 @media (max-width: 576px) {
 
+    .navbar-collapse {
+        min-width: 216px;
+    }
+
     .banner h1 {
-
-        font-size: 30px;
-
-        text-align: center;
-
+     padding-top: 0;
     }
 
 
 
-    .banner h1 span {
-
-        font-size: 42px;
-
-    }
 
 
 
-    .banner h1 strong {
-
-        font-size: 42px;
-
-    }
 
 
-
-    .banner h1::after {
-
-
-
-        width: 180px;
-
-        height: 180px;
-
-        left: -33px;
-
-
-
-        bottom: -22px;
-
-    }
 
 
 
@@ -15200,6 +15844,11 @@ rotate: 3deg;
 
         min-width: 100%;
 
+    }
+
+    header .container {
+        padding-left: 18px;
+        padding-right: 18px;
     }
 
 }
@@ -15231,6 +15880,6 @@ rotate: 3deg;
     background: linear-gradient(to bottom right, transparent 0%, #ffffff 15%, #D1C0DC 100%) !important;
 }
 
-.navbar-light .navbar-toggler{
+.navbar-light .navbar-toggler {
     border: none;
 }

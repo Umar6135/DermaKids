@@ -96,25 +96,29 @@ include('header.php'); ?>
 
             <div class="carousel-item active">
 
-                <img src="./assets/img/banner-carousal/1.png" class="d-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/1.png" class="d-none d-md-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/banner-mbl-1.png" class="d-md-none w-100" alt="...">
 
             </div>
 
             <div class="carousel-item">
 
-                <img src="./assets/img/banner-carousal/2.png" class="d-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/2.png" class="d-none d-md-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/banner-mbl-2.png" class="d-md-none w-100" alt="...">
 
             </div>
 
             <div class="carousel-item">
 
-                <img src="./assets/img/banner-carousal/3.png" class="d-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/3.png" class="d-none d-md-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/banner-mbl-3.png" class="d-md-none w-100" alt="...">
 
             </div>
 
             <div class="carousel-item">
 
-                <img src="./assets/img/banner-carousal/4.png" class="d-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/4.png" class="d-none d-md-block w-100" alt="...">
+                <img src="./assets/img/banner-carousal/banner-mbl-4.png" class="d-md-none w-100" alt="...">
 
             </div>
 
@@ -331,7 +335,7 @@ include('header.php'); ?>
         </h3>
 
 
-<video controls width="1193" height="673" poster="./assets/img/eb-meeting.png">
+<video class="w-100" controls width="1193" height="673" poster="./assets/img/eb-meeting.png">
   <source src="./assets/video/video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
