@@ -1,8 +1,17 @@
 <?php
 
+
+
 $GLOBALS['title'] = "";
+
 $GLOBALS['desc'] = "";
+
 include('header.php'); ?>
+
+
+
+
+
 
 
 
@@ -10,222 +19,238 @@ include('header.php'); ?>
 <main class="kontakt" id="kontakt">
 
 
+
+
+
     <section class="banner service-banner about-banner">
+
         <div class="container">
-            <h1>Wir sind <span>immer</span> für <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Sie da!</span>
+
+            <h1>Wir sind <span>immer</span> f체r <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Sie da!</span>
+
             </h1>
+
         </div>
+
     </section>
 
-       <div class="contact pt">
 
-        <div class="contact-item">
-            <a href="#" class="contact-link">
-                <img src="./assets/img/whatsapp.svg" alt="whatsapp">
-                <h5>WhatsApp Chat</h5>
-                <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
-            </a>
-            <form action="">
-                <input type="text" name="" id="" placeholder="Name">
-                <textarea name="" id="" rows="9" placeholder="Hallo! Ich bin Pepi. Sie haben eine Frage? Mein Team und ich helfen Ihnen gerne weiter."></textarea>
-                <button type="submit" class="theme-btn">Absenden</button>
-                <div class="form-img">
-                    <img src="./assets/img/contact-form1.png" alt="">
-                </div>
-            </form>
-        </div>
-        <div class="contact-item" id="twitter">
-            <a href="#" class="contact-link">
-                <img src="./assets/img/twitter.svg" alt="whatsapp">
-                <h5>Telegram Chat</h5>
-                <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
-            </a>
-            <form action="">
-                <input type="text" name="" id="" placeholder="Name">
-                <textarea name="" id="" rows="9" placeholder="Hallo! Ich bin Pepi. Sie haben eine Frage? Mein Team und ich helfen Ihnen gerne weiter."></textarea>
-                <button type="submit" class="theme-btn">Absenden</button>
-                <div class="form-img">
-                    <img src="./assets/img/contact-form1.png" alt="">
-                </div>
-            </form>
-        </div>
-        <div class="contact-item" id="phone">
-            <a href="#" class="contact-link">
-                <img src="./assets/img/phone.svg" alt="phone">
-                <h5>Sie erreichen uns unter</h5>
-                <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
-            </a>
 
-            <form class="phone-content">
-                <h2>Tel.: <a href="">030 319981-05</a> </h2>
-                <p>Sie haben Fragen zum
-                    EB-Therapiezentrum & die EB-Amblanz? Unsere konstenlose Runfnummer
-                </p>
-                <h4><a href="">0800 – 112 11 11</a></h4>
-                <div class="form-img">
-                    <img src="./assets/img/contact-form1.png" alt="">
-                </div>
-            </form>
-        </div>
-        <div class="contact-item" id="mail">
-            <a href="#" class="contact-link">
-                <img src="./assets/img/mail.svg" alt="mail">
-                <h5>Sie erreichen uns unter</h5>
-                <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
-            </a>
-            <form action="">
-                <a href="mailto:info@dermakids.de" class="mail-box">info@dermakids.de</a>
-                <textarea name="" id="" rows="9" placeholder="Hallo! Ich bin Pepi. Sie haben eine Frage? Mein Team und ich helfen Ihnen gerne weiter."></textarea>
-                <div class="text-end">
-                    <button type="submit" class="theme-btn">Absenden</button>
-                </div>
-                <div class="form-img">
-                    <img src="./assets/img/contact-form1.png" alt="">
-                </div>
-            </form>
-        </div>
-        <div class="contact-item" id="calender">
-            <a href="#" class="contact-link">
-                <img src="./assets/img/calender.svg" alt="calender">
-                <h5>Terminanfrage </h5>
-                <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
-            </a>
+<?php include('contact.php'); ?>
 
-            <form action="">
-                <textarea name="" id="" rows="9" placeholder="Wir beraten Sie gerne! Schreiben Sie uns Ihr Anliegen und wann es Ihnen am besten passt!"></textarea>
-                <input type="text" name="" id="" placeholder="Rückrufnummer">
 
-                <div class="text-end">
-                    <button type="submit" class="theme-btn"> Absenden</button>
-                </div>
-            </form>
-        </div>
-        <div class="contact-item" id="messages">
-            <a href="#" class="contact-link">
-                <img src="./assets/img/messages.svg" alt="messages">
-                <h5>Terminanfrage </h5>
-                <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
-            </a>
-            <form action="">
-                <p> Hallo! Ich bin Pepi. Sie haben eine Frage? <br>
-                    Mein Team und ich helfen Ihnen gerne weiter.
-                </p>
-                <p>
-                    Um an den passenden Mitarbeitenden geleitet zu werden, haben wir vorab ein paar Fragen.
-                </p>
-                <p>
-                    So können wir Sie bestens beraten.
-                </p>
-                <button type="submit" class="theme-btn">Fragen starten</button>
-                <div class="form-img">
-                    <img src="./assets/img/contact-form1.png" alt="">
-                </div>
-            </form>
 
-        </div>
-    </div>
 
 
     <section class="kontakt-content">
+
         <div class="container">
+
             <nav aria-label="breadcrumb">
+
                 <ol class="breadcrumb">
+
                     <li class="breadcrumb-item"><a href="./">Home</a></li>
+
                     <li class="breadcrumb-item active" aria-current="page">Kontakt</li>
 
+
+
                 </ol>
+
             </nav>
+
             <div class="kontakt-info">
+
                 <img src="./assets/img/kontakt-banner-logo.png" alt="DermaKids">
+
                 <p>Albert-Einstein-Ring 11</p>
+
                 <p>14532 Berlin-Kleinmachnow</p>
+
                 <p>Tel.: +49 30 319981-05</p>
+
                 <p>Fax: +49 30 319981-04</p>
+
                 <p>E-Mail: info@dermakids.de
+
                 </p>
+
             </div>
+
+
 
             <img class="kontakt-side-img" src="./assets/img/kontakt-banner.png" alt="kontakt-banner">
 
 
+
+
+
             <div class="map">
+
                 <img src="./assets/img/map.png" alt="map">
+
             </div>
+
+
+
+
 
 
 
             <div class="row">
+
                 <div class="kontakt-form">
+
                     <h2>
+
                         Kontaktieren Sie uns
+
                     </h2>
+
                     <form>
+
                         <div class="form-field">
-                            <input type="Name" class="form-control" placeholder="Name" aria-describedby="emailHelp">
+
+                            <input type="Name" class="form-control" placeholder="Name*" aria-describedby="emailHelp">
+
                         </div>
+
                         <div class="form-field">
-                            <input type="Name" class="form-control" placeholder="E-Mail" aria-describedby="emailHelp">
+
+                            <input type="Name" class="form-control" placeholder="E-Mail*" aria-describedby="emailHelp" 
+                            
+                            
+  style=" resize: auto;">
+
                         </div>
+
                         <div class="form-field">
-                            <input type="Name" class="form-control" placeholder="Anliegen" aria-describedby="emailHelp">
+
+                            <input type="Name" class="form-control" placeholder="Anliegen*" aria-describedby="emailHelp">
+
                         </div>
+
                         <div class="form-field">
-                            <input type="Name" class="form-control" placeholder="Nachricht" aria-describedby="emailHelp">
+
+                       <textarea class="form-control" placeholder="Nachricht*" aria-describedby="emailHelp"></textarea>
+
+
                         </div>
+                        
+                        <span>Mit * gekennzeichnete Felder bitte ausfüllen.
+ </span>
+
                         <div class="btn-group">
+
                         <label for="">
 
+
+
                             <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes">
+
                           
-                            Datenschutz*
+
+                            Datenschutz**
+
 </label>
+
+
 
                             <button type="submit" class="theme-btn">Abschicken</button>
 
+
+
                         </div>
+
                     </form>
 
 
+
+
+
                     <span>
-                        *Ja, ich habe die Datenschutzerklärung (Datenschutz) zur Kenntnis genommen und bin damit einverstanden, dass die von mir angegebenen Daten elektronisch erhoben und gespeichert werden. Meine Daten werden dabei nur streng zweckgebunden zur Bearbeitung und Beantwortung meiner Anfrage benutzt. Mit dem Absenden des Kontaktformulars erkläre ich mich mit der Verarbeitung einverstanden.
+
+                        **Ja, ich habe die Datenschutzerkl채rung (Datenschutz) zur Kenntnis genommen und bin damit einverstanden, dass die von mir angegebenen Daten elektronisch erhoben und gespeichert werden. Meine Daten werden dabei nur streng zweckgebunden zur Bearbeitung und Beantwortung meiner Anfrage benutzt. Mit dem Absenden des Kontaktformulars erkl채re ich mich mit der Verarbeitung einverstanden.
+
                     </span>
+
                 </div>
 
+
+
                 <div class="col-md-5">
+
                     <div id="carouseltwo" class="carousel round-carousal slide carousel-fade"
+
                         data-bs-ride="carousel">
+
                         <div class="carousel-inner">
+
                             <div class="carousel-item active">
+
                                 <img src="./assets/img/kontakt-carousel/1.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="./assets/img/kontakt-carousel/2.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="./assets/img/kontakt-carousel/3.png" class="d-block w-100" alt="...">
+
                             </div>
 
+                            <div class="carousel-item">
+
+                            <img src="./assets/img/kontakt-carousel/2.png" class="d-block w-100" alt="...">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                            <img src="./assets/img/kontakt-carousel/3.png" class="d-block w-100" alt="...">
+
+                            </div>
+
+
+
                         </div>
+
                         <div class="carousel-indicators">
+
                             <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="0" class="active"
+
                                 aria-current="true" aria-label="Slide 1"></button>
+
                             <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="1"
+
                                 aria-label="Slide 2"></button>
+
                             <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="2"
+
                                 aria-label="Slide 3"></button>
 
+
+
                         </div>
+
+
+
 
 
                     </div>
 
+
+
                     <img src="./assets/img/kontakt-bottom.png" alt="" class="kontakt-bottom">
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
 
+
+
+
 </main>
+
+
 
 <?php include('footer.php'); ?>

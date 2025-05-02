@@ -1,3 +1,11 @@
+
+document.addEventListener('input', function (event) {
+  if (event.target.tagName.toLowerCase() === 'textarea') {
+    event.target.style.height = 'auto'; // Reset height
+    event.target.style.height = (event.target.scrollHeight) + 'px'; // Set new height based on scrollHeight
+    event.target.style.overflow = 'hidden'; // Hide scrollbars
+  }
+});
 $('.visit-insta .slider').slick({
     centerMode: true,
     slidesToShow: 3,
@@ -139,3 +147,137 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+
+
+window.addEventListener('DOMContentLoaded', function () {
+  const params = new URLSearchParams(window.location.search);
+  const tabId = params.get('tab');
+
+  if (tabId) {
+    const triggerTab = document.querySelector(`#${tabId}-tab`);
+    if (triggerTab) {
+      const tab = new bootstrap.Tab(triggerTab);
+      tab.show();
+
+      // Scroll smoothly to the tab content
+      const tabContent = document.getElementById(tabId);
+      if (tabContent) {
+        setTimeout(() => {
+          tabContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 500); // wait a little so the tab opens before scroll
+      }
+    }
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const openNavCase = document.getElementById('openNavCase');
+if (openNavCase) {
+  openNavCase.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-case-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}
+
+const openNavSozialberatung = document.getElementById('openNavSozialberatung');
+if (openNavSozialberatung) {
+  openNavSozialberatung.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-sozialberatung-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}
+
+const openNavFamilientherapie = document.getElementById('openNavFamilientherapie');
+if (openNavFamilientherapie) {
+  openNavFamilientherapie.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-familientherapie-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}
+
+const openNavernahrungsberatung = document.getElementById('openNavernahrungsberatung');
+if (openNavernahrungsberatung) {
+  openNavernahrungsberatung.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-ernahrungsberatung-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}
+
+
+
+
+
+
+
+
+
+const openNavBehorden = document.getElementById('openNavBehorden');
+if (openNavBehorden) {
+  openNavBehorden.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-krankenkassen-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}
+
+const opennavArzte = document.getElementById('opennavArzte');
+if (opennavArzte) {
+  opennavArzte.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-Pflegedienste-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}
+
+const opennavkita = document.getElementById('opennavkita');
+if (opennavkita) {
+  opennavkita.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-Kita-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}
+
+const opennavNetzwerkarbeit = document.getElementById('opennavNetzwerkarbeit');
+if (opennavNetzwerkarbeit) {
+  opennavNetzwerkarbeit.addEventListener('click', function(e) {
+    e.preventDefault();
+    const triggerEl = document.querySelector('#nav-offentlichkeit-tab');
+    if (triggerEl) {
+      new bootstrap.Tab(triggerEl).show();
+    }
+  });
+}

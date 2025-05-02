@@ -8,6 +8,8 @@ include('header.php'); ?>
 
 <main id="agb">
     <section class="banner service-banner">
+        <?php include('contact.php'); ?>
+
         <div class="container">
             <h1><span>Wir helfen &nbsp;</span> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; schwerkranken <br>
                 <span> &nbsp; &nbsp; Kindern </span> und deren <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

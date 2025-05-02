@@ -8,6 +8,7 @@ include('header.php'); ?>
 
 <main id="satzungszweck">
     <section class="banner service-banner satzungszweck-banner">
+<?php include('contact.php'); ?>
 
         <div class="container">
             <h1><span>Wir helfen &nbsp;</span> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

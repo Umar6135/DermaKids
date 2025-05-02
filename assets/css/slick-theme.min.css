@@ -119,8 +119,8 @@
     color: transparent;
     border: 0;
     outline: 0;
-    background:#A6AAA8;
-    border: 1px solid #7B7C7C;
+    background:#AFB1B0;
+    border: 1px solid #848585;
     border-radius: 50%;
 }
 .slick-dots li.slick-active{
@@ -131,8 +131,8 @@
     border-radius: 10px;
  }
 .slick-dots li.slick-active button:before{
-   background: #9CD6E4;
-   border: 1px solid #9CD6E4;
+   background: #81CADA;
+   border: 1px solid #48C0D5;
    border-radius: 10px;
    
 }

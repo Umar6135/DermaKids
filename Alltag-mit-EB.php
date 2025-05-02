@@ -5,6 +5,7 @@ $GLOBALS['desc'] = "";
 include('header.php'); ?>
 <main class="alltag-mit">
     <section class="banner service-banner">
+        <?php include('contact.php'); ?>
         <div class="container">
             <h1 class="text-center mw-100">Der <span>Alltag</span> mit EB
             </h1>
@@ -247,8 +248,8 @@ include('header.php'); ?>
         <div class="container">
             <div class="bC-content">
                 <h3>Die wichtige Rolle der Ernährung für Schmetterlingskinder</h3>
-                <p>Eine ausgewogene Ernährung hat im Leben von Schmetterlingskindern einen besonderen Stellenwert. EB-Betroffene können aufgrund der Blasenbildung im Mundraum, möglicher Schleimhautverletzungen und Vernarbungen nur erschwert Nahrung zu sich nehmen. Gleichzeitig besteht jedoch aufgrund der ständigen Wundheilung, der dauerhaften Medikamentenaufnahmen und anderer Faktoren ein sehr hoher Nährwert-Bedarf. Für die betroffenen Familien stellt die richtige Ernährung daher eine sehr große Herausforderung dar. Unsere Ernährungswissenschaftlerinnen helfen mit Rat und Tat! <a href="">mehr erfahren</a></p>
-                <a href="" class="theme-btn">Ernährungsberatung</a>
+                <p>Eine ausgewogene Ernährung hat im Leben von Schmetterlingskindern einen besonderen Stellenwert. EB-Betroffene können aufgrund der Blasenbildung im Mundraum, möglicher Schleimhautverletzungen und Vernarbungen nur erschwert Nahrung zu sich nehmen. Gleichzeitig besteht jedoch aufgrund der ständigen Wundheilung, der dauerhaften Medikamentenaufnahmen und anderer Faktoren ein sehr hoher Nährwert-Bedarf. Für die betroffenen Familien stellt die richtige Ernährung daher eine sehr große Herausforderung dar. Unsere Ernährungswissenschaftlerinnen helfen mit Rat und Tat! <a href="./hilfsangebote-eb.php?tab=nav-ernahrungsberatung" id="ernahrungsberatung2">mehr erfahren</a></p>
+                <a class="theme-btn" href="./hilfsangebote-eb.php?tab=nav-ernahrungsberatung" id="ernahrungsberatung">Ernährungsberatung</a>
             </div>
             <div id="carouselfour" class="carousel round-carousal slide carousel-fade"
                         data-bs-ride="carousel">
@@ -273,37 +274,37 @@ include('header.php'); ?>
                 </div>
         </div>
     </section>
-    <section class="shop">
+    <section class="shop-section">
         <div class="container container-wd">
-            <h3>Shop</h3>
-            <div class="shop-items">
-                <div class="shop-item">
+            <h3>Unsere Infos zu EB für Sie</h3>
+            <div class="shop-section-items">
+                <div class="shop-section-item">
                     <a href="">
                         <img src="./assets/img/shop1.png" alt="">
                         <h6>Pepi das
                             Schmetterlingskind</h6>
                     </a>
                 </div>
-                <div class="shop-item">
+                <div class="shop-section-item">
                     <a href="">
                         <img src="./assets/img/shop2.png" alt="">
                         <h6>EB-Infofibel</h6>
                     </a>
                 </div>
-                <div class="shop-item">
+                <div class="shop-section-item">
                     <a href="">
                         <img src="./assets/img/shop3.png" alt="">
                         <h6>Nachhaltigkeits-
                             bericht</h6>
                     </a>
                 </div>
-                <div class="shop-item">
+                <div class="shop-section-item">
                     <a href="">
                         <img src="./assets/img/shop4.png" alt="">
                         <h6>Imageflyer</h6>
                     </a>
                 </div>
-                <div class="shop-item">
+                <div class="shop-section-item">
                     <a href="">
                         <img src="./assets/img/shop5.png" alt="">
                         <h6>Broschüre zum
