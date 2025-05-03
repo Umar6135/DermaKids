@@ -14792,7 +14792,177 @@ section {
     .advice-banner {
         padding-block: 50px !important;
     }
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        bottom: 448px;
+    }
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        top: 400px;
+        right: 192px;
+        width: 300px;
+    }
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        width: 150px;
+        height: 150px;
+        bottom: 859px;
 
+    }
+    .how-we-help #nav-krankenkassen .service-nav span {
+        font-size: 30px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 500px;
+        height: 500px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        top: 500px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        width: 300px;
+        height: 300px;
+        top: 500px;
+        right: 159px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        bottom: 516px;
+        right: 335px;
+        width: 230px;
+        height: 230px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5), .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+        width: 150px;
+        height: 150px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        bottom: 700px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        bottom: 500px;
+        width: 120px;
+        height: 120px;
+    
+
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        bottom: 322px;
+        right: 352px;
+        width: 150px;
+        height: 150px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5), .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+        width: 130px;
+        height: 130px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+        bottom: 458px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(9) {
+        width: 200px;
+        height: 200px;
+        right: 500px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(11) {
+        bottom: 238px;
+        left: initial;
+        width: 150px;
+        height: 150px;
+        right: 663px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 400px;
+        height: 400px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(2) img {
+        width: 300px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(2){
+        width: 300px;
+        height: 300px;
+        top: 410px;
+        right: 188px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        bottom: 448px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        bottom: 371px;
+        right: 156px;
+        left: initial;
+        width: 120px;
+        height: 120px;
+        top: initial;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        top: initial;
+        right: 483px;
+        bottom: 52px;
+        left: initial;
+        width: 150px;
+        height: 150px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        right: 447px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        top: initial;
+        right: 719px;
+        bottom: 123px;
+        width: 180px;
+        height: 180px;
+    }
+    
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        top: 32px;
+        right: 58px;
+        width: 400px;
+        height: 400px;
+    }
+    .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        width: 300px;
+        top: 469px;
+        right: 95px;
+        height: 300px;
+    }
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        top: 728px;
+        right: 13px;
+        left: initial;
+        width: 150px;
+        height: 150px;
+    }
+    .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        width: 180px;
+        height: 180px;
+    }
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        bottom: 488px;
+        top: initial;
+        right: 281px;
+        left: initial;
+        width: 150px;
+        height: 150px;
+    }
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(7),#nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(8)         {
+        width: 170px;
+        height: 170px;
+
+    }
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        bottom: 203px;
+        right: 701px;
+        top: initial;
+        width: 250px;
+        height: 250px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(10) {
+        top: initial;
+        left: initial;
+        width: 120px;
+        height: 120px;
+        bottom: 395px;
+        right: 804px;
+    }
+    
     .help-affected .help-offer-img {
         width: 380px;
         height: 380px;
@@ -15605,7 +15775,9 @@ margin-bottom: 16px;
         font-size: 41px;
         margin-bottom: 10px;
     }
-
+    .how-we-help .hwh-type .nav-link {
+        width: 339px;
+    }
     .info-card {
         margin-top: 15px;
 
@@ -15614,7 +15786,26 @@ margin-bottom: 16px;
     .banner .subtext {
         font-size: 37px;
     }
-
+    .how-we-help .hwh-type h3 {
+        font-size: 34px;
+        margin-bottom: 11px;
+    }
+    .how-we-help .hwh-type .nav-link {
+        margin-top: -72px;
+        max-height: 72px;
+    }
+    .how-we-help .hwh-type .nav-link {
+        padding: 23px 16px 20px 23px !important;
+    }    
+    .how-we-help .hwh-type p {
+        font-size: 14px;
+    }
+    .help-affected .nav-tabs .nav-link {
+        font-size: 16px;
+    }
+    .help-affected .nav-tabs .nav-link {
+        font-size: 15px;
+    }
     .our-club .about-banner h1::after {
         left: -6px;
         width: 100px;
