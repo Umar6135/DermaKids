@@ -18,11 +18,11 @@ include('header.php'); ?>
 
 <div class="banner">
 
-<?php include('contact.php'); ?>
+    <?php include('contact.php'); ?>
 
 
 
-    
+
 
     <div class="banner-content">
 
@@ -158,7 +158,7 @@ include('header.php'); ?>
 
 
 
-<div class="testimonial">
+<div class="testimonial home-testimonial">
 
     <div class="container">
 
@@ -200,13 +200,50 @@ include('header.php'); ?>
 
     </div>
 
+
+    <div id="carousalMobile" class="carousel round-carousal slide carousel-fade d-md-none" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="./assets/img/testimonial-mb-1.png" class="d-block w-100" alt="...">
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="./assets/img/testimonial-mb-2.png" class="d-block w-100" alt="...">
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="carousel-indicators">
+
+            <button type="button" data-bs-target="#carousalMobile" data-bs-slide-to="0" class="active"
+
+                aria-current="true" aria-label="Slide 1"></button>
+
+            <button type="button" data-bs-target="#carousalMobile" data-bs-slide-to="1"
+
+                aria-label="Slide 2"></button>
+        </div>
+
+    </div>
+
+
 </div>
 
 
 
 
 
-<div class="divider">
+<div class="divider hm-divider">
 
     <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
 
@@ -251,12 +288,15 @@ include('header.php'); ?>
             </p>
 
 
+            <div class="btn-group d-none d-md-block">
 
-            <a href="uber-uns.php" class="theme-btn">
+                <a href="uber-uns.php" class="theme-btn">
 
-                Unsere Ziele
+                    Unsere Ziele
 
-            </a>
+                </a>
+                
+            </div>
 
         </div>
 
@@ -268,19 +308,22 @@ include('header.php'); ?>
 
                 <div class="carousel-item active">
 
-                    <img src="./assets/img/carousal-2/1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/img/carousal-2/1.png" class="d-block w-100 d-none d-md-block" alt="...">
+                    <img src="./assets/img/carousal-2/mb-1.png" class="d-block w-100 d-md-none" alt="...">
 
                 </div>
 
                 <div class="carousel-item">
 
-                    <img src="./assets/img/carousal-2/2.png" class="d-block w-100" alt="...">
+                    <img src="./assets/img/carousal-2/2.png" class="d-block w-100 d-none d-md-block" alt="...">
+                    <img src="./assets/img/carousal-2/mb-2.png" class="d-block w-100 d-md-none" alt="...">
 
                 </div>
 
                 <div class="carousel-item">
 
-                    <img src="./assets/img/carousal-2/3.png" class="d-block w-100" alt="...">
+                    <img src="./assets/img/carousal-2/3.png" class="d-block w-100 d-none d-md-block" alt="...">
+                    <img src="./assets/img/carousal-2/mb-3.png" class="d-block w-100 d-md-none" alt="...">
 
                 </div>
 
@@ -308,7 +351,19 @@ include('header.php'); ?>
 
         </div>
 
+        <div class="btn-group d-md-none">
 
+            <a href="uber-uns.php" class="theme-btn">
+
+                Unsere Ziele
+
+            </a>
+            <a href="uber-uns.php" class="theme-btn d-md-none">
+
+                Unsere Geschichte
+
+            </a>
+        </div>
 
     </div>
 
@@ -335,10 +390,10 @@ include('header.php'); ?>
         </h3>
 
 
-<video class="w-100" controls width="1193" height="673" poster="./assets/img/eb-meeting.png">
-  <source src="./assets/video/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+        <video class="w-100" controls width="1193" height="673" poster="./assets/img/eb-meeting.png">
+            <source src="./assets/video/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
 
 
@@ -562,26 +617,26 @@ include('header.php'); ?>
 
 
 
-                <div id="carouselthree" class="carousel round-carousal slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselthree" class="carousel round-carousal slide carousel-fade -mx-sm-12" data-bs-ride="carousel">
 
-                    <div class="carousel-inner">
+                    <div class="carousel-inner"> 
 
                         <div class="carousel-item active">
 
-                            <img src="./assets/img/carousal-3/1.png" class="d-block w-100" alt="...">
-
+                        <img src="./assets/img/carousal-3/1.png" class="d-block w-100 d-none d-md-block" alt="...">
+                        <img src="./assets/img/carousal-3/mb-1.png" class="d-block w-100 d-md-none" alt="...">
                         </div>
 
                         <div class="carousel-item">
 
-                            <img src="./assets/img/carousal-3/2.png" class="d-block w-100" alt="...">
-
+                        <img src="./assets/img/carousal-3/2.png" class="d-block w-100 d-none d-md-block" alt="...">
+                        <img src="./assets/img/carousal-3/mb-2.png" class="d-block w-100 d-md-none" alt="...">
                         </div>
 
                         <div class="carousel-item">
 
-                            <img src="./assets/img/carousal-3/3.png" class="d-block w-100" alt="...">
-
+                        <img src="./assets/img/carousal-3/3.png" class="d-block w-100 d-none d-md-block" alt="...">
+                        <img src="./assets/img/carousal-3/mb-3.png" class="d-block w-100 d-md-none" alt="...">
                         </div>
 
 
@@ -744,7 +799,7 @@ include('header.php'); ?>
 
             <a href="https://www.instagram.com/dermakids/" class="slide"><img src="./assets/img/slider2.png" alt="Slide 2"></a>
 
-            <a href="https://www.instagram.com/dermakids/"  class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></a>
+            <a href="https://www.instagram.com/dermakids/" class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></a>
 
             <a href="https://www.instagram.com/dermakids/" class="slide"><img src="./assets/img/slider1.png" alt="Slide 1"></a>
 
@@ -758,7 +813,7 @@ include('header.php'); ?>
 
 </section>
 
-<div class="divider">
+<div class="divider hm-divider-2">
 
     <img src="./assets/img/circle-blue.png" class="left" alt="circle-blue">
 
