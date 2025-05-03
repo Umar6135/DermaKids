@@ -14770,13 +14770,37 @@ section{
         .hwh-items h5{
             margin-top: 0 !important;
         }
+        .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+            right: 0;
+        }
         .how-we-help .tab-content .service-nav h4 {
             font-size: 40px;
             margin-bottom: 20px;
         }
+        .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+            right: 251px;
+        }
+        .how-we-help .tab-content #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+            width: 300px;
+            height: 300px;
+        }
+        .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+            bottom: 448px;
+        }
         .how-we-help .tab-content .service-nav .nav-case-heading p {
             font-size: 16px;
             max-width: 472px;
+margin-bottom: 16px;
+        }
+        .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+            top: 13px;
+            right: -42px;
+            width: 400px;
+            height: 400px;
+        }
+        .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(6), .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+            width: 170px;
+            height: 170px;
         }
         .how-we-help .tab-content .service-nav h5 {
             font-size: 35px;
