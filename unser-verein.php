@@ -21,7 +21,7 @@ include('header.php'); ?>
 
         <div class="container-md">
 
-            <h1>DermaKIDS – Unser Verein
+            <h1><div class="d-none d-md-inline">DermaKIDS –</div> Unser Verein
 
             </h1>
 
@@ -63,7 +63,7 @@ include('header.php'); ?>
                         </ol>
 
                     </nav>
-                    <div class="club-dermakids-v-content">
+                    <div class="club-dermakids-v-content fixtopspace">
 
                         <h2>Der Verein DermaKIDS
 
@@ -95,7 +95,7 @@ include('header.php'); ?>
 
                         <div class="text-center">
 
-                            <a href="./uber-uns.php" class="theme-btn">Über uns</a>
+                            <a href="./uber-uns.php" class="theme-btn d-none d-md-block">Über uns</a>
 
                         </div>
 
@@ -226,7 +226,7 @@ include('header.php'); ?>
 
                     </div>
                     </div>
-                    <a href="./uber-uns.php d-block  d-md-none " class="theme-btn">Über uns</a>
+                    <a href="./uber-uns.php " class="theme-btn d-block  d-md-none">Über uns</a>
 
                     <div class="association-img">
 
