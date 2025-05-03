@@ -95,7 +95,7 @@ include('header.php'); ?>
 
                         <div class="text-center">
 
-                            <a href="./uber-uns.php" class="theme-btn d-none d-md-block">Über uns</a>
+                            <a href="./uber-uns.php" class="theme-btn d-none d-md-inline-block">Über uns</a>
 
                         </div>
 
