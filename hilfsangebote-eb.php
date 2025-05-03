@@ -46,7 +46,7 @@ include('header.php'); ?>
 
 
 
-            <h1 class="ms-md-0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Hilfe & Beratung</span> bei
+            <h1 class="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Hilfe & Beratung</span> bei
 
 
 
@@ -964,7 +964,7 @@ include('header.php'); ?>
 
                                                         <div class="carousel-item">
 
-  <img src="./assets/img/banner-carousal/3a.png" class="d-block w-100" alt="...">
+                                                            <img src="./assets/img/banner-carousal/3a.png" class="d-block w-100" alt="...">
 
 
 
@@ -1674,7 +1674,7 @@ include('header.php'); ?>
 
                                         <div class="nav-case-item">
 
-<img src="./assets/img/familientherapie/familientherapie.png" alt="">
+                                            <img src="./assets/img/familientherapie/familientherapie.png" alt="">
 
 
 
@@ -2997,7 +2997,7 @@ include('header.php'); ?>
                                         <div class="nav-case-item">
 
 
-<img src="./assets/img/aerzte/aerzte.png" alt="">
+                                            <img src="./assets/img/aerzte/aerzte.png" alt="">
 
 
 
@@ -3013,7 +3013,11 @@ include('header.php'); ?>
 
 
 
-                                                <div id="carouselSix" class="carousel round-carousal slide carousel-fade" data-bs-ride="carousel">
+                                             
+                                                <div id="carouselSix" class="carousel round-carousal slide carousel-fade"
+
+
+                                                    data-bs-ride="carousel">
 
 
 
@@ -3021,6 +3025,7 @@ include('header.php'); ?>
 
 
 
+                                                        <div class="carousel-item active">
 
 
 
@@ -3041,6 +3046,14 @@ include('header.php'); ?>
 
 
                                                         </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -3068,6 +3081,10 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                                     </div>
 
 
@@ -3076,7 +3093,35 @@ include('header.php'); ?>
 
 
 
+                                                <div class="carousel-indicators">
+
+
+
+                                                    <button type="button" data-bs-target="#carouselSix" data-bs-slide-to="0" class="active"
+
+
+
+                                                        aria-current="true" aria-label="Slide 1"></button>
+
+
+
+                                                    <button type="button" data-bs-target="#carouselSix" data-bs-slide-to="1"
+
+
+
+                                                        aria-label="Slide 2"></button>
+
+
+
+                                                </div>
+
+
+
                                             </div>
+
+
+
+                                        </div>
 
 
 
@@ -3158,38 +3203,38 @@ include('header.php'); ?>
 
 
 
-                                   
-
-
-
-                                    <div class="nav-case-card">
-
-
-
-                                        <h5>Wir helfen Ihnen gerne:
-
-
-
-                                        </h5>
-
-
-
-                                        <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
-
-
-
-                                        <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
 
 
 
 
+                                        <div class="nav-case-card">
 
 
 
-                                    </div>
+                                            <h5>Wir helfen Ihnen gerne:
+
+
+
+                                            </h5>
+
+
+
+                                            <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
+
+
+
+                                            <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
+
+
+
+
+
 
 
                                         </div>
+
+
+                                    </div>
 
 
                                 </div>
@@ -3197,7 +3242,7 @@ include('header.php'); ?>
 
 
 
-</div>
+                            </div>
 
 
 
@@ -3227,8 +3272,8 @@ include('header.php'); ?>
 
                                         <h4>Hilfe bei Behörden & Krankenkassen</h4>
 
-<span class="subtext">Wissen teilen - für das Wohlergehen von EB-Patienten
-</span>
+                                        <span class="subtext">Wissen teilen - für das Wohlergehen von EB-Patienten
+                                        </span>
 
                                         <p>Wir verstehen uns als Brücke zwischen EB-Familien, Krankenkassen, Ämtern und Pflegediensten, um maßgeschneiderte Lösungen zu finden. Vielen EB-Familien fehlen Zeit und Kenntnisse, um einen sachgerechten Antrag oder einen Einzelfallantrag zu stellen. Gleichzeitig erfragen Sozialdienste oder Krankenkassen Details und Fachwissen zur Krankheit EB. Wir unterstützen beide Seiten, indem wir komplexe EB-Symptome erläutern und helfen, ein umfassendes Bild des Patienten zu zeichnen. </p>
 

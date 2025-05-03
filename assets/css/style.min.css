@@ -3037,7 +3037,14 @@ footer .copyright {
 
 @media(min-width: 1800px) {
 
+    .advice-banner h1{
+        margin-left: 0 !important;
+    }
+    .help-affected .container.container-wd {
 
+        max-width: 1226px;
+    
+    }
 
     .navbar .container,
 
@@ -5741,18 +5748,13 @@ main {
 
 
 
-.help-affected .container.container-wd {
 
-    max-width: 1226px;
-
-}
 
 
 
 .help-affected .how-we-help .bg-box {
 
-    width: 81.3%;
-
+    width: calc(100% - (50% - 41rem + 2rem + 25px));
 
 
 }
@@ -5909,60 +5911,29 @@ main {
 }
 
 
-.how-we-help .tab-content .service-nav ul li {
-
-    h6 {
-
-        font-size: 40px;
-
-        font-family: "JungleMan";
-
-        font-weight: 400;
-
-        color: #9E70A5;
-
-        line-height: 1;
-
-    }
-
-
-
-    p {
-
-        max-width: 83% !important;
-
-        position: relative;
-
-        padding-left: 45px;
-
-        margin-bottom: 35px !important;
-
-
-
-        &::before {
-
-            content: "";
-
-            position: absolute;
-
-            width: 12px;
-
-            height: 12px;
-
-            background-color: #A782B8;
-
-            border: 1px solid #751C8B;
-
-            border-radius: 50%;
-
-            left: 18px;
-
-            top: 9px;
-
-        }
-
-    }
-
+.how-we-help .tab-content .service-nav ul li h6 {
+    font-size: 40px;
+    font-family: "JungleMan";
+    font-weight: 400;
+    color: #9e70a5;
+    line-height: 1;
+}
+.how-we-help .tab-content .service-nav ul li p {
+    max-width: 83% !important;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 35px !important;
+}
+.how-we-help .tab-content .service-nav ul li p::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #a782b8;
+    border: 1px solid #751c8b;
+    border-radius: 50%;
+    left: 18px;
+    top: 9px;
 }
 
 
@@ -6755,75 +6726,36 @@ main {
 
 }
 
-
-
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(2) {
-
     top: -50px;
     right: 0;
-
-
-
-    img {
-
-        width: 336px;
-
-    }
-
 }
-
-
-
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(2) img {
+    width: 336px;
+}
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) {
-
     bottom: 984px;
     right: 50px;
-
-
-
-    .nav-case-carousel {
-
-        width: 450px;
-
-        height: 450px;
-
-
-
-        .carousel-fade .carousel-item {
-
-            margin-top: 0;
-
-        }
-
-
-
-        .round-carousal .carousel-indicators {
-
-            transform: rotate(291deg);
-
-            right: -43px;
-
-            margin: 0;
-
-            gap: 30px;
-
-            bottom: 11px;
-
-            left: inherit;
-
-        }
-
-
-
-        .round-carousal .carousel-indicators :nth-child(4) {
-
-            margin-top: 40px;
-
-        }
-
-    }
-
 }
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+    width: 450px;
+    height: 450px;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .carousel-fade .carousel-item {
+    margin-top: 0;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators {
+    transform: rotate(291deg);
+    right: -43px;
+    margin: 0;
+    gap: 30px;
+    bottom: 11px;
+    left: inherit;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators :nth-child(4) {
+    margin-top: 40px;
+}
+
 
 
 
@@ -6983,61 +6915,30 @@ main {
 }
 
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card {
-
-    background: linear-gradient(to bottom right, transparent 0%, #ffffff 15%, #eccfe2 100%);
-
+    background: linear-gradient(to bottom right, transparent 0%, #fff 15%, #eccfe2 100%);
     width: 190px;
-
     height: 190px;
-
     border-radius: 50%;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     flex-direction: column;
-
     text-align: center;
-
-
-
-    h6 {
-
-        font-size: 33px;
-
-        font-family: "JungleMan";
-
-        line-height: 1.1;
-
-        font-weight: 400;
-
-        color: #EA89A8;
-
-        margin-top: 0 !important;
-
-    }
-
-
-
-    h5 {
-
-
-
-        font-size: 45px;
-
-        color: #E32488;
-
-        max-width: 90%;
-
-        margin-bottom: 0;
-
-
-
-    }
-
+    padding: 5px;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h6 {
+    font-size: 33px;
+    font-family: "JungleMan";
+    line-height: 1.1;
+    font-weight: 400;
+    color: #ea89a8;
+    margin-top: 0 !important;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h5 {
+    font-size: 45px;
+    color: #e32488;
+    max-width: 90%;
+    margin-bottom: 0;
 }
 
 
@@ -7166,63 +7067,30 @@ main {
 
 
 .how-we-help .tab-content .service-nav .nav-case-card {
-
-    background: #48C0D5;
-
+    background: #48c0d5;
     border-radius: 20px;
-
     padding: 19px 55px 23px 24px;
-
     max-width: 400px;
-
     margin-left: auto;
-
     margin-right: 37px;
-
-
-
-    h5 {
-
-        font-size: 20px;
-
-        line-height: 35px;
-
-        color: #fff !important;
-
-        margin-bottom: 35px;
-
-        font-family: "Century Gothic Pro";
-
-
-
-    }
-
-
-
-    p {
-
-        font-size: 24px;
-
-        color: #ffffff;
-
-        line-height: 1.5;
-
-        margin-bottom: 0;
-
-    }
-
-
-
-    a {
-
-        font-size: 24px;
-
-        color: #ffffff;
-
-        line-height: 1.5;
-
-    }
-
+}
+.how-we-help .tab-content .service-nav .nav-case-card h5 {
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff !important;
+    margin-bottom: 35px;
+    font-family: "Century Gothic Pro";
+}
+.how-we-help .tab-content .service-nav .nav-case-card p {
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.how-we-help .tab-content .service-nav .nav-case-card a {
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.5;
 }
 
 
@@ -12992,12 +12860,38 @@ header {
 
 }
 
-
+section{
+    overflow-x: clip;
+}
 
 @media (max-width: 1800px) {
     .types-tabs .bg-box {
         width: 83.5%;
 
+    }
+    .help-affected .how-we-help .bg-box {
+        width: 90.7%;
+    }
+   
+    .advice-banner .banner-img {
+        position: absolute;
+        right: 14%;
+        top: 98px;
+    }
+    .help-affected .advice-banner h1{
+        font-size: 70px;
+        max-width: 900px;
+        margin-inline: auto;
+    }
+    .help-affected .help-offer-img {
+    position: absolute;
+    width: 547px;
+    height: 498px;
+    right: -2%;
+    top: -151px;
+}
+    .help-affected .advice-banner h1 span{
+        font-size: 70px;
     }
 
     #unser-verein .dermakids-v #carouseltwo {
@@ -13120,6 +13014,9 @@ header {
         min-height: initial;
     }
 
+    .help-affected     .info-card {
+        height: 500px;
+    }
     .shop .info-guide .carousel {
         top: -69px;
     }
@@ -13298,6 +13195,368 @@ header {
     .haupttypen .about-banner h1 {
         font-size: 70px;
         max-width: 693px;
+    }
+    .hwh-items:nth-child(3) .hwh-usp{
+        width: 200px;
+        height: 200px;
+    }
+    .hwh-items:nth-child(4) .hwh-usp {
+        width: 180px;
+        height: 180px;
+
+    }
+    #umfeld .hwh-items:nth-child(3) .hwh-usp {
+        width: 150px;
+        height: 150px;
+    }
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+    top: 400px;
+    right: 333px;
+}
+.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+    bottom: 500px;
+}
+.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+    bottom: 900px;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators {
+    right: 0;
+}
+.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+    bottom: 308px;
+    right: 380px;
+    width: 120px;
+    height: 120px;
+    top: initial;
+}
+    .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h6 {
+        font-size: 28px !important;
+    
+    }
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        top: 30px;
+        right: -42px;
+        width: 500px;
+        height: 500px;
+    }
+    .how-we-help .tab-content #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+        width: 400px;
+        height: 400px;
+    }
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+        right: 600px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        top: -17px;
+        right: 20px;
+        width: 500px;
+        height: 500px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        top: 487px;
+        right: 101px;
+        width: 450px;
+        height: 45px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        bottom: 424px;
+        right: -59px;
+        width: 400px;
+        height: 400px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        bottom: 337px;
+        right: 138px;
+        left: initial;
+        width: 150px;
+        height: 150px;
+        top: initial;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        bottom: 290px;
+        top: initial;
+        right: 590px;
+    }
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        top: initial;
+        right: 850px;
+        bottom: 123px;
+        width: 250px;
+        height: 250px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        top: 0;
+        right: -54px;
+        z-index: -1;
+        width: 600px;
+        height: 600px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(2){
+        width: 400px;
+        height: 400px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5),.how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8) 
+        {
+    width: 180px;
+    height: 180px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(9) {
+        width: 280px;
+        height: 280px;
+    }
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(10) {
+        top: initial;
+        left: initial;
+        width: 180px;
+        height: 180px;
+        bottom: 436px;
+        right: 900px;
+    }
+    
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        width: 150px;
+        height: 150px;
+    }
+    .how-we-help .tab-content .service-nav .nav-case-card p,.how-we-help .tab-content .service-nav .nav-case-card p a        {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .how-we-help .tab-content .service-nav ul li h6 {
+        font-size: 32px;
+    }
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+        width: 350px;
+        height: 350px;
+    }
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        bottom: 919px;
+    }
+    .how-we-help .tab-content  #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        bottom: 753px;
+        right: 773px;
+        width: 350px;
+        height: 350px;
+    }
+    .how-we-help  .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        bottom: 536px;
+        right: 53px;
+        width: 350px;
+        height: 350px;
+    }
+    .how-we-help  .tab-content #nav-case .service-nav .nav-case-items:nth-child(8) {
+        right: 16px;
+        bottom: 350px;
+        width: 150px;
+        height: 150px;
+    }
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        bottom: 350px;
+        right: 502px;
+        width: 400px;
+        height: 400px;
+    }
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(9) {
+        bottom: 301px;
+        right: 935px;
+    }
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        bottom: 878px;
+        right: 486px;
+        width: 150px;
+        height: 150px;
+    }
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        top: 82px;
+        right: 58px;
+        width: 500px;
+        height: 500px;
+    }
+    .how-we-help .tab-content .service-nav h4 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .how-we-help .tab-content .service-nav .nav-case-heading p {
+        font-size: 18px;
+    }
+    .how-we-help .tab-content .service-nav h5 {
+        font-size: 45px;
+    }
+    .how-we-help .hwh-type .nav-link {
+        width: 540px;
+        background-size: cover !important;
+
+    }
+    .how-we-help .hwh-type .nav-link.active{
+        border-radius: 30px;
+    }
+    .help-affected .nav-tabs
+ {
+    gap: 21px    ;
+ }
+ .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+    right: -40px;
+    width: 600px;
+    height: 600px;
+ }
+ #nav-ernahrungsberatung #carouselfive,.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+    width: 400px;
+}
+#nav-ernahrungsberatung .round-carousal .carousel-indicators{
+    transform: rotate(78deg);
+    left: -71px;
+}
+.how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+    bottom: 401px;
+    right: 268px;
+    left: initial;
+}
+.how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+    bottom: 648px;
+    right: 36px;
+}
+.how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+    width: 400px;
+    top: 420px;
+    right: 241px;
+    height: 400px;
+}
+.how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) .carousel-indicators {
+    transform: rotate(100deg);
+    right: -46px;
+}
+#nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+    bottom: 600px;
+    top: initial;
+    right: 297px;
+    left: initial;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+    right: -62px;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card{
+    width: 280px;
+    height: 280px;
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h5 {
+    font-size: 30px;
+    max-width: 58%;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card p {
+    font-size: 16px;
+}
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+    right: 110px !important;
+}
+
+.how-we-help .tab-content  #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+    top: inherit;
+        right: 296px;
+        width: 300px;
+        bottom: 496px;
+
+}
+.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(6),.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(7)     {
+    width: 180px;
+    height: 180px;
+}
+.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+  
+    width: 180px;
+    height: 180px;
+}
+#nav-home .hwh-items h5, #nav-home2 .hwh-items h5 {
+    margin-bottom: 16px;
+}
+.hwh-items p,.hwh-items a {
+    font-size: 18px;
+}
+.hwh-items .hwh-usp {
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+}
+.help-affected .advice-banner h1{
+    padding-bottom: 0;
+}
+.advice-banner {
+    padding-block: 100px !important;
+}
+.help-affected .help-offer-img{
+    width: 450px;
+    height: 450px;
+    top: -100px;
+}
+.advice-banner .banner-img {
+    right: 6%;
+
+    
+}
+.how-we-help .hwh-type h3 {
+    font-size: 45px;
+    margin-bottom: 63px;
+}
+.help-affected .nav-tabs{
+    margin-bottom: 80px;
+}
+.how-we-help {
+    margin-bottom: 180px;
+}
+.help-affected .donation-info {
+    padding: 200px 0;
+}
+    .how-we-help .hwh-type p {
+        font-size: 20px;}
+.help-affected .advice-banner h1 ,.help-affected .advice-banner h1 span{
+    font-size: 60px;
+}
+.help-affected .advice-banner h1{
+    max-width: 650px;
+
+}
+.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+    top: -164px;
+    right: 29px;
+    width: 700px;
+    height: 700px;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+    right: 39px;
+} 
+.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+    top: -83px;
+    right: 10px;
+    width: 600px;
+    height: 600px;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+    width: 380px;
+    height: 380px;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+    bottom: 657px;
+    right: 330px;
+}
+.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+    bottom: 388px;
+    width: 300px;
+}
+.how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(2){
+    top: -50px;
+    right: -37px;
+    width: 300px;
+
+}
+.help-affected .nav-tabs .nav-link {
+    font-size: 20px;
+
+ }
+ .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+    bottom: 496px;
+    right: -46px;
+    top: initial;
+}
+    .help-affected .how-we-help .bg-box {
+        width: 100%;
     }
 
     #unser-verein .dermakids-v #carouseltwo {
@@ -14429,10 +14688,91 @@ header {
     #datenschutz .service-banner,
     #impressum .service-banner,
     #agb .service-banner,
-    #satzungszweck .service-banner {
-        padding-block: 50px;
+    #satzungszweck .service-banner,
+    .advice-banner {
+        padding-block: 50px !important;
+    } 
+    .help-affected .help-offer-img {
+        width: 380px;
+        height: 380px;
+        top: 0;
     }
-
+    .advice-banner .banner-img {
+        right: 12%;
+        width: 150px;
+        height: 150px;
+        top: 61px;
+    }
+    .help-affected .help-offers h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .help-affected .help-offers .subtext {
+        font-size: 30px;
+        max-width: 600px;
+    }
+    .help-affected  .help-offers p {
+        font-size: 16px;
+    }
+    .help-offers #carouseltwo.round-carousal .carousel-indicators {
+        gap: 13px;
+        bottom: 0;
+    }
+    .help-affected .help-offers {
+        padding-bottom: 180px;
+    }
+        .how-we-help .hwh-type .nav-link {
+        width: 429px;}
+        .how-we-help .hwh-type h3 {
+            font-size: 40px;
+            margin-bottom: 38px;
+        }
+        .how-we-help .hwh-type p {
+            font-size: 16px;
+        }
+        .how-we-help .hwh-type .nav-link{
+            margin-top: -87px;
+            max-height: 88px;
+        }
+        .help-affected .nav-tabs .nav-link {
+            font-size: 18px;
+        }
+        .help-affected .nav-tabs {
+            gap: 8px;
+        }
+     .hwh-items h5,  .hwh-items h5 {
+            font-size: 43px !important;
+        }
+        .hwh-items p, .hwh-items a {
+            font-size: 16px;
+        }
+        #nav-home .hwh-items:nth-child(1)  .hwh-img {
+            position: relative;
+            max-width: fit-content;
+            width: 400px;
+            height: 400px;
+            margin-top: -48px;
+        }
+        .hwh-items:nth-child(2) .hwh-usp {
+            top: 34px;
+            right: 25px;
+        }
+        
+        .hwh-items:nth-child(3) .hwh-img {
+            margin-bottom: 0px;
+            margin-left: -59px;
+            margin-top: 66px;
+        }
+ .help-affected   .help-offers #carouseltwo
+ {
+    margin-top: 295px;
+    margin-left: -63px;
+    width: 400px;
+    height: 400px;
+}
+    .help-affected .advice-banner h1, .help-affected .advice-banner h1 span {
+        font-size: 55px;
+    }
     .our-club .about-banner h1::after {
         left: 26px;
     }
@@ -15065,7 +15405,9 @@ header {
 }
 
 @media (max-width: 768px) {
-
+.our-club .dermakids-v .container{
+    max-width: 100%;
+}
 
     .topbar {
         background: #fff;
@@ -15243,8 +15585,13 @@ header {
         z-index: 5;
         opacity: 0.9;
         margin-bottom: 0;
+        left: 0;
 
     }
+    .customers-testimonial .container{
+        max-width: 95%;
+    }
+  
 
     .customers-testimonial .testimonial-content-wrap p {
         font-size: 26px;
@@ -15252,10 +15599,51 @@ header {
 
     #about-us .customers-testimonial .testimonial-content-wrap,
     #unser-verein .customers-testimonial .testimonial-content-wrap {
-        min-height: 196px;
+        min-height: 149px;
 
     }
+    .customers-testimonial .carousel-indicators {
+        margin-top: 0 !important;
+        bottom: 58px !important;
 
+    gap: 23px !important    ;
+    }
+    .our-club .customers-testimonial{
+        margin-bottom: 96px;
+    }
+    .approach .approach-heading h3{
+        font-size: 35px;
+        line-height: 1;
+    }
+    .approach .approach-item-icon img {
+        width: 42px;
+        height: 42px;
+    }
+    .approach .approach-item{
+        gap: 22px;
+    }
+    .approach .approach-item h6 {
+        font-size: 24px;
+    }
+    .approach .approach-item{
+        padding-bottom: 23px !important;
+    }
+    .our-club .approach{
+        padding-bottom: 12px;
+    }
+    .our-club .donation-info {
+        padding-block: 170px 150px;
+    }
+    .info-card {
+        margin-bottom: 33px;
+        margin-top: 0;
+        max-width: 445px;
+        background-size: cover !important;
+    }
+    .approach .approach-img {
+        padding-top: 0;
+        max-width: 100%;
+    }
     .testimonial {
         min-height: 276px;
         max-height: 276px;
@@ -15305,8 +15693,6 @@ header {
     }
 
     .breadcrumb {
-
-        margin-inline: -30px;
         padding-inline: 17px;
         padding-block: 7px 9px;
 
@@ -15939,9 +16325,17 @@ header {
     .banner h1 {
         padding-top: 0;
     }
+    #unser-verein::before{
+        background: url(../img/unser-verein-bg-mbl.png) top left / contain;
 
+    }
+    .customers-testimonial .testimonial-content-wrap p {
+        font-size: 22px;
+    }
 
-    .our-goal-content p{
+    .approach .approach-heading h3 {
+        font-size: 33px;
+    }    .our-goal-content p{
 
         font-size: 14px;
         line-height: 1.4;
