@@ -3037,13 +3037,14 @@ footer .copyright {
 
 @media(min-width: 1800px) {
 
-    .advice-banner h1{
+    .advice-banner h1 {
         margin-left: 0 !important;
     }
+
     .help-affected .container.container-wd {
 
         max-width: 1226px;
-    
+
     }
 
     .navbar .container,
@@ -5918,12 +5919,14 @@ main {
     color: #9e70a5;
     line-height: 1;
 }
+
 .how-we-help .tab-content .service-nav ul li p {
     max-width: 83% !important;
     position: relative;
     padding-left: 45px;
     margin-bottom: 35px !important;
 }
+
 .how-we-help .tab-content .service-nav ul li p::before {
     content: "";
     position: absolute;
@@ -6730,20 +6733,25 @@ main {
     top: -50px;
     right: 0;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(2) img {
     width: 336px;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) {
     bottom: 984px;
     right: 50px;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
     width: 450px;
     height: 450px;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .carousel-fade .carousel-item {
     margin-top: 0;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators {
     transform: rotate(291deg);
     right: -43px;
@@ -6752,6 +6760,7 @@ main {
     bottom: 11px;
     left: inherit;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators :nth-child(4) {
     margin-top: 40px;
 }
@@ -6926,6 +6935,7 @@ main {
     text-align: center;
     padding: 5px;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h6 {
     font-size: 33px;
     font-family: "JungleMan";
@@ -6934,6 +6944,7 @@ main {
     color: #ea89a8;
     margin-top: 0 !important;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h5 {
     font-size: 45px;
     color: #e32488;
@@ -7074,6 +7085,7 @@ main {
     margin-left: auto;
     margin-right: 37px;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-card h5 {
     font-size: 20px;
     line-height: 35px;
@@ -7081,12 +7093,14 @@ main {
     margin-bottom: 35px;
     font-family: "Century Gothic Pro";
 }
+
 .how-we-help .tab-content .service-nav .nav-case-card p {
     font-size: 24px;
     color: #fff;
     line-height: 1.5;
     margin-bottom: 0;
 }
+
 .how-we-help .tab-content .service-nav .nav-case-card a {
     font-size: 24px;
     color: #fff;
@@ -12860,7 +12874,7 @@ header {
 
 }
 
-section{
+section {
     overflow-x: clip;
 }
 
@@ -12869,28 +12883,32 @@ section{
         width: 83.5%;
 
     }
+
     .help-affected .how-we-help .bg-box {
         width: 90.7%;
     }
-   
+
     .advice-banner .banner-img {
         position: absolute;
         right: 14%;
         top: 98px;
     }
-    .help-affected .advice-banner h1{
+
+    .help-affected .advice-banner h1 {
         font-size: 70px;
         max-width: 900px;
         margin-inline: auto;
     }
+
     .help-affected .help-offer-img {
-    position: absolute;
-    width: 547px;
-    height: 498px;
-    right: -2%;
-    top: -151px;
-}
-    .help-affected .advice-banner h1 span{
+        position: absolute;
+        width: 547px;
+        height: 498px;
+        right: -2%;
+        top: -151px;
+    }
+
+    .help-affected .advice-banner h1 span {
         font-size: 70px;
     }
 
@@ -12910,7 +12928,7 @@ section{
         padding-bottom: 18px !important;
     }
 
-    .our-club .about-banner h1 {
+    .about-banner h1 {
         padding-bottom: 0;
         margin-left: 0;
         font-size: 50px;
@@ -13014,9 +13032,10 @@ section{
         min-height: initial;
     }
 
-    .help-affected     .info-card {
+    .help-affected .info-card {
         height: 500px;
     }
+
     .shop .info-guide .carousel {
         top: -69px;
     }
@@ -13196,74 +13215,90 @@ section{
         font-size: 70px;
         max-width: 693px;
     }
-    .hwh-items:nth-child(3) .hwh-usp{
+
+    .hwh-items:nth-child(3) .hwh-usp {
         width: 200px;
         height: 200px;
     }
+
     .hwh-items:nth-child(4) .hwh-usp {
         width: 180px;
         height: 180px;
 
     }
+
     #umfeld .hwh-items:nth-child(3) .hwh-usp {
         width: 150px;
         height: 150px;
     }
+
     .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(2) {
-    top: 400px;
-    right: 333px;
-}
-.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) {
-    bottom: 500px;
-}
-.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(4) {
-    bottom: 900px;
-}
-.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators {
-    right: 0;
-}
-.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(5) {
-    bottom: 308px;
-    right: 380px;
-    width: 120px;
-    height: 120px;
-    top: initial;
-}
+        top: 400px;
+        right: 333px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        bottom: 500px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        bottom: 900px;
+    }
+
+    .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel .round-carousal .carousel-indicators {
+        right: 0;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        bottom: 308px;
+        right: 380px;
+        width: 120px;
+        height: 120px;
+        top: initial;
+    }
+
     .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h6 {
         font-size: 28px !important;
-    
+
     }
+
     .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(1) {
         top: 30px;
         right: -42px;
         width: 500px;
         height: 500px;
     }
+
     .how-we-help .tab-content #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
         width: 400px;
         height: 400px;
     }
+
     #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(8) {
         right: 600px;
     }
+
     .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(1) {
         top: -17px;
         right: 20px;
         width: 500px;
         height: 500px;
     }
+
     .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(2) {
         top: 487px;
         right: 101px;
         width: 450px;
         height: 45px;
     }
+
     .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(3) {
         bottom: 424px;
         right: -59px;
         width: 400px;
         height: 400px;
     }
+
     .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(4) {
         bottom: 337px;
         right: 138px;
@@ -13272,11 +13307,13 @@ section{
         height: 150px;
         top: initial;
     }
+
     .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(6) {
         bottom: 290px;
         top: initial;
         right: 590px;
     }
+
     .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(7) {
         top: initial;
         right: 850px;
@@ -13284,6 +13321,7 @@ section{
         width: 250px;
         height: 250px;
     }
+
     .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(1) {
         top: 0;
         right: -54px;
@@ -13291,19 +13329,23 @@ section{
         width: 600px;
         height: 600px;
     }
-    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(2){
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(2) {
         width: 400px;
         height: 400px;
     }
-    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5),.how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8) 
-        {
-    width: 180px;
-    height: 180px;
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5),
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+        width: 180px;
+        height: 180px;
     }
+
     .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(9) {
         width: 280px;
         height: 280px;
     }
+
     .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(10) {
         top: initial;
         left: initial;
@@ -13312,249 +13354,311 @@ section{
         bottom: 436px;
         right: 900px;
     }
-    
+
     .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(6) {
         width: 150px;
         height: 150px;
     }
-    .how-we-help .tab-content .service-nav .nav-case-card p,.how-we-help .tab-content .service-nav .nav-case-card p a        {
+
+    .how-we-help .tab-content .service-nav .nav-case-card p,
+    .how-we-help .tab-content .service-nav .nav-case-card p a {
         font-size: 20px;
         line-height: 1.2;
     }
+
     .how-we-help .tab-content .service-nav ul li h6 {
         font-size: 32px;
     }
+
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
         width: 350px;
         height: 350px;
     }
+
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(3) {
         bottom: 919px;
     }
-    .how-we-help .tab-content  #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(4) {
         bottom: 753px;
         right: 773px;
         width: 350px;
         height: 350px;
     }
-    .how-we-help  .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(5) {
         bottom: 536px;
         right: 53px;
         width: 350px;
         height: 350px;
     }
-    .how-we-help  .tab-content #nav-case .service-nav .nav-case-items:nth-child(8) {
+
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items:nth-child(8) {
         right: 16px;
         bottom: 350px;
         width: 150px;
         height: 150px;
     }
+
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(6) {
         bottom: 350px;
         right: 502px;
         width: 400px;
         height: 400px;
     }
+
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(9) {
         bottom: 301px;
         right: 935px;
     }
+
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(7) {
         bottom: 878px;
         right: 486px;
         width: 150px;
         height: 150px;
     }
+
     #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(1) {
         top: 82px;
         right: 58px;
         width: 500px;
         height: 500px;
     }
+
     .how-we-help .tab-content .service-nav h4 {
         font-size: 50px;
         margin-bottom: 30px;
     }
+
     .how-we-help .tab-content .service-nav .nav-case-heading p {
         font-size: 18px;
     }
+
     .how-we-help .tab-content .service-nav h5 {
         font-size: 45px;
     }
+
     .how-we-help .hwh-type .nav-link {
         width: 540px;
         background-size: cover !important;
 
     }
-    .how-we-help .hwh-type .nav-link.active{
+
+    .how-we-help .hwh-type .nav-link.active {
         border-radius: 30px;
     }
-    .help-affected .nav-tabs
- {
-    gap: 21px    ;
- }
- .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
-    right: -40px;
-    width: 600px;
-    height: 600px;
- }
- #nav-ernahrungsberatung #carouselfive,.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
-    width: 400px;
-}
-#nav-ernahrungsberatung .round-carousal .carousel-indicators{
-    transform: rotate(78deg);
-    left: -71px;
-}
-.how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(6) {
-    bottom: 401px;
-    right: 268px;
-    left: initial;
-}
-.how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(5) {
-    bottom: 648px;
-    right: 36px;
-}
-.how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) {
-    width: 400px;
-    top: 420px;
-    right: 241px;
-    height: 400px;
-}
-.how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) .carousel-indicators {
-    transform: rotate(100deg);
-    right: -46px;
-}
-#nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(6) {
-    bottom: 600px;
-    top: initial;
-    right: 297px;
-    left: initial;
-}
-.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) {
-    right: -62px;
-}
-.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card{
-    width: 280px;
-    height: 280px;
-}
-.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h5 {
-    font-size: 30px;
-    max-width: 58%;
-}
-.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card p {
-    font-size: 16px;
-}
-.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(4) {
-    right: 110px !important;
-}
 
-.how-we-help .tab-content  #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
-    top: inherit;
+    .help-affected .nav-tabs {
+        gap: 21px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        right: -40px;
+        width: 600px;
+        height: 600px;
+    }
+
+    #nav-ernahrungsberatung #carouselfive,
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+        width: 400px;
+    }
+
+    #nav-ernahrungsberatung .round-carousal .carousel-indicators {
+        transform: rotate(78deg);
+        left: -71px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        bottom: 401px;
+        right: 268px;
+        left: initial;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        bottom: 648px;
+        right: 36px;
+    }
+
+    .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        width: 400px;
+        top: 420px;
+        right: 241px;
+        height: 400px;
+    }
+
+    .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) .carousel-indicators {
+        transform: rotate(100deg);
+        right: -46px;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        bottom: 600px;
+        top: initial;
+        right: 297px;
+        left: initial;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        right: -62px;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card {
+        width: 280px;
+        height: 280px;
+    }
+
+    .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h5 {
+        font-size: 30px;
+        max-width: 58%;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card p {
+        font-size: 16px;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        right: 110px !important;
+    }
+
+    .how-we-help .tab-content #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        top: inherit;
         right: 296px;
         width: 300px;
         bottom: 496px;
 
-}
-.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(6),.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(7)     {
-    width: 180px;
-    height: 180px;
-}
-.how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(8) {
-  
-    width: 180px;
-    height: 180px;
-}
-#nav-home .hwh-items h5, #nav-home2 .hwh-items h5 {
-    margin-bottom: 16px;
-}
-.hwh-items p,.hwh-items a {
-    font-size: 18px;
-}
-.hwh-items .hwh-usp {
-    width: 150px;
-    height: 150px;
-    font-size: 24px;
-}
-.help-affected .advice-banner h1{
-    padding-bottom: 0;
-}
-.advice-banner {
-    padding-block: 100px !important;
-}
-.help-affected .help-offer-img{
-    width: 450px;
-    height: 450px;
-    top: -100px;
-}
-.advice-banner .banner-img {
-    right: 6%;
+    }
 
-    
-}
-.how-we-help .hwh-type h3 {
-    font-size: 45px;
-    margin-bottom: 63px;
-}
-.help-affected .nav-tabs{
-    margin-bottom: 80px;
-}
-.how-we-help {
-    margin-bottom: 180px;
-}
-.help-affected .donation-info {
-    padding: 200px 0;
-}
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(6),
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        width: 180px;
+        height: 180px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+
+        width: 180px;
+        height: 180px;
+    }
+
+    #nav-home .hwh-items h5,
+    #nav-home2 .hwh-items h5 {
+        margin-bottom: 16px;
+    }
+
+    .hwh-items p,
+    .hwh-items a {
+        font-size: 18px;
+    }
+
+    .hwh-items .hwh-usp {
+        width: 150px;
+        height: 150px;
+        font-size: 24px;
+    }
+
+    .help-affected .advice-banner h1 {
+        padding-bottom: 0;
+    }
+
+    .advice-banner {
+        padding-block: 100px !important;
+    }
+
+    .help-affected .help-offer-img {
+        width: 450px;
+        height: 450px;
+        top: -100px;
+    }
+
+    .advice-banner .banner-img {
+        right: 6%;
+
+
+    }
+
+    .how-we-help .hwh-type h3 {
+        font-size: 45px;
+        margin-bottom: 63px;
+    }
+
+    .help-affected .nav-tabs {
+        margin-bottom: 80px;
+    }
+
+    .how-we-help {
+        margin-bottom: 180px;
+    }
+
+    .help-affected .donation-info {
+        padding: 200px 0;
+    }
+
     .how-we-help .hwh-type p {
-        font-size: 20px;}
-.help-affected .advice-banner h1 ,.help-affected .advice-banner h1 span{
-    font-size: 60px;
-}
-.help-affected .advice-banner h1{
-    max-width: 650px;
+        font-size: 20px;
+    }
 
-}
-.how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(1) {
-    top: -164px;
-    right: 29px;
-    width: 700px;
-    height: 700px;
-}
-.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(1) {
-    right: 39px;
-} 
-.how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
-    top: -83px;
-    right: 10px;
-    width: 600px;
-    height: 600px;
-}
-.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
-    width: 380px;
-    height: 380px;
-}
-.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(4) {
-    bottom: 657px;
-    right: 330px;
-}
-.how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(2) {
-    bottom: 388px;
-    width: 300px;
-}
-.how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(2){
-    top: -50px;
-    right: -37px;
-    width: 300px;
+    .help-affected .advice-banner h1,
+    .help-affected .advice-banner h1 span {
+        font-size: 60px;
+    }
 
-}
-.help-affected .nav-tabs .nav-link {
-    font-size: 20px;
+    .help-affected .advice-banner h1 {
+        max-width: 650px;
 
- }
- .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
-    bottom: 496px;
-    right: -46px;
-    top: initial;
-}
+    }
+
+    .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        top: -164px;
+        right: 29px;
+        width: 700px;
+        height: 700px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        right: 39px;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        top: -83px;
+        right: 10px;
+        width: 600px;
+        height: 600px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
+        width: 380px;
+        height: 380px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        bottom: 657px;
+        right: 330px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        bottom: 388px;
+        width: 300px;
+    }
+
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        top: -50px;
+        right: -37px;
+        width: 300px;
+
+    }
+
+    .help-affected .nav-tabs .nav-link {
+        font-size: 20px;
+
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        bottom: 496px;
+        right: -46px;
+        top: initial;
+    }
+
     .help-affected .how-we-help .bg-box {
         width: 100%;
     }
@@ -14173,10 +14277,6 @@ section{
 
         padding-right: 0;
 
-
-
-        padding-bottom: 100px;
-
     }
 
 
@@ -14684,78 +14784,94 @@ section{
 }
 
 @media (max-width: 1200px) {
-    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item .round-carousal .carousel-indicators {
-        transform: rotate(3deg);
-        left: 47px !important;
-    }
+    
     #datenschutz .service-banner,
     #impressum .service-banner,
     #agb .service-banner,
     #satzungszweck .service-banner,
     .advice-banner {
         padding-block: 50px !important;
-    } 
+    }
+
     .help-affected .help-offer-img {
         width: 380px;
         height: 380px;
         top: 0;
     }
+
     .advice-banner .banner-img {
         right: 12%;
         width: 150px;
         height: 150px;
         top: 61px;
     }
+
     .help-affected .help-offers h2 {
         font-size: 40px;
         margin-bottom: 20px;
     }
+
     .help-affected .help-offers .subtext {
         font-size: 30px;
         max-width: 600px;
     }
-    .help-affected  .help-offers p {
+
+    .help-affected .help-offers p {
         font-size: 16px;
     }
+
     .help-offers #carouseltwo.round-carousal .carousel-indicators {
         gap: 13px;
         bottom: 0;
     }
+
     .help-affected .help-offers {
         padding-bottom: 180px;
     }
-        .how-we-help .hwh-type .nav-link {
-        width: 429px;}
-        .how-we-help .hwh-type h3 {
-            font-size: 40px;
-            margin-bottom: 38px;
-        }
-        .how-we-help .hwh-type p {
-            font-size: 16px;
-        }
-        .how-we-help .hwh-type .nav-link{
-            margin-top: -87px;
-            max-height: 88px;
-        }
-        .help-affected .nav-tabs .nav-link {
-            font-size: 18px;
-        }
-        .help-affected .nav-tabs {
-            gap: 8px;
-        }
-     .hwh-items h5,  .hwh-items h5 {
-            font-size: 43px !important;
-        }
-        .hwh-items p, .hwh-items a {
-            font-size: 16px;
-        }
-        #nav-home .hwh-items:nth-child(1)  .hwh-img {
-            position: relative;
-            max-width: fit-content;
-            width: 300px;
-            height: initial;
-            margin-top: -48px;
-        }
+
+    .how-we-help .hwh-type .nav-link {
+        width: 429px;
+    }
+
+    .how-we-help .hwh-type h3 {
+        font-size: 40px;
+        margin-bottom: 38px;
+    }
+
+    .how-we-help .hwh-type p {
+        font-size: 16px;
+    }
+
+    .how-we-help .hwh-type .nav-link {
+        margin-top: -87px;
+        max-height: 88px;
+    }
+
+    .help-affected .nav-tabs .nav-link {
+        font-size: 18px;
+    }
+
+    .help-affected .nav-tabs {
+        gap: 8px;
+    }
+
+    .hwh-items h5,
+    .hwh-items h5 {
+        font-size: 43px !important;
+    }
+
+    .hwh-items p,
+    .hwh-items a {
+        font-size: 16px;
+    }
+
+    #nav-home .hwh-items:nth-child(1) .hwh-img {
+        position: relative;
+        max-width: fit-content;
+        width: 300px;
+        height: initial;
+        margin-top: -48px;
+    }
         .hwh-items:nth-child(1) .hwh-img::after {
             width: 500px;
             height: 500px;
@@ -14911,26 +15027,30 @@ margin-bottom: 16px;
         .hwh-items .hwh-img2::after{
             width: 500px;
         }
-        .hwh-items:nth-child(2) .hwh-usp {
-            top: 34px;
-            right: 25px;
-        }
-        
-        .hwh-items:nth-child(3) .hwh-img {
-            margin-bottom: 0px;
-            margin-left: -59px;
-            margin-top: 66px;
-        }
- .help-affected   .help-offers #carouseltwo
- {
-    margin-top: 295px;
-    margin-left: -63px;
-    width: 400px;
-    height: 400px;
-}
-    .help-affected .advice-banner h1, .help-affected .advice-banner h1 span {
+
+    .hwh-items:nth-child(2) .hwh-usp {
+        top: 34px;
+        right: 25px;
+    }
+
+    .hwh-items:nth-child(3) .hwh-img {
+        margin-bottom: 0px;
+        margin-left: -59px;
+        margin-top: 66px;
+    }
+
+    .help-affected .help-offers #carouseltwo {
+        margin-top: 295px;
+        margin-left: -63px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .help-affected .advice-banner h1,
+    .help-affected .advice-banner h1 span {
         font-size: 55px;
     }
+
     .our-club .about-banner h1::after {
         left: 26px;
     }
@@ -15479,7 +15599,7 @@ margin-bottom: 16px;
 
 
 @media(max-width: 992px) {
-    .our-club .about-banner h1 {
+    .about-banner h1 {
         padding-bottom: 0;
         margin-left: 0;
         font-size: 41px;
@@ -15549,10 +15669,12 @@ margin-bottom: 16px;
         max-width: fit-content;
         margin-inline: auto;
     }
-    .services{
+
+    .services {
         overflow-x: clip;
     }
-    .services::after{
+
+    .services::after {
         width: 340px;
         height: 340px;
         top: 242px;
@@ -15563,11 +15685,15 @@ margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
-.our-club .dermakids-v .container{
-    max-width: 100%;
-}
+    .mobile-carousel{
+        margin-top: 32px;
+    }
+    .our-club .dermakids-v .container {
+        max-width: 100%;
+    }
 
-    .topbar {
+    .topbar,
+    .breadcrumb.menufixcustom {
         background: #fff;
         position: relative;
     }
@@ -15577,7 +15703,8 @@ margin-bottom: 16px;
         position: relative;
     }
 
-    .topbar:before {
+    .topbar:before,
+    .breadcrumb.menufixcustom::before {
         content: "";
         position: absolute;
         top: 0;
@@ -15587,7 +15714,8 @@ margin-bottom: 16px;
     }
 
     body,
-    .topbar::before {
+    .topbar::before,
+    .breadcrumb.menufixcustom::before {
         background: linear-gradient(to right,
                 rgba(233, 217, 233, 0.9) 0%,
                 rgba(230, 224, 237, 0.9) 8%,
@@ -15641,9 +15769,7 @@ margin-bottom: 16px;
         padding-top: 0;
     }
 
-    .breadcrumb {
-        background: linear-gradient(90deg, #F6CDE2 -1.56%, #E9D9E9 4.41%, #DFE2EF 11.38%, #D9E7F2 17.97%, #D5EAF4 27.93%, #D3EBF4 58.92%, #D7E9F3 77.46%, #DEE2EF 90.4%, #E8D9EA 100.85%, #EBD6E8 102.97%);
-    }
+
 
     .navbar {
         padding-block: 9px;
@@ -15711,34 +15837,24 @@ margin-bottom: 16px;
         padding-inline: 10px !important;
     }
 
-    .our-club .about-banner {
-        display: none;
-    }
+
     .our-goal .theme-btn {
         min-width: 48%;
 
-        padding-inline: 10px !important;        
+        padding-inline: 10px !important;
         padding-block: 20px;
-      }
-      .our-goal .btn-group {
-  
+    }
+
+    .our-goal .btn-group {
+
         width: 100%;
         gap: 2%;
-          justify-content: center;
-          padding-inline: 15px;
-      }
-  
-  
-    .club-dermakids-v-content {
-        display: none;
+        justify-content: center;
+        padding-inline: 15px;
     }
 
-    .our-club .dermakids-v .association-img {
-        display: none;
-    }
 
     .our-club .breadcrumb {
-        position: absolute;
         width: 100%;
         z-index: 5;
         opacity: 0.9;
@@ -15746,10 +15862,11 @@ margin-bottom: 16px;
         left: 0;
 
     }
-    .customers-testimonial .container{
+
+    .customers-testimonial .container {
         max-width: 95%;
     }
-  
+
 
     .customers-testimonial .testimonial-content-wrap p {
         font-size: 26px;
@@ -15760,48 +15877,63 @@ margin-bottom: 16px;
         min-height: 149px;
 
     }
+
     .customers-testimonial .carousel-indicators {
         margin-top: 0 !important;
         bottom: 58px !important;
 
-    gap: 23px !important    ;
+        gap: 23px !important;
     }
-    .our-club .customers-testimonial{
+
+    .our-club .customers-testimonial {
         margin-bottom: 96px;
     }
-    .approach .approach-heading h3{
+
+    .approach .approach-heading h3 {
         font-size: 35px;
         line-height: 1;
     }
+
     .approach .approach-item-icon img {
+        min-width: 42px;
         width: 42px;
         height: 42px;
     }
-    .approach .approach-item{
+
+    .approach .approach-item {
         gap: 22px;
+        
+        max-width: 304px;
     }
+
     .approach .approach-item h6 {
         font-size: 24px;
     }
-    .approach .approach-item{
-        padding-bottom: 23px !important;
+
+    .approach .approach-item {
+        padding-bottom: 29px !important;
     }
-    .our-club .approach{
+
+    .our-club .approach {
         padding-bottom: 12px;
     }
+
     .our-club .donation-info {
-        padding-block: 170px 150px;
+        padding-block: 170px 137px;
     }
+
     .info-card {
         margin-bottom: 33px;
         margin-top: 0;
         max-width: 445px;
         background-size: cover !important;
     }
+
     .approach .approach-img {
         padding-top: 0;
         max-width: 100%;
     }
+
     .testimonial {
         min-height: 276px;
         max-height: 276px;
@@ -15851,8 +15983,7 @@ margin-bottom: 16px;
     }
 
     .breadcrumb {
-        padding-inline: 17px;
-        padding-block: 7px 9px;
+        padding-block: 12px 12px;
 
     }
 
@@ -15861,14 +15992,14 @@ margin-bottom: 16px;
         font-size: 12px;
         line-height: 1;
         display: inline-block;
-        color: #C4228F !important;
     }
 
     .breadcrumb-item+.breadcrumb-item::before {
-        border: 1px solid #80BDD5;
-        background: #BAD9E6;
         top: 3px;
         left: 12px;
+        width: 8px;
+        height: 8px;
+        padding: 0;
     }
 
     .breadcrumb-item+.breadcrumb-item {
@@ -16225,12 +16356,13 @@ margin-bottom: 16px;
         padding-bottom: 96px;
 
     }
-    .eb-meeting video{
+
+    .eb-meeting video {
         height: auto;
         margin-top: 36px;
     }
 
-    .eb-meeting .theme-btn{
+    .eb-meeting .theme-btn {
         margin-top: 26px;
     }
 
@@ -16251,17 +16383,19 @@ margin-bottom: 16px;
         top: 162px;
 
     }
-    .services p{
+
+    .services p {
         max-width: 282px;
         font-size: 14px;
-        
+
         line-height: 1.4;
     }
 
 
-    .services-box{
+    .services-box {
         margin-top: 29px;
     }
+
     .services-box.first {
 
         margin-top: 76px;
@@ -16271,13 +16405,15 @@ margin-bottom: 16px;
 
 
     .services-box h5 {
-     font-size: 36px;
-     margin-bottom: 23px;
+        font-size: 36px;
+        margin-bottom: 23px;
     }
-    .services-box ul li{
+
+    .services-box ul li {
         font-size: 18px;
         margin-bottom: 19px;
     }
+
     .services .round-carousal {
 
         margin-top: 100px;
@@ -16286,7 +16422,7 @@ margin-bottom: 16px;
 
     }
 
-    .hm-divider-2{
+    .hm-divider-2 {
         height: 104px;
     }
 
@@ -16412,7 +16548,7 @@ margin-bottom: 16px;
         font-size: 13px;
     }
 
-    .hm-divider{
+    .hm-divider {
         height: 205px;
     }
 
@@ -16433,41 +16569,111 @@ margin-bottom: 16px;
         margin-bottom: -15px !important;
     }
 
-  .home-testimonial  .round-carousal .carousel-indicators{
+    .home-testimonial .round-carousal .carousel-indicators {
 
-    gap: 20px !important;
-    
-    margin-right: -61px;
+        gap: 20px !important;
 
-    
-    }
-  
-    .home-testimonial   .round-carousal .carousel-indicators :nth-child(2){
-        margin-bottom: 16px  !important;
+        margin-right: -61px;
+
+
     }
 
-    .home-testimonial  .round-carousal .carousel-indicators button.active {
-        
-    background: #D999C2;
-    border: 1px solid #E32488;
+    .home-testimonial .round-carousal .carousel-indicators :nth-child(2) {
+        margin-bottom: 16px !important;
     }
+
+    .home-testimonial .round-carousal .carousel-indicators button.active {
+
+        background: #D999C2;
+        border: 1px solid #E32488;
+    }
+
     .testimonial-content h2 {
         font-size: 26px;
         line-height: 24px;
         margin-left: 187px;
         text-align: start;
     }
-    #carousalMobile{
+
+    #carousalMobile {
         max-width: 200px;
         position: absolute;
         top: -50px;
-        
+
         left: -45px;
     }
-    .customers-testimonial .carousel-indicators{
-        bottom: 35px !important;
+
+    .customers-testimonial .carousel-indicators {
+        bottom: 40px !important;
     }
 
+    .approach .approach-item p{
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    .about-banner,
+    .our-club .about-banner {
+
+        padding-top: 44px;
+        padding-bottom: 16px;
+    }
+
+
+    .about-banner h1 {
+        font-size: 50px;
+        max-width: fit-content;
+        margin-inline: auto;
+        margin-bottom: 21px;
+        padding-top: 0;
+    }
+
+    .banner .subtext {
+        max-width: fit-content;
+        margin-inline: auto;
+    }
+
+    .about-banner .subtext::after {
+        right: -85px !important;
+
+        bottom: -32px !important;
+    }
+
+    .about-banner h1::after {
+        left: -70px !important;
+        rotate: 0deg;
+        bottom: -10px !important;
+    }
+
+    .about-banner .subtext {
+        font-size: 41px;
+        margin-bottom: 0;
+    }
+
+
+    .breadcrumb.menufixcustom {
+        position: fixed;
+        top: 79px;
+        padding-inline: 12px;
+    }
+ .dermakids-v h2{
+        font-size: 38px;
+        max-width: 300px;
+        line-height: 46px;
+        margin-bottom: 24px;
+    }
+    .association-img{
+        width: 294px;
+        height: 268px;
+        top: 0;
+        right: -50px;
+    }
+    .dermakids-v h2{
+        padding-top: 77px;
+    }
+
+    .fixtopspace.active{
+        margin-top: 36px;
+    }
 }
 
 
@@ -16476,6 +16682,7 @@ margin-bottom: 16px;
 
 @media (max-width: 576px) {
 
+
     .navbar-collapse {
         min-width: 216px;
     }
@@ -16483,50 +16690,61 @@ margin-bottom: 16px;
     .banner h1 {
         padding-top: 0;
     }
-    #unser-verein::before{
+
+    /* #unser-verein::before {
         background: url(../img/unser-verein-bg-mbl.png) top left / contain;
 
-    }
-    .customers-testimonial .testimonial-content-wrap p {
-        font-size: 22px;
-    }
+    } */
+
+
 
     .approach .approach-heading h3 {
         font-size: 33px;
-    }    .our-goal-content p{
+    }
+
+    .our-goal-content p {
 
         font-size: 14px;
         line-height: 1.4;
         max-width: 343px;
     }
-    .our-goal-content p a{
+
+    .our-goal-content p a {
         display: block;
         text-align: end;
         font-size: 14px;
         margin-top: 7px;
     }
-    .our-goal .round-carousal{
+
+    .our-goal .round-carousal {
         margin-inline: -12px;
         width: calc(100% + 24px);
         max-width: calc(100% + 24px);
     }
+
     .our-goal .round-carousal .carousel-indicators {
-       margin-left: 34px;
-       margin-right: auto;
-       justify-content: start;
-       top: initial;
-       bottom: -32px !important;
+        margin-left: 34px;
+        margin-right: auto;
+        justify-content: start;
+        top: initial;
+        bottom: -32px !important;
 
     }
-    .services .round-carousal .carousel-indicators{
+
+    .services .round-carousal .carousel-indicators {
         margin-right: 34px;
         margin-left: auto;
         justify-content: end;
         top: initial;
         bottom: -32px !important;
     }
+    .our-club .dermakids-v p{
+        font-size: 14px;
+    }
 
-    
+    #unser-verein.our-club .dermakids-v p{
+        max-width: 401px;
+    }
 
 
 
@@ -16557,14 +16775,28 @@ margin-bottom: 16px;
         padding-left: 18px;
         padding-right: 18px;
     }
-    .services p{
+
+    .services p {
         margin-right: 162px;
     }
-.-mx-sm-12{
-    margin-inline: -12px !important;
-    width: calc(100% + 24px) !important;
-    max-width: calc(100% + 24px) !important;
+
+    .-mx-sm-12 {
+        margin-inline: -12px !important;
+        width: calc(100% + 24px) !important;
+        max-width: calc(100% + 24px) !important;
+    }
+
+    .dermakids-v .subtext{
+    
+    max-width: 323px;
 }
+}
+
+@media (max-width: 468px){
+    .association-img{
+        right: initial;
+        left: 219px;
+    }
 }
 
 .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(6).nC-card,

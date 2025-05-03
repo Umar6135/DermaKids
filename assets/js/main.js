@@ -32,6 +32,22 @@ $('.visit-insta .slider').slick({
   ]
 });
 
+if (window.innerWidth < 768) {
+  var menutop = document.querySelector("nav .breadcrumb");
+  var fixtopspace = document.querySelector(".fixtopspace");
+  if (menutop) {
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+      if (document.body.scrollTop > 172 || document.documentElement.scrollTop > 172) {
+        menutop.classList.add("menufixcustom");
+        fixtopspace.classList.add("active");
+      } else {
+        menutop.classList.remove("menufixcustom");
+        fixtopspace.classList.remove("active");
+      }
+    }
+  }
+}
 
 
 
