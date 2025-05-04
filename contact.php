@@ -221,7 +221,7 @@
 
             <a href="#" class="contact-link">
 
-                <img src="./assets/img/phone.svg" alt="phone">
+                <img src="./assets/img/phone-mb.svg" alt="phone">
 
 
 
@@ -258,7 +258,7 @@
 
             <a href="#" class="contact-link">
 
-                <img src="./assets/img/mail.svg" alt="mail">
+                <img src="./assets/img/mail-mb.svg" alt="mail">
 
 
             </a>
@@ -293,7 +293,7 @@
 
             <a href="#" class="contact-link">
 
-                <img src="./assets/img/calender.svg" alt="calender">
+                <img src="./assets/img/calender-mb.svg" alt="calender">
 
 
             </a>
@@ -302,8 +302,6 @@
 
             <form action="">
             <div class="contact-form-wrap">
-                <h5>Terminanfrage </h5>
-
                 <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
 
                 <textarea name="" id="" rows="9" placeholder="Wir beraten Sie gerne! Schreiben Sie uns Ihr Anliegen und wann es Ihnen am besten passt!"></textarea>
@@ -312,11 +310,12 @@
 
 
 
-                <div class="text-md-end">
+                <div class="text-end">
 
                     <button type="submit" class="theme-btn"> Absenden</button>
                 </div>
                 </div>
+                <span>Sie erreichen uns unter</span>                 <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
 
             </form>
 
@@ -324,7 +323,7 @@
 
         <div id="dynamic-button">
 
-            <img src="./assets/img/messages.svg" alt="messages">
+            <img src="./assets/img/messages-mb.svg" alt="messages">
 
         </div>
 
@@ -334,7 +333,7 @@
 
                 <a href="#" class="contact-link">
 
-                    <img src="./assets/img/twitter.svg" alt="whatsapp">
+                    <img src="./assets/img/twitter-mb.svg" alt="whatsapp">
 
                 </a>
 
@@ -356,6 +355,8 @@
 
                     </div>
                 </div>
+                <span>Sie erreichen uns unter</span>                 <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
+
                 </form>
 
             </div>
@@ -364,7 +365,7 @@
 
                 <a href="#" class="contact-link">
 
-                    <img src="./assets/img/messages.svg" alt="messages">
+                    <img src="./assets/img/messages-mb.svg" alt="messages">
 
 
                 </a>
@@ -401,6 +402,8 @@
 
                     </div>
                 </div>
+                <span>Sie erreichen uns unter</span>                 <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
+
                 </form>
 
 
@@ -411,7 +414,7 @@
 
                 <a href="#" class="contact-link">
 
-                    <img src="./assets/img/whatsapp.svg" alt="whatsapp">
+                    <img src="./assets/img/whatsapp-mb.svg" alt="whatsapp">
 
 
                 </a>
@@ -434,9 +437,14 @@
 
                     </div>
                 </div>
+                <span>Sie erreichen uns unter</span>                 <img src="./assets/img/cross-icon.png" alt="close" class="cross-icon">
+
                 </form>
 
             </div>
+
+
+            <a class="close-icon"><img src="./assets/img/close.svg" alt=""></a>
         </div>
 
 

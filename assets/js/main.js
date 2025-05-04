@@ -209,11 +209,16 @@ window.addEventListener('DOMContentLoaded', function () {
 const contactItems = document.querySelectorAll('.contact-item');
 const dynamicButton = document.getElementById('dynamic-button');
 const dropdown = document.querySelector('.contact-dropdown-menu');
+const closeBtn = document.querySelector('.close-icon');
 
 
 dynamicButton.addEventListener('click', () => {
   dropdown.classList.toggle('d-none');
 });
+closeBtn.addEventListener('click', () => {
+  dropdown.classList.toggle('d-none');
+});
+
 
 
 
@@ -336,3 +341,17 @@ if (opennavNetzwerkarbeit) {
     }
   });
 }
+
+
+if (window.innerWidth < 768) {
+  $('.help-affected #nav-tab').slick({
+    dots: true,
+    arrows: false,
+    swipeToSlide: true,
+    slidesToScroll: 1,
+    autoplaySpeed: 5000,
+    infinite: false,
+    variableWidth: true  // <- this is key
+  });
+}
+
