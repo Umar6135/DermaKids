@@ -697,7 +697,7 @@ a:hover {
 
 .navbar-toggle.collapsing {
     height: auto;
-    width: 198px;
+    /* width: 198px; */
 }
 
 .navbar-toggle.collapsing .search {}
@@ -15708,9 +15708,6 @@ section {
         left: initial;
     }
 
-    .hwh-items:nth-child(1) .hwh-img::after {
-        display: none;
-    }
 
     .hwh-items .hwh-usp {
         width: 90px;
@@ -15867,22 +15864,22 @@ section {
 
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(1) {
         top: -50px;
-        left: -103px;
+        left: -121px;
         width: 501px;
         height: 689px;
     }
 
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(2) {
-        width: 265px;
-        height: 291px;
+        height: 265px;
+        width: 291px;
         top: 104px;
-        right: -92px;
+        right: -75px;
     }
 
     .how-we-help .tab-content #nav-case .service-nav .nav-case-heading p {
         font-size: 14px;
         max-width: 444px;
-        margin-bottom: 370px;
+
     }
 
     .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(3) .nav-case-carousel {
@@ -15895,6 +15892,7 @@ section {
         right: 0;
         left: 0;
         bottom: initial;
+        display: none;
     }
 
     .how-we-help #nav-case .service-nav .nav-case-items .nav-case-item .round-carousal .carousel-indicators {
@@ -15940,7 +15938,7 @@ section {
     }
 
     .how-we-help .tab-content #nav-case .service-nav .nav-case-heading {
-        padding-bottom: 439px;
+        padding-bottom: 109px;
     }
 
     .how-we-help .tab-content .service-nav {
@@ -15985,7 +15983,7 @@ section {
         border-radius: 0;
         text-align: center;
 
-        padding: 9px 70px 11px 70px;
+        padding: 9px 10px 11px 10px;
     }
 
     .how-we-help .tab-content .service-nav .nav-case-card span {
@@ -16004,12 +16002,639 @@ section {
     .how-we-help .tab-content .service-nav .nav-case-card p a {
         font-size: 13px;
     }
-    .navbar .navbar-nav .nav-link.active{
+
+    .navbar .navbar-nav .nav-link.active {
         background: transparent;
         color: #4a4a49;
     }
 
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 395px;
+        height: 395px;
+        left: initial;
+        right: -115px;
+        top: 0;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        width: 300px;
+        height: 273px;
+        top: 43px;
+        bottom: initial;
+        left: -53px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(2),
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(3),
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(3),
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        display: none;
+    }
+
+    #nav-ernahrungsberatung .round-carousal .carousel-indicators,
+    #nav-familientherapie .round-carousal .carousel-indicators,
+    #nav-sozialberatung .round-carousal .carousel-indicators,
+    #nav-case .round-carousal .carousel-indicators,
+    #nav-Pflegedienste .round-carousal .carousel-indicators,
+    #nav-offentlichkeit .round-carousal .carousel-indicators {
+        transform: none;
+        justify-content: start;
+        margin-left: 35px;
+        bottom: -34px !important;
+    }
+
+    #nav-case #carouselTen {
+        max-width: 344px;
+        margin-inline: auto;
+    }
+
+    #nav-case #carouselTen .carousel-indicators {
+        justify-content: center;
+        gap: 23px;
+
+        bottom: -45px !important;
+    }
+
+    #nav-ernahrungsberatung #carouselMob,
+    #nav-familientherapie #carouselMob,
+    #nav-sozialberatung #carouselMob,
+    #nav-case #carouselMob,
+    #nav-Pflegedienste #carouselMob,
+    #nav-offentlichkeit #carouselMob {
+        margin-bottom: 75px;
+    }
+
+    .how-we-help .tab-content .service-nav h5 {
+        margin-bottom: 20px;
+    }
+
+    .how-we-help .tab-content .service-nav ul li h6 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav ul li p {
+        font-size: 14px;
+    }
+
+    .how-we-help .tab-content .service-nav ul li p {
+        max-width: 100% !important;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        width: 78px;
+        height: 78px;
+        bottom: 556px;
+        right: 21px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(7).nC-card {
+        width: 100px;
+        height: 100px;
+        bottom: 665px;
+        right: 5px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+        bottom: 78px;
+        width: 87px;
+        height: 87px;
+        right: 20px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(6).nC-card {
+
+        width: 87px;
+        height: 87px;
+        right: 120px;
+        bottom: 158px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-heading {
+        padding-bottom: 37px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        width: 237px;
+        height: 216px;
+        right: -43px;
+        left: initial;
+        bottom: 335px;
+    }
+
+    .nav-contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-card,
+    .how-we-help #nav-familientherapie .service-nav .nav-case-card {
+        padding-inline: 10px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 360px;
+
+        height: 360px;
+
+        left: -70px;
+        top: 36px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        width: 295px;
+        top: 36px;
+
+        right: -54px;
+        height: fit-content;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(5),
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        display: none;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav ul li .nC-card {
+
+        background: linear-gradient(to bottom right, transparent 0%, #ffffff 15%, #DEEDF3 100%) !important;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 7px;
+        position: absolute;
+        top: -90px;
+        right: 70px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav ul li:nth-child(2) .nC-card {
+
+        bottom: -68px;
+        right: 0;
+        top: initial;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav ul li .nC-card h6 {
+        font-family: "JungleMan";
+        line-height: 1.1;
+        font-weight: 400;
+        margin-top: 0 !important;
+        color: #81CADA;
+        font-size: 16px !important;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-heading .nav-list li {
+        position: relative;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 400px;
+        height: 300px;
+        right: -68px;
+
+        top: -21px;
+    }
+
+    .how-we-help .tab-content #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        width: 291px;
+        height: fit-content;
+        left: -27px;
+        right: initial;
+        top: 50px;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card {
+        width: 180px;
+        height: 180px;
+    }
+
+    .how-we-help .tab-content .service-nav .nav-case-items .nav-case-item.nC-card h5 {
+
+        font-size: 25px;
+        max-width: 93%;
+
+        margin-top: 23px;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item.nC-card p {
+        font-size: 11px;
+
+        max-width: 79%;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        right: 10px !important;
+        bottom: 720px;
+        z-index: 1;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(1) .hwh-usp {
+        right: 52px;
+        bottom: initial;
+        top: -42px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(1) .hwh-img {
+        position: absolute;
+        width: 252px;
+        right: 0;
+        top: 70px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(1) .hwh-img::after {
+        background-size: contain;
+        width: 335px;
+        height: 475px;
+        right: -51px;
+        top: -117px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(1) p {
+
+        max-width: 189px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(2) {
+        margin-top: 240px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(2) .hwh-usp {
+        position: absolute;
+        top: -116px;
+        left: 40px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(2) .hwh-usp:nth-child(3) {
+        width: 100px;
+        height: 100px;
+        left: 152px;
+        top: initial;
+        bottom: -106px;
+    }
+
+    #umfeld #nav-home .hwh-items:nth-child(2) .hwh-img::after {
+        width: 411px;
+        height: 386px;
+        background-size: contain;
+        right: -64px;
+        top: -71px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(2) .hwh-img {
+        margin: 0;
+        width: 260px;
+        right: -41px;
+
+        top: -25px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(3) .hwh-img {
+        position: absolute;
+        max-width: 233px;
+        top: 176px;
+        left: -20px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(3) .hwh-img::after {
+
+        content: "";
+        position: absolute;
+        background: url(../img/umfeld-help-type3-bg.png) no-repeat center / contain;
+        width: 487px;
+        height: 462px;
+        right: -46px;
+        top: -107px;
+        z-index: -1;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(3) .hwh-usp {
+        width: 80px;
+        height: 80px;
+        right: 0;
+        top: 172px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(4) .hwh-img {
+        width: 345px;
+        right: -40px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(4) .hwh-img::after {
+        display: none;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(4) {
+        padding-bottom: 151px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(4) .hwh-usp {
+        width: 100px;
+        height: 100px;
+        top: -96px;
+        right: 21px;
+        left: initial;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 340px;
+        height: auto;
+        top: 95px;
+        left: -44px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        width: 330px;
+        height: 300px;
+        right: -102px;
+        top: 31px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        width: 97px;
+        height: 97px;
+        top: 320px;
+        right: 70px;
+
+    }
+
+    .how-we-help .tab-content #nav-Pflegedienste .service-nav h4 {
+        margin-bottom: 340px;
+    }
+
+    .how-we-help .tab-content #nav-Kita .service-nav h4 {
+
+        margin-bottom: 389px;
+    }
+
+
+
+    .kita-content-info {
+        margin-top: 254px;
+    }
+
+    .kita-content-info {
+        max-width: fit-content;
+        margin-left: auto;
+    }
+
+    #umfeld .tab-content .service-nav .nav-case-heading p {
+        margin-bottom: 16px !important;
+        font-size: 14px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-heading {
+        padding-bottom: 21px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        width: 80px;
+        height: 80px;
+        right: 0;
+        bottom: 170px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        width: 100px;
+        height: 100px;
+        bottom: 445px;
+
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        display: none;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 380px;
+        height: 380px;
+        right: -68px;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        width: 286px;
+        height: fit-content;
+        left: -55px;
+
+        top: 92px;
+
+    }
+
+    .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        display: none;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-heading {
+        padding-bottom: 142px;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        width: 104px;
+        height: 104px;
+        left: 63px;
+        bottom: 71px;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        width: 93px;
+        height: 93px;
+        left: 225px;
+        bottom: 87px;
+    }
+
+    .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        width: 111px;
+        height: 111px;
+        left: initial;
+        bottom: 127px;
+        right: 18px;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        width: 74px;
+        height: 74px;
+        right: 0;
+        top: initial;
+        bottom: 414px;
+    }
+
+    .how-we-help #umfeld #nav-offentlichkeit .service-nav .nav-list p {
+        max-width: 374px !important;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+
+        width: 359px;
+
+        right: -78px;
+
+        top: 7px;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        width: 398px;
+        left: -135px;
+        right: initial;
+        top: 85px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        width: 106px;
+        height: 106px;
+    }
+
+    .how-we-help #umfeld #nav-Kita .service-nav .nav-case-heading h5 {
+        margin-top: 125px;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        width: 188px;
+        height: 188px;
+        left: 43px;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(7).nC-card h6 {
+        font-size: 23px !important;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        width: 166px;
+        height: 166px;
+        right: 36px;
+        bottom: 311px;
+
+    }
+
+    .how-we-help #umfeld #nav-Kita .service-nav .nav-list p {
+        max-width: 335px;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        width: 113px;
+        height: 113px;
+        left: 240px;
+        bottom: 94px;
+
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        display: none;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav span {
+        margin-bottom: 370px;
+        font-size: 28px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        width: 423px;
+        height: 423px;
+        left: -90px;
+        top: 80px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        width: 336px;
+        height: fit-content;
+        top: 61px;
+        right: -55px;
+
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(9) {
+        width: 132px;
+        height: 132px;
+        bottom: 212px;
+        left: 17px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+        width: 106px;
+        height: 106px;
+        bottom: 113px;
+        left: 133px;
+
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        width: 106px;
+        height: 106px;
+        left: 320px;
+        bottom: 81px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        width: 76px;
+        height: 76px;
+        left: 16px;
+        bottom: 346px;
+        top: initial;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(7) {
+        width: 126px;
+        height: 126px;
+        left: 108px;
+        bottom: 346px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(11) {
+        width: 114px;
+        height: 114px;
+        left: 180px;
+        bottom: 237px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(6) {
+        width: 75px;
+        height: 75px;
+        left: 256px;
+        bottom: 163px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        width: 215px;
+        height: 215px;
+        left: 249px;
+        bottom: 297px;
+    }
+
+    .how-we-help #umfeld #nav-Kita .service-nav .nav-list {
+        max-width: 292px;
+    }
+
+    .how-we-help .tab-content #nav-sozialberatung .service-nav .nav-case-heading .nav-list p {
+        font-size: 14px;
+        margin-bottom: 23px !important;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-heading p:last-of-type {
+        font-size: 14px;
+        max-width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .how-we-help #umfeld #nav-krankenkassen .service-nav h5,
+    .how-we-help #umfeld #nav-offentlichkeit .service-nav h5 {
+        max-width: 100%;
+    }
+
+    .how-we-help .hwh-type .nav-link {
+
+        width: 332px;
+    }
 }
+
 
 @media (max-width: 768px) {
     .mobile-carousel {
@@ -16681,10 +17306,12 @@ section {
     .contact-dropdown-menu .contact-item.active .contact-form-wrap {
         padding: 13px 17px;
     }
-    #messages .theme-btn{
+
+    #messages .theme-btn {
         margin-bottom: 0;
     }
-    .contact-dropdown-menu    .close-icon{
+
+    .contact-dropdown-menu .close-icon {
         position: absolute;
         top: 8px;
         left: 9px;
@@ -16692,11 +17319,12 @@ section {
         height: 15px;
     }
 
-    .contact-dropdown-menu  .close-icon img{
+    .contact-dropdown-menu .close-icon img {
         width: 15px;
         height: 15px;
         min-width: 15px;
     }
+
     .bg-box {
 
         width: 100%;
@@ -17174,6 +17802,30 @@ section {
         margin-right: 28px;
     }
 
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+
+        top: 155px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+
+        top: 109px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-heading {
+        padding-bottom: 460px;
+    }
+
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        right: initial;
+        left: 300px;
+    }
+
+    .how-we-help .tab-content .service-nav .nav-case-heading p {
+        font-size: 14px;
+    }
 }
 
 
@@ -17317,6 +17969,148 @@ section {
     #nav-home .hwh-items:nth-child(3) .hwh-img {
         right: 219px;
         left: initial;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        right: initial;
+        left: 174px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(7).nC-card {
+
+        left: 348px;
+        right: initial;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(8) {
+
+        right: initial;
+        left: 355px;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        left: 338px;
+        right: initial;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(6).nC-card {
+
+        left: 265px;
+        right: initial;
+    }
+
+    .how-we-help #nav-ernahrungsberatung .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+
+        left: 265px;
+        right: initial;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        right: initial;
+
+        left: 212px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav ul li .nC-card {
+        right: initial;
+        left: 286px;
+    }
+
+    .how-we-help #nav-familientherapie .service-nav ul li:nth-child(2) .nC-card {
+        right: initial;
+        left: 336px;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        left: 148px;
+        right: initial;
+    }
+
+    .how-we-help #nav-sozialberatung .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        right: initial !important;
+        left: 268px;
+        bottom: 750px;
+        z-index: 1;
+    }
+
+    .how-we-help .tab-content #nav-case .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        right: initial;
+        left: 235px;
+    }
+
+    #umfeld .hwh-items:nth-child(1) .hwh-usp {
+        right: initial;
+        left: 322px;
+    }
+
+    .how-we-help #umfeld #nav-Kita .service-nav .nav-case-heading h5 {
+        margin-top: 125px;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(4) {
+        width: 105px;
+        height: 105px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(2) .hwh-img {
+        right: initial;
+        left: 226px;
+        min-width: 260px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(3) .hwh-img {
+        left: initial;
+        right: 251px;
+
+        min-width: 233px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(4) .hwh-img {
+        min-width: 345px;
+        right: initial;
+        left: 160px;
+    }
+
+    #umfeld #nav-home2 .hwh-items:nth-child(1) .hwh-img {
+        min-width: 252px;
+        right: initial;
+        left: 260px;
+    }
+
+    .how-we-help #nav-Pflegedienste .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        min-width: 330px;
+        right: initial;
+        left: 235px;
+    }
+
+    .how-we-help #nav-krankenkassen .service-nav .nav-case-items .nav-case-item:nth-child(2) {
+        min-width: 336px;
+        right: initial;
+        left: 200px;
+
+        top: 148px;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        min-width: 359px;
+        right: initial;
+        left: 176px;
+    }
+
+    .how-we-help #nav-Kita .service-nav .nav-case-items .nav-case-item:nth-child(3) {
+        right: initial;
+        left: 161px;
+    }
+
+    #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(1) {
+        right: initial;
+        left: 150px;
+    }
+
+    .how-we-help #nav-offentlichkeit .service-nav .nav-case-items .nav-case-item:nth-child(5) {
+        right: initial;
+
+        left: 328px;
     }
 }
 

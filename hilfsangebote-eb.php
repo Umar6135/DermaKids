@@ -99,19 +99,19 @@ include('header.php'); ?><main class="help-affected">
                                 <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
                                     aria-selected="true">Übersicht <span class="seperate">|</span></button>
-                                
+
                                 <button class="nav-link" id="nav-case-tab" data-bs-toggle="tab" data-bs-target="#nav-case"
                                     type="button" role="tab" aria-controls="nav-case" aria-selected="false">Case- &
                                     Wundmanagement <span class="seperate">|</span></button>
-                                
+
                                 <button class="nav-link" id="nav-sozialberatung-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-sozialberatung" type="button" role="tab"
                                     aria-controls="nav-sozialberatung" aria-selected="false">Sozialberatung <span class="seperate">|</span></button>
-                                
+
                                 <button class="nav-link" id="nav-familientherapie-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-familientherapie" type="button" role="tab"
-                                    aria-controls="nav-familientherapie" aria-selected="false">Familientherapie  <span class="seperate">|</span></button>
-                               
+                                    aria-controls="nav-familientherapie" aria-selected="false">Familientherapie <span class="seperate">|</span></button>
+
                                 <button class="nav-link" id="nav-ernahrungsberatung-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-ernahrungsberatung" type="button" role="tab"
                                     aria-controls="nav-ernahrungsberatung" aria-selected="false">Ernährungsberatung</button>
@@ -209,7 +209,70 @@ include('header.php'); ?><main class="help-affected">
                                     <div class="nav-case-heading">
                                         <h4>Case- & Wundmanagement</h4>
                                         <p>Eine fachgerechte Wundversorgung ist bei Epidermolysis bullosa (EB) entscheidend, um Schmerzen zu lindern und Infektionen vorzubeugen. Wir stehen Betroffenen und ihren Familien mit Rat und Tat zur Seite – von der Auswahl der richtigen Materialien bis zur Schulung im Umgang mit der Pflege. Unsere erfahrenen Fachkräfte entwickeln individuelle Versorgungspläne, die auf die besonderen Bedürfnisse der Betroffenen abgestimmt sind. Dabei berücksichtigen wir auch den Alltag der Familien, um die Pflege so praktikabel wie möglich zu gestalten. Ziel ist es, nicht nur die Heilung zu fördern, sondern auch den Betroffenen ein Stück Lebensqualität zurückzugeben. Mit unserer Hilfe können Sie sicher sein, die bestmögliche Unterstützung zu erhalten.</p>
+
+
+                                        <div id="carouselMob" class="carousel round-carousal slide carousel-fade d-lg-none -mx-sm-12"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./assets/img/banner-carousal/1a-mbl.png" class="d-lg-none w-100" alt="...">
+
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/banner-carousal/2a-mbl.png" class="d-lg-none w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+
+
+                                                    <img src="./assets/img/banner-carousal/3a-mbl.png" class="d-lg-none w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+
+                                                    <img src="./assets/img/banner-carousal/4a-mbl.png" class="d-lg-none w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="0" class="active"
+                                                    aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="2"
+                                                    aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="3"
+                                                    aria-label="Slide 3"></button>
+                                            </div>
+                                        </div>
+
                                         <h5>Fachbereiche, Diagnostik & Therapien</h5>
+
+
+                                        <div class="nav-case-item d-lg-none">
+                                            <div class="nav-case-carousel">
+                                                <div id="carouselTen" class="carousel  round-carousal slide " data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img src="./assets/img/nC-img2.png" class=" w-100" alt="...">
+
+                                                        </div>
+                                                        <div class="carousel-item"> <img src="./assets/img/nC-img3.png" class=" w-100" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item">
+
+                                                            <img src="./assets/img/nC-img4.png" class=" w-100" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-indicators">
+                                                        <button type="button" data-bs-target="#carouselTen" data-bs-slide-to="0" class="active"
+                                                            aria-current="true" aria-label="Slide 1"></button>
+                                                        <button type="button" data-bs-target="#carouselTen" data-bs-slide-to="1"
+                                                            aria-label="Slide 2"></button>
+                                                        <button type="button" data-bs-target="#carouselTen" data-bs-slide-to="2"
+                                                            aria-label="Slide 3"></button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="nav-case-items">
                                         <div class="nav-case-item">
@@ -279,33 +342,7 @@ include('header.php'); ?><main class="help-affected">
                                             <h6>emotionale Unterstützung</h6>
                                         </div>
 
-                                        <div class="nav-case-item d-lg-none">
-                                            <div class="nav-case-carousel">
-                                                <div id="carouselTen" class="carousel  round-carousal slide carousel-fade" data-bs-ride="carousel">
-                                                    <div class="carousel-inner">
-                                                        <div class="carousel-item active">
-                                                            <img src="./assets/img/nC-img2.png" class=" w-100" alt="...">
-
-                                                        </div>
-                                                        <div class="carousel-item"> <img src="./assets/img/nC-img3.png" class=" w-100" alt="...">
-                                                        </div>
-                                                        <div class="carousel-item">
-
-                                                            <img src="./assets/img/nC-img4.png" class=" w-100" alt="...">
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-indicators">
-                                                        <button type="button" data-bs-target="#carouselTen" data-bs-slide-to="0" class="active"
-                                                            aria-current="true" aria-label="Slide 1"></button>
-                                                        <button type="button" data-bs-target="#carouselTen" data-bs-slide-to="1"
-                                                            aria-label="Slide 2"></button>
-                                                        <button type="button" data-bs-target="#carouselTen" data-bs-slide-to="2"
-                                                            aria-label="Slide 3"></button>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                       
 
                                     </div>
                                     <div class="nav-case-card -mx-sm-12">
@@ -327,6 +364,31 @@ include('header.php'); ?><main class="help-affected">
                                     <div class="nav-case-heading">
                                         <h4>Sozialberatung</h4>
                                         <p>Das Leben mit EB bringt oft auch bürokratische Herausforderungen mit sich – von Pflege- und Krankenkassenanträgen bis hin zu rechtlichen Fragen. Unsere Sozialberatung hilft Familien, sich in diesem komplexen System zurechtzufinden. Wir unterstützen bei der Beantragung von Leistungen, klären über Ihre Rechte auf und stehen als vertrauensvolle Ansprechpartner zur Seite. Dabei haben wir stets das Ziel, die finanzielle und organisatorische Belastung für die Familien zu reduzieren. Ob Hilfsmittel, Reha-Anträge oder Fragen zur Schulbegleitung – wir arbeiten daran, dass Sie die Unterstützung erhalten, die Ihnen zusteht. Mit unserer Hilfe müssen Sie diese Herausforderungen nicht allein bewältigen.</p>
+
+                                        <div id="carouselMob" class="carousel round-carousal slide carousel-fade d-lg-none -mx-sm-12"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./assets/img/sozialberatung/mb-1.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/sozialberatung/mb-2.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/sozialberatung/mb-3.png" class="d-block w-100" alt="...">
+
+                                                </div>
+                                            </div>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="0" class="active"
+                                                    aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="2"
+                                                    aria-label="Slide 3"></button>
+
+                                            </div>
+                                        </div>
                                         <h5>Relevante Themen für Betroffene</h5>
                                         <ul class="nav-list">
                                             <li>
@@ -398,12 +460,13 @@ include('header.php'); ?><main class="help-affected">
                                         </div>
                                     </div>
 
-                                    <div class="nav-case-card">
+                                    <div class="nav-case-card  -mx-sm-12">
                                         <h5>Wir helfen Ihnen gerne:
                                         </h5>
-                                        <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
-                                        <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
-
+                                        <div class="nav-contact-info">
+                                            <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
+                                            <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -413,15 +476,52 @@ include('header.php'); ?><main class="help-affected">
                                     <div class="nav-case-heading">
                                         <h4>Familientherapie</h4>
                                         <p>Der Alltag mit EB ist nicht nur körperlich belastend, sondern auch emotional fordernd – für die Betroffenen und ihre Familien. Unsere Familientherapie setzt genau hier an: Sie bietet einen geschützten Raum, in dem Sorgen, Ängste und Konflikte offen besprochen werden können. Gemeinsam erarbeiten wir Strategien, um den Umgang mit der Erkrankung zu erleichtern und die familiäre Kommunikation zu stärken. Dabei stehen die Bedürfnisse aller Familienmitglieder im Mittelpunkt, denn nur ein starkes Miteinander hilft, den Herausforderungen zu begegnen. Ziel ist es, eine Balance zwischen Unterstützung und Entlastung zu schaffen, um die Familie als Einheit zu stärken. Mit unserer Hilfe können Sie neue Kraft und Zusammenhalt finden.</p>
+
+
+                                        <div id="carouselMob" class="carousel round-carousal slide carousel-fade d-lg-none -mx-sm-12"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./assets/img/familientherapie/mb-1.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/familientherapie/mb-2.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/familientherapie/mb-3.png" class="d-block w-100" alt="...">
+
+                                                </div>
+                                            </div>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="0" class="active"
+                                                    aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="2"
+                                                    aria-label="Slide 3"></button>
+
+                                            </div>
+                                        </div>
+
                                         <h5>Fokus der systemischen Therapie</h5>
                                         <ul class="nav-list">
                                             <li>
                                                 <h6>Betrachtung des Familiensystems</h6>
                                                 <p>Die Auswirkungen der Erkrankung können analysiert werden, um mögliche Belastungen, Konflikte oder Dysfunktionen zu identifizieren</p>
+                                                <div class="nav-case-item nC-card">
+
+                                                    <h6>Lösungen finden im Hier & Jetzt</h6>
+                                                </div>
+
                                             </li>
                                             <li>
                                                 <h6>Stärkung der Kommunikation</h6>
                                                 <p>Erlernen effektiver Kommunikationsstrategien, um Bedürfnisse/ Unterstützung auszudrücken und Konflikte zu lösen </p>
+                                                <div class="nav-case-item nC-card">
+
+                                                    <h6>systemische &
+                                                        soziale Beratung</h6>
+                                                </div>
                                             </li>
                                             <li>
                                                 <h6>Einbeziehung aller Familienmitglieder</h6>
@@ -486,12 +586,13 @@ include('header.php'); ?><main class="help-affected">
                                                 soziale Beratung</h6>
                                         </div>
                                     </div>
-                                    <div class="nav-case-card">
+                                    <div class="nav-case-card -mx-sm-12">
                                         <h5>Wir helfen Ihnen gerne:
                                         </h5>
-                                        <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
-                                        <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
-
+                                        <div class="nav-contact-info">
+                                            <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
+                                            <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -501,6 +602,38 @@ include('header.php'); ?><main class="help-affected">
                                     <div class="nav-case-heading">
                                         <h4>Ernährungsberatung</h4>
                                         <p>Eine ausgewogene Ernährung ist für Menschen mit EB besonders wichtig, da sie die Wundheilung fördern und das Immunsystem stärken kann. Unsere Ernährungsberatung bietet individuelle Lösungen, die auf die besonderen Anforderungen der Betroffenen abgestimmt sind. Wir erklären, welche Nährstoffe entscheidend sind, und geben praktische Tipps für den Alltag, etwa bei Schluckbeschwerden oder Nahrungsmittelunverträglichkeiten. Dabei achten wir darauf, dass die Empfehlungen einfach umsetzbar und an den Geschmack der Betroffenen angepasst sind. Ziel ist es, die Gesundheit zu fördern und gleichzeitig Genuss und Freude am Essen zu bewahren. Gemeinsam schaffen wir die Basis für mehr Wohlbefinden und Energie.</p>
+
+
+                                        <div id="carouselMob" class="carousel round-carousal slide carousel-fade d-lg-none -mx-sm-12"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./assets/img/ernaehrung/mb-1.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/ernaehrung/mb-2.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/ernaehrung/mb-3.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/ernaehrung/mb-4.png" class="d-block w-100" alt="...">
+                                                </div>
+
+                                            </div>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="0" class="active"
+                                                    aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="2"
+                                                    aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="3"
+                                                    aria-label="Slide 4"></button>
+
+                                            </div>
+                                        </div>
+
                                         <h5>Angebote von DermaKIDS zur Ernährung</h5>
                                         <ul class="nav-list">
                                             <li>
@@ -606,12 +739,13 @@ include('header.php'); ?><main class="help-affected">
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="nav-case-card">
+                                    <div class="nav-case-card  -mx-sm-12">
                                         <h5>Wir helfen Ihnen gerne:
                                         </h5>
-                                        <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
-                                        <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
-
+                                        <div class="nav-contact-info">
+                                            <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
+                                            <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -623,19 +757,19 @@ include('header.php'); ?><main class="help-affected">
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <button class="nav-link active" id="nav-home2-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-home2"
-                                    aria-selected="true">Übersicht</button>
-                                <span class="seperate">|</span>
+                                    aria-selected="true">Übersicht <span class="seperate">|</span></button>
+                                
                                 <button class="nav-link" id="nav-Pflegedienste-tab" data-bs-toggle="tab" data-bs-target="#nav-Pflegedienste"
-                                    type="button" role="tab" aria-controls="nav-case" aria-selected="false">Ärzte & Pflegedienste</button>
-                                <span class="seperate">|</span>
+                                    type="button" role="tab" aria-controls="nav-case" aria-selected="false">Ärzte & Pflegedienste <span class="seperate">|</span></button>
+                               
                                 <button class="nav-link" id="nav-krankenkassen-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-krankenkassen" type="button" role="tab"
-                                    aria-controls="nav-sozialberatung" aria-selected="false">Behörden & Krankenkassen</button>
-                                <span class="seperate">|</span>
+                                    aria-controls="nav-sozialberatung" aria-selected="false">Behörden & Krankenkassen  <span class="seperate">|</span></button>
+                               
                                 <button class="nav-link" id="nav-Kita-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-Kita" type="button" role="tab"
-                                    aria-controls="nav-Kita" aria-selected="false">Kita & Schule</button>
-                                <span class="seperate">|</span>
+                                    aria-controls="nav-Kita" aria-selected="false">Kita & Schule  <span class="seperate">|</span></button>
+                               
                                 <button class="nav-link" id="nav-offentlichkeit-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-offentlichkeit" type="button" role="tab"
                                     aria-controls="nav-offentlichkeit" aria-selected="false">Öffentlichkeit</button>
@@ -665,7 +799,7 @@ include('header.php'); ?><main class="help-affected">
                                 <div class="hwh-items">
 
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 ">
                                             <h5>Kita, Schule & Hort </h5>
                                             <p>Auch für erfahrene Pädagogen bringt die Aufnahme eines EB-Kindes in die Kita oder Schule Unsicherheiten mit sich. DermaKIDS klärt auf uns gibt Antworten. <a href=""
 
@@ -696,7 +830,7 @@ include('header.php'); ?><main class="help-affected">
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
+                                        <div class="col-md-5 kita-content-info">
                                             <h5>Kita, Schule & Hort</h5>
                                             <p>Auch für erfahrene Pädagogen bringt die Aufnahme eines EB-Kindes in die Kita oder Schule Unsicherheiten mit sich. DermaKIDS klärt auf uns gibt Antworten. <a href="" id="opennavkita">mehr lesen</a> </p>
 
@@ -730,6 +864,29 @@ include('header.php'); ?><main class="help-affected">
                                         <h4>Hilfe für Ärzte & Pflegedienste</h4>
                                         <p>Das in Deutschland sehr gut ausgebildete medizinische Fachpersonal ist im Alltag wenig oder gar nicht mit Epidermolysis bullosa befasst, da die Krankheit so selten ist. Aus diesem Grund sind Fachkräfte nicht damit vertraut, wie herausfordernd die Pflege von EB-Patienten tatsächlich ist. Zudem sind wichtige Themen wie Wundversorgung und der Umgang mit Betroffenen in medizinischen Lehrplänen nicht berücksichtigt. Es ist deshalb ein wichtiges Anliegen von DermaKIDS, diese Wissenslücken zu schließen. Auf Anfrage bieten wir sehr gerne Schulungen zu Verbandsmanagement und Wundversorgung an, die helfen, Behandlungsfehler und Verletzungsrisiken zu reduzieren. Es ist uns wichtig, die Komplexität der Erkrankung sowie die besonderen Bedürfnisse der EB-Patienten zu vermitteln.</p>
                                         <p>Unser Ziel ist es, das medizinische Fachpersonal zu unterstützen, damit die bestmögliche Versorgung für Schmetterlingskinder gewährleistet ist. Gemeinsam können wir den Weg zu einem besseren Leben für EB-Patienten ebnen.</p>
+
+
+                                        <div id="carouselMob" class="carousel round-carousal slide carousel-fade d-lg-none -mx-sm-12"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./assets/img/aerzte/mb-1.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/aerzte/mb-2.png" class="d-block w-100" alt="...">
+                                                </div>
+                                               
+                                               
+
+                                            </div>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="0" class="active"
+                                                    aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                               
+                                            </div>
+                                        </div>
                                         <h5>Unsere Angebote für Ärzte,
                                             Pflegedienste & Therapeuten</h5>
 
@@ -809,12 +966,13 @@ include('header.php'); ?><main class="help-affected">
                                             <h6>Beratung & Hilfe</h6>
                                         </div>
 
-                                        <div class="nav-case-card">
+                                        <div class="nav-case-card -mx-sm-12">
                                             <h5>Wir helfen Ihnen gerne:
                                             </h5>
+                                            <div class="nav-contact-info">
                                             <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
                                             <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
-
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -896,12 +1054,13 @@ include('header.php'); ?><main class="help-affected">
                                         </div>
                                     </div>
 
-                                    <div class="nav-case-card">
+                                    <div class="nav-case-card -mx-sm-12">
                                         <h5>Wir helfen Ihnen gerne:
                                         </h5>
+                                        <div class="nav-contact-info">
                                         <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
                                         <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
-
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -961,12 +1120,13 @@ include('header.php'); ?><main class="help-affected">
                                                 Pädagogen mit Erfahrung in der Betreuung von EB-Kindern </h6>
                                         </div>
                                     </div>
-                                    <div class="nav-case-card">
+                                    <div class="nav-case-card -mx-sm-12">
                                         <h5>Wir helfen Ihnen gerne:
                                         </h5>
+                                        <div class="nav-contact-info">
                                         <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
                                         <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
-
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -976,6 +1136,30 @@ include('header.php'); ?><main class="help-affected">
                                     <div class="nav-case-heading">
                                         <h4>Hilfe für Öffentlichkeit & Netzwerke</h4>
                                         <p>Unsere Öffentlichkeitsarbeit schafft Bewusstsein für die seltene Krankheit Epidermolysis bullosa (EB), indem wir über die Herausforderungen der Betroffenen informieren und ihre Lebenssituation sichtbar machen. Durch internationale Vernetzung fördern wir den Austausch zwischen Experten, Betroffenen und Organisationen, so dass neue Erkenntnisse zugänglich werden. Informationsveranstaltungen, Kampagnen und speziell aufbereitete Materialien sorgen dafür, dass EB stärker im öffentlichen Bewusstsein verankert wird. Dabei setzen wir uns auch für die Weitergabe von schwer zugänglichem Wissen und die Unterstützung durch Forschung und Fachzentren ein. Unser übergeordnetes Ziel ist es, dass Schmetterlingskinder und ihre Familien bestmöglich begleitet werden und sie eine hohe Lebensqualität genießen können.</p>
+
+                                        <div id="carouselMob" class="carousel round-carousal slide carousel-fade d-lg-none -mx-sm-12"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="./assets/img/offen-carouselmb-1.png" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="./assets/img/offen-carouselmb-2.png" class="d-block w-100" alt="...">
+                                                </div>
+                                               
+                                               
+
+                                            </div>
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="0" class="active"
+                                                    aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselMob" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                               
+                                            </div>
+                                        </div>
+
+
                                         <h5>So leisten wir EB-Aufklärung &
                                             Netzwerkarbeit</h5>
                                         <ul class="nav-list">
@@ -1045,12 +1229,13 @@ include('header.php'); ?><main class="help-affected">
                                                 materialien</h6>
                                         </div>
                                     </div>
-                                    <div class="nav-case-card">
+                                    <div class="nav-case-card -mx-sm-12">
                                         <h5>Wir helfen Ihnen gerne:
                                         </h5>
+                                        <div class="nav-contact-info">
                                         <p>Telefon: <a href="tel:+493031998105">+49 30 319981-05 </a></p>
                                         <p>E-Mail: <a href="mailto:info@dermakids.de">info@dermakids.de</a></p>
-
+                                        </div>
                                     </div>
                                 </div>
                             </div>
