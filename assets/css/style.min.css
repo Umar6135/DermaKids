@@ -659,6 +659,7 @@ a:hover {
     display: flex;
     padding-left: 10px;
     display: none;
+    align-items: center;
 }
 
 .search {
@@ -697,7 +698,7 @@ a:hover {
 
 .navbar-toggle.collapsing {
     height: auto;
-    /* width: 198px; */
+    /*width: 198px;*/
 }
 
 .navbar-toggle.collapsing .search {}
@@ -760,7 +761,7 @@ a:hover {
 
 .dropdown-submenu .dropdown-item {
 
-    padding-right: 40px;
+    padding-right: 32px;
 
     position: relative;
 
@@ -1202,21 +1203,27 @@ a:hover {
 
 
 
-.dK-goal #carouselthree.round-carousal .carousel-indicators button.active {
+.dK-goal #carouselthree.round-carousal .carousel-indicators button.active,
+.team-slider .slick-dots li.slick-active button:before {
 
-    background-color: #D997C0;
+    background-color: #D997C0 !Important;
 
-    border: 1px solid #E32488;
+    border: 1px solid #E32488 !Important;
 
+}
+
+.team-slider .slick-current.slick-active h5 {
+    color: #D997C0 !important;
 }
 
 
 
 .dK-goal #carouselthree.round-carousal .carousel-indicators {
 
-    bottom: 33px;
-    gap: 10px;
+    bottom: 49px;
+    gap: 17px;
     left: -151px;
+    transform: rotate(17deg);
 
 }
 
@@ -1224,11 +1231,11 @@ a:hover {
 
 .dK-goal #carouselthree.round-carousal .carousel-indicators :nth-child(2) {
 
-    margin-top: 43px
+    margin-top: 70px
 }
 
 .dK-goal #carouselthree.round-carousal .carousel-indicators :nth-child(1) {
-    margin-top: 9px;
+    margin-top: 39px;
 }
 
 
@@ -1236,7 +1243,7 @@ a:hover {
 
 .dK-goal #carouselthree.round-carousal .carousel-indicators :nth-child(3) {
 
-    margin-top: 66px;
+    margin-top: 81px;
 
 
 }
@@ -1244,10 +1251,10 @@ a:hover {
 
 
 .dK-goal #carouselthree.round-carousal .carousel-indicators :nth-child(4) {
-
     margin-top: 79px;
     margin-left: 10px;
 }
+
 
 
 
@@ -1350,7 +1357,7 @@ a:hover {
             #8BBD4F 96%,
 
             #8BBD4F 100%);
-
+    border: 2px solid #a8c840;
 }
 
 
@@ -1376,7 +1383,7 @@ a:hover {
             #751D8B 88%,
 
             #751C8B 100%);
-
+    border: 2px solid #7d0e86;
 
 
 }
@@ -1405,7 +1412,7 @@ a:hover {
 
             #40BAD1 100%);
 
-
+    border: 2px solid #48c0d5;
 
 
 
@@ -1434,9 +1441,13 @@ a:hover {
             #1DA4E4 96%,
 
             #1DA4E4 100%);
+    border: 2px solid #1da4e4;
 
 }
 
+.accordion-button:focus {
+    box-shadow: none;
+}
 
 
 .dK-accordian .accordion-item:nth-of-type(5) .accordion-button {
@@ -1461,6 +1472,7 @@ a:hover {
 
             #E32488 100%);
 
+    border: 2px solid #e32488;
 
 
 }
@@ -1804,10 +1816,10 @@ a:hover {
 
 
 .our-goal-content p {
-
     max-width: 500px;
-
     line-height: 30px;
+    z-index: 9999;
+    position: relative;
 
 
 }
@@ -3208,7 +3220,7 @@ footer .copyright {
 
 .terms {
 
-    padding-block: 52px 347px;
+    padding-block: 42px 347px;
 
     background: none;
 
@@ -3219,8 +3231,8 @@ footer .copyright {
 .terms-navigator {
 
     position: sticky;
+    top: 155px;
 
-    top: 30px;
 
 }
 
@@ -3412,7 +3424,7 @@ footer .copyright {
 
 .haupttypen .dermakids-v {
 
-    padding-block: 52px 192px;
+    padding-block: 42px 192px;
 
 }
 
@@ -3560,7 +3572,7 @@ footer .copyright {
 
     border-radius: 100%;
 
-    top: 7px;
+    top: 6px;
 
     position: absolute;
 
@@ -3727,7 +3739,6 @@ footer .copyright {
 
     margin-bottom: 10px;
 
-    word-break: break-all;
 
 }
 
@@ -4629,7 +4640,7 @@ main {
 
 .dermakids-v {
 
-    padding-block: 55px 140px;
+    padding-block: 42px 140px;
 
 }
 
@@ -4663,15 +4674,11 @@ main {
 
 #unser-verein .dermakids-v #carouseltwo {
 
-    width: 1090px;
-
+    width: 551px;
     position: absolute;
-
-    right: -81px;
-
-    top: -136px;
-
-    height: auto;
+    right: 196px;
+    top: 115px;
+    height: 551px;
 
 }
 
@@ -4719,9 +4726,9 @@ main {
 
 #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
     gap: 39px;
-    bottom: 168px;
+    bottom: -113px;
     left: -27px;
-    transform: rotate(353deg);
+    transform: rotate(349deg);
 
 }
 
@@ -4975,9 +4982,6 @@ main {
     height: 90px;
 }
 
-.team-slider .team-slider-text {
-    height: 144px;
-}
 
 .team-slider img {
     max-width: 288px;
@@ -5019,12 +5023,19 @@ main {
     display: flex;
 
     align-items: center;
+    margin-left: -33.5%;
 
-    margin-left: -32.5%;
 
 }
 
+.team-slider .team-slider-text {
+    height: 144px;
 
+}
+
+.team-slider .slick-current .team-slider-text {
+    width: 360px;
+}
 
 .team-slider .slick-current.slick-active h5 {
 
@@ -5075,9 +5086,9 @@ main {
 
 .team-slider .slick-current img {
 
-    max-width: 360px;
+    max-width: 330px;
 
-    min-width: 360px;
+    min-width: 330px;
     transition: all 1s ease;
 }
 
@@ -5175,7 +5186,7 @@ main {
 
 .help-affected .help-offers {
 
-    padding-block: 55px 278px;
+    padding-block: 42px 278px;
 
     position: relative;
 
@@ -8068,10 +8079,17 @@ main {
     min-height: 500px;
 
     max-width: 360px;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform;
     margin: auto;
 
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
 }
+
 
 
 
@@ -8241,7 +8259,7 @@ main {
 
     position: relative;
 
-    padding-block: 55px 143px;
+    padding-block: 42px 143px;
 
     overflow-x: clip;
 
@@ -8648,7 +8666,7 @@ main {
 
             width: 234px;
 
-            height: 200px;
+            height: 234px;
 
             right: -40px;
 
@@ -8860,7 +8878,7 @@ main {
 
     position: relative;
 
-    padding-block: 52px 390px;
+    padding-block: 42px 390px;
 
     overflow: hidden;
 
@@ -9486,7 +9504,7 @@ main {
 
     font-weight: 500;
 
-    color: #80BDD5;
+    color: #48C0D5;
 
     text-align: center;
 
@@ -9738,7 +9756,7 @@ main {
 
     line-height: 1;
 
-    margin-bottom: 0;
+    margin-bottom: 5px;
 
 }
 
@@ -10984,7 +11002,7 @@ main {
 
 .alltag-mit .help-offers {
     overflow-x: clip;
-    padding-block: 52px 188px;
+    padding-block: 42px 188px;
 
 }
 
@@ -11635,7 +11653,7 @@ header {
 
         padding-bottom: 226px;
 
-        PADDING-TOP: 53px;
+        PADDING-TOP: 42px;
 
 
 
@@ -12001,7 +12019,7 @@ header {
 
     padding-bottom: 318px;
 
-    padding-top: 53px;
+    padding-top: 42px;
 
 }
 
@@ -12048,7 +12066,7 @@ header {
 
     position: absolute;
 
-    bottom: 441px;
+    top: 1700px;
 
     right: 503px;
 
@@ -12928,11 +12946,12 @@ section {
     }
 
     #unser-verein .dermakids-v #carouseltwo {
-        width: 800px;
+        width: 400px;
+        height: 400px;
     }
 
     #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
-        bottom: 100px;
+        bottom: -71px;
     }
 
     .association-img {
@@ -13681,7 +13700,9 @@ section {
     }
 
     #unser-verein .dermakids-v #carouseltwo {
-        width: 600px;
+        width: 350px;
+        right: 42px;
+        top: 68px;
     }
 
     .our-club .dermakids-v {
@@ -13732,7 +13753,7 @@ section {
     }
 
     #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
-        bottom: 78px;
+        bottom: -14px;
     }
 
     #impressum .banner h1 {
@@ -13751,7 +13772,7 @@ section {
     }
 
     .impressum {
-        padding-block: 54px 150px;
+        padding-block: 42px 150px;
     }
 
     .haupttypen .banner h1 span {
@@ -15089,8 +15110,9 @@ section {
     }
 
     #unser-verein .dermakids-v #carouseltwo {
-        width: 500px;
-        top: -75px;
+        width: 280px;
+        top: 0;
+        right: 50px;
     }
 
     .round-carousal .carousel-indicators button {
@@ -15333,11 +15355,12 @@ section {
     }
 
     .navbar-collapse {
-        border-radius: 0 0 24px 24px;
+        border-radius: 0 0 0 24px;
     }
 
     .navbar .navbar-nav .nav-link {
         width: fit-content;
+        color: #4e4e4e;
     }
 
     .navbar-toggle {
@@ -15351,7 +15374,7 @@ section {
         top: 62px;
         min-width: 336px;
         max-width: 336px;
-        padding: 12px 20px;
+        padding: 12px 15px 12px 20px;
     }
 
     .navbar .nav-item.dropdown::after {
@@ -15364,8 +15387,8 @@ section {
         border-bottom: 0;
         border-left: .3em solid rgba(0, 0, 0, 0);
         position: absolute;
-        right: 0;
-        top: 20px;
+        right: 6px;
+        top: 16px;
         cursor: pointer;
     }
 
@@ -15556,24 +15579,23 @@ section {
 
     .dropdown-item {
 
-        max-width: 100%;
+        min-width: 100%;
 
     }
 
 
 
     .dropdown-submenu .dropdown-toggle::after {
-
         rotate: 0deg;
         right: 0;
         display: inline-block;
         margin-left: .255em;
         vertical-align: .255em;
         content: "";
-        border-top: .3em solid;
-        border-right: .3em solid transparent;
+        border-top: 7.2px solid;
+        border-right: 7.5px solid transparent;
         border-bottom: 0;
-        border-left: .3em solid transparent;
+        border-left: 7.5px solid transparent;
 
     }
 
@@ -15631,9 +15653,19 @@ section {
         margin-bottom: 10px;
     }
 
+    #unser-verein .dermakids-v #carouseltwo {
+        width: 260px;
+        top: 40px;
+        right: 30px;
+    }
+
     .info-card {
         margin-top: 15px;
 
+    }
+
+    .navbar-toggle.collapse.show {
+        width: 293px !Important;
     }
 
     .banner .subtext {
@@ -16003,7 +16035,8 @@ section {
         font-size: 13px;
     }
 
-    .navbar .navbar-nav .nav-link.active {
+
+    .navbar .navbar-nav .nav-link.active  {
         background: transparent;
         color: #4a4a49;
     }
@@ -16639,6 +16672,11 @@ section {
 @media (max-width: 768px) {
     .mobile-carousel {
         margin-top: 32px;
+    }
+
+    .navbar-toggle.collapse.show {
+        position: absolute;
+        right: 44px;
     }
 
     .our-club .dermakids-v .container {
@@ -17835,9 +17873,28 @@ section {
 
 @media (max-width: 576px) {
 
+    .navbar .nav-item.dropdown::after {
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid rgba(0, 0, 0, 0);
+        border-bottom: 0;
+        border-left: .3em solid rgba(0, 0, 0, 0);
+        position: absolute;
+        right: 23px;
+        top: 16px;
+        cursor: pointer;
+    }
+
+    .navbar-toggle.collapse.show {
+        width: 228px !important;
+        position: initial;
+    }
 
     .navbar-collapse {
-        min-width: 216px;
+        min-width: 260px;
     }
 
     .banner h1 {
@@ -17953,6 +18010,14 @@ section {
     #nav-home .hwh-items:nth-child(1) .hwh-img {
         right: initial;
         left: 219px;
+    }
+
+    .navbar-toggle.collapse.show {
+        width: 225px !important;
+    }
+
+    .navbar .nav-item.dropdown::after {
+        right: 6px;
     }
 
     .hwh-items:nth-child(4) .hwh-img {
@@ -18143,4 +18208,12 @@ section {
 
 .navbar-light .navbar-toggler {
     border: none;
+}
+
+
+
+
+
+.dK-accordian .accordion-item .accordion-button.collapsed {
+    border: 0 !important;
 }
