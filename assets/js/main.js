@@ -179,9 +179,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 window.addEventListener('DOMContentLoaded', function () {
   const params = new URLSearchParams(window.location.search);
-  const tabId = params.get('tab');
 
-  if (tabId) {
+  // Get the parent tab and sub-tab IDs from the URL parameters
+  const parentTabId = params.get('tab');
+  const subTabId = params.get('subTab');
+
+  // Function to show a tab
+  function showTab(tabId) {
     const triggerTab = document.querySelector(`#${tabId}-tab`);
     if (triggerTab) {
       const tab = new bootstrap.Tab(triggerTab);
@@ -196,8 +200,33 @@ window.addEventListener('DOMContentLoaded', function () {
       }
     }
   }
-});
 
+  // If the parent tab is specified, show it
+  if (parentTabId) {
+    showTab(parentTabId);
+
+    // If there's a sub-tab, show it after the parent tab is displayed
+    if (subTabId) {
+      setTimeout(() => {
+        const parentTabContent = document.querySelector(`#${parentTabId}`);
+        if (parentTabContent) {
+          // Assuming the sub-tab is within the parent tab content
+          const subTabTrigger = parentTabContent.querySelector(`#${subTabId}-tab`);
+          if (subTabTrigger) {
+            const subTab = new bootstrap.Tab(subTabTrigger);
+            subTab.show();
+
+            // Scroll smoothly to the sub-tab content
+            const subTabContent = parentTabContent.querySelector(`#${subTabId}`);
+            if (subTabContent) {
+              subTabContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        }
+      }, 500); // Wait for the parent tab to show before triggering sub-tab
+    }
+  }
+});
 
 
 
