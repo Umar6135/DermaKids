@@ -2084,8 +2084,6 @@ a:hover {
 
 .types-tabs .nav-link.active {
     border-radius: 20px;
-    border-bottom-right-radius: 32px !important;
-    border-bottom-left-radius: 32px !important;
 }
 
 .types-tabs .nav-link.active::before {
@@ -3978,6 +3976,8 @@ footer .copyright {
 
     max-width: 100%;
 
+    z-index: 1;
+    position: relative;
 }
 
 
@@ -10188,7 +10188,7 @@ main {
 .types-tabs .bg-box {
     margin-top: 85px;
     max-height: 998px;
-    width: 81.6%;
+    width: calc(100% - (50% - 41rem + 2rem + 18px));
 }
 
 .types-tabs .tab-content {
@@ -12184,174 +12184,86 @@ header {
 }
 
 .non-profit-content {
-
     background: url(../img/non-profit-bg.png) no-repeat;
-
     background-size: cover;
-
     padding: 60px 0 63px;
-
     position: relative;
-
-    h3 {
-
-        font-size: 60px;
-
-        font-family: "Lifehack";
-
-        font-weight: 400;
-
-        line-height: 1;
-
-        margin-bottom: 113px;
-
-    }
-
-    .no-profit-item {
-
-        margin-bottom: 83px;
-
-    }
-
-    .no-profit-items:nth-child(2) .no-profit-item {
-
-        margin-top: 130px;
-
-        margin-bottom: 70px;
-
-        p {
-
-            max-width: 600px;
-
-            line-height: 1.5;
-
-        }
-
-
-
-    }
-
-    .no-profit-btn {
-
-        font-size: 20px;
-
-        line-height: 1;
-
-        color: #7B7B7A;
-
-        padding: 15px 0 15px 25px;
-
-        background-color: #fff;
-
-        border: 1px solid #7B7B7A;
-
-        border-radius: 20px;
-
-        width: 263px;
-
-        display: block;
-
-        position: relative;
-
-        margin-top: 124px;
-        margin-left: 68px;
-
-        svg {
-
-            position: absolute;
-
-            right: -12px;
-
-            top: 0;
-
-        }
-
-    }
-
-    .no-profit-text {
-
-        display: flex;
-
-        gap: 85px;
-
-    }
-
-    .no-profit-img {
-
-        position: absolute;
-
-        left: 0;
-
-        top: -119px;
-
-    }
-
-    .no-profit-items .no-profit-img:nth-child(3) {
-
-        top: initial;
-
-        bottom: -13px;
-
-        right: 206px;
-
-        left: initial;
-
-    }
-
-    .no-profit-items {
-
-        .no-profit-img {
-
-            right: 0;
-
-            left: inherit;
-
-            top: -78px;
-
-        }
-
-        h5 {
-
-            font-size: 40px;
-
-            font-family: "JungleMan";
-
-            font-weight: 400;
-
-            line-height: 1;
-
-            margin-bottom: 18px;
-
-            color: #fff;
-
-        }
-
-        p {
-
-            font-size: 20px;
-
-            font-weight: 400;
-
-            line-height: 1.45;
-
-            margin-bottom: 0;
-
-            max-width: 489px;
-
-            color: #fff;
-
-        }
-
-
-
-    }
-
-    .no-profit-items .no-profit-item:nth-child(2) {
-
-        margin-bottom: 31px;
-
-    }
-
+}
+.non-profit-content h3 {
+    font-size: 60px;
+    font-family: "Lifehack";
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 113px;
+}
+.non-profit-content .no-profit-item {
+    margin-bottom: 83px;
+}
+.non-profit-content .no-profit-items:nth-child(2) .no-profit-item {
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+.non-profit-content .no-profit-items:nth-child(2) .no-profit-item p {
+    max-width: 600px;
+    line-height: 1.5;
+}
+.non-profit-content .no-profit-btn {
+    font-size: 20px;
+    line-height: 1;
+    color: #7b7b7a;
+    padding: 15px 0 15px 25px;
+    background-color: #fff;
+    border: 1px solid #7b7b7a;
+    border-radius: 20px;
+    width: 263px;
+    display: block;
+    position: relative;
+    margin-top: 124px;
+    margin-left: 68px;
+}
+.non-profit-content .no-profit-btn svg {
+    position: absolute;
+    right: -12px;
+    top: 0;
+}
+.non-profit-content .no-profit-text {
+    display: flex;
+    gap: 85px;
+}
+.non-profit-content .no-profit-img {
+    position: absolute;
+    left: 0;
+    top: -119px;
+}
+.non-profit-content .no-profit-items .no-profit-img:nth-child(3) {
+    top: initial;
+    bottom: -13px;
+    right: 206px;
+    left: initial;
+}
+.non-profit-content .no-profit-items .no-profit-img {
+    right: 0;
+    left: inherit;
+    top: -78px;
+}
+.non-profit-content .no-profit-items h5 {
+    font-size: 40px;
+    font-family: "JungleMan";
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 18px;
+    color: #fff;
+}
+.non-profit-content .no-profit-items p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.45;
+    margin-bottom: 0;
+    max-width: 489px;
+    color: #fff;
+}
+.non-profit-content .no-profit-items .no-profit-item:nth-child(2) {
+    margin-bottom: 31px;
 }
 
 section {
@@ -12359,13 +12271,27 @@ section {
 }
 
 @media (max-width: 1800px) {
-    .types-tabs .bg-box {
-        width: 83.5%;
-
-    }
     .epidermolysis .banner h1 {
         max-width: 85%;
+    }.satzungszweck-divider {
+        height: 600px;
     }
+    .kontakt-side-img{
+        width: 600px;
+        right: 0;
+    }
+    .kontakt-content .carousel {
+        right: 11px;
+    }.kontakt-bottom {
+        right: 215px;
+    }
+    .kontakt     .about-banner h1 {
+        font-size: 80px;
+    }
+    .alltag-mit .service-banner h1, .alltag-mit .service-banner h1 span {
+        font-size: 80px;
+    }
+ 
     .epidermolysis .banner h1::after {
         right: -80px;
         top: -41px;
@@ -12373,6 +12299,22 @@ section {
     .epidermolysis .help-offers .help-offer-img {
         right: -2px;
         top: -183px;
+    }
+  #about-us   .about-banner h1::after {
+        bottom: -90px;
+        left: 261px;
+    }
+    #about-us .dermakids-v #carouseltwo {
+        width: 650px;
+        height: 650px;
+    }
+    .our-team::after {
+        width: 600px;
+        height: 600px;
+        right: 0;
+    }
+    .our-team .bg-box{
+        width: 90%;
     }
     .eB-challenge .eB-img {
         width: 400px;
@@ -12730,10 +12672,11 @@ section {
         margin-left: 0;
         margin: auto;
         padding-bottom: 0;
+        max-width: fit-content;
     }
 
     .haupttypen .banner h1::after {
-        right: 300px;
+        right: -33px;
         transform: rotateY(180deg);
         rotate: initial;
         left: initial;
@@ -12771,10 +12714,8 @@ section {
     }
 
     .alltag-mit .service-banner h1::after {
-        left: 65px;
-        bottom: 0;
+        left: 115px;
     }
-
     .alltag-mit .help-offers #carouseltwo {
         width: 550px;
     }
@@ -12789,9 +12730,6 @@ section {
 
     }
 
-    .kontakt-side-img{
-        right: 0;
-    }
 }
 
 
@@ -12835,15 +12773,75 @@ section {
         font-size: 70px;
         max-width: 693px;
     }
-    .kontakt-side-img{
-        max-width: 400px;
+    .kontakt .about-banner h1, .kontakt .about-banner h1 span{
+        font-size: 70px;
+        max-width: fit-content;
+        margin: auto;
     }
-    .kontakt-content .carousel{
-        right: 0;
+    .kontakt .about-banner h1::after {
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        right: -70px;
+
     }
-    .kontakt-bottom{
-        right: 0;
+    .kontakt .about-banner h1::before {
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+    
+        left: 107px;
+        top: 6px;}
+        .kontakt-side-img {
+            width: 472px;
+            right: 0;
+        }
+        .kontakt-info img {
+            margin-bottom: 49px;
+        }
+        .kontakt-info p {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+        .kontakt-bottom {
+            right: 132px;
+            width: 400px;
+        }
+        .kontakt-content {
+            padding-bottom: 200px;
+        }
+    .kontakt .about-banner {
+        padding-block: 100px;
     }
+    .satzungszweck-banner.banner h1{
+        max-width: fit-content;
+    margin: auto;
+    }
+    .satzungszweck-banner.service-banner h1::after {
+        left: -176px;
+    }
+    #satzungszweck .our-goal .bg-box{
+        width: 94%;
+    }
+    .types-tabs .tab-content h3 {
+        font-size: 45px;
+    }
+    .theme-list li {
+        font-size: 16px;
+    }    
+    .types-tabs #type-jeb .list-group ul {
+        max-width: 449px;
+    }
+    .types-tabs #type-deb .list-group ul {
+        max-width: 446px;
+    }
+    .types-tabs #type-deb .hwh-usp:nth-child(2){
+        top: 14px;
+    }
+    .types-tabs #type-kindler .list-group ul {
+        max-width: 431px;
+    }
+  
     .epidermolysis .banner h1 {
         max-width: 78%;
         font-size: 78px;
@@ -14076,10 +14074,27 @@ section {
     .our-goal .round-carousal {
 
         max-width: 433px;
+        right: -60px;
 
     }
-
-
+    .satzungszweck .our-goal p {
+        font-size: 16px;
+        max-width: 566px;
+    }
+.satzungszweck #carouselthree.carousel {
+    margin-top: -462px;
+    left: -49px;
+    max-width: 300px;
+}
+.satzungszweck .our-goal #carouselthree.round-carousal .carousel-indicators{
+    right: -30px;
+}
+.our-goal #carouselfour {
+    left: -73px;
+}
+.satzungszweck-divider {
+    height: 400px;
+}
 
     .banner {
 
@@ -14447,6 +14462,214 @@ section {
     .help-us .donation h2, .donation-option h4,.big-impact h3  {
         font-size: 40px;
     }
+    .kontakt .about-banner h1, .kontakt .about-banner h1 span {
+        font-size: 55px;
+    }
+    .kontakt .about-banner {
+        padding-block: 70px;
+    }
+    .kontakt .about-banner h1::before {
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        left: 84px;
+        top: -2px;
+    }
+
+    .kontakt-side-img {
+        width: 400px;
+    }
+    .kontakt-info {
+        max-width: 458px;
+        background: #ffffff;
+        padding: 20px 21px 13px 19px;
+    }
+    .kontakt-info img{
+        width: 80%;
+    }
+    .kontakt-form {
+        max-width: 550px;
+        padding: 30px;
+    }
+    .kontakt-form input[type=checkbox] {
+        width: 20px;
+        height: 20px;
+    }
+    .kontakt-form label{
+        font-size: 18px;
+
+    }
+    .kontakt-form .theme-btn {
+        padding-inline: 35px;
+        padding-block: 20px;
+        font-size: 16px;
+    }
+    .kontakt-form .btn-group {
+        margin-block: 12px 85px;
+    }
+    .kontakt-content .carousel {
+        right: 11px;
+        width: 381px;
+    }
+    .kontakt .round-carousal .carousel-indicators {
+        top: -195px;
+        flex-direction: column;
+        left: -18px;
+        gap: 32px;
+        transform: rotate(21deg);
+    }
+    .kontakt-bottom {
+        top: 1400px;
+        right: 132px;
+        width: 300px;
+    }
+    .satzungszweck h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .satzungszweck #carouselthree.carousel {
+        margin-top: -561px;
+        left: -49px;
+        max-width: 200px;
+    }
+    .satzungszweck .our-goal .subtext {
+        font-size: 30px;
+    }
+    .satzungszweck .subtext {
+        font-size: 28px;
+    }
+    .satzungszweck p {
+        font-size: 16px;
+    }
+    .our-goal #carouselfour {
+        left: 16px;
+        width: 300px;
+        bottom: 123px;
+    }
+    .haupttypen .banner h1::after {
+        right: 120px;
+        top: -74px;
+    }
+    .haupttypen .association-img {
+        right: 120px;
+    }
+    .haupttypen-content p{
+        font-size: 16px;
+    }
+    .haupttypen .dermakids-v .subtext {
+        font-size: 30px;
+    }
+    .haupttypen .dermakids-v #carouseltwo {
+        width: 400px;
+        height: 400px;
+    }
+    .haupttypen .dermakids-v #carouseltwo .carousel-indicators {
+        transform: rotate(277deg);
+        right: -44px;
+    }
+    .types-tabs .ebs-layer-img:first-child {
+        position: absolute;
+        top: -191px;
+        left: 21%;
+        width: 337px;
+    }
+    .types-tabs #type-jeb .ebs-layer-img:first-child{
+        position: absolute;
+        top: -153px;
+        left: -28px;
+        width: 298px;    }
+        .types-tabs #type-deb .ebs-layer-img:first-child {
+            position: absolute;
+            top: -173px;
+            left: -52px;
+            width: 298px;
+        }
+        .types-tabs .nav .nav-link h5 {
+            font-size: 38px;
+        }
+        .types-tabs .nav .nav-link p {
+            font-size: 18px;
+        }
+        .types-tabs .nav .nav-link.active h5 {
+            font-size: 55px;
+        }
+        .types-tabs .nav .nav-link{
+            max-height: 55px;
+            margin-top: 31px;
+
+        }
+        .types-tabs .tab-content #ebs-carousal {
+            max-width: 400px;
+        }
+        .types-tabs #type-ebs .hwh-usp:nth-child(1){
+            width: 180px;
+            height: 180px;
+        }
+        .types-tabs  .hwh-usp h5 {
+            font-size: 28px !important;
+        }
+        .types-tabs #type-deb .hwh-usp:nth-child(1) {
+            width: 150px;
+            height: 150px;
+            left: 30%;
+        }
+        .types-tabs #type-deb .hwh-usp {
+            padding: 0;
+        }
+        .inheritance #carouselthree {
+            width: 300px;
+            height: 300px;
+        }
+        .inheritance #carouselfour {
+            right: 50px;
+            width: 300px;
+            height: 300px;
+        }
+        .types-tabs .tab-content #deb-carousal {
+            max-width: 300px;
+        }
+        .types-tabs #type-kindler .list-group ul {
+            max-width: 369px;
+        }
+        .types-tabs #type-kindler .hwh-usp:nth-child(1),.types-tabs #type-kindler .hwh-usp:nth-child(2)             {
+            width: 150px;
+            height: 150px;
+        }
+        .types-tabs #type-kindler .hwh-usp:nth-child(3) {
+            width: 160px;
+            height: 160px;
+        }
+        .types-tabs #type-ebs .hwh-usp:nth-child(2) {
+            bottom: 370px;
+            width: 150px;
+            height: 150px;
+        }
+        .types-tabs #type-ebs .hwh-usp:nth-child(3){
+            width: 180px;
+            height: 180px;
+        }
+        .types-tabs #type-ebs .hwh-usp:nth-child(3) h5{
+            padding: 0;
+        }
+        .types-tabs .tab-content #jeb-carousal {
+            max-width: 352px;
+            position: absolute;
+            right: -20px;
+            top: -184px;
+        }
+        .types-tabs #type-jeb .list-group ul {
+            max-width: 384px;
+        }
+        .types-tabs #type-jeb .hwh-usp:nth-child(2) {
+            width: 150px;
+            height: 150px;
+        }
+    .haupttypen .about-banner h1 {
+        font-size: 50px;
+    }
+    .haupttypen .banner h1 span {
+        font-size: 50px;
+    }
     .big-impact .big-impact-content {
         padding-bottom: 548px;
     }
@@ -14455,17 +14678,6 @@ section {
         right: -18px;
 
     }
-    .kontakt-bottom{
-        max-width: 350px;
-        
-    top: 1077px;
-    }
-    .kontakt-content .carousel{
-        right: 0;
-        width: 457px;
-        top: 1388px;
-    }
-    
     .epidermolysis .banner h1 {
         max-width: 71%;
         font-size: 60px;
@@ -15053,10 +15265,16 @@ section {
     }
 
     .round-carousal .carousel-indicators button {
-        width: 15px;
+        min-width: 15px;
+
+        max-width: 15px;
         min-height: 15px;
     }
 
+    .our-goal #carousel1 {
+        top: 113px;
+        right: -38px;
+    }
     #unser-verein.our-club .dermakids-v #carouseltwo .carousel-indicators {
         gap: 23px;
         bottom: 50px;
@@ -15328,7 +15546,48 @@ section {
         top: 16px;
         cursor: pointer;
     }
-
+  
+  .satzungszweck  .our-goal #carouselfour {
+        left: 16px;
+        width: 300px;
+        bottom: -242px;
+        right: 0;
+    }
+    .satzungszweck .our-goal #carouselfour.round-carousal .carousel-indicators {
+        right: -25px;
+        left: initial;
+        top: 88%;
+        transform: rotate(354deg);
+    }
+    .satzungszweck #carouselthree.carousel {
+        margin-top: -561px;
+        left: -49px;
+        max-width: 200px;
+        bottom: -201px;
+    }
+    .satzungszweck .our-goal #carouselthree.round-carousal .carousel-indicators :nth-child(2) {
+        margin-right: 51px;
+    }
+    .satzungszweck .our-goal .round-carousal .carousel-indicators :nth-child(3) {
+        margin-right: 59px;
+    }
+    .satzungszweck .our-goal #carouselthree.round-carousal .carousel-indicators{
+        top: -17%
+    }
+    .satzungszweck-divider {
+        height: 300px;
+    }
+    .satzungszweck .our-goal #carouselthree.round-carousal .carousel-indicators {
+        gap: 17px;
+    }
+    .satzungszweck .our-goal .round-carousal .carousel-indicators {
+        top: initial;
+        transform: translateY(-50%);
+        flex-direction: column;
+        left: -29px;
+        transform: rotate(294deg);
+        bottom: 114px;
+    }
     .impressum .carousel {
         width: 400px;
         margin-left: auto;
@@ -15592,10 +15851,339 @@ section {
         font-size: 30px;
      margin-bottom: 8px;
     }
+    .kontakt-info {
+        max-width: 386px;
+    }
+    .kontakt-info p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .kontakt-side-img {
+        width: 300px;
+        top: -48px;
+    }
+    .kontakt .about-banner h1, .kontakt .about-banner h1 span {
+        font-size: 47px;
+    }
+    .kontakt .about-banner h1::before {
+        width: 150px;
+        height: 150px;
+    }
+    .kontakt-form {
+        max-width: 406px;
+        padding: 20px;
+    }
+    .kontakt-content .carousel {
+        width: 280px;
+    }
+    .kontakt-bottom {
+        top: 1000px;
+        right: 56px;
+        width: 250px;
+    }
+    .kontakt-form h2 {
+        font-size: 40px;
+    }
+    .kontakt-form .form-control {
+        font-size: 16px;
+        padding: 20px 0 19px 0        ;
+    }
+    .alltag-mit .service-banner h1, .alltag-mit .service-banner h1 span {
+        font-size: 40px;
+    }
+    .alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators {
+        left: 180px;
+        rotate: 344deg;
+        bottom: 38px;
+    }
+    .alltag-mit .help-offers h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .alltag-mit .help-offers .subtext {
+        font-size: 26px;
+    margin-bottom: 10px;
+    }
+    .alltag-mit .help-offers p {
+        font-size: 16px;
+        max-width: 419px;
+        margin-bottom: 11px;
+    }
+    .alltag-mit .comparison h2 {
+        font-size: 36px;
+        margin-bottom: 23px;
+    }
+    .alltag-mit .comparison .comparison-item:nth-child(2) {
+        right: 245px;
+    }
+    .alltag-mit .comparison .comparison-item img {
+        width: 100px;
+    }
+    .alltag-mit .comparison .comparison-carousal {
+        bottom: -90px;
+    }
+    .alltag-mit .service-banner h1::after {
+        left: 101px;
+        bottom: -48px;
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+    }
+    .alltag-mit .service-banner {
+        padding-block: 70px;
+    }
+    .alltag-mit .help-offers #carouseltwo {
+        width: 300px;
+        margin-left: -65px;
+        margin-top: -111px;
+    }
+    .types-tabs .ebs-layer-img:first-child {
+        position: absolute;
+        top: -148px;
+        left: 18%;
+        width: 278px;
+    }
+    .types-tabs .tab-content #ebs-carousal {
+        max-width: 300px;
+    }
+    .types-tabs #type-ebs .hwh-usp:nth-child(1) {
+        width: 150px;
+        height: 150px;
+    }
+    .types-tabs .tab-content h3 {
+        font-size: 38px;
+    }
+    .theme-list li {
+        font-size: 14px;
+        padding-left: 35px;
+    }
+    .types-tabs .ebs-layer-img:nth-child(2) {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: -38px;
+        margin-top: 200px;
+        width: 400px;
+    }
+    .types-tabs #type-ebs .hwh-usp:nth-child(3) {
+        width: 150px;
+        height: 150px;
+        padding: 0;
+    }
+    .types-tabs .hwh-usp h5 {
+        font-size: 20px !important;
+    }
+    .types-tabs #type-jeb .ebs-layer-img:first-child {
+        
+        top: -141px;
+        left: -49px;
+        width: 251px;
+    }
+    .types-tabs .tab-content #jeb-carousal {
+        max-width: 300px;
+        position: absolute;
+        right: -7px;
+        top: -121px;
+        max-height: 300px;
+    }
+    .types-tabs .tab-content #jeb-carousal .carousel-indicators {
+        left: 0;
+        transform: rotate(341deg);
+        bottom: -149px;
+
+    }
+
+    .types-tabs #type-jeb .hwh-usp:nth-child(1) {
+        width: 120px;
+        height: 120px;
+        }    .haupttypen .banner {
+        padding-block: 70px;
+    }
+    .types-tabs #type-jeb .hwh-usp:nth-child(2) {
+        width: 120px;
+        height: 120px;
+        top: 374px;
+    }
+    .types-tabs #type-jeb .hwh-usp:nth-child(3) {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 22%;
+        bottom: 37px;
+    }
+
+    .types-tabs #type-deb .ebs-layer-img:first-child {
+        top: -147px;
+
+        width: 273px;
+    }
+    .types-tabs #type-deb .hwh-usp:nth-child(1) {
+        width: 120px;
+        height: 120px;
+        left: 30%;
+        top: -106px;
+    }
+    .types-tabs #type-deb .hwh-usp:nth-child(2) {
+        top: 341px;
+        width: 150px;
+        height: 150px;
+        right: 28px;
+    }
+    .types-tabs .tab-content #deb-carousal {
+        max-width: 240px;
+        max-height: 240px;
+
+    }
+    .types-tabs .tab-content #deb-carousal .carousel-indicators {
+        left: 109px;
+        top: 0;
+        bottom: -123px;
+        gap: 0;
+        align-items: center;
+    }
+    .types-tabs #type-deb .hwh-usp:nth-child(3) {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 21%;
+        bottom: 71px;
+    }
+    .types-tabs #type-kindler .hwh-usp:nth-child(1), .types-tabs #type-kindler .hwh-usp:nth-child(2) {
+        width: 120px;
+        height: 120px;
+    }
+    .types-tabs #type-kindler .hwh-usp:nth-child(1) {
+        top: -110px;
+    }    
+    .types-tabs #type-kindler .hwh-usp:nth-child(3) {
+        width: 150px;
+        height: 150px;
+        top: 508px;
+    }
+    .types-tabs #type-kindler .hwh-usp:nth-child(4) {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        right: initial;
+        bottom: 25px;
+        left: 100px;
+    }
+    .inheritance #carouselthree {
+        width: 250px;
+        height: 250px;
+    }
+    .inheritance #carouselthree .carousel-indicators {
+        bottom: 50px;
+    }
+    .inheritance #carouselfour {
+        right: 50px;
+        width: 250px;
+        height: 250px;
+    }
+    .inheritance img{
+        width: 60%;
+
+    }
+    .haupttypen .banner h1::after {
+        right: 139px;
+        top: -61px;
+        width: 100px;
+        height: 100px;
+    }
+    .haupttypen .breadcrumb-item+.breadcrumb-item {
+        padding-left: 17px;
+    }
+    .haupttypen .breadcrumb-item+.breadcrumb-item::before {
+        left: 3px;
+    }
+    .haupttypen .dermakids-v h2 {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+    .haupttypen .dermakids-v .subtext {
+        font-size: 23px;
+    }
+    .haupttypen .association-img {
+        right: 95px;
+    }
+    .haupttypen .dermakids-v {
+        padding-bottom: 80px;
+    }
+
+    .types-tabs .nav {
+        gap: 12px;
+    }
+    .types-tabs .nav .nav-link.active h5 {
+        font-size: 40px;
+    }
+    .types-tabs .nav .nav-link p {
+        font-size: 16px;
+        bottom: 0;
+        margin-bottom: 8px;
+    }
+    .eB-challenge h3 {
+        font-size: 30px;
+    }
+    .eB-challenge .bg-box {
+        width: 100%;
+    }
+    .eB-challenge .eB-item h5 {
+        font-size: 25px;
+    }
+    .eB-item img {
+        width: 65%;
+    }
+    .eB-challenge .eB-item{
+        top: 25px;
+    }
+    .eB-challenge .eB-item:nth-child(2) {
+        top: 168px;
+        left: -9px;
+    }
+    .eB-challenge .eB-items {
+        padding-bottom: 500px;
+    }
+    .eB-challenge .eB-item:nth-child(3) {
+        bottom: 48px;
+    }
+    .eB-challenge .eB-item:nth-child(4){
+        left: 160px;
+    }
+    .eB-challenge .eB-item:nth-child(5) {
+        top: 58px;
+        left: 162px;
+    }
+    .eB-challenge .eB-item:nth-child(6) {
+        left: 291px;
+        top: 117px;
+    }
+    .eB-challenge .eB-item:nth-child(7) {
+        top: initial;
+        left: 345px;
+        bottom: 190px;
+    }
+    .eB-challenge .eB-item:nth-child(11) {
+        bottom: 227px;
+        right: -77px;
+    }
+    .eB-challenge .eB-item:nth-child(12) {
+        bottom: 177px;
+        right: -32px;
+    }
+    .eB-challenge .eB-item:nth-child(9) {
+        right: 81px;
+        top: -21px;
+    }
     .epidermolysis .banner h1 {
         max-width: 79%;
         font-size: 50px;
         margin: auto;
+    }
+    .eB-challenge-content{
+        background-position-x: right;
+    }
+    .eB-challenge .eB-item:nth-child(10) {
+        bottom: 289px;
+        left: 411px;
     }
     .epidermolysis .banner h1 span {
         font-size: 45px;
@@ -16801,7 +17389,7 @@ section {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .mobile-carousel {
         margin-top: 32px;
     }
@@ -18364,4 +18952,7 @@ section {
 
 .dK-accordian .accordion-item .accordion-button.collapsed {
     border: 0 !important;
+}
+.haupttypen .about-banner h1{
+    max-width: fit-content !important;
 }
