@@ -34,7 +34,7 @@ include('header.php'); ?>
 
 
 
-<div class="banner">
+<div class="banner home-banner">
 
 
 
@@ -824,7 +824,7 @@ include('header.php'); ?>
 
 
 
-            Unser EB-Family Treffen 2024
+            Unser <span class="d-sm-none"><br></span> EB-Family Treffen 2024
 
 
 
@@ -1480,7 +1480,7 @@ include('header.php'); ?>
 
 
 
-                        <a href="">mehr erfahren</a>
+                        <a href="./hilfsangebote-eb.php?tab=eb">mehr erfahren</a>
 
 
 
@@ -1576,7 +1576,7 @@ include('header.php'); ?>
 
 
 
-                        <a href="">mehr erfahren</a>
+                        <a href="./hilfsangebote-eb.php?tab=umfeld">mehr erfahren</a>
 
 
 

@@ -382,5 +382,50 @@ if (window.innerWidth < 768) {
     infinite: false,
     variableWidth: true  // <- this is key
   });
+
+
+$('.nav-tab-1').on('click', '.nav-link', function (e) {
+  e.preventDefault();
+
+  const $tabContainer = $(this).closest('.nav-tabs');
+  const $tabContent = $tabContainer.next('.tab-content');
+
+  // Deactivate all tabs in this group
+  $tabContainer.find('.nav-link').removeClass('active').attr('aria-selected', 'false');
+  $tabContent.find('.tab-pane').removeClass('show active');
+
+  // Activate the clicked tab
+  $(this).addClass('active').attr('aria-selected', 'true');
+  const target = $(this).data('bs-target');
+  $tabContent.find(target).addClass('show active');
+});
+$('.nav-tab-2').on('click', '.nav-link', function (e) {
+  e.preventDefault();
+
+  const $tabContainer = $(this).closest('.nav-tabs');
+  const $tabContent = $tabContainer.next('.tab-content');
+
+  // Deactivate all tabs in this group
+  $tabContainer.find('.nav-link').removeClass('active').attr('aria-selected', 'false');
+  $tabContent.find('.tab-pane').removeClass('show active');
+
+  // Activate the clicked tab
+  $(this).addClass('active').attr('aria-selected', 'true');
+  const target = $(this).data('bs-target');
+  $tabContent.find(target).addClass('show active');
+});
+
 }
 
+
+
+
+// listen for when the #umfeld-tab is shown
+$('#umfeld-tab').on('shown.bs.tab', function (e) {
+  $('#tab-name').addClass('umfeld-active');
+});
+
+// (optional) clean up when it’s hidden again
+$('#umfeld-tab').on('hidden.bs.tab', function (e) {
+  $('#tab-name').removeClass('umfeld-active');
+});

@@ -6,7 +6,19 @@
 
 
 
+
+
+
+
+
+
+
+
 $GLOBALS['title'] = "";
+
+
+
+
 
 
 
@@ -14,7 +26,15 @@ $GLOBALS['desc'] = "";
 
 
 
+
+
+
+
 include('header.php'); ?>
+
+
+
+
 
 
 
@@ -26,7 +46,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
     <section class="banner service-banner about-banner">
+
+
+
+
 
 
 
@@ -34,7 +66,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         <div class="container">
+
+
+
+
 
 
 
@@ -42,7 +82,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             </h1>
+
+
+
+
 
 
 
@@ -50,7 +98,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             </p>
+
+
+
+
 
 
 
@@ -58,7 +114,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -74,7 +146,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         <div class="container container-wd">
+
+
+
+
 
 
 
@@ -82,11 +162,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <ol class="breadcrumb">
 
 
 
+
+
+
+
                     <li class="breadcrumb-item"><a href="./">Home</a></li>
+
+
+
+
 
 
 
@@ -98,7 +190,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                 </ol>
+
+
+
+
 
 
 
@@ -106,7 +210,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <div class="your-donation">
+
+
+
+
 
 
 
@@ -114,7 +226,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     ermöglichen es uns, noch mehr EB-Familien auf diesem Weg zu begleiten. Jeder Beitrag, ob
+
+
+
+
 
 
 
@@ -122,7 +242,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             </div>
+
+
+
+
 
 
 
@@ -130,7 +258,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <div class="donation-text">
+
+
+
+
 
 
 
@@ -138,7 +274,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <span class="subtext">Hinter jeder Spende steckt eine Geschichte der Hoffnung </span>
+
+
+
+
 
 
 
@@ -146,7 +290,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         finanziert – ein Zeichen des Vertrauens, dem wir mit größter Sorgfalt begegnen. Wir setzen
+
+
+
+
 
 
 
@@ -154,11 +306,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         es am dringendsten gebraucht wird.</p>
 
 
 
+
+
+
+
                     <p>
+
+
+
+
 
 
 
@@ -166,7 +330,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         Menschen mit seltenen Erkrankungen schaffen. Als kleiner Verein mit einem schlanken
+
+
+
+
 
 
 
@@ -174,7 +346,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         fließt. Seit 2010 sind wir ein verlässlicher Partner für Schmetterlingskinder und ihre
+
+
+
+
 
 
 
@@ -182,7 +362,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         herausfordernden Weg zu stärken.</p>
+
+
+
+
 
 
 
@@ -190,7 +378,15 @@ include('header.php'); ?>
 
 
 
-                        Jede Spende zählt! Ihr Beitrag – groß oder klein – macht den Unterschied und gibt uns die
+
+
+
+
+                        <a href="#donation">Jede Spende zählt! </a>Ihr Beitrag – groß oder klein – macht den Unterschied und gibt uns die
+
+
+
+
 
 
 
@@ -198,15 +394,35 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </p>
 
 
 
+
+
+
+
                     </p>
+
+
+
+
 
 
 
                 </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -222,7 +438,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                     <div id="carouseltwo" class="carousel round-carousal slide carousel-fade"
+
+
+
+
 
 
 
@@ -230,7 +458,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <div class="carousel-inner">
+
+
+
+
 
 
 
@@ -238,7 +474,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                 <img src="./assets/img/how-we-help-carousal/1.png" class="d-block w-100" alt="...">
+
+
+
+
 
 
 
@@ -246,7 +490,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             <div class="carousel-item">
+
+
+
+
 
 
 
@@ -254,7 +506,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             </div>
+
+
+
+
 
 
 
@@ -262,11 +522,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                 <img src="./assets/img/how-we-help-carousal/3.png" class="d-block w-100" alt="...">
 
 
 
+
+
+
+
                             </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -278,7 +554,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <div class="carousel-indicators">
+
+
+
+
 
 
 
@@ -286,7 +570,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                 aria-current="true" aria-label="Slide 1"></button>
+
+
+
+
 
 
 
@@ -294,11 +586,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                 aria-label="Slide 2"></button>
 
 
 
+
+
+
+
                             <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="2"
+
+
+
+
 
 
 
@@ -310,7 +614,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                         </div>
+
+
+
+
 
 
 
@@ -318,7 +634,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -326,11 +650,35 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         </div>
 
 
 
+
+
+
+
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -350,7 +698,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         <div class="container container-wd">
+
+
+
+
 
 
 
@@ -358,7 +714,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <div class="col-md-7">
+
+
+
+
 
 
 
@@ -366,11 +730,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <p>Mit kleineren Spenden beschaffen wir Augentropfen, Cremes und weitere scheinbar unwichtige
 
 
 
+
+
+
+
                         Dinge, die für unsere Patienten jedoch Linderung und Wohlbefinden bedeuten.
+
+
+
+
+
+
+
+
 
 
 
@@ -386,7 +766,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -394,7 +786,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <div class="big-impact-content">
+
+
+
+
 
 
 
@@ -402,11 +802,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <img src="./assets/img/big-impact-1.png" alt="">
 
 
 
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -414,11 +826,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="hwh-usp">
 
 
 
+
+
+
+
                         <h5>
+
+
+
+
 
 
 
@@ -426,7 +850,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <p>lindert Juckreiz </p>
+
+
+
+
 
 
 
@@ -434,11 +866,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="hwh-usp">
 
 
 
+
+
+
+
                         <h5>
+
+
+
+
 
 
 
@@ -446,7 +890,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <p>lindern Entzündungen & befeuchten</p>
+
+
+
+
 
 
 
@@ -454,11 +906,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="hwh-usp">
 
 
 
+
+
+
+
                         <h5>
+
+
+
+
 
 
 
@@ -466,7 +930,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         </h5>
+
+
+
+
 
 
 
@@ -474,7 +946,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             erholsamen Schlaf</p>
+
+
+
+
 
 
 
@@ -482,11 +962,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="hwh-usp">
 
 
 
+
+
+
+
                         <h5>
+
+
+
+
 
 
 
@@ -494,7 +986,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         </h5>
+
+
+
+
 
 
 
@@ -502,7 +1002,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </div>
+
+
+
+
 
 
 
@@ -510,7 +1018,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <h5>
+
+
+
+
 
 
 
@@ -518,7 +1034,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         </h5>
+
+
+
+
 
 
 
@@ -526,7 +1050,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </div>
+
+
+
+
 
 
 
@@ -534,7 +1066,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <h5>
+
+
+
+
 
 
 
@@ -542,7 +1082,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             ergänzungsmittel
+
+
+
+
 
 
 
@@ -550,7 +1098,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <p>decken erhöhten
+
+
+
+
 
 
 
@@ -558,7 +1114,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </div>
+
+
+
+
 
 
 
@@ -566,7 +1130,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <div class="bIC-img right">
+
+
+
+
 
 
 
@@ -578,7 +1150,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -590,7 +1174,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
         </div>
+
+
+
+
 
 
 
@@ -606,7 +1202,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="customers-testimonial testimonial ">
+
+
+
+
 
 
 
@@ -614,7 +1226,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <div class="testimonial-img">
+
+
+
+
 
 
 
@@ -622,7 +1242,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             </div>
+
+
+
+
 
 
 
@@ -646,7 +1274,31 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+
+
+
 
 
 
@@ -654,7 +1306,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+
+
+
+
 
 
 
@@ -662,7 +1322,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+
+
+
+
 
 
 
@@ -670,7 +1338,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+
+
+
+
 
 
 
@@ -678,7 +1354,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </div>
+
+
+
+
 
 
 
@@ -686,7 +1370,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <div class="carousel-item active">
+
+
+
+
 
 
 
@@ -698,7 +1390,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                                 <p>
+
+
+
+
 
 
 
@@ -706,7 +1410,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                     Das
+
+
+
+
 
 
 
@@ -714,7 +1426,14 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                     der richtige Weg, der uns als Betroffenen auch wirklich hilft. Wir haben dank
+
+
+
 
 
 
@@ -722,11 +1441,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                     wieder die Möglichkeit erhalten, eine richtige Familie und ein Familienleben zu
 
 
 
+
+
+
+
                                     führen,
+
+
+
+
 
 
 
@@ -742,7 +1473,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
                                 </p>
+
+
+
+
 
 
 
@@ -750,7 +1497,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                     Mutter von Franz (EBD)
+
+
+
+
 
 
 
@@ -758,7 +1513,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             </div>
+
+
+
+
 
 
 
@@ -766,7 +1529,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <div class="carousel-item">
+
+
+
+
 
 
 
@@ -778,11 +1549,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                                 <p>
 
 
 
+
+
+
+
                                     Die Entscheidung, zu euch zu kommen, war die beste Entscheidung meines Lebens.
+
+
+
+
 
 
 
@@ -802,7 +1589,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 </p>
+
+
+
+
 
 
 
@@ -814,7 +1621,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                                     Mutter von Lea (EBD)
+
+
+
+
 
 
 
@@ -822,7 +1641,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             </div>
+
+
+
+
 
 
 
@@ -830,7 +1657,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <div class="carousel-item">
+
+
+
+
 
 
 
@@ -842,7 +1677,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                                 <p>
+
+
+
+
 
 
 
@@ -850,7 +1697,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                     aber
+
+
+
+
 
 
 
@@ -858,7 +1713,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                                     DermaKIDS,
+
+
+
+
 
 
 
@@ -878,11 +1741,35 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 </p>
 
 
 
+
+
+
+
                                 <div class="testimonial-by">
+
+
+
+
 
 
 
@@ -894,7 +1781,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                                 </div>
+
+
+
+
 
 
 
@@ -902,11 +1801,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         </div>
 
 
 
+
+
+
+
                     </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -922,11 +1837,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
             </div>
 
 
 
+
+
+
+
         </div>
+
+
+
+
 
 
 
@@ -942,7 +1873,23 @@ include('header.php'); ?>
 
 
 
-    <div class="donation-option">
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="donation-option" id="donation">
+
+
+
+
 
 
 
@@ -950,7 +1897,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <h4>Spendenmöglichkeiten</h4>
+
+
+
+
 
 
 
@@ -958,7 +1913,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <div class="dO-item">
+
+
+
+
 
 
 
@@ -966,7 +1929,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <p>Jede Spende hilft! Nutzen Sie unser Konto oder die gängigen Online-Zahlungs-
+
+
+
+
 
 
 
@@ -974,27 +1945,31 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="dO-item-icons">
+
+
+
+
 
 
 
                         <div class="dO-item-icon">
 
-<a href="https://www.paypal.com/donate?hosted_button_id=HTRAZT3748GQL">
+
+
+<a href="https://buy.stripe.com/eVa3fQ5V51rechO5kk">
+
+
 
                             <img src="./assets/img/hO-icon.png" alt=""></a>
 
 
 
-                        </div>
 
-
-
-                        <div class="dO-item-icon">
-
-
-
-                            <img src="./assets/img/hO-icon2.png" alt="">
 
 
 
@@ -1002,11 +1977,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <div class="dO-item-icon">
 
 
 
-                            <img src="./assets/img/hO-icon3.png" alt="">
+<a href="https://buy.stripe.com/eVa3fQ5V51rechO5kk">
+
+
+
+                            <img src="./assets/img/hO-icon2.png" alt=""></a>
+
+
+
+
 
 
 
@@ -1014,15 +2001,59 @@ include('header.php'); ?>
 
 
 
+
+
+<a href="https://buy.stripe.com/eVa3fQ5V51rechO5kk">
+
+
+
                         <div class="dO-item-icon">
+
+
+
+
+
+
+
+                            <img src="./assets/img/hO-icon3.png" alt=""></a>
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="dO-item-icon">
+
+
+
+
+<a href="https://buy.stripe.com/eVa3fQ5V51rechO5kk">
 
 
 
                             <img src="./assets/img/hO-icon4.png" alt="">
 
+</a>
+
+
+
 
 
                         </div>
+
+
+
+
 
 
 
@@ -1030,11 +2061,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 </div>
 
 
 
+
+
+
+
                 <div class="dO-item">
+
+
+
+
 
 
 
@@ -1042,7 +2085,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <p>Unterstützen Sie DermaKIDS durch Ihr Online-Shopping, ohne dass für Sie Kosten entstehen. </p>
+
+
+
+
 
 
 
@@ -1050,7 +2101,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                       <a href="shop.php">  <p>zum Shop</p>
+
+
+
+
 
 
 
@@ -1058,7 +2117,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             <img src="./assets/img/dO-item-icon5.png" alt=""></a>
+
+
+
+
 
 
 
@@ -1066,7 +2133,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </div>
+
+
+
+
 
 
 
@@ -1074,7 +2149,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <div class="dO-item">
+
+
+
+
 
 
 
@@ -1082,7 +2165,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <p>Verantwortliche für
+
+
+
+
 
 
 
@@ -1094,11 +2185,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                 </div>
 
 
 
+
+
+
+
                 <div class="dO-item">
+
+
+
+
 
 
 
@@ -1106,11 +2213,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <p>Sie haben eine gute Idee für eine Spendenaktion zugunsten von Schmetterlingskindern? Wir unterstützen Sie bei der Umsetzung. </p>
 
 
 
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -1118,7 +2237,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <h6>Nachlassspende</h6>
+
+
+
+
 
 
 
@@ -1126,7 +2253,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="dO-item-icons">
+
+
+
+
 
 
 
@@ -1134,7 +2269,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             <img src="./assets/img/dO-item-icon6.png" alt="">
+
+
+
+
 
 
 
@@ -1142,7 +2285,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </div>
+
+
+
+
 
 
 
@@ -1150,7 +2301,14 @@ include('header.php'); ?>
 
 
 
+
+
+
             </div>
+
+
+
+
 
 
 
@@ -1158,7 +2316,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1174,7 +2348,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         <div class="bg-box"></div>
+
+
+
+
 
 
 
@@ -1182,7 +2364,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <h3>Das DermaKIDS-Kinderbuch
+
+
+
+
 
 
 
@@ -1190,7 +2380,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <div class="dk-book-content">
+
+
+
+
+
+
+
+
 
 
 
@@ -1206,7 +2408,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                     <span class="subtext">
+
+
+
+
 
 
 
@@ -1214,7 +2428,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </span>
+
+
+
+
 
 
 
@@ -1222,11 +2444,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 </div>
 
 
 
+
+
+
+
                 <div class="dk-book-img">
+
+
+
+
 
 
 
@@ -1238,7 +2472,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -1246,7 +2492,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <img src="./assets/img/book-img3.png" alt="">
+
+
+
+
 
 
 
@@ -1254,7 +2508,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <div id="carouselthree" class="carousel round-carousal slide carousel-fade"
+
+
+
+
 
 
 
@@ -1262,7 +2524,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="carousel-inner">
+
+
+
+
 
 
 
@@ -1270,11 +2540,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             <img src="./assets/img/dk-book-carousal/dk-book1.png" class="d-block w-100" alt="...">
 
 
 
+
+
+
+
                         </div>
+
+
+
+
 
 
 
@@ -1282,11 +2564,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             <img src="./assets/img/dk-book-carousal/dk-book2.png" class="d-block w-100" alt="...">
 
 
 
+
+
+
+
                         </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -1298,7 +2596,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="carousel-indicators">
+
+
+
+
 
 
 
@@ -1306,11 +2612,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                             aria-current="true" aria-label="Slide 1"></button>
 
 
 
+
+
+
+
                         <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="1"
+
+
+
+
 
 
 
@@ -1322,11 +2640,27 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                     </div>
 
 
 
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -1334,11 +2668,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         </div>
 
 
 
+
+
+
+
         </div>
+
+
+
+
 
 
 
@@ -1378,163 +2724,52 @@ include('header.php'); ?>
 
 
 
-    <section class="shop-section">
 
 
 
-        <div class="container container-wd">
 
 
 
-            <h3>Unsere Infos zu EB für Sie</h3>
 
 
 
-            <div class="shop-section-items">
 
 
 
-                <div class="shop-section-item">
+<?php include('eb.php'); ?>
 
 
 
-                    <a href="">
 
 
 
-                        <img src="./assets/img/shop1.png" alt="">
 
 
 
-                        <h6>Pepi das
 
 
 
-                            Schmetterlingskind</h6>
 
 
 
-                    </a>
 
 
 
-                </div>
 
 
 
-                <div class="shop-section-item">
 
 
 
-                    <a href="">
 
 
 
-                        <img src="./assets/img/shop2.png" alt="">
 
 
 
-                        <h6>EB-Infofibel</h6>
 
 
 
-                    </a>
-
-
-
-                </div>
-
-
-
-                <div class="shop-section-item">
-
-
-
-                    <a href="">
-
-
-
-                        <img src="./assets/img/shop3.png" alt="">
-
-
-
-                        <h6>Nachhaltigkeits-
-
-
-
-                            bericht</h6>
-
-
-
-                    </a>
-
-
-
-                </div>
-
-
-
-                <div class="shop-section-item">
-
-
-
-                    <a href="">
-
-
-
-                        <img src="./assets/img/shop4.png" alt="">
-
-
-
-                        <h6>Imageflyer</h6>
-
-
-
-                    </a>
-
-
-
-                </div>
-
-
-
-                <div class="shop-section-item">
-
-
-
-                    <a href="">
-
-
-
-                        <img src="./assets/img/shop5.png" alt="">
-
-
-
-                        <h6>Broschüre zum
-
-
-
-                            EB-Family Treffen 2024</h6>
-
-
-
-                    </a>
-
-
-
-                </div>
-
-
-
-            </div>
-
-
-
-        </div>
-
-
-
-    </section>
 
 
 
@@ -1546,11 +2781,35 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         
 
 
 
+
+
+
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1570,7 +2829,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
         <div class="container container-wd">
+
+
+
+
 
 
 
@@ -1578,11 +2845,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <img src="./assets/img/support1.png" alt="">
 
 
 
+
+
+
+
             </div>
+
+
+
+
 
 
 
@@ -1590,7 +2869,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <div class="d-flex">
+
+
+
+
 
 
 
@@ -1598,7 +2885,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 <div class="support-item">
+
+
+
+
 
 
 
@@ -1606,11 +2901,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <p>Übernehmen Sie mit Ihrem Unternehmen soziale und gesellschaftliche Verantwortung z.B. durch eine Patenschaft und/oder ein Projekt für ein Schmetterlingskind. Wir beraten Sie gerne, wie auch Ihr Unternehmen davon profitieren kann.</p>
 
 
 
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -1618,7 +2925,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <h5>Spenden statt Schenken</h5>
+
+
+
+
 
 
 
@@ -1626,7 +2941,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <div class="support-cta">
+
+
+
+
 
 
 
@@ -1634,7 +2957,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <a href="tel:+493031998105">+49 30 319981-05</a>
+
+
+
+
 
 
 
@@ -1642,7 +2973,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                         <a href="mailto:info@dermakids.de">info@dermakids.de</a>
+
+
+
+
 
 
 
@@ -1650,7 +2989,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                 </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -1662,7 +3013,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <div class="support-items">
+
+
+
+
+
+
+
+
 
 
 
@@ -1674,7 +3037,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <h5>Einmalige Spende</h5>
+
+
+
+
 
 
 
@@ -1686,7 +3057,19 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
                 </div>
+
+
+
+
 
 
 
@@ -1694,7 +3077,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     <h5>Werden Sie Partner von DermaKIDS</h5>
+
+
+
+
 
 
 
@@ -1702,7 +3093,15 @@ include('header.php'); ?>
 
 
 
+
+
+
+
                     </p>
+
+
+
+
 
 
 
@@ -1710,15 +3109,31 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             </div>
 
 
 
+
+
+
+
             </div>
+
+
+
+
 
 
 
         </div>
+
+
+
+
 
 
 
@@ -1726,15 +3141,31 @@ include('header.php'); ?>
 
 
 
+
+
+
+
             <img src="./assets/img/support2.png" alt="">
 
 
 
+
+
+
+
         </div>
 
 
 
+
+
+
+
         </div>
+
+
+
+
 
 
 
@@ -1746,7 +3177,23 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
     <div class="sc-divider">
+
+
+
+
+
+
+
+
 
 
 
@@ -1770,6 +3217,22 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </main>
 
 
@@ -1786,7 +3249,47 @@ include('header.php'); ?>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1811,4 +3314,6 @@ include('header.php'); ?>
 
 
 <?php include('footer.php'); ?>
+
+
 

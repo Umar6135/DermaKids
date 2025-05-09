@@ -170,51 +170,6 @@
 
 
 
-                    <a href="#" class="tA-link d-lg-block d-none">
-
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-
-
-
-                            <path
-
-
-
-                                d="M192 0C139 0 96 43 96 96l0 160c0 53 43 96 96 96s96-43 96-96l0-160c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40z" />
-
-
-
-                        </svg>
-
-
-
-                    </a>
-
-
-
-                    <a href="#" class="tA-link d-lg-block d-none">
-
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="rotate: -260deg;">
-
-
-
-                            <path
-
-
-
-                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
-
-
-
-                        </svg>
-
-
-
-                    </a>
 
 
 
@@ -222,7 +177,7 @@
 
 
 
-                    <a href="#" class="tA-link d-lg-block d-none">Sprache</a>
+
 
 
 
@@ -230,15 +185,11 @@
 
 
 
-                    <a href="#" class="tA-link d-lg-block d-none">Presse</a>
 
 
 
-                    <a href="#" class="tA-link d-lg-block d-none">Glossar</a>
 
-
-
-                    <a href="#" class="tA-link d-lg-block d-none">Shop<svg width="27" height="27" viewBox="0 0 27 27" style="margin-left: 16px;" fill="d-none"
+                    <a href="./shop.php" class="tA-link d-lg-block d-none">Shop<svg width="27" height="27" viewBox="0 0 27 27" style="margin-left: 16px;" fill="d-none"
 
 
 
@@ -314,11 +265,9 @@
 
 
 
-                    <a href="#" class="tA-link theme-btn">Spenden</a>
+                    <a href="./helfen-sie-mit.php" class="tA-link theme-btn">Spenden</a>
 
 
-
-                    <a href="#" class="tA-link">Sprache</a>
 
 
 
@@ -394,7 +343,6 @@
 
                     </div>
 
-                    <span class="search"> <img src="./assets/img/search-icon.svg" width="19" height="20" alt=""> </span>
 
                 </div>
 
@@ -423,9 +371,7 @@ if (
 
 
     basename($_SERVER['PHP_SELF']) == "unser-verein.php"  ||
-
-
-
+    basename($_SERVER['PHP_SELF']) == "satzungszweck.php"  ||
     basename($_SERVER['PHP_SELF']) == "uber-uns.php"
 
 
@@ -460,6 +406,8 @@ if (
 
 
                                 <li><a class="dropdown-item" href="./uber-uns.php">Über uns</a></li>
+                                <li><a class="dropdown-item" href="./satzungszweck.php">Satzungszweck </a></li>
+
 
 
 
@@ -745,17 +693,7 @@ if (
 
                     <ul class="mob-menu-link d-lg-none">
 
-                        <li>
-
-                            <a href="">Presse</a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="">Glossar</a>
-
-                        </li>
+                       
 
                         <li>
 
