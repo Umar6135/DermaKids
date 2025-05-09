@@ -355,3 +355,46 @@ if (window.innerWidth < 768) {
   });
 }
 
+
+
+
+
+$(document).ready(function () {
+  function initCircleSlider() {
+    if (window.innerWidth < 768) {
+      if (!$('.shop-slider').hasClass('slick-initialized')) {
+        $('.shop-slider').slick({
+          dots: true,
+          arrows: false,
+          infinite: true,
+          centerMode: true,
+          loop: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                centerPadding: '40px',
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 2,
+                centerPadding: '0px',
+                centerMode: false,
+              }
+            }
+          ]
+        });
+      }
+    } else {
+      if ($('.shop-slider').hasClass('slick-initialized')) {
+        $('.shop-slider').slick('unslick');
+      }
+    }
+  }
+
+  initCircleSlider();
+  $(window).on('resize', initCircleSlider);
+});

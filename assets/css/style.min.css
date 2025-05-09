@@ -11939,6 +11939,7 @@ header {
 }
 .eB-challenge .eB-items {
     padding-bottom: 655px;
+    position: relative;
 
 }
 .eB-challenge .eB-item {
@@ -12204,7 +12205,7 @@ header {
     margin-bottom: 70px;
 }
 .non-profit-content .no-profit-items:nth-child(2) .no-profit-item p {
-    max-width: 600px;
+    max-width: 440px;
     line-height: 1.5;
 }
 .non-profit-content .no-profit-btn {
@@ -12238,7 +12239,7 @@ header {
 .non-profit-content .no-profit-items .no-profit-img:nth-child(3) {
     top: initial;
     bottom: -13px;
-    right: 206px;
+    right: 145px;
     left: initial;
 }
 .non-profit-content .no-profit-items .no-profit-img {
@@ -12280,6 +12281,40 @@ section {
         width: 600px;
         right: 0;
     }
+    .non-profit-content .no-profit-items .no-profit-img:nth-child(3) {
+        top: initial;
+        bottom: -13px;
+        right: -11px;
+        left: initial;
+        width: 350px;
+        height: 350px;
+    }
+    .non-profit-content .no-profit-items .no-profit-img {
+        right: 0;
+        left: inherit;
+        top: -78px;
+        width: 400px;
+        height: auto;
+    }
+    .non-profit-content .no-profit-img {
+        width: 300px;
+    }
+    .non-profit-content .no-profit-text,.non-profit-content h3{
+        max-width: fit-content;
+        margin-inline: auto;
+    }
+    .non-profit-content h3 {
+        font-size: 50px;
+        margin-bottom: 80px;
+    }
+    .non-profit-content .no-profit-items h5 {
+        font-size: 34px;
+    }
+    .non-profit-content .no-profit-items p {
+        font-size: 18px;
+        width: 400px;
+    }
+ 
     .kontakt-content .carousel {
         right: 11px;
     }.kontakt-bottom {
@@ -12773,10 +12808,107 @@ section {
         font-size: 70px;
         max-width: 693px;
     }
+    #about-us .banner .subtext {
+        font-size: 45px;
+    }
+    #about-us .about-banner h1::after {
+        bottom: 0;
+        left: 296px;
+        width: 100px;
+        height: 100px;
+    }
+    #about-us .about-banner .subtext::after {
+        width: 150px;
+        height: 150px;
+        bottom: -41px;
+        right: 160px;
+    }
+    #about-us .about-banner {
+        padding-block: 100px;
+    }
+    #about-us .dermakids-v #carouseltwo {
+        width: 500px;
+        height: 500px;
+        top: -83px;
+    }
+    #about-us .dermakids-v #carouseltwo .carousel-indicators {
+        bottom: 0;
+    }
+    #about-us .our-team::after {
+        width: 400px;
+        height: 400px;
+    }
+    #about-us .team-heading {margin-left: 130px;}
     .kontakt .about-banner h1, .kontakt .about-banner h1 span{
         font-size: 70px;
         max-width: fit-content;
         margin: auto;
+    }
+    #about-us .our-team-content h3 {
+        margin-bottom: 23px;
+        font-size: 45px;
+    }
+    #about-us .our-team-content .subtext {
+        margin-bottom: 20px;
+        font-size: 34px;
+    }
+    #about-us .our-team-content p {
+        line-height: 1.4;
+        font-size: 18px;
+    }
+    
+    .team-slider .slick-current.slick-active h5{
+        font-size: 40px;
+    }
+    .team-slider h5 {
+        font-size: 35px;
+    }
+    .dK-goal .bg-box {
+        width: 93%;
+    }
+    #about-us .dK-goal-heading h3 {
+        margin-bottom: 33px;
+        font-size: 45px;
+    }
+    .dK-accordian {
+        max-width: 536px;
+    }
+    .dK-accordian .accordion-button{
+        font-size: 35px;
+        height: 55px;
+
+    }
+    .dK-accordian .accordion-item .accordion-body {
+        padding-left: 47px;
+        padding-right: 47px;
+        padding-top: 22px;
+        padding-bottom: 6px;
+        font-size: 16px;
+    }
+    #about-us .dK-goal .theme-btn {
+        margin-left: 113px;
+    }    
+    .non-profit-content .no-profit-text {
+        gap: 20px;
+    }
+    .non-profit-content .no-profit-items .no-profit-img:nth-child(3) {
+        bottom: 101px;
+        width: 250px;
+        height: 250px;
+    }
+    .non-profit-content .no-profit-img {
+        width: 250px;
+    }
+    .non-profit-content .no-profit-items .no-profit-img {
+        width: 350px;
+    }
+    .non-profit-content h3 {
+        font-size: 41px;
+        margin-bottom: 58px;
+    }
+    .non-profit-content .no-profit-items p {
+        font-size: 16px;
+        width: 358px;
     }
     .kontakt .about-banner h1::after {
         width: 100px;
@@ -14462,6 +14594,97 @@ section {
     .help-us .donation h2, .donation-option h4,.big-impact h3  {
         font-size: 40px;
     }
+    .team-slider img {
+        max-width: 200px;
+        min-width: 200px;
+        margin-inline: auto;
+
+    }
+    .next{
+        right: -10px;
+    }
+    #about-us .our-team{
+        margin-bottom: 150px;
+    }
+    #about-us     .dK-goal .bg-box {
+        width: 97%;
+    }
+    #about-us .dK-goal-heading h3 {
+        font-size: 40px
+        
+        ;
+    }
+    .dk-goal-objects {
+        max-width: 372px;
+    }
+    .non-profit-content .no-profit-img {
+        width: 216px;
+    }
+    .non-profit-content h3 {
+        font-size: 34px;
+        margin-bottom: 56px;
+    }
+    .non-profit-content .no-profit-items .no-profit-img {
+        width: 260px;
+    }
+    .non-profit-content .no-profit-btn {
+        font-size: 16px;
+        padding: 11px 0 13px 17px;
+    
+        width: 227px;
+
+    }
+    
+    .non-profit-content .no-profit-btn svg{
+        width: 41px;
+        height: 41px;
+        right: 0;
+    }
+    .non-profit-content .no-profit-items .no-profit-img:nth-child(3) {
+        bottom: 72px;
+        width: 220px;
+        height: 220px;
+    }
+    .team-slider .slick-current img {
+        max-width: 250px;
+        min-width: 250px;
+    }
+    .team-slider .slick-current .team-slider-text{
+        width: initial;
+    }
+    .team-slider .slick-current.slick-active h5{
+        font-size: 30px;
+    }#about-us .our-team-content p{
+        font-size: 16px;
+    }
+    .team-slider h5 {
+        font-size: 29px;
+        text-align: center;
+    }
+
+    #about-us .about-banner h1::after {
+        left: 208px;
+    }
+    #about-us .about-banner .subtext::after {
+        right: 96px;
+    }
+    #about-us .about-banner {
+        padding-block: 70px;
+    }
+    #about-us .dermakids-v p {
+        font-size: 16px;
+
+        max-width: 450px;
+    }
+    #about-us .dermakids-v .theme-btn {
+        min-width: 271px;
+        padding: 25px 19px;
+    }
+    #about-us .dermakids-v #carouseltwo {
+        width: 400px;
+        height: 400px;
+        top: -58px;
+    }
     .kontakt .about-banner h1, .kontakt .about-banner h1 span {
         font-size: 55px;
     }
@@ -15851,6 +16074,104 @@ section {
         font-size: 30px;
      margin-bottom: 8px;
     }
+    .alltag-mit .comparison .round-carousal .carousel-indicators {
+        bottom: 0;
+    }
+    #about-us .about-banner h1::after {
+        left: 112px;
+    }
+    #about-us .banner .subtext {
+        font-size: 36px;
+    }
+    #about-us .about-banner .subtext::after {
+        right: 23px;
+    }
+    #about-us .dermakids-v #carouseltwo {
+        width: 300px;
+        height: 300px;
+        top: -40px;
+    }
+
+    #about-us .dermakids-v #carouseltwo .carousel-indicators {
+        bottom: 34px;
+    }
+    #about-us .dermakids-v .subtext {
+        margin-bottom: 21px;
+    }
+    #about-us .dermakids-v .theme-btn {
+        min-width: 195px;
+        padding: 17px 23px !important;
+    }
+    .our-team::before {
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        top: -143px;
+
+    }
+#about-us     .our-team .bg-box {
+    width: 94%;
+}
+#about-us .team-heading {
+    margin-left: 28px;
+}
+#about-us .our-team-content h3 {
+    margin-bottom: 18px;
+    font-size: 35px;
+}
+#about-us .our-team-content .subtext {
+    margin-bottom: 13px;
+    font-size: 29px;
+}
+#about-us .our-team-content p {
+    max-width: 389px;
+}
+.team-slider {
+    margin-left: 42px;
+}
+.prev {
+    left: 31px;
+}
+.team-slider.slick-initialized .slick-current img{
+    margin-inline: auto;
+}
+.team-slider img {
+    max-width: 150px;
+    min-width: 150px;
+}
+.team-slider .team-slider-text
+ {
+    height: 70px;
+}
+.dK-accordian {
+    max-width: 429px;
+}
+#about-us .dK-goal-heading h3 {
+    font-size: 35px;
+}
+.dK-accordian .accordion-button {
+    font-size: 26px;
+    height: 47px;
+}
+.dK-accordian .accordion-item .accordion-body {
+    padding-left: 26px;
+}
+.dk-goal-objects {
+    max-width: 283px;
+}
+.dK-goal #carouselthree.round-carousal .carousel-indicators {
+    transform: rotate(42deg);
+}    #about-us .dK-goal .theme-btn {
+    margin-left: 0;
+}
+.dK-goal::after{
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+}
+#about-us .dK-goal{
+    margin-bottom: 190px;
+}
     .kontakt-info {
         max-width: 386px;
     }
@@ -17386,6 +17707,36 @@ section {
 
         width: 332px;
     }
+    .epidermolysis .Eb .Eb-img{
+        width: 300px;
+    height: 300px;
+    }
+    .epidermolysis .Eb .Eb-heading h3 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .epidermolysis .Eb .Eb-heading p {
+        font-size: 16px;
+        max-width: 420px;
+    }
+    .epidermolysis .Eb .Eb-heading p a{
+        font-size: 16px;
+    }
+    .epidermolysis .Eb .Eb-item {
+        padding-left: 10px;
+        height: 220px;
+        
+    }
+    .epidermolysis .Eb .Eb-items {
+        padding-top: 59px;
+        padding-bottom: 44px;
+    }
+    .epidermolysis .Eb .Eb-item h5 {
+        font-size: 40px;
+    }
+    .epidermolysis .Eb .Eb-item ul li {
+        font-size: 16px;
+    }
 }
 
 
@@ -17393,7 +17744,403 @@ section {
     .mobile-carousel {
         margin-top: 32px;
     }
+    .alltag-mit .service-banner h1, .alltag-mit .service-banner h1 span {
+        font-size: 50px;
+        line-height: 1;
+        padding: 0;
+    }
+    .alltag-mit .service-banner {
+        padding-block: 43px 78px;
+    }
+    .shop-section .shop-section-item {
+        margin-inline: 16px        ;
+        width: 162px !important;
+    }
+    .shop-section h3 {
+        text-align: left;
+        font-size: 38px;
+        max-width: 304px;
+        margin: auto;
+        line-height: 1.09;
+        margin-bottom: 28px;
+    }
+    .shop-section .container{
+        max-width: 100%;
+        padding: 0;
+    }
+    .alltag-mit .divider {
+        height: 124px;
+    }
+    .shop-section .shop-section-item img{
+        width: 162px !important;
+        height: 162px !important;
+    }
+    .shop-section .slick-dots li button,    .shop-section .slick-dots li button::before        {
+        padding: 0;
+        width: 14px;
+        height: 14px;
 
+    }
+   .shop-section .slick-dots li{
+    margin: 0;
+    width: 14px;
+    height: 14px;
+   }
+   .shop-section-item h6 {
+    font-size: 28px;
+}
+    .shop-section .slick-dots{
+        display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    bottom: -32px;
+
+}
+.shop-section {
+    padding-block: 17px 24px;
+}
+    .alltag-mit .service-banner h1::after {
+        left: 84px;
+        bottom: -73px;
+        width: 82px;
+        height: 70px;
+        background-size: contain;
+    }
+    .alltag-mit .help-offers h2 {
+        font-size: 37px;
+        margin-bottom: 29px;
+        margin-top: 40px;
+        max-width: 308px;
+    }
+    .alltag-mit .help-offers .subtext {
+        font-size: 27px;
+        margin-bottom: 0px;
+        max-width: 404px;
+
+    }
+    .alltag-mit .help-offers p {
+        font-size: 14px;
+        max-width: initial;
+        margin-bottom: 28px;
+                line-height: 1.46;
+
+
+    }
+    .alltag-mit .help-offers{
+        position: relative;
+        padding-bottom: 142px;
+        padding-top: 0;
+    }
+    .alltag-mit .help-offers .help-offer-img{
+        position: absolute;
+    width: 332px;
+    height: 332px;
+    top: 195px;
+    right: -36px;
+    margin-top: 0;
+    }
+    .alltag-mit .help-offers #carouseltwo{
+        position: relative;
+        width: initial;
+        margin-right: -30px;
+        margin-left: -30px;
+
+        margin-top: 6px;
+    }
+    .alltag-mit .help-offers #carouseltwo.round-carousal .carousel-indicators{
+        rotate: initial;
+        margin-top: 0 !important;
+    }
+    .round-carousal .carousel-indicators button{
+        max-width: 11px !important;
+        min-width: 11px !important;
+        max-height: 11px !important;
+        min-height: 11px !important;
+
+        
+    }
+    .round-carousal .carousel-indicators{
+        gap: 20px;
+    }
+    .butterfly-children {
+        margin-block: 113px 129px;
+        padding-block: 49px 29px;
+    }    .butterfly-children .bg-box {
+        width: 100%;
+    }
+    .butterfly-children #carouselfour {
+        position: relative;
+        width: initial;
+        margin-inline: -30px;
+        margin-bottom: 77px;
+        top: 0;
+    }
+    .butterfly-children .round-carousal .carousel-indicators {
+        left: initial !important;
+        right: 35px !important;
+        margin: auto;
+    }
+    .butterfly-children .bC-content .theme-btn{
+        padding-inline: 21px !important        ;
+    margin: auto;
+    }
+    .butterfly-children .bC-content{
+        margin: 0;
+    }
+    .butterfly-children .bC-content h3 {
+        font-size: 28px;
+        margin-bottom: 17px;
+        max-width: 275px;
+    }
+    .butterfly-children .bC-content p {
+        font-size: 14px;
+        margin-bottom: 49px;
+        max-width: 345px;
+    }
+    .butterfly-children .bC-content p a {
+        font-size: 14px;
+    }
+    .alltag-mit .help-offers .theme-btn{
+        margin-top: 71px;
+        width: fit-content;
+        margin-left: auto;
+    }
+    .theme-btn{
+        padding-inline: 46px !important;
+        padding-block: 20px;
+    }
+    .alltag-mit .service-banner h1 span{
+        margin: 0 !important;
+    }
+    .epidermolysis .banner h1{
+        font-size: 40px;
+    max-width: fit-content;
+    padding: 0;
+    line-height: 1.23;
+    }
+    .eB-challenge .eB-items{
+        position: initial;
+        padding-bottom: 627px;
+    
+
+    }
+    .eB-challenge .eB-item:nth-child(5) {
+        top: initial;
+        left: initial;
+        bottom: 516px;
+        right: 55px;
+    }
+    .eB-item img {
+        width: 80%;
+    }
+    .eB-challenge .eB-item:nth-child(4) {
+        left: 160px;
+        top: 636px;
+        bottom: initial;
+    }
+    .eB-challenge .eB-item:nth-child(3) {
+        bottom: 306px;
+        left: 20px;
+    }
+    .eB-challenge .eB-item:nth-child(7) {
+        top: 767px;
+        left: initial;
+        bottom: initial;
+        right: 32px;
+    }
+    .eB-challenge .eB-item:nth-child(11) {
+        bottom: 130px;
+        left: 75px;
+        right: initial;
+    }
+    .eB-challenge .eB-item:nth-child(8) {
+        top: initial;
+        left: initial;
+        bottom: 215px;
+        right: 68px;
+    }
+    .eB-challenge .eB-item:nth-child(12) {
+        bottom: 153px;
+        right: 43px;
+    }
+    .eB-challenge .eB-item:nth-child(6) {
+        left: 6px;
+        top: 34px;
+    }
+    .eB-challenge .bg-box{
+        width: 100%;
+    }
+    .eB-challenge .eB-item:nth-child(10) {
+        bottom: initial;
+        left: 62px;
+        top: 184px;
+    }
+    .eB-challenge .container{
+        max-width: 732px;
+    }
+    .eB-challenge h3 {
+        font-size: 38px;
+    }
+    .epidermolysis .help-offers #carouseltwo{
+        position: initial;
+        margin: 0;
+        width: initial;
+        margin-inline: -30px;
+    }
+    .eB-challenge .eB-item:nth-child(1){
+        top: 414px;
+        right: 0;
+        left: initial;
+    }
+    .eB-challenge .eB-item:nth-child(2) {
+        top: 510px;
+        left: 148px;
+    }
+    .eB-challenge .eB-item:nth-child(9) {
+        right: initial;
+        top: 562px;
+        left: 0;
+    }
+    .epidermolysis .banner h1 span{
+        font-size: 40px;
+        margin: 0;
+    }
+    .epidermolysis .banner {
+        padding-block: 19px 54px;
+    }
+    .epidermolysis .help-offers h2 {
+        font-size: 38px;
+        margin-bottom: 28px;
+        line-height: 1;
+        margin-top: 39px;
+    }
+    .epidermolysis .help-offers .subtext {
+        font-size: 28px;
+        margin-bottom: 0;
+        max-width: 248px;
+    }
+    .epidermolysis .help-offers p {
+        font-size: 14px;
+        max-width: 348px;
+        line-height: 1.45;
+        margin-bottom: 28px;
+    }
+    .epidermolysis .help-offers .help-offer-img {
+        top: -37px;
+        width: 447px;
+        right: -110px;
+    }
+    .epidermolysis .help-offers {
+        padding: 0;
+        padding-bottom: 216px;
+
+    }
+    .epidermolysis .help-offers #carouseltwo.round-carousal .carousel-indicators{
+        transform: initial;
+        rotate: initial;
+        bottom: 181px !important;
+        margin-top: 0 !important;
+        gap: 20px !important;
+    
+    }
+    .epidermolysis .help-offers #carouseltwo.round-carousal .carousel-indicators button{
+    min-width: 11px;
+    min-height: 11px;
+    max-width: 11px;
+    }    .epidermolysis .banner h1::after {
+        width: 135px;
+        height: 104px;
+        rotate: initial;
+        bottom: -95px;
+        top: initial;
+        right: -21px;
+    }
+    .eB-challenge .eB-img {
+        width: 481px;
+        right: -102px;
+        top: -123px;
+    }
+    .eB-challenge{
+        padding-top: 310px;
+        padding-bottom: 24px;
+        margin-bottom: 105px;
+    }
+    .epidermolysis .Eb .Eb-heading h3 {
+        font-size: 38px;
+        margin-bottom: 33px;
+        max-width: 71%;
+        line-height: 1.16;
+    }
+    .epidermolysis .Eb {
+        padding-block: 80px 199px;
+    }
+    .epidermolysis .Eb .Eb-heading p {
+        font-size: 14px;
+        max-width: 344px;
+        margin-bottom: 186px;
+
+    }
+    .epidermolysis .Eb .Eb-items{
+        display: block;
+    }
+    .epidermolysis .Eb .Eb-item{
+        width: 350px;
+    height: 140px;
+    margin-bottom: 22px;
+    padding: 17px 22px 17px 22px;
+
+    margin-inline: auto;
+    }
+    .epidermolysis .Eb .Eb-img {
+        width: 312px;
+        height: 312px;
+        top: 261px;
+        align-items: center;
+    }
+    .Eb .theme-btn{
+        width: 202px;
+        padding-block: 20px;
+    }
+ 
+    .Eb-img img {
+        width: 69%;
+    }
+    .eB-challenge-content{
+        background: none;
+    }
+    .eB-challenge{
+        background: url(../img/eB-challenge-mbl.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .epidermolysis .Eb .Eb-item h5 {
+        font-size: 36px;
+        margin-bottom: 10px;
+
+    }
+    .epidermolysis .Eb .Eb-item p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 17px;
+    }
+    .Eb .Eb-items .Eb-item ul li::before{
+        bottom: 8px;
+    }
+    .epidermolysis .Eb .Eb-heading p ,    .epidermolysis .Eb .Eb-heading p a{
+        line-height: 1.38;
+    }
+    
+    .epidermolysis .Eb .Eb-heading p a{font-size: 14px;}
+    .eB-challenge .theme-btn{
+        width: 202px;
+
+        padding-block: 20px;
+    }
     .navbar-toggle.collapse.show {
         position: absolute;
         right: 44px;
@@ -18601,6 +19348,24 @@ section {
 .navbar-toggle.collapse.show {
         width: 198px ! Important;
     }
+    .shop-section .shop-section-item {
+        margin-inline: 6px;        width: 154px !important;
+
+    }
+    .alltag-mit .help-offers .help-offer-img {
+        position: absolute;
+        width: 304px;
+        height: 304px;
+        top: 247px;
+    }
+    .shop-section-item h6 {
+        font-size: 20px;
+    }
+    .shop-section .shop-section-item img {
+        width: 130px !important;
+        height: 130px !important;
+    }
+
     .navbar .nav-item.dropdown::after {
         display: inline-block;
         margin-left: .255em;
@@ -18956,3 +19721,12 @@ section {
 .haupttypen .about-banner h1{
     max-width: fit-content !important;
 }
+
+
+
+@media (min-width: 768px) {
+    .my-slider {
+      display: none;
+    }
+  }
+  

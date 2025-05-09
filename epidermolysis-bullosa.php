@@ -22,8 +22,9 @@ include('header.php'); ?>
 
         <div class="container">
 
-            <h1><span>Hilfe & Beratung</span> bei &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Epidermolysis bullosa</h1>
+            <h1 class="d-md-block d-none"><span>Hilfe & Beratung</span> bei &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Epidermolysis bullosa</h1>
 
+            <h1 class="d-md-none d-block"><span>Hilfe & Beratung</span> <br> bei Epidermolysis bullosa</h1>
         </div>
 
     </section>
@@ -32,7 +33,7 @@ include('header.php'); ?>
 
 
 
-<?php include('contact.php'); ?>
+    <?php include('contact.php'); ?>
 
 
 
@@ -68,11 +69,11 @@ include('header.php'); ?>
 
                     <p>
 
-                        Epidermolysis bullosa, kurz EB, ist eine angeborene Krankheit, bei der durch einen Gendefekt die verschiedenen Hautschichten nicht richtig miteinander verbunden sind. Bereits bei geringem mechanischem Druck entstehen bei Erkrankten zwischen den Hautschichten Blasen, die sich unbegrenzt vergrößern können.
+                        Epidermolysis bullosa, kurz EB, ist <span class="d-md-none"><br></span> eine angeborene Krankheit, bei <span class="d-md-none"><br></span> der durch einen Gendefekt die <span class="d-md-none"><br></span> verschiedenen Hautschichten nicht <span class="d-md-none"><br></span> richtig miteinander verbunden sind.<span class="d-md-none"><br></span> Bereits bei geringem mechanischem<span class="d-md-none"><br></span> Druck entstehen bei Erkrankten zwischen den <span class="d-md-none"><br></span> Hautschichten Blasen, die sich unbegrenzt vergrö <span class="d-md-none"><br></span> ßern können.
 
                     </p>
 
-                    <p>Auch gesunde Menschen kennen beispielsweise eine Blase am Fuß oder eine Brandblase an der Hand – und wissen, wie schmerzhaft solche Hautverletzungen sind. Schmetterlingskinder haben solche schmerzenden und juckenden Hautwunden am ganzen Körper und in großer Zahl. Dabei sind auch die inneren Schleimhäute betroffen, also Augen, Mund, Speiseröhre, Magen-Darm- und Urogenital-Trakt, die Atemwege oder die Lunge. Das bedeutet Schmerzen, nicht nur für kurze Zeit, sondern durchgehend, ein Leben lang. Für einen gesunden Menschen ist es schwer vorstellbar, aber genau das ist Epidermolysis bullosa.
+                    <p>Auch gesunde Menschen kennen beispielsweise <span class="d-md-none"><br></span> eine Blase am Fuß oder eine Brandblase an der<span class="d-md-none"><br></span> Hand – und wissen, wie schmerzhaft solche Haut<span class="d-md-none">-<br></span>verletzungen sind. Schmetterlingskinder haben <span class="d-md-none"><br></span> solche schmerzenden und juckenden Hautwunden <span class="d-md-none"><br></span> am ganzen Körper und in großer Zahl. Dabei sind <span class="d-md-none"><br></span> auch die inneren Schleimhäute betroffen, also <span class="d-md-none"><br></span> Augen, Mund, Speiseröhre, Magen-Darm- und Uro<span class="d-md-none">-<br></span>genital-Trakt, die Atemwege oder die Lunge. Das<span class="d-md-none"><br></span> bedeutet Schmerzen, nicht nur für kurze Zeit, son<span class="d-md-none">-<br></span>dern durchgehend, ein Leben lang. Für einen ge<span class="d-md-none">-<br></span>sunden Menschen ist es schwer vorstellbar, aber<span class="d-md-none"><br></span> genau das ist Epidermolysis bullosa.
 
                     </p>
 
@@ -94,19 +95,25 @@ include('header.php'); ?>
 
                             <div class="carousel-item active">
 
-                                <img src="./assets/img/epider-carousal/epider-carousal1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/epider-carousal/epider-carousal1.png" class="d-md-block d-none w-100" alt="...">
+                                <img src="./assets/img/epider-carousal/epider-carousal1-mbl.png" class="d-md-none d-block w-100" alt="...">
+
 
                             </div>
 
                             <div class="carousel-item">
 
-                            <img src="./assets/img/epider-carousal/epider-carousal2.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/epider-carousal/epider-carousal2.png" class="d-md-block d-none w-100" alt="...">
+                                <img src="./assets/img/epider-carousal/epider-carousal2-mbl.png" class="d-md-none d-block w-100" alt="...">
+
 
                             </div>
 
                             <div class="carousel-item">
 
-                            <img src="./assets/img/epider-carousal/epider-carousal3.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/epider-carousal/epider-carousal3.png" class="d-md-block d-none w-100" alt="...">
+                                <img src="./assets/img/epider-carousal/epider-carousal3-mbl.png" class="d-md-none d-block w-100" alt="...">
+
 
                             </div>
 
@@ -160,7 +167,7 @@ include('header.php'); ?>
 
 
 
-    <div class="eB-challenge">
+    <section class="eB-challenge">
 
         <div class="bg-box"></div>
 
@@ -168,111 +175,111 @@ include('header.php'); ?>
 
             <div class="eB-challenge-content">
 
-            <h3>Kleine Kämpfer – leben mit
+                <h3>Kleine Kämpfer – leben mit
 
-                EB ist eine Herausforderung</h3>
+                    EB ist eine Herausforderung</h3>
 
-            <div class="eB-img">
+                <div class="eB-img">
 
-                <img src="./assets/img/eBC-img.png" alt="">
+                    <img src="./assets/img/eBC-img.png" alt="">
+
+                </div>
+                <div class="eB-items">
+                    <div class="eB-item">
+
+                        <img src="./assets/img/eBC-img2.png" alt="">
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <h5>teilweise auch an den Schleimhäuten</h5>
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <h5>tägliche
+
+                            Lebensnotwendige Verbandswechsel</h5>
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <img src="./assets/img/eBC-img3.png" alt="">
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <h5>erschwerte
+
+                            Nahrungsaufnahme</h5>
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <img src="./assets/img/eBC-img4.png" alt="">
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <h5>täglicher Juckreiz und chronische Schmerzen</h5>
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <img src="./assets/img/eBC-img5.png" alt="">
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <img src="./assets/img/eBC-img6.png" alt="">
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <h5>ständige
+
+                            Gefahr durch
+
+                            mögliche
+
+                            Infektionen der
+
+                            Wunden</h5>
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <img src="./assets/img/eBC-img7.png" alt="">
+
+                    </div>
+
+                    <div class="eB-item">
+
+                        <h5>Wunden am ganzen Körper</h5>
+
+                    </div>
+                </div>
+                <div class="text-md-center ">
+
+                    <a href="./alltag-mit-eb.php" class="theme-btn">Alltag mit EB</a>
+
+                </div>
 
             </div>
-<div class="eB-items position-relative">
-            <div class="eB-item">
-
-                <img src="./assets/img/eBC-img2.png" alt="">
-
-            </div>
-
-            <div class="eB-item">
-
-                <h5>teilweise auch an den Schleimhäuten</h5>
-
-            </div>
-
-            <div class="eB-item">
-
-                <h5>tägliche
-
-                    Lebensnotwendige Verbandswechsel</h5>
-
-            </div>
-
-            <div class="eB-item">
-
-                <img src="./assets/img/eBC-img3.png" alt="">
-
-            </div>
-
-            <div class="eB-item">
-
-                <h5>erschwerte
-
-                    Nahrungsaufnahme</h5>
-
-            </div>
-
-            <div class="eB-item">
-
-                <img src="./assets/img/eBC-img4.png" alt="">
-
-            </div>
-
-            <div class="eB-item">
-
-                <h5>täglicher Juckreiz und chronische Schmerzen</h5>
-
-            </div>
-
-            <div class="eB-item">
-
-                <img src="./assets/img/eBC-img5.png" alt="">
-
-            </div>
-
-            <div class="eB-item">
-
-                <img src="./assets/img/eBC-img6.png" alt="">
-
-            </div>
-
-            <div class="eB-item">
-
-                <h5>ständige
-
-                    Gefahr durch
-
-                    mögliche
-
-                    Infektionen der
-
-                    Wunden</h5>
-
-            </div>
-
-            <div class="eB-item">
-
-                <img src="./assets/img/eBC-img7.png" alt="">
-
-            </div>
-
-            <div class="eB-item">
-
-                <h5>Wunden am ganzen Körper</h5>
-
-            </div>
-            </div>
-            <div class="text-center">
-
-            <a href="./alltag-mit-eb.php" class="theme-btn">Alltag mit EB</a>
 
         </div>
 
-            </div>
-
-        </div>
-
-    </div>
+    </section>
 
     <div class="customers-testimonial testimonial ">
 

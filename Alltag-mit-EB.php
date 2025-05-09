@@ -30,28 +30,36 @@ include('header.php'); ?>
                     <span class="subtext">Das Leben von Schmetterlingskindern ist geprägt von immer neuen Wunden am ganzen Körper,
                         24 Stunden täglich, 365 Tage im Jahr.
                     </span>
-                    <p>Zeit zum Spielen bleibt kaum, da Verbandswechsel, Pflege und mühsame Nahrungsaufnahme viele Stunden am Tag einnehmen. Schmetterlingskinder fühlen sich darum oft allein. Nicht selten finden sie keine Freunde zum Spielen und für gemeinsame Hobbies, Teenager und Erwachsene keinen Partner. Selbst ein Arbeitsplatz ist für die meisten EB-Betroffenen ein unerfüllter Wunsch.
+                    <p>Zeit zum Spielen bleibt kaum, <span class="d-md-none"><br></span> da Verbandswechsel, Pflege <span class="d-md-none"><br></span> und mühsame Nahrungsauf<span class="d-md-none">-<br></span>nahme viele Stunden am<span class="d-md-none"><br></span> Tag einnehmen. Schmetter<span class="d-md-none">-<br></span>lingskinder fühlen sich<span class="d-md-none"><br></span> darum oft allein. Nicht<span class="d-md-none"><br></span> selten finden sie keine Freun<span class="d-md-none">-<br></span>de zum Spielen und für ge<span class="d-md-none">-<br></span>meinsame Hobbies, Teenager <span class="d-md-none"><br></span> und Erwachsene keinen Partner.<span class="d-md-none"><br></span> Selbst ein Arbeitsplatz ist für die meis<span class="d-md-none">-<br></span>ten EB-Betroffenen ein unerfüllter Wunsch.
                     </p>
                     <p>Ihre Familien leisten Außergewöhnliches. Sie unterstützen, pflegen und trösten geduldig ihr Schmetterlingskind immer wieder, auch in schlaflosen Nächten. Oft muss ein Elternteil seinen Job für die 24-Stunden-Pflege des Kindes aufgeben, was zu weiteren Einschränkungen und Notsituationen in den Familien führt. Finanzieller Spielraum für Urlaube oder Freizeitvergnügen bleibt kaum. Eine unbeschwerte Kindheit rückt in weite Ferne.
 
                     </p>
-                    <a href="./hilfsangebote-eb.php" class="theme-btn">Hilfsangebote</a>
+                    <a href="./hilfsangebote-eb.php" class="theme-btn d-md-inline-block d-none">Hilfsangebote</a>
                 </div>
                 <div class="col-md-4">
-                <div id="carouseltwo" class="carousel round-carousal slide carousel-fade"
+                    <div id="carouseltwo" class="carousel round-carousal slide carousel-fade"
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./assets/img/altab-mit-carousel/1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/1.png" class="d-md-block d-none w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/1-mbl.png" class="d-block d-md-none w-100" alt="...">
+
                             </div>
                             <div class="carousel-item">
-                            <img src="./assets/img/altab-mit-carousel/2.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/2.png" class="d-md-block d-none w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/2-mbl.png" class="d-block d-md-none w-100" alt="...">
+
                             </div>
                             <div class="carousel-item">
-                            <img src="./assets/img/altab-mit-carousel/3.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/3.png" class="d-md-block d-none w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/3-mbl.png" class="d-block d-md-none w-100" alt="...">
+
                             </div>
                             <div class="carousel-item">
-                            <img src="./assets/img/altab-mit-carousel/4.png" class="d-block w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/4.png" class="d-md-block d-none w-100" alt="...">
+                                <img src="./assets/img/altab-mit-carousel/4-mbl.png" class="d-block d-md-none w-100" alt="...">
+
                             </div>
 
                         </div>
@@ -70,9 +78,10 @@ include('header.php'); ?>
                     <div class="help-offer-img">
                         <img src="./assets/img/aL-img.png">
                     </div>
-                  
+
                 </div>
             </div>
+            <a href="./hilfsangebote-eb.php" class="theme-btn d-md-none d-block">Hilfsangebote</a>
 
         </div>
     </section>
@@ -80,58 +89,58 @@ include('header.php'); ?>
 
     <section class="comparison">
         <div class="bg-box"></div>
-            <div class="container">
-                 <div class="comparison-content">
-                    <h2>Zeiten im Vergleich</h2>
-                    <div class="comparison-item">
-                        <img src="./assets/img/comparison-item1.png" alt="">
-                    </div>
-                    <div class="comparison-item">
-                        <img src="./assets/img/comparison-item2.png" alt="">
-                    </div>
-                    <div class="comparison-img">
-                        <img src="./assets/img/comparison-img.png" alt="">
-                    </div>
-                    <div class="comparison-item">
-                        <img src="./assets/img/comparison-item3.png" alt="">
-                    </div>
-                    <div class="comparison-item">
-                        <img src="./assets/img/comparison-item4.png" alt="">
-                    </div>
-                    <div class="comparison-item">
-                        <img src="./assets/img/comparison-item5.png" alt="">
-                    </div>
-
-                 </div>
-                 <div class="comparison-carousal">
-                 <div id="carouselthree" class="carousel round-carousal slide carousel-fade"
-                        data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img/comparison-carousel/1.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="./assets/img/comparison-carousel/2.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="./assets/img/comparison-carousel/3.png" class="d-block w-100" alt="...">
-                            </div>
-
-                        </div>
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-
-                        </div>
-                    </div>
-                  
+        <div class="container">
+            <div class="comparison-content">
+                <h2>Zeiten im Vergleich</h2>
+                <div class="comparison-item">
+                    <img src="./assets/img/comparison-item1.png" alt="">
                 </div>
-                 </div>
+                <div class="comparison-item">
+                    <img src="./assets/img/comparison-item2.png" alt="">
+                </div>
+                <div class="comparison-img">
+                    <img src="./assets/img/comparison-img.png" alt="">
+                </div>
+                <div class="comparison-item">
+                    <img src="./assets/img/comparison-item3.png" alt="">
+                </div>
+                <div class="comparison-item">
+                    <img src="./assets/img/comparison-item4.png" alt="">
+                </div>
+                <div class="comparison-item">
+                    <img src="./assets/img/comparison-item5.png" alt="">
+                </div>
+
             </div>
+            <div class="comparison-carousal">
+                <div id="carouselthree" class="carousel round-carousal slide carousel-fade"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/comparison-carousel/1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/comparison-carousel/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/comparison-carousel/3.png" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
     </section>
     <div class="customers-testimonial testimonial ">
         <div class="container">
@@ -248,36 +257,41 @@ include('header.php'); ?>
         <div class="container">
             <div class="bC-content">
                 <h3>Die wichtige Rolle der Ernährung für Schmetterlingskinder</h3>
-                <p>Eine ausgewogene Ernährung hat im Leben von Schmetterlingskindern einen besonderen Stellenwert. EB-Betroffene können aufgrund der Blasenbildung im Mundraum, möglicher Schleimhautverletzungen und Vernarbungen nur erschwert Nahrung zu sich nehmen. Gleichzeitig besteht jedoch aufgrund der ständigen Wundheilung, der dauerhaften Medikamentenaufnahmen und anderer Faktoren ein sehr hoher Nährwert-Bedarf. Für die betroffenen Familien stellt die richtige Ernährung daher eine sehr große Herausforderung dar. Unsere Ernährungswissenschaftlerinnen helfen mit Rat und Tat! <a href="./hilfsangebote-eb.php?tab=nav-ernahrungsberatung" id="ernahrungsberatung2">mehr erfahren</a></p>
+                <p>Eine ausgewogene Ernährung hat im Leben von Schmetterlingskindern einen besonderen Stellen <span class="d-md-none">-<br></span> wert. EB-Betroffene können aufgrund der Blasenbil<span class="d-md-none">-<br></span>dung im Mundraum, möglicher Schleimhautverlet<span class="d-md-none">-<br></span>zungen und Vernarbungen nur erschwert Nahrung zu sich nehmen. Gleichzeitig besteht jedoch auf<span class="d-md-none">-<br></span>grund der ständigen Wundheilung, der dauerhaf<span class="d-md-none">-<br></span>ten Medikamentenaufnahmen und anderer Fakto<span class="d-md-none">-<br></span>ren ein sehr hoher Nährwert-Bedarf. Für die betrof<span class="d-md-none">-<br></span>fenen Familien stellt die richtige Ernährung daher eine sehr große Herausforderung dar. Unsere Ernährungswissenschaftlerinnen helfen mit Rat und Tat! <a href="./hilfsangebote-eb.php?tab=nav-ernahrungsberatung" id="ernahrungsberatung2">mehr erfahren</a></p>
+                <div id="carouselfour" class="carousel round-carousal slide carousel-fade"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/butterfly-children/1.png" class="d-md-block d-none w-100" alt="...">
+                        <img src="./assets/img/butterfly-children/1-mbl.png" class="d-block d-md-none w-100" alt="...">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/butterfly-children/2.png" class="d-md-block d-none w-100" alt="...">
+                        <img src="./assets/img/butterfly-children/2-mbl.png" class="d-block d-md-none  w-100" alt="...">
+
+                    </div>
+
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselfour" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselfour" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+                </div>
+            </div>
                 <a class="theme-btn" href="./hilfsangebote-eb.php?tab=nav-ernahrungsberatung" id="ernahrungsberatung">Ernährungsberatung</a>
             </div>
-            <div id="carouselfour" class="carousel round-carousal slide carousel-fade"
-                        data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img/butterfly-children/1.png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img/butterfly-children/2.png" class="d-block w-100" alt="...">
-                            </div>
+           
 
-                        </div>
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselfour" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselfour" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-
-                        </div>
-                    </div>
-                  
-                </div>
+        </div>
         </div>
     </section>
     <section class="shop-section">
         <div class="container container-wd">
             <h3>Unsere Infos zu EB für Sie</h3>
-            <div class="shop-section-items">
+            <div class="shop-section-items shop-slider">
                 <div class="shop-section-item">
                     <a href="">
                         <img src="./assets/img/shop1.png" alt="">
@@ -316,7 +330,7 @@ include('header.php'); ?>
     </section>
 
     <div class="divider">
-        
+
     </div>
 
 </main>
