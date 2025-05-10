@@ -6,19 +6,7 @@
 
 
 
-
-
-
-
-
-
-
-
 $GLOBALS['title'] = "";
-
-
-
-
 
 
 
@@ -26,27 +14,7 @@ $GLOBALS['desc'] = "";
 
 
 
-
-
-
-
 include('header.php'); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -70,23 +38,9 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
     <section class="banner service-banner about-banner">
 
-
-
 <?php include('contact.php'); ?>
-
-
-
-
 
 
 
@@ -94,23 +48,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
             <h1>Wir sind für Sie da
 
 
 
-
-
-
-
             </h1>
-
-
-
-
 
 
 
@@ -122,19 +64,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
             </p>
-
-
-
-
 
 
 
@@ -142,35 +72,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -198,15 +100,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
         <div class="container container-wd">
-
-
-
-
 
 
 
@@ -214,15 +108,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 <div class="col-md-7">
-
-
-
-
 
 
 
@@ -230,15 +116,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <ol class="breadcrumb">
-
-
-
-
 
 
 
@@ -246,15 +124,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <li class="breadcrumb-item active" aria-current="page"><a href="unser-verein.php">Unser Verein</a></li>
-
-
-
-
 
 
 
@@ -266,19 +136,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                         </ol>
-
-
-
-
 
 
 
@@ -286,15 +144,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     <h2>DermaKIDS e.V.</h2>
-
-
-
-
 
 
 
@@ -302,15 +152,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     </span>
-
-
-
-
 
 
 
@@ -318,15 +160,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     <span class="subtext pt-5">Nutzen Sie unsere Hilfsangebote oder kontaktieren Sie uns direkt
-
-
-
-
 
 
 
@@ -334,15 +168,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     <div class="btn-group gap-3">
-
-
-
-
 
 
 
@@ -350,15 +176,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     </a>
-
-
-
-
 
 
 
@@ -366,15 +184,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     </a>
-
-
-
-
 
 
 
@@ -382,15 +192,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 </div>
-
-
-
-
 
 
 
@@ -402,19 +204,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                     <div id="carouseltwo" class="carousel round-carousal slide carousel-fade"
-
-
-
-
 
 
 
@@ -422,15 +212,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="carousel-inner">
-
-
-
-
 
 
 
@@ -438,15 +220,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <img src="./assets/img/about-carousal/1.png" class="d-block w-100" alt="...">
-
-
-
-
 
 
 
@@ -454,15 +228,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <div class="carousel-item">
-
-
-
-
 
 
 
@@ -470,15 +236,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </div>
-
-
-
-
 
 
 
@@ -486,27 +244,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <img src="./assets/img/about-carousal/3.png" class="d-block w-100" alt="...">
 
 
 
-
-
-
-
                             </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -518,15 +260,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="carousel-indicators">
-
-
-
-
 
 
 
@@ -534,15 +268,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 aria-current="true" aria-label="Slide 1"></button>
-
-
-
-
 
 
 
@@ -550,23 +276,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 aria-label="Slide 2"></button>
 
 
 
-
-
-
-
                             <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="2"
-
-
-
-
 
 
 
@@ -578,19 +292,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                         </div>
-
-
-
-
 
 
 
@@ -598,15 +300,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 </div>
-
-
-
-
 
 
 
@@ -618,31 +312,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
         </div>
 
 
 
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
 
 
 
@@ -654,15 +328,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
         <div class="bg-box"></div>
-
-
-
-
 
 
 
@@ -670,15 +336,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
             <div class="our-team-content">
-
-
-
-
 
 
 
@@ -686,15 +344,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     <h3>Unser Team </h3>
-
-
-
-
 
 
 
@@ -702,23 +352,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     </span>
 
 
 
-
-
-
-
                     <p>
-
-
-
-
 
 
 
@@ -730,19 +368,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                     </p>
-
-
-
-
 
 
 
@@ -750,15 +376,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 <div class="team-slider-wrap">
-
-
-
-
 
 
 
@@ -766,23 +384,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="slider-item"><img src="./assets/img/about-slider/about-1.png" alt="">
-
-
 
 <div class="team-slider-text">
 
-
-
                             <h5>Sandy Katzer
-
-
-
-
 
 
 
@@ -790,15 +396,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <p>
-
-
-
-
 
 
 
@@ -806,19 +404,9 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </p>
 
-
-
                             </div>
-
-
-
-
 
 
 
@@ -826,19 +414,9 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="slider-item"><img src="./assets/img/about-slider/about-2.png" alt="">
 
-
-
 <div class="team-slider-text">
-
-
-
-
 
 
 
@@ -846,23 +424,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </h5>
 
 
 
-
-
-
-
                             <p>
-
-
-
-
 
 
 
@@ -874,39 +440,17 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                             </p>
 
-
-
 </div>
-
-
 
                         </div>
 
 
 
-
-
-
-
                         <div class="slider-item"><img src="./assets/img/about-slider/about-4.png" alt="">
 
-
-
 <div class="team-slider-text">
-
-
-
-
 
 
 
@@ -914,23 +458,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </h5>
 
 
 
-
-
-
-
                             <p>
-
-
-
-
 
 
 
@@ -938,39 +470,19 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </p>
 
-
-
 </div>
-
-
 
                         </div>
 
 
 
-
-
-
-
                         <div class="slider-item"><img src="./assets/img/about-slider/about-3.png" alt="">
-
-
 
 <div class="team-slider-text">
 
-
-
                             <h5>Annemarie Schmidtke
-
-
-
-
 
 
 
@@ -978,15 +490,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <p>
-
-
-
-
 
 
 
@@ -998,25 +502,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                             </p>
 
 
 
-
-
-
-
                         </div>
-
-
 
 </div>
 
@@ -1024,17 +514,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
                     </div>
-
-
-
-
 
 
 
@@ -1042,23 +522,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <img src="./assets/img/left-indicator.svg" alt="left-indicator">
 
 
 
-
-
-
-
                     </div>
-
-
-
-
 
 
 
@@ -1066,15 +534,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <img src="./assets/img/right-indicator.svg" alt="right-indicator">
-
-
-
-
 
 
 
@@ -1082,23 +542,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1114,15 +558,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
         </div>
-
-
-
-
 
 
 
@@ -1130,23 +566,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
     <div class="customers-testimonial testimonial ">
 
 
 
-
-
-
-
         <div class="container">
-
-
-
-
 
 
 
@@ -1170,31 +594,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-
-
-
-
 
 
 
@@ -1202,15 +602,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-
-
-
-
 
 
 
@@ -1218,15 +610,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-
-
-
-
 
 
 
@@ -1234,15 +618,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-
-
-
-
 
 
 
@@ -1250,15 +626,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     </div>
-
-
-
-
 
 
 
@@ -1266,15 +634,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="carousel-item active">
-
-
-
-
 
 
 
@@ -1286,27 +646,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 <p>
 
 
 
-
-
-
-
                                     „Wir haben Euch, besser geht es nicht. Euch vertrauen wir, da immer <br>
-
-
-
-
 
 
 
@@ -1322,23 +666,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                                 </p>
-
-
-
-
 
 
 
@@ -1346,15 +674,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     Eltern von Hedi (EBD)
-
-
-
-
 
 
 
@@ -1362,15 +682,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </div>
-
-
-
-
 
 
 
@@ -1378,15 +690,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="carousel-item">
-
-
-
-
 
 
 
@@ -1398,27 +702,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 <p>
 
 
 
-
-
-
-
                                     Die Entscheidung, zu euch zu kommen, war die beste Entscheidung meines Lebens.
-
-
-
-
 
 
 
@@ -1438,27 +726,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 </p>
-
-
-
-
 
 
 
@@ -1470,19 +738,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                     Mutter von Lea (EBD)
-
-
-
-
 
 
 
@@ -1490,15 +746,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </div>
-
-
-
-
 
 
 
@@ -1506,15 +754,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="carousel-item">
-
-
-
-
 
 
 
@@ -1526,19 +766,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 <p>
-
-
-
-
 
 
 
@@ -1546,15 +774,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     aber
-
-
-
-
 
 
 
@@ -1562,15 +782,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     DermaKIDS,
-
-
-
-
 
 
 
@@ -1590,35 +802,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 </p>
 
 
 
-
-
-
-
                                 <div class="testimonial-by">
-
-
-
-
 
 
 
@@ -1630,19 +818,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 </div>
-
-
-
-
 
 
 
@@ -1650,27 +826,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         </div>
 
 
 
-
-
-
-
                     </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -1686,27 +846,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
             </div>
 
 
 
-
-
-
-
         </div>
-
-
-
-
 
 
 
@@ -1722,31 +866,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <section class="dK-goal">
 
 
 
-
-
-
-
         <div class="bg-box"></div>
-
-
-
-
 
 
 
@@ -1758,27 +882,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
             <div class="dK-goal-heading">
 
 
 
-
-
-
-
                 <h3>Die Ziele von DermaKIDS
-
-
-
-
 
 
 
@@ -1790,27 +898,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1830,19 +918,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                 <div class="dK-accordian">
-
-
-
-
 
 
 
@@ -1850,15 +926,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="accordion-item">
-
-
-
-
 
 
 
@@ -1866,15 +934,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-
-
-
-
 
 
 
@@ -1882,15 +942,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     aria-controls="collapse1">
-
-
-
-
 
 
 
@@ -1902,19 +954,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 </button>
-
-
-
-
 
 
 
@@ -1922,15 +962,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <div id="collapse1" class="accordion-collapse collapse show"
-
-
-
-
 
 
 
@@ -1938,15 +970,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <div class="accordion-body">
-
-
-
-
 
 
 
@@ -1958,19 +982,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 </div>
-
-
-
-
 
 
 
@@ -1978,15 +990,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         </div>
-
-
-
-
 
 
 
@@ -1994,15 +998,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <h2 class="accordion-header" id="headingOne">
-
-
-
-
 
 
 
@@ -2010,23 +1006,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     data-bs-target="#collapse2" aria-expanded="true"
 
 
 
-
-
-
-
                                     aria-controls="collapse2">
-
-
-
-
 
 
 
@@ -2038,19 +1022,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 </button>
-
-
-
-
 
 
 
@@ -2058,15 +1030,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <div id="collapse2" class="accordion-collapse collapse "
-
-
-
-
 
 
 
@@ -2074,15 +1038,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <div class="accordion-body">
-
-
-
-
 
 
 
@@ -2094,19 +1050,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 </div>
-
-
-
-
 
 
 
@@ -2114,23 +1058,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         </div>
 
 
 
-
-
-
-
                         <div class="accordion-item">
-
-
-
-
 
 
 
@@ -2138,15 +1070,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <button class="accordion-button collapsed" type="button"
-
-
-
-
 
 
 
@@ -2154,15 +1078,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     aria-expanded="false" aria-controls="collapse3">
-
-
-
-
 
 
 
@@ -2170,15 +1086,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     </button>
-
-
-
-
 
 
 
@@ -2186,15 +1094,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <div id="collapse3" class="accordion-collapse collapse"
-
-
-
-
 
 
 
@@ -2202,15 +1102,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <div class="accordion-body">
-
-
-
-
 
 
 
@@ -2218,15 +1110,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 </div>
-
-
-
-
 
 
 
@@ -2234,15 +1118,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         </div>
-
-
-
-
 
 
 
@@ -2250,15 +1126,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <h2 class="accordion-header" id="headingThree">
-
-
-
-
 
 
 
@@ -2266,23 +1134,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     data-bs-toggle="collapse" data-bs-target="#collapse4"
 
 
 
-
-
-
-
                                     aria-expanded="false" aria-controls="collapse4">
-
-
-
-
 
 
 
@@ -2294,19 +1150,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                                 </button>
-
-
-
-
 
 
 
@@ -2314,15 +1158,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <div id="collapse4" class="accordion-collapse collapse"
-
-
-
-
 
 
 
@@ -2330,15 +1166,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <div class="accordion-body">
-
-
-
-
 
 
 
@@ -2358,27 +1186,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 </div>
-
-
-
-
 
 
 
@@ -2386,15 +1194,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         </div>
-
-
-
-
 
 
 
@@ -2402,15 +1202,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <h2 class="accordion-header" id="headingFour">
-
-
-
-
 
 
 
@@ -2418,23 +1210,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                     data-bs-toggle="collapse" data-bs-target="#collapse5"
 
 
 
-
-
-
-
                                     aria-expanded="false" aria-controls="collapse5">
-
-
-
-
 
 
 
@@ -2450,23 +1230,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                                 </button>
-
-
-
-
 
 
 
@@ -2474,15 +1238,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <div id="collapse5" class="accordion-collapse collapse"
-
-
-
-
 
 
 
@@ -2490,15 +1246,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <div class="accordion-body">
-
-
-
-
 
 
 
@@ -2514,23 +1262,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                                 </div>
-
-
-
-
 
 
 
@@ -2538,15 +1270,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         </div>
-
-
-
-
 
 
 
@@ -2554,23 +1278,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2586,19 +1294,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     <div class="dK-goal-content">
-
-
-
-
-
-
-
-
 
 
 
@@ -2610,15 +1306,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     </div>
-
-
-
-
 
 
 
@@ -2626,15 +1314,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         data-bs-ride="carousel">
-
-
-
-
 
 
 
@@ -2642,15 +1322,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <div class="carousel-item active">
-
-
-
-
 
 
 
@@ -2658,23 +1330,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </div>
 
 
 
-
-
-
-
                             <div class="carousel-item">
-
-
-
-
 
 
 
@@ -2682,23 +1342,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </div>
 
 
 
-
-
-
-
                             <div class="carousel-item">
-
-
-
-
 
 
 
@@ -2706,15 +1354,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </div>
-
-
-
-
 
 
 
@@ -2722,27 +1362,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <img src="./assets/img/goal-carousal/4.png" class="d-block w-100" alt="...">
 
 
 
-
-
-
-
                             </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -2754,15 +1378,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="carousel-indicators">
-
-
-
-
 
 
 
@@ -2770,15 +1386,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 class="active" aria-current="true" aria-label="Slide 1"></button>
-
-
-
-
 
 
 
@@ -2786,15 +1394,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 aria-label="Slide 2"></button>
-
-
-
-
 
 
 
@@ -2802,23 +1402,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 aria-label="Slide 3"></button>
 
 
 
-
-
-
-
                             <button type="button" data-bs-target="#carouselthree" data-bs-slide-to="3"
-
-
-
-
 
 
 
@@ -2830,19 +1418,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                         </div>
-
-
-
-
 
 
 
@@ -2854,27 +1430,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                     <a href="./satzungszweck.php" class="theme-btn">Satzungszweck</a>
 
 
 
-
-
-
-
                 </div>
-
-
-
-
 
 
 
@@ -2890,23 +1450,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
-
-
-
-
 
 
 
@@ -2922,23 +1466,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <section class="non-profit">
-
-
-
-
 
 
 
@@ -2946,15 +1474,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
             <div class="container container-wd">
-
-
-
-
 
 
 
@@ -2962,15 +1482,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     <img src="./assets/img/no-profit-1.png" alt="">
-
-
-
-
 
 
 
@@ -2994,23 +1506,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     <div class="no-profit-items">
 
 
 
-
-
-
-
                         <div class="no-profit-item">
-
-
-
-
 
 
 
@@ -3018,47 +1518,21 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </h5>
-
-
-
-
 
 
 
                             <p>
 
-
-
                             
 
-
-
                             Wir finanzieren uns ausschließlich durch Spenden, Mitgliedsbeiträge sowie Zuweisungen von Geldauflagen durch Gerichte und Staatsanwaltschaften. Als gemeinnütziger Verein sind wir auf Spenden und andere Zuwendungen, wie zum Beispiel Bußgelder, angewiesen. Nur durch diese finanzielle Unterstützung können wir unsere Aktionen und Hilfsleistungen für die Schmetterlingskinder und ihre Familien umsetzen und weitere Projekte planen.
-
-
 
                               </p>
 
 
 
-
-
-
-
                         </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -3070,15 +1544,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <h5>Unterteilung in Förder- und Trägerverein
-
-
-
-
 
 
 
@@ -3086,43 +1552,21 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <p>
-
-
 
                             
 
-
-
                           DermaKIDS e.V. besteht formell aus zwei Vereinen: Dem Trägerverein „DermaKIDS e.V.“ und dem Förderverein „DermaKIDS Förderverein e.V.“. Der Förderverein ist verantwortlich für die Mittelakquise durch Mitgliedsbeiträge und Spenden. Der Trägerverein trifft inhaltliche und organisatorische Entscheidungen, beispielsweise hinsichtlich des Einsatzes von Spendengeldern im Sinne unserer Vereinssatzung. Beide Vereine übernehmen demnach unterschiedliche Funktionen.
-
-
 
                           </p>
 
-
-
                           
-
-
 
                         </div>
 
 
 
-
-
-
-
                     </div>
-
-
-
-
 
 
 
@@ -3134,19 +1578,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
                         <div class="no-profit-item">
-
-
-
-
 
 
 
@@ -3154,35 +1586,17 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             </h5>
-
-
-
-
 
 
 
                             <p>
 
-
-
                             DermaKIDS e.V. ist als ein gemeinnütziger Verein anerkannt und setzt seine Spenden zweckgerichtet gemäß der Satzung und den Zielen des Vereins ein. Dabei stehen Kriterien wie Bedarfsgerechtigkeit und Kosteneffizienz im Mittelpunkt unseres Handelns. Wir wollen den Spendern und Unterstützern hinsichtlich unserer Vereinsarbeit höchstmögliche Transparenz gewähren und sie über den Spenden- und Mitteleinsatz im Rahmen unserer Hilfsaktionen informieren. Daher veröffentlichen wir u.a. Berichte auf unserer Website, die die Verwendung der eingegangenen Spendenmittel dokumentieren. Zudem erhalten Interessierte einen ausführlichen Überblick über unsere bisherige Arbeit als Hilfsverein in unserem Nachhaltigkeitsbericht, der auf Anfrage kostenfrei verschickt wird. 
-
-
 
                             
 
-
-
                              </p>
-
-
-
-
 
 
 
@@ -3190,15 +1604,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <div class="no-profit-img">
-
-
-
-
 
 
 
@@ -3206,15 +1612,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         </div>
-
-
-
-
 
 
 
@@ -3222,15 +1620,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                             <img src="./assets/img/no-profit-3.png" alt="">
-
-
-
-
 
 
 
@@ -3238,15 +1628,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                         <a href="shop.php" class="no-profit-btn">Zum Shop<svg width="51" height="51" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-
-
-
 
 
 
@@ -3254,15 +1636,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <path d="M18.6163 17.4482H8.62934L6.52734 10.2792L20.2663 11.1262L18.6163 17.4482Z" stroke="white" stroke-width="0.637" stroke-linejoin="round"></path>
-
-
-
-
 
 
 
@@ -3270,15 +1644,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <path d="M18.6392 21.4343C18.6392 22.3143 17.9252 23.0283 17.0452 23.0283C16.1652 23.0283 15.4512 22.3143 15.4512 21.4343C15.4512 20.5543 16.1652 19.8403 17.0452 19.8403C17.9252 19.8403 18.6392 20.5543 18.6392 21.4343Z" fill="white"></path>
-
-
-
-
 
 
 
@@ -3286,15 +1652,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                                 <path d="M4.06348 8.16443L6.17548 9.12043L6.53348 10.3154" stroke="white" stroke-width="0.637" stroke-linecap="round" stroke-linejoin="round"></path>
-
-
-
-
 
 
 
@@ -3302,15 +1660,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                     </div>
-
-
-
-
 
 
 
@@ -3322,35 +1672,15 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
             </div>
-
-
-
-
 
 
 
         </div>
 
-
-
 <!-- 
 
-
-
         <a href="" class="theme-btn">Geschichte des Vereins</a>
-
-
-
-
 
 
 
@@ -3358,27 +1688,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3398,15 +1708,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
         <div class="container">
-
-
-
-
 
 
 
@@ -3414,23 +1716,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
             <div class="slider">
 
 
 
-
-
-
-
                 <div class="slide"><img src="./assets/img/slider1.png" alt="Slide 1"></div>
-
-
-
-
 
 
 
@@ -3438,15 +1728,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 <div class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></div>
-
-
-
-
 
 
 
@@ -3454,23 +1736,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
                 <div class="slide"><img src="./assets/img/slider2.png" alt="Slide 2"></div>
 
 
 
-
-
-
-
                 <div class="slide"><img src="./assets/img/slider3.png" alt="Slide 3"></div>
-
-
-
-
 
 
 
@@ -3478,43 +1748,11 @@ include('header.php'); ?>
 
 
 
-
-
-
-
         </div>
 
 
 
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3546,19 +1784,7 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
     </div>
-
-
-
-
 
 
 
@@ -3602,47 +1828,5 @@ include('header.php'); ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include('footer.php'); ?>
-
-
 
